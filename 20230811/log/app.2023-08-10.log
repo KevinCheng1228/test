@@ -1,0 +1,2697 @@
+[2023-08-10T00:05:00.025] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 00:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T00:05:00.025] [INFO] worker - RotationTask current time:  2023-08-10T00:05:00.024Z
+[2023-08-10T00:05:00.038] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T00:05:00.040] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T00:05:00.042] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T00:30:00.020] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 00:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T00:30:00.019] [INFO] worker - ExpiredTask current time:  2023-08-10T00:30:00.019Z
+[2023-08-10T00:30:00.038] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T00:30:00.038] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T00:30:00.038] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T00:30:00.038] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T00:30:00.038] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T00:30:00.038] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T01:05:00.017] [INFO] worker - RotationTask current time:  2023-08-10T01:05:00.017Z
+[2023-08-10T01:05:00.018] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 01:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T01:05:00.031] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T01:05:00.032] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T01:05:00.035] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T01:30:00.003] [INFO] worker - ExpiredTask current time:  2023-08-10T01:30:00.003Z
+[2023-08-10T01:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 01:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T01:30:00.022] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T01:30:00.023] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T01:30:00.023] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T01:30:00.023] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T01:30:00.023] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T01:30:00.023] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T02:05:00.004] [INFO] worker - RotationTask current time:  2023-08-10T02:05:00.004Z
+[2023-08-10T02:05:00.005] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 02:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T02:05:00.022] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T02:05:00.024] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T02:05:00.026] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T02:30:00.022] [INFO] worker - ExpiredTask current time:  2023-08-10T02:30:00.022Z
+[2023-08-10T02:30:00.023] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 02:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T02:30:00.039] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T02:30:00.039] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T02:30:00.039] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T02:30:00.039] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T02:30:00.039] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T02:30:00.039] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T03:05:00.019] [INFO] worker - RotationTask current time:  2023-08-10T03:05:00.019Z
+[2023-08-10T03:05:00.020] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 03:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T03:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T03:05:00.036] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T03:05:00.038] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T03:30:00.003] [INFO] worker - ExpiredTask current time:  2023-08-10T03:30:00.003Z
+[2023-08-10T03:30:00.004] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 03:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T03:30:00.021] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T03:30:00.021] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T03:30:00.021] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T03:30:00.021] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T03:30:00.021] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T03:30:00.021] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T04:05:00.009] [INFO] worker - RotationTask current time:  2023-08-10T04:05:00.009Z
+[2023-08-10T04:05:00.011] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 04:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T04:05:00.024] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T04:05:00.027] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T04:05:00.029] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T04:30:00.019] [INFO] worker - ExpiredTask current time:  2023-08-10T04:30:00.019Z
+[2023-08-10T04:30:00.020] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 04:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T04:30:00.037] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T04:30:00.037] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T04:30:00.037] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T04:30:00.037] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T04:30:00.037] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T04:30:00.037] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T05:05:00.016] [INFO] worker - RotationTask current time:  2023-08-10T05:05:00.016Z
+[2023-08-10T05:05:00.017] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 05:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T05:05:00.031] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T05:05:00.033] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T05:05:00.037] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T05:30:00.002] [INFO] worker - ExpiredTask current time:  2023-08-10T05:30:00.002Z
+[2023-08-10T05:30:00.003] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 05:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T05:30:00.019] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T05:30:00.019] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T05:30:00.019] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T05:30:00.019] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T05:30:00.019] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T05:30:00.019] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T06:05:00.015] [INFO] worker - RotationTask current time:  2023-08-10T06:05:00.015Z
+[2023-08-10T06:05:00.016] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 06:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T06:05:02.029] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:02.031] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:05:02.031] [INFO] db - DB is production
+[2023-08-10T06:05:02.032] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:05:02.032] [ERROR] db - getRootAndIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:02.033] [INFO] rotationCert - Getting the root and intermediate cert has failed
+[2023-08-10T06:05:04.044] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:04.044] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:05:04.044] [INFO] db - DB is production
+[2023-08-10T06:05:04.045] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:05:04.045] [ERROR] db - getIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:04.045] [INFO] rotationCert - Getting the intermediate cert has failed
+[2023-08-10T06:05:06.056] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:06.056] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:05:06.056] [INFO] db - DB is production
+[2023-08-10T06:05:06.056] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:05:06.057] [ERROR] db - getDeviceCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:05:06.057] [INFO] rotationCert - Getting the device cert has failed
+[2023-08-10T06:30:00.002] [INFO] worker - ExpiredTask current time:  2023-08-10T06:30:00.002Z
+[2023-08-10T06:30:00.003] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 06:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T06:30:02.014] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.016] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:30:02.016] [INFO] db - DB is production
+[2023-08-10T06:30:02.016] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:30:02.017] [ERROR] db - getIntermediateCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.018] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.018] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:30:02.018] [INFO] db - DB is production
+[2023-08-10T06:30:02.018] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:30:02.018] [ERROR] db - getDeviceCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.018] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.019] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:30:02.019] [INFO] db - DB is production
+[2023-08-10T06:30:02.019] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:30:02.019] [ERROR] db - getServerCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.020] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.020] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T06:30:02.020] [INFO] db - DB is production
+[2023-08-10T06:30:02.020] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T06:30:02.020] [ERROR] db - getRootCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T06:30:02.020] [INFO] expiredCert - Getting the retired for the root cert status has failed
+[2023-08-10T06:30:02.020] [INFO] expiredCert - Getting the retired for the intermediate cert status has failed
+[2023-08-10T06:30:02.020] [INFO] expiredCert - Getting the retired for the device cert status has failed
+[2023-08-10T06:30:02.020] [INFO] expiredCert - Getting the retired for the server cert status has failed
+[2023-08-10T06:30:02.020] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T06:30:02.020] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T07:05:00.014] [INFO] worker - RotationTask current time:  2023-08-10T07:05:00.014Z
+[2023-08-10T07:05:00.015] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 07:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T07:05:02.026] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:02.027] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:05:02.027] [INFO] db - DB is production
+[2023-08-10T07:05:02.027] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:05:02.027] [ERROR] db - getRootAndIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:02.027] [INFO] rotationCert - Getting the root and intermediate cert has failed
+[2023-08-10T07:05:04.038] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:04.039] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:05:04.039] [INFO] db - DB is production
+[2023-08-10T07:05:04.039] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:05:04.039] [ERROR] db - getIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:04.039] [INFO] rotationCert - Getting the intermediate cert has failed
+[2023-08-10T07:05:06.053] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:06.053] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:05:06.054] [INFO] db - DB is production
+[2023-08-10T07:05:06.054] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:05:06.054] [ERROR] db - getDeviceCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:05:06.054] [INFO] rotationCert - Getting the device cert has failed
+[2023-08-10T07:30:00.003] [INFO] worker - ExpiredTask current time:  2023-08-10T07:30:00.003Z
+[2023-08-10T07:30:00.004] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 07:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T07:30:02.016] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.017] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:30:02.017] [INFO] db - DB is production
+[2023-08-10T07:30:02.017] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:30:02.017] [ERROR] db - getServerCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.018] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.018] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:30:02.018] [INFO] db - DB is production
+[2023-08-10T07:30:02.018] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:30:02.018] [ERROR] db - getRootCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.018] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.018] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:30:02.019] [INFO] db - DB is production
+[2023-08-10T07:30:02.019] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:30:02.019] [ERROR] db - getIntermediateCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.021] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.021] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T07:30:02.021] [INFO] db - DB is production
+[2023-08-10T07:30:02.021] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T07:30:02.021] [ERROR] db - getDeviceCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T07:30:02.021] [INFO] expiredCert - Getting the retired for the root cert status has failed
+[2023-08-10T07:30:02.021] [INFO] expiredCert - Getting the retired for the intermediate cert status has failed
+[2023-08-10T07:30:02.021] [INFO] expiredCert - Getting the retired for the device cert status has failed
+[2023-08-10T07:30:02.021] [INFO] expiredCert - Getting the retired for the server cert status has failed
+[2023-08-10T07:30:02.021] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T07:30:02.021] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T07:45:11.376] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:45:11.376] [INFO] mqtt - MQTT start reconnect 7 times
+[2023-08-10T07:45:11.377] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:45:11.377] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:45:11.377] [INFO] mqtt - MQTT start reconnect 7 times
+[2023-08-10T07:45:11.377] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:45:14.380] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:45:14.380] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:45:14.380] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:45:14.380] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:45:14.394] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T07:45:14.395] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T07:45:27.819] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:45:27.819] [INFO] mqtt - MQTT start reconnect 8 times
+[2023-08-10T07:45:27.819] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:45:30.822] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:45:30.823] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:45:30.834] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T07:55:23.798] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:55:23.798] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:55:23.798] [INFO] mqtt - MQTT start reconnect 9 times
+[2023-08-10T07:55:23.798] [INFO] mqtt - MQTT start reconnect 8 times
+[2023-08-10T07:55:23.798] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:23.798] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:26.801] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:26.802] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:26.801] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:26.802] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:26.806] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:26.806] [INFO] mqtt - MQTT start reconnect 9 times
+[2023-08-10T07:55:26.806] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:26.816] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T07:55:29.809] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:29.809] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:29.821] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T07:55:41.914] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:55:41.914] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T07:55:41.914] [INFO] mqtt - MQTT start reconnect 10 times
+[2023-08-10T07:55:41.915] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:41.914] [INFO] mqtt - MQTT start reconnect 10 times
+[2023-08-10T07:55:41.915] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:44.919] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:44.919] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:44.919] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:44.919] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:44.923] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:44.923] [INFO] mqtt - MQTT start reconnect 11 times
+[2023-08-10T07:55:44.923] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:44.923] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:44.923] [INFO] mqtt - MQTT start reconnect 11 times
+[2023-08-10T07:55:44.923] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:47.926] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:47.926] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:47.927] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:47.927] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:47.930] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:47.930] [INFO] mqtt - MQTT start reconnect 12 times
+[2023-08-10T07:55:47.930] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:47.931] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:47.931] [INFO] mqtt - MQTT start reconnect 12 times
+[2023-08-10T07:55:47.931] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:50.934] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:50.933] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:50.934] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:50.934] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:55:50.939] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T07:55:50.939] [INFO] mqtt - MQTT start reconnect 13 times
+[2023-08-10T07:55:50.939] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:55:53.940] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:55:53.940] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:11.394] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:11.394] [INFO] mqtt - MQTT start reconnect 13 times
+[2023-08-10T07:56:11.394] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:14.213] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:14.213] [INFO] mqtt - MQTT start reconnect 14 times
+[2023-08-10T07:56:14.213] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:14.397] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:14.397] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:17.216] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:17.216] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:19.411] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:19.412] [INFO] mqtt - MQTT start reconnect 14 times
+[2023-08-10T07:56:19.412] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:22.229] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:22.229] [INFO] mqtt - MQTT start reconnect 15 times
+[2023-08-10T07:56:22.230] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:22.415] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:22.415] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:25.234] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:25.234] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:27.427] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:27.427] [INFO] mqtt - MQTT start reconnect 15 times
+[2023-08-10T07:56:27.428] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:30.246] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:30.246] [INFO] mqtt - MQTT start reconnect 16 times
+[2023-08-10T07:56:30.246] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:30.430] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:30.430] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:33.250] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:33.250] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:35.443] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:35.443] [INFO] mqtt - MQTT start reconnect 16 times
+[2023-08-10T07:56:35.443] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:38.263] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:38.264] [INFO] mqtt - MQTT start reconnect 17 times
+[2023-08-10T07:56:38.264] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:38.446] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:38.446] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:41.266] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:41.266] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:43.459] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:43.459] [INFO] mqtt - MQTT start reconnect 17 times
+[2023-08-10T07:56:43.460] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:46.279] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:46.280] [INFO] mqtt - MQTT start reconnect 18 times
+[2023-08-10T07:56:46.280] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:46.463] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:46.463] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:49.283] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:49.284] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:51.481] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:51.481] [INFO] mqtt - MQTT start reconnect 18 times
+[2023-08-10T07:56:51.481] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:54.295] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:54.295] [INFO] mqtt - MQTT start reconnect 19 times
+[2023-08-10T07:56:54.296] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:56:54.485] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:54.485] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:57.296] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:56:57.297] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:56:59.505] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:56:59.505] [INFO] mqtt - MQTT start reconnect 19 times
+[2023-08-10T07:56:59.505] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:02.320] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:02.320] [INFO] mqtt - MQTT start reconnect 20 times
+[2023-08-10T07:57:02.320] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:02.508] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:02.508] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:05.323] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:05.323] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:07.521] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:07.521] [INFO] mqtt - MQTT start reconnect 20 times
+[2023-08-10T07:57:07.521] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:10.335] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:10.336] [INFO] mqtt - MQTT start reconnect 21 times
+[2023-08-10T07:57:10.336] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:10.525] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:10.525] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:13.339] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:13.339] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:15.537] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:15.538] [INFO] mqtt - MQTT start reconnect 21 times
+[2023-08-10T07:57:15.538] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:18.351] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:18.351] [INFO] mqtt - MQTT start reconnect 22 times
+[2023-08-10T07:57:18.351] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:18.541] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:18.541] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:21.355] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:21.355] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:23.555] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:23.555] [INFO] mqtt - MQTT start reconnect 22 times
+[2023-08-10T07:57:23.555] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:26.367] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:26.367] [INFO] mqtt - MQTT start reconnect 23 times
+[2023-08-10T07:57:26.367] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:26.559] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:26.559] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:29.370] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:29.370] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:31.570] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:31.570] [INFO] mqtt - MQTT start reconnect 23 times
+[2023-08-10T07:57:31.571] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:34.385] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:34.385] [INFO] mqtt - MQTT start reconnect 24 times
+[2023-08-10T07:57:34.385] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:34.574] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:34.575] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:37.388] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:37.388] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:39.588] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:39.589] [INFO] mqtt - MQTT start reconnect 24 times
+[2023-08-10T07:57:39.589] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:42.406] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:42.407] [INFO] mqtt - MQTT start reconnect 25 times
+[2023-08-10T07:57:42.407] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:42.592] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:42.592] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:45.410] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:45.411] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:47.605] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:47.605] [INFO] mqtt - MQTT start reconnect 25 times
+[2023-08-10T07:57:47.605] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:50.422] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:50.423] [INFO] mqtt - MQTT start reconnect 26 times
+[2023-08-10T07:57:50.423] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:50.608] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:50.608] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:53.426] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:53.426] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:57:55.639] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:55.639] [INFO] mqtt - MQTT start reconnect 26 times
+[2023-08-10T07:57:55.639] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:58.438] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:57:58.438] [INFO] mqtt - MQTT start reconnect 27 times
+[2023-08-10T07:57:58.439] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:57:58.640] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:57:58.641] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:01.442] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:01.442] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:03.652] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:03.652] [INFO] mqtt - MQTT start reconnect 27 times
+[2023-08-10T07:58:03.652] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:06.456] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:06.456] [INFO] mqtt - MQTT start reconnect 28 times
+[2023-08-10T07:58:06.456] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:06.654] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:06.654] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:09.458] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:09.458] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:11.666] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:11.667] [INFO] mqtt - MQTT start reconnect 28 times
+[2023-08-10T07:58:11.667] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:14.470] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:14.470] [INFO] mqtt - MQTT start reconnect 29 times
+[2023-08-10T07:58:14.471] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:14.671] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:14.671] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:17.472] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:17.472] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:19.684] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:19.684] [INFO] mqtt - MQTT start reconnect 29 times
+[2023-08-10T07:58:19.685] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:22.484] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:22.484] [INFO] mqtt - MQTT start reconnect 30 times
+[2023-08-10T07:58:22.484] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:22.686] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:22.687] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:25.486] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:25.486] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:27.700] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:27.700] [INFO] mqtt - MQTT start reconnect 30 times
+[2023-08-10T07:58:27.701] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:30.497] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:30.498] [INFO] mqtt - MQTT start reconnect 31 times
+[2023-08-10T07:58:30.498] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:30.704] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:30.705] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:33.499] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:33.500] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:35.717] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:35.718] [INFO] mqtt - MQTT start reconnect 31 times
+[2023-08-10T07:58:35.718] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:38.511] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:38.511] [INFO] mqtt - MQTT start reconnect 32 times
+[2023-08-10T07:58:38.511] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:38.721] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:38.722] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:41.514] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:41.515] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:43.735] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:43.735] [INFO] mqtt - MQTT start reconnect 32 times
+[2023-08-10T07:58:43.736] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:46.526] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:46.526] [INFO] mqtt - MQTT start reconnect 33 times
+[2023-08-10T07:58:46.526] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:46.739] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:46.740] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:49.530] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:49.530] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:51.751] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:51.751] [INFO] mqtt - MQTT start reconnect 33 times
+[2023-08-10T07:58:51.751] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:54.541] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:54.542] [INFO] mqtt - MQTT start reconnect 34 times
+[2023-08-10T07:58:54.542] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:58:54.754] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:54.754] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:57.545] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:58:57.546] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:58:59.765] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:58:59.765] [INFO] mqtt - MQTT start reconnect 34 times
+[2023-08-10T07:58:59.766] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:02.557] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:02.557] [INFO] mqtt - MQTT start reconnect 35 times
+[2023-08-10T07:59:02.558] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:02.769] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:02.769] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:05.561] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:05.562] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:07.783] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:07.783] [INFO] mqtt - MQTT start reconnect 35 times
+[2023-08-10T07:59:07.784] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:10.572] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:10.573] [INFO] mqtt - MQTT start reconnect 36 times
+[2023-08-10T07:59:10.573] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:10.787] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:10.788] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:13.574] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:13.574] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:15.799] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:15.799] [INFO] mqtt - MQTT start reconnect 36 times
+[2023-08-10T07:59:15.799] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:18.586] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:18.586] [INFO] mqtt - MQTT start reconnect 37 times
+[2023-08-10T07:59:18.586] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:18.802] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:18.802] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:21.590] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:21.590] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:23.814] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:23.814] [INFO] mqtt - MQTT start reconnect 37 times
+[2023-08-10T07:59:23.814] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:26.603] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:26.604] [INFO] mqtt - MQTT start reconnect 38 times
+[2023-08-10T07:59:26.604] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:26.817] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:26.817] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:29.607] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:29.608] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:31.831] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:31.832] [INFO] mqtt - MQTT start reconnect 38 times
+[2023-08-10T07:59:31.832] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:34.617] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:34.617] [INFO] mqtt - MQTT start reconnect 39 times
+[2023-08-10T07:59:34.617] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:34.836] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:34.836] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:37.620] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:37.620] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:39.845] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:39.845] [INFO] mqtt - MQTT start reconnect 39 times
+[2023-08-10T07:59:39.846] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:42.633] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:42.633] [INFO] mqtt - MQTT start reconnect 40 times
+[2023-08-10T07:59:42.634] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:42.850] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:42.850] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:45.637] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:45.637] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:47.866] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:47.866] [INFO] mqtt - MQTT start reconnect 40 times
+[2023-08-10T07:59:47.867] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:50.652] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:50.652] [INFO] mqtt - MQTT start reconnect 41 times
+[2023-08-10T07:59:50.653] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:50.870] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:50.870] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:53.654] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:53.654] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T07:59:55.883] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:55.884] [INFO] mqtt - MQTT start reconnect 41 times
+[2023-08-10T07:59:55.884] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:58.666] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T07:59:58.666] [INFO] mqtt - MQTT start reconnect 42 times
+[2023-08-10T07:59:58.667] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T07:59:58.887] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T07:59:58.888] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:01.669] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:01.669] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:03.908] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:03.908] [INFO] mqtt - MQTT start reconnect 42 times
+[2023-08-10T08:00:03.909] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:06.680] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:06.680] [INFO] mqtt - MQTT start reconnect 43 times
+[2023-08-10T08:00:06.680] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:06.912] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:06.912] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:09.683] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:09.683] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:11.924] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:11.925] [INFO] mqtt - MQTT start reconnect 43 times
+[2023-08-10T08:00:11.925] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:14.699] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:14.699] [INFO] mqtt - MQTT start reconnect 44 times
+[2023-08-10T08:00:14.699] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:14.928] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:14.929] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:17.703] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:17.703] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:19.940] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:19.941] [INFO] mqtt - MQTT start reconnect 44 times
+[2023-08-10T08:00:19.941] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:22.716] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:22.717] [INFO] mqtt - MQTT start reconnect 45 times
+[2023-08-10T08:00:22.717] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:22.944] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:22.944] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:25.721] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:25.721] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:27.955] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:27.955] [INFO] mqtt - MQTT start reconnect 45 times
+[2023-08-10T08:00:27.956] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:30.732] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:30.732] [INFO] mqtt - MQTT start reconnect 46 times
+[2023-08-10T08:00:30.732] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:30.959] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:30.960] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:33.735] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:33.735] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:35.973] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:35.973] [INFO] mqtt - MQTT start reconnect 46 times
+[2023-08-10T08:00:35.973] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:38.747] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:38.748] [INFO] mqtt - MQTT start reconnect 47 times
+[2023-08-10T08:00:38.748] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:38.976] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:38.976] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:41.750] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:41.750] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:43.988] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:43.988] [INFO] mqtt - MQTT start reconnect 47 times
+[2023-08-10T08:00:43.989] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:46.767] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:46.767] [INFO] mqtt - MQTT start reconnect 48 times
+[2023-08-10T08:00:46.768] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:46.991] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:46.991] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:49.771] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:49.771] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:52.003] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:52.003] [INFO] mqtt - MQTT start reconnect 48 times
+[2023-08-10T08:00:52.004] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:54.785] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:00:54.785] [INFO] mqtt - MQTT start reconnect 49 times
+[2023-08-10T08:00:54.786] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:00:55.007] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:55.008] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:00:57.788] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:00:57.788] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:04.969] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T08:01:04.969] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-10T08:01:04.969] [INFO] mqtt - MQTT start reconnect 49 times
+[2023-08-10T08:01:04.969] [INFO] mqtt - MQTT start reconnect 50 times
+[2023-08-10T08:01:04.969] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:04.969] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:07.970] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:07.970] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:07.972] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:07.972] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:07.974] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T08:01:07.974] [INFO] mqtt - MQTT start reconnect 51 times
+[2023-08-10T08:01:07.974] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:07.976] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-10T08:01:07.976] [INFO] mqtt - MQTT start reconnect 50 times
+[2023-08-10T08:01:07.976] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:10.976] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:10.976] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:10.977] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:10.978] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:31.395] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:31.395] [INFO] mqtt - MQTT start reconnect 51 times
+[2023-08-10T08:01:31.395] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:31.395] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:31.395] [INFO] mqtt - MQTT start reconnect 52 times
+[2023-08-10T08:01:31.395] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:34.397] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:34.398] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:34.398] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:34.398] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:39.410] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:39.410] [INFO] mqtt - MQTT start reconnect 53 times
+[2023-08-10T08:01:39.410] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:39.410] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:39.410] [INFO] mqtt - MQTT start reconnect 52 times
+[2023-08-10T08:01:39.410] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:42.413] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:42.413] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:42.413] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:42.413] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:47.425] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:47.425] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:47.425] [INFO] mqtt - MQTT start reconnect 54 times
+[2023-08-10T08:01:47.425] [INFO] mqtt - MQTT start reconnect 53 times
+[2023-08-10T08:01:47.426] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:47.426] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:50.429] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:50.429] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:50.429] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:50.429] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:55.442] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:55.442] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:01:55.442] [INFO] mqtt - MQTT start reconnect 55 times
+[2023-08-10T08:01:55.442] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:55.442] [INFO] mqtt - MQTT start reconnect 54 times
+[2023-08-10T08:01:55.443] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:01:58.445] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:58.446] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:01:58.445] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:01:58.446] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:03.457] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:03.457] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:03.457] [INFO] mqtt - MQTT start reconnect 55 times
+[2023-08-10T08:02:03.457] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:03.457] [INFO] mqtt - MQTT start reconnect 56 times
+[2023-08-10T08:02:03.457] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:06.458] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:06.459] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:06.460] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:06.460] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:11.470] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:11.470] [INFO] mqtt - MQTT start reconnect 56 times
+[2023-08-10T08:02:11.470] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:11.471] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:11.471] [INFO] mqtt - MQTT start reconnect 57 times
+[2023-08-10T08:02:11.471] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:14.473] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:14.473] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:14.474] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:14.474] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:19.485] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:19.485] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:19.486] [INFO] mqtt - MQTT start reconnect 58 times
+[2023-08-10T08:02:19.486] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:19.486] [INFO] mqtt - MQTT start reconnect 57 times
+[2023-08-10T08:02:19.486] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:22.488] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:22.488] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:22.490] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:22.490] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:27.501] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:27.501] [INFO] mqtt - MQTT start reconnect 59 times
+[2023-08-10T08:02:27.501] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:27.506] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:27.506] [INFO] mqtt - MQTT start reconnect 58 times
+[2023-08-10T08:02:27.506] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:30.504] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:30.504] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:30.508] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:30.508] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:35.515] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:35.515] [INFO] mqtt - MQTT start reconnect 60 times
+[2023-08-10T08:02:35.516] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:35.518] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:35.518] [INFO] mqtt - MQTT start reconnect 59 times
+[2023-08-10T08:02:35.519] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:38.519] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:38.520] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:38.522] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:38.522] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:43.530] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:43.530] [INFO] mqtt - MQTT start reconnect 61 times
+[2023-08-10T08:02:43.531] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:43.532] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:43.532] [INFO] mqtt - MQTT start reconnect 60 times
+[2023-08-10T08:02:43.533] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:46.535] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:46.534] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:46.534] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:46.535] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:51.547] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:51.547] [INFO] mqtt - MQTT start reconnect 62 times
+[2023-08-10T08:02:51.547] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:51.547] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:51.547] [INFO] mqtt - MQTT start reconnect 61 times
+[2023-08-10T08:02:51.548] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:54.550] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:54.550] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:54.551] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:02:54.551] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:02:59.562] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:59.562] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:02:59.562] [INFO] mqtt - MQTT start reconnect 62 times
+[2023-08-10T08:02:59.562] [INFO] mqtt - MQTT start reconnect 63 times
+[2023-08-10T08:02:59.563] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:02:59.562] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:02.565] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:02.566] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:02.567] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:02.567] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:07.579] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:07.579] [INFO] mqtt - MQTT start reconnect 64 times
+[2023-08-10T08:03:07.579] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:07.579] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:07.579] [INFO] mqtt - MQTT start reconnect 63 times
+[2023-08-10T08:03:07.579] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:10.582] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:10.582] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:10.582] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:10.582] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:15.595] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:15.595] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:15.595] [INFO] mqtt - MQTT start reconnect 65 times
+[2023-08-10T08:03:15.595] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:15.595] [INFO] mqtt - MQTT start reconnect 64 times
+[2023-08-10T08:03:15.595] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:18.597] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:18.597] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:18.598] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:18.598] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:23.611] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:23.611] [INFO] mqtt - MQTT start reconnect 66 times
+[2023-08-10T08:03:23.611] [INFO] mqtt - MQTT error: Error: Connection refused: Server unavailable
+[2023-08-10T08:03:23.611] [INFO] mqtt - MQTT start reconnect 65 times
+[2023-08-10T08:03:23.611] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:23.611] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-10T08:03:26.614] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:26.614] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:26.615] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T08:03:26.615] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T08:03:28.619] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T08:03:28.619] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T08:05:00.006] [INFO] worker - RotationTask current time:  2023-08-10T08:05:00.006Z
+[2023-08-10T08:05:00.007] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 08:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T08:05:02.017] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:02.018] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:05:02.018] [INFO] db - DB is production
+[2023-08-10T08:05:02.018] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:05:02.018] [ERROR] db - getRootAndIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:02.018] [INFO] rotationCert - Getting the root and intermediate cert has failed
+[2023-08-10T08:05:04.029] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:04.029] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:05:04.029] [INFO] db - DB is production
+[2023-08-10T08:05:04.030] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:05:04.030] [ERROR] db - getIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:04.030] [INFO] rotationCert - Getting the intermediate cert has failed
+[2023-08-10T08:05:06.042] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:06.043] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:05:06.043] [INFO] db - DB is production
+[2023-08-10T08:05:06.043] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:05:06.043] [ERROR] db - getDeviceCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:05:06.043] [INFO] rotationCert - Getting the device cert has failed
+[2023-08-10T08:30:00.014] [INFO] worker - ExpiredTask current time:  2023-08-10T08:30:00.014Z
+[2023-08-10T08:30:00.016] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 08:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T08:30:02.031] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.031] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:30:02.031] [INFO] db - DB is production
+[2023-08-10T08:30:02.032] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:30:02.032] [ERROR] db - getRootCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.032] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.032] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:30:02.032] [INFO] db - DB is production
+[2023-08-10T08:30:02.032] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:30:02.033] [ERROR] db - getIntermediateCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.033] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.033] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:30:02.033] [INFO] db - DB is production
+[2023-08-10T08:30:02.033] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:30:02.034] [ERROR] db - getServerCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.034] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.034] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:30:02.034] [INFO] db - DB is production
+[2023-08-10T08:30:02.034] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:30:02.034] [ERROR] db - getDeviceCertIdWithExpiredAndRetired error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:30:02.034] [INFO] expiredCert - Getting the retired for the root cert status has failed
+[2023-08-10T08:30:02.034] [INFO] expiredCert - Getting the retired for the intermediate cert status has failed
+[2023-08-10T08:30:02.034] [INFO] expiredCert - Getting the retired for the device cert status has failed
+[2023-08-10T08:30:02.034] [INFO] expiredCert - Getting the retired for the server cert status has failed
+[2023-08-10T08:30:02.034] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T08:30:02.035] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T08:59:04.917] [INFO] common - req info:  DELETE /v1.0/cert/device/07ff5e25-6232-4ac7-ab86-6c017e2409c9
+[2023-08-10T08:59:04.919] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T08:59:06.930] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:59:06.931] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:59:06.932] [INFO] db - DB is production
+[2023-08-10T08:59:06.932] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T08:59:50.308] [INFO] common - req info:  POST /v1.0/cert/device/
+[2023-08-10T08:59:50.309] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T08:59:52.325] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T08:59:52.326] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T08:59:52.326] [INFO] db - DB is production
+[2023-08-10T08:59:52.326] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:00.031] [INFO] worker - RotationTask current time:  2023-08-10T09:05:00.031Z
+[2023-08-10T09:05:00.032] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 09:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T09:05:02.044] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:02.044] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T09:05:02.044] [INFO] db - DB is production
+[2023-08-10T09:05:02.044] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:02.045] [ERROR] db - getRootAndIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:02.045] [INFO] rotationCert - Getting the root and intermediate cert has failed
+[2023-08-10T09:05:04.068] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:04.068] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T09:05:04.068] [INFO] db - DB is production
+[2023-08-10T09:05:04.068] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:04.068] [ERROR] db - getIntermediateCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:04.069] [INFO] rotationCert - Getting the intermediate cert has failed
+[2023-08-10T09:05:06.081] [ERROR] db - error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:06.082] [INFO] db - PostgreSQL start reconnect
+[2023-08-10T09:05:06.082] [INFO] db - DB is production
+[2023-08-10T09:05:06.082] [INFO] db - DB URI: postgres://b7685b53-718d-4c92-9e19-617cac6367e5:p8POBIwRZq7VWPvhQRPLCMmRg@10.32.9.37:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:06.082] [ERROR] db - getDeviceCertWithExpiredDay error:  error: password authentication failed for user "b7685b53-718d-4c92-9e19-617cac6367e5"
+    at Parser.parseErrorMessage (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  length: 132,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '422',
+  routine: 'auth_failed'
+}
+[2023-08-10T09:05:06.082] [INFO] rotationCert - Getting the device cert has failed
+[2023-08-10T09:05:22.801] [INFO] setting - DUMPDB_VERSION:undefined
+[2023-08-10T09:05:22.802] [INFO] setting - IS_OPEN_CORS:false
+[2023-08-10T09:05:22.802] [INFO] setting - DATACENTER:local
+[2023-08-10T09:05:22.802] [INFO] setting - DOMAIN_NAME: .sembcorp.net
+[2023-08-10T09:05:22.802] [INFO] setting - DOMAIN_INTERNAL: .en.internal
+[2023-08-10T09:05:22.803] [INFO] setting - CLUSTER:solarscada
+[2023-08-10T09:05:22.803] [INFO] setting - EDITION:azure-aks
+[2023-08-10T09:05:22.803] [INFO] setting - WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+[2023-08-10T09:05:22.803] [INFO] setting - NAMESPACE:edge365
+[2023-08-10T09:05:22.803] [INFO] setting - ROOT_EXPIRY_DAY_NUMBER:9125
+[2023-08-10T09:05:22.803] [INFO] setting - INTERMEDIATE_EXPIRY_DAY_NUMBER:2555
+[2023-08-10T09:05:22.803] [INFO] setting - DEVICE_EXPIRY_DAY_NUMBER:365
+[2023-08-10T09:05:22.804] [INFO] setting - SERVER_INTERMEDIATE_ID:5
+[2023-08-10T09:05:22.804] [INFO] setting - IS_SUPPORT_IOTHUB:true
+[2023-08-10T09:05:22.804] [INFO] setting - EXTERNAL_URL:sembcorp.net
+[2023-08-10T09:05:22.804] [INFO] setting - SSO_API_BASE_URL:https://api-sso-solarscada.sembcorp.net/v4.0
+[2023-08-10T09:05:22.804] [INFO] setting - DCCS_API_BASE_URL:https://api-dccs-solarscada.sembcorp.net/v1
+[2023-08-10T09:05:22.804] [INFO] setting - MPLUS_API_BASE_URL:http://api-portal-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:22.804] [INFO] setting - API_ALARM_URL:http://api-alarm-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:22.804] [INFO] setting - MANAGE_BACKEND_API_BASE_URL:http://api-manage-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:22.804] [INFO] setting - API_HUB_BASE_URL:https://pivot-api-hub-edge365-solarscada.sembcorp.net/graphql
+[2023-08-10T09:05:22.804] [INFO] setting - ETCD_HOST:rtm-ifp-etcd
+[2023-08-10T09:05:22.804] [INFO] setting - WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
+[2023-08-10T09:05:22.804] [INFO] setting - DBMASTER_API_URL:http://api-dbmaster-wise-mplus:80
+[2023-08-10T09:05:22.805] [INFO] setting - APPHUB_REPO_API_URL:http://apphub-repo:80
+[2023-08-10T09:05:22.972] [INFO] app - this is app.js
+[2023-08-10T09:05:23.100] [INFO] www - API-Cert starting...
+[2023-08-10T09:05:23.100] [INFO] db - DB is production
+[2023-08-10T09:05:23.100] [INFO] db - DB URI: postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:23.141] [INFO] www - Listening on port: 3000
+[2023-08-10T09:05:23.142] [INFO] www - Server running mode: production
+[2023-08-10T09:05:23.309] [INFO] setting - DUMPDB_VERSION:undefined
+[2023-08-10T09:05:23.308] [INFO] setting - DUMPDB_VERSION:undefined
+[2023-08-10T09:05:23.308] [INFO] setting - IS_OPEN_CORS:false
+[2023-08-10T09:05:23.308] [INFO] setting - DATACENTER:local
+[2023-08-10T09:05:23.309] [INFO] setting - DOMAIN_NAME: .sembcorp.net
+[2023-08-10T09:05:23.309] [INFO] setting - DOMAIN_INTERNAL: .en.internal
+[2023-08-10T09:05:23.309] [INFO] setting - CLUSTER:solarscada
+[2023-08-10T09:05:23.309] [INFO] setting - EDITION:azure-aks
+[2023-08-10T09:05:23.309] [INFO] setting - WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+[2023-08-10T09:05:23.309] [INFO] setting - NAMESPACE:edge365
+[2023-08-10T09:05:23.309] [INFO] setting - ROOT_EXPIRY_DAY_NUMBER:9125
+[2023-08-10T09:05:23.310] [INFO] setting - INTERMEDIATE_EXPIRY_DAY_NUMBER:2555
+[2023-08-10T09:05:23.310] [INFO] setting - DEVICE_EXPIRY_DAY_NUMBER:365
+[2023-08-10T09:05:23.310] [INFO] setting - SERVER_INTERMEDIATE_ID:5
+[2023-08-10T09:05:23.311] [INFO] setting - IS_SUPPORT_IOTHUB:true
+[2023-08-10T09:05:23.311] [INFO] setting - EXTERNAL_URL:sembcorp.net
+[2023-08-10T09:05:23.311] [INFO] setting - SSO_API_BASE_URL:https://api-sso-solarscada.sembcorp.net/v4.0
+[2023-08-10T09:05:23.311] [INFO] setting - DCCS_API_BASE_URL:https://api-dccs-solarscada.sembcorp.net/v1
+[2023-08-10T09:05:23.311] [INFO] setting - MPLUS_API_BASE_URL:http://api-portal-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.311] [INFO] setting - API_ALARM_URL:http://api-alarm-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.311] [INFO] setting - MANAGE_BACKEND_API_BASE_URL:http://api-manage-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.311] [INFO] setting - API_HUB_BASE_URL:https://pivot-api-hub-edge365-solarscada.sembcorp.net/graphql
+[2023-08-10T09:05:23.311] [INFO] setting - ETCD_HOST:rtm-ifp-etcd
+[2023-08-10T09:05:23.311] [INFO] setting - WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
+[2023-08-10T09:05:23.311] [INFO] setting - DBMASTER_API_URL:http://api-dbmaster-wise-mplus:80
+[2023-08-10T09:05:23.311] [INFO] setting - APPHUB_REPO_API_URL:http://apphub-repo:80
+[2023-08-10T09:05:23.584] [INFO] db - DB is production
+[2023-08-10T09:05:23.587] [INFO] db - DB URI: postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:23.587] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T09:05:23.587] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T09:05:23.309] [INFO] setting - IS_OPEN_CORS:false
+[2023-08-10T09:05:23.641] [INFO] www - Message from worker: Result of task 0: Task data for worker 0
+[2023-08-10T09:05:23.644] [INFO] www - Message from worker: Result of task 1: Task data for worker 1
+[2023-08-10T09:05:23.310] [INFO] setting - DATACENTER:local
+[2023-08-10T09:05:23.311] [INFO] setting - DOMAIN_NAME: .sembcorp.net
+[2023-08-10T09:05:23.311] [INFO] setting - DOMAIN_INTERNAL: .en.internal
+[2023-08-10T09:05:23.311] [INFO] setting - CLUSTER:solarscada
+[2023-08-10T09:05:23.311] [INFO] setting - EDITION:azure-aks
+[2023-08-10T09:05:23.311] [INFO] setting - WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+[2023-08-10T09:05:23.311] [INFO] setting - NAMESPACE:edge365
+[2023-08-10T09:05:23.311] [INFO] setting - ROOT_EXPIRY_DAY_NUMBER:9125
+[2023-08-10T09:05:23.311] [INFO] setting - INTERMEDIATE_EXPIRY_DAY_NUMBER:2555
+[2023-08-10T09:05:23.312] [INFO] setting - DEVICE_EXPIRY_DAY_NUMBER:365
+[2023-08-10T09:05:23.312] [INFO] setting - SERVER_INTERMEDIATE_ID:5
+[2023-08-10T09:05:23.312] [INFO] setting - IS_SUPPORT_IOTHUB:true
+[2023-08-10T09:05:23.312] [INFO] setting - EXTERNAL_URL:sembcorp.net
+[2023-08-10T09:05:23.312] [INFO] setting - SSO_API_BASE_URL:https://api-sso-solarscada.sembcorp.net/v4.0
+[2023-08-10T09:05:23.312] [INFO] setting - DCCS_API_BASE_URL:https://api-dccs-solarscada.sembcorp.net/v1
+[2023-08-10T09:05:23.312] [INFO] setting - MPLUS_API_BASE_URL:http://api-portal-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.312] [INFO] setting - API_ALARM_URL:http://api-alarm-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.312] [INFO] setting - MANAGE_BACKEND_API_BASE_URL:http://api-manage-edge365-solarscada.sembcorp.net
+[2023-08-10T09:05:23.312] [INFO] setting - API_HUB_BASE_URL:https://pivot-api-hub-edge365-solarscada.sembcorp.net/graphql
+[2023-08-10T09:05:23.312] [INFO] setting - ETCD_HOST:rtm-ifp-etcd
+[2023-08-10T09:05:23.312] [INFO] setting - WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
+[2023-08-10T09:05:23.312] [INFO] setting - DBMASTER_API_URL:http://api-dbmaster-wise-mplus:80
+[2023-08-10T09:05:23.312] [INFO] setting - APPHUB_REPO_API_URL:http://apphub-repo:80
+[2023-08-10T09:05:23.562] [INFO] db - DB is production
+[2023-08-10T09:05:23.562] [INFO] db - DB URI: postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948?application_name=api-cert
+[2023-08-10T09:05:23.563] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-10T09:05:23.563] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-10T09:05:23.655] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T09:05:23.666] [INFO] mqtt - RabbitMQ server connected
+[2023-08-10T09:06:07.027] [INFO] common - req info:  POST /v1.0/cert/device/
+[2023-08-10T09:06:07.030] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:06:07.670] [INFO] certCtrl - -----start generate iothub device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificates/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificates',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  'fd401d6a-e93c-4dbe-bd74-1c547b7e3995',
+  '458ee74a-0873-48d6-b329-b8374de0a3ff',
+  '243a97c3-a43f-4860-b485-a15f27bb4005',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-10T09:06:07.671] [INFO] certCtrl - -----start generate rabbitmq device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  '2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995',
+  '458ee74a-0873-48d6-b329-b8374de0a3ff',
+  'b0977b25-e58e-4771-b298-b4b9712fc0d4',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-10T09:06:07.848] [INFO] certCtrl - -----iothub device cert cn fd401d6a-e93c-4dbe-bd74-1c547b7e3995 output: ======> 458ee74a-0873-48d6-b329-b8374de0a3ff
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=458ee74a-0873-48d6-b329-b8374de0a3ff
+Creating Leaf Device Certificate using intermediate_ca_index: 458ee74a-0873-48d6-b329-b8374de0a3ff
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-fd401d6a-e93c-4dbe-bd74-1c547b7e3995.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-fd401d6a-e93c-4dbe-bd74-1c547b7e3995.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12 (0xc)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug 10 09:06:07 2023 GMT
+            Not After : Aug  9 09:06:07 2024 GMT
+        Subject: O = WISE-Edge365, CN = fd401d6a-e93c-4dbe-bd74-1c547b7e3995
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b6:73:e4:7a:5d:92:ee:02:64:c3:67:98:f8:32:
+                    77:41:58:5e:6c:fa:24:86:b5:de:95:e2:fd:a9:24:
+                    35:ce:46:85:1c:b3:94:b3:d1:62:36:4a:3c:33:01:
+                    f0:aa:cf:dc:80:3f:6c:d9:43:9c:16:48:f9:a8:89:
+                    81:b9:f3:9a:18:ab:fb:71:30:33:f6:17:4b:a2:ed:
+                    55:82:78:9b:4f:af:be:4e:b3:0c:fe:2e:f7:97:f9:
+                    a4:27:3a:aa:e4:93:f4:33:7f:97:fc:e6:dd:08:fc:
+                    70:f7:bf:20:17:cb:33:bf:66:6b:ef:0c:e4:67:76:
+                    36:03:61:de:50:d5:e6:e7:9f:fa:77:55:33:89:4b:
+                    97:b2:ec:32:0b:99:93:ac:54:5f:13:33:26:2f:52:
+                    06:15:5e:b2:e1:1a:a9:6e:6e:97:ef:a7:d7:d6:52:
+                    7f:3f:d8:25:90:3b:eb:c8:c5:69:a5:cd:cd:4a:36:
+                    c8:df:c9:df:87:5f:5f:94:dd:fc:21:40:96:a7:d2:
+                    e3:89:32:ef:ff:62:3c:1b:72:c7:f1:52:68:83:61:
+                    fe:29:3c:54:c4:c8:7c:a5:23:6f:bd:4f:39:82:67:
+                    a2:99:30:67:b1:3c:e1:7a:ff:eb:e6:19:c0:81:7c:
+                    8d:18:61:b9:03:c9:53:8a:a1:b6:01:6b:16:ea:9a:
+                    e3:e7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                C4:00:18:7F:F6:03:CE:AC:BF:21:60:A1:0E:D8:FB:6D:FD:EC:B2:05
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         0f:27:95:69:8a:3f:f2:da:80:4d:70:49:f9:13:39:49:02:33:
+         d2:ac:c4:4c:81:6a:59:6e:b4:e5:5e:1b:8a:f8:8a:ca:c2:9c:
+         6c:2b:21:cd:fa:93:88:45:e9:ec:41:fa:07:a4:cc:50:5b:b2:
+         7f:73:a5:5e:80:42:7b:05:c3:67:96:73:c2:a7:21:0e:3f:a7:
+         ce:51:cd:4b:4c:88:ee:55:c5:a3:6a:d9:69:bd:fd:f8:e6:1c:
+         54:97:98:ea:c1:43:bc:5c:61:36:e3:6a:43:fb:5c:e3:dc:28:
+         65:51:f9:34:20:5b:45:31:61:d1:af:b4:26:b2:b8:17:0d:08:
+         73:78:19:5d:04:52:e3:a6:4f:94:95:e4:78:c8:95:22:00:68:
+         c5:d0:fc:fb:b7:f8:ee:78:8e:1a:85:38:ae:38:c6:36:79:d8:
+         66:8a:e9:53:5f:b1:65:61:47:55:55:8e:00:58:6f:b2:ac:0b:
+         f8:16:5b:b7:77:43:f5:9d:0a:bc:c8:29:92:60:90:8f:2f:93:
+         4d:9d:eb:c6:76:af:08:09:c3:08:f9:91:e7:6f:b1:c3:43:e3:
+         02:70:37:4e:d5:ca:db:2a:84:a5:b1:4a:3f:9b:0c:35:54:9b:
+         4b:9d:1b:fc:3f:19:b9:3d:60:55:44:ad:04:f8:a6:cc:24:ed:
+         24:1a:10:fc
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-10T09:06:07.849] [INFO] certCtrl - -----end generate iothub device cert cn fd401d6a-e93c-4dbe-bd74-1c547b7e3995-----
+[2023-08-10T09:06:07.849] [INFO] certCtrl - -----rabbitmq device cert cn 2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995 output: ======> 458ee74a-0873-48d6-b329-b8374de0a3ff
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=458ee74a-0873-48d6-b329-b8374de0a3ff
+Creating Leaf Device Certificate using intermediate_ca_index: 458ee74a-0873-48d6-b329-b8374de0a3ff
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5 (0x5)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug 10 09:06:07 2023 GMT
+            Not After : Aug  9 09:06:07 2024 GMT
+        Subject: O = WISE-Edge365, CN = 2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:e0:4e:ff:c7:9d:ed:fd:5a:70:3f:32:c3:49:7f:
+                    15:64:77:c7:a0:85:74:91:d7:09:ee:0a:7c:20:f5:
+                    7a:ac:57:cc:95:10:68:96:ed:9a:73:54:f9:48:5f:
+                    62:e2:e6:19:f3:a4:fe:0c:b7:44:05:a1:3d:df:cb:
+                    a5:6a:3f:fe:17:c8:b4:ac:2f:cf:52:c8:e8:68:99:
+                    dc:67:91:63:42:b8:02:2d:33:12:62:67:ab:f0:1d:
+                    0d:ba:d7:a2:f8:7e:f1:ca:41:0a:d9:04:a3:77:9c:
+                    42:55:93:d3:6d:56:5a:6e:a1:17:bb:c6:74:28:4e:
+                    59:1c:a7:65:af:bc:c8:5a:36:bc:84:85:55:f6:3c:
+                    40:33:f6:f4:28:10:38:47:db:3c:cb:a6:2b:7c:dc:
+                    2d:86:98:83:22:9d:e2:9d:f2:63:35:a6:2c:fe:99:
+                    f2:43:c5:6e:94:b4:9a:53:0f:15:1c:6b:4f:61:d0:
+                    7e:33:3b:7c:92:45:bd:8a:da:4b:23:52:eb:ba:0d:
+                    46:4a:6c:d7:6f:ba:30:70:6f:46:a8:5e:7f:a2:38:
+                    67:c5:f3:24:14:db:10:f8:94:65:6c:fa:98:3d:6f:
+                    74:b5:b8:35:92:41:bd:57:a5:39:ef:1f:d0:fd:ff:
+                    c3:58:2e:93:ca:bb:97:4f:dd:54:e6:78:26:43:48:
+                    67:6d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                78:E1:1C:26:D8:BE:73:31:45:F3:06:DB:25:50:32:53:D2:51:74:7A
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         8e:c0:34:a8:19:44:2b:bc:78:02:9f:2e:90:24:e1:a1:9d:fb:
+         55:bc:df:c7:03:05:fd:0b:20:bb:ac:67:ce:67:d5:31:05:da:
+         17:e4:33:08:cc:d5:49:af:4f:90:fa:15:4e:9f:f0:28:25:be:
+         f9:86:fd:52:78:50:ac:aa:33:77:e7:6c:b6:f6:81:3b:85:40:
+         57:e5:e4:d4:ac:b0:24:e2:54:d0:84:6d:e7:66:9e:e8:ad:2f:
+         f3:95:9d:a2:de:4e:d0:6c:3b:d8:2a:aa:95:61:23:d8:10:eb:
+         0a:52:53:fc:44:4a:ff:06:ef:88:89:be:e4:f1:da:7e:e7:87:
+         3e:d2:df:a2:bb:60:3f:2c:3c:f0:fa:a4:82:33:24:a5:9e:c6:
+         ab:35:15:b7:4f:b4:9c:14:42:40:2b:d2:a2:40:67:ae:7e:e3:
+         32:9b:0f:4b:53:27:66:d6:76:30:92:9f:38:11:b0:84:b1:88:
+         86:b7:cd:15:38:85:f4:0b:8b:21:95:aa:99:12:63:f6:6b:65:
+         3c:6c:99:78:c2:f6:01:f6:83:09:95:ec:84:4e:92:bb:07:eb:
+         03:4f:bf:7d:38:6c:fa:30:56:67:52:32:64:18:87:bf:93:3e:
+         d6:69:93:cd:8c:0e:8e:4a:f3:e5:02:4e:fc:ab:78:11:35:cd:
+         32:23:53:53
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-10T09:06:07.849] [INFO] certCtrl - -----end generate rabbitmq device cert cn 2Vy65gaOgEqZ:fd401d6a-e93c-4dbe-bd74-1c547b7e3995-----
+[2023-08-10T09:06:45.483] [INFO] common - req info:  GET /v1.0/cert/device/fd401d6a-e93c-4dbe-bd74-1c547b7e3995
+[2023-08-10T09:06:45.484] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:30:00.011] [INFO] worker - ExpiredTask current time:  2023-08-10T09:30:00.011Z
+[2023-08-10T09:30:00.022] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 09:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T09:30:00.056] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T09:30:00.056] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T09:30:00.056] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T09:30:00.056] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T09:30:00.056] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T09:30:00.057] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T09:35:39.936] [INFO] common - req info:  DELETE /v1.0/cert/device/fd401d6a-e93c-4dbe-bd74-1c547b7e3995
+[2023-08-10T09:35:39.937] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:35:52.876] [INFO] common - req info:  DELETE /v1.0/cert/device/e9addcaf-9d93-4426-8161-9109f17572ab
+[2023-08-10T09:35:52.877] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:37:00.851] [INFO] common - req info:  GET /v1.0/cert/root/list
+[2023-08-10T09:37:00.852] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:37:04.819] [INFO] common - req info:  GET /v1.0/cert/intermediate/list
+[2023-08-10T09:37:04.820] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T09:37:04.902] [INFO] common - req info:  GET /v1.0/cert/root/list
+[2023-08-10T09:37:04.903] [INFO] common - accountName  admin@iot.sense
+[2023-08-10T10:05:00.012] [INFO] worker - RotationTask current time:  2023-08-10T10:05:00.012Z
+[2023-08-10T10:05:00.019] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 10:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T10:05:00.044] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T10:05:00.047] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T10:05:00.050] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T10:30:00.011] [INFO] worker - ExpiredTask current time:  2023-08-10T10:30:00.011Z
+[2023-08-10T10:30:00.013] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 10:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T10:30:00.039] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T10:30:00.039] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T10:30:00.039] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T10:30:00.039] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T10:30:00.039] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T10:30:00.040] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T11:05:00.007] [INFO] worker - RotationTask current time:  2023-08-10T11:05:00.007Z
+[2023-08-10T11:05:00.009] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 11:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T11:05:00.026] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T11:05:00.028] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T11:05:00.031] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T11:30:00.021] [INFO] worker - ExpiredTask current time:  2023-08-10T11:30:00.021Z
+[2023-08-10T11:30:00.023] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 11:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T11:30:00.046] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T11:30:00.046] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T11:30:00.046] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T11:30:00.046] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T11:30:00.046] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T11:30:00.046] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T12:05:00.007] [INFO] worker - RotationTask current time:  2023-08-10T12:05:00.007Z
+[2023-08-10T12:05:00.009] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 12:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T12:05:00.032] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T12:05:00.034] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T12:05:00.036] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T12:30:00.019] [INFO] worker - ExpiredTask current time:  2023-08-10T12:30:00.019Z
+[2023-08-10T12:30:00.023] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 12:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T12:30:00.055] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T12:30:00.055] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T12:30:00.055] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T12:30:00.055] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T12:30:00.055] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T12:30:00.055] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T13:05:00.015] [INFO] worker - RotationTask current time:  2023-08-10T13:05:00.015Z
+[2023-08-10T13:05:00.016] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 13:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T13:05:00.033] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T13:05:00.035] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T13:05:00.037] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T13:30:00.008] [INFO] worker - ExpiredTask current time:  2023-08-10T13:30:00.008Z
+[2023-08-10T13:30:00.011] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 13:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T13:30:00.035] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T13:30:00.035] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T13:30:00.035] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T13:30:00.035] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T13:30:00.035] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T13:30:00.035] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T14:05:00.012] [INFO] worker - RotationTask current time:  2023-08-10T14:05:00.012Z
+[2023-08-10T14:05:00.013] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 14:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T14:05:00.035] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T14:05:00.037] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T14:05:00.040] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T14:30:00.019] [INFO] worker - ExpiredTask current time:  2023-08-10T14:30:00.019Z
+[2023-08-10T14:30:00.021] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 14:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T14:30:00.047] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T14:30:00.048] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T14:30:00.048] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T14:30:00.048] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T14:30:00.048] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T14:30:00.048] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T15:05:00.003] [INFO] worker - RotationTask current time:  2023-08-10T15:05:00.003Z
+[2023-08-10T15:05:00.004] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 15:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T15:05:00.024] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T15:05:00.026] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T15:05:00.029] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T15:30:00.016] [INFO] worker - ExpiredTask current time:  2023-08-10T15:30:00.016Z
+[2023-08-10T15:30:00.017] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 15:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T15:30:00.040] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T15:30:00.041] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T15:30:00.041] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T15:30:00.041] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T15:30:00.041] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T15:30:00.041] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T16:05:00.027] [INFO] worker - RotationTask current time:  2023-08-10T16:05:00.027Z
+[2023-08-10T16:05:00.028] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 16:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T16:05:00.046] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T16:05:00.048] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T16:05:00.050] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T16:30:00.013] [INFO] worker - ExpiredTask current time:  2023-08-10T16:30:00.013Z
+[2023-08-10T16:30:00.014] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 16:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T16:30:00.036] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T16:30:00.036] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T16:30:00.036] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T16:30:00.036] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T16:30:00.036] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T16:30:00.036] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T17:05:00.026] [INFO] worker - RotationTask current time:  2023-08-10T17:05:00.025Z
+[2023-08-10T17:05:00.027] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 17:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T17:05:00.047] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T17:05:00.049] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T17:05:00.051] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T17:30:00.012] [INFO] worker - ExpiredTask current time:  2023-08-10T17:30:00.012Z
+[2023-08-10T17:30:00.016] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 17:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T17:30:00.036] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T17:30:00.036] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T17:30:00.036] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T17:30:00.036] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T17:30:00.036] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T17:30:00.036] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T18:05:00.023] [INFO] worker - RotationTask current time:  2023-08-10T18:05:00.023Z
+[2023-08-10T18:05:00.024] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 18:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T18:05:00.046] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T18:05:00.048] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T18:05:00.049] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T18:30:00.009] [INFO] worker - ExpiredTask current time:  2023-08-10T18:30:00.009Z
+[2023-08-10T18:30:00.011] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T18:30:00.037] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T18:30:00.037] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T18:30:00.037] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T18:30:00.037] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T18:30:00.037] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T18:30:00.037] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T19:05:00.004] [INFO] worker - RotationTask current time:  2023-08-10T19:05:00.004Z
+[2023-08-10T19:05:00.005] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 19:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T19:05:00.026] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T19:05:00.029] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T19:05:00.031] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T19:30:00.019] [INFO] worker - ExpiredTask current time:  2023-08-10T19:30:00.019Z
+[2023-08-10T19:30:00.022] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 19:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T19:30:00.047] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T19:30:00.047] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T19:30:00.047] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T19:30:00.047] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T19:30:00.047] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T19:30:00.047] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T20:05:00.020] [INFO] worker - RotationTask current time:  2023-08-10T20:05:00.020Z
+[2023-08-10T20:05:00.021] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 20:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T20:05:00.047] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T20:05:00.049] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T20:05:00.051] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T20:30:00.003] [INFO] worker - ExpiredTask current time:  2023-08-10T20:30:00.003Z
+[2023-08-10T20:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 20:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T20:30:00.045] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T20:30:00.045] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T20:30:00.045] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T20:30:00.045] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T20:30:00.045] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T20:30:00.045] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T21:05:00.008] [INFO] worker - RotationTask current time:  2023-08-10T21:05:00.008Z
+[2023-08-10T21:05:00.010] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 21:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T21:05:00.026] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T21:05:00.028] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T21:05:00.031] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T21:30:00.013] [INFO] worker - ExpiredTask current time:  2023-08-10T21:30:00.013Z
+[2023-08-10T21:30:00.014] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 21:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T21:30:00.037] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T21:30:00.037] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T21:30:00.037] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T21:30:00.037] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T21:30:00.037] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T21:30:00.037] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T22:05:00.012] [INFO] worker - RotationTask current time:  2023-08-10T22:05:00.012Z
+[2023-08-10T22:05:00.014] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 22:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T22:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T22:05:00.036] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T22:05:00.038] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T22:30:00.004] [INFO] worker - ExpiredTask current time:  2023-08-10T22:30:00.004Z
+[2023-08-10T22:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 22:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T22:30:00.028] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T22:30:00.029] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T22:30:00.029] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T22:30:00.029] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T22:30:00.029] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T22:30:00.029] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-10T23:05:00.013] [INFO] worker - RotationTask current time:  2023-08-10T23:05:00.013Z
+[2023-08-10T23:05:00.015] [INFO] www - Message from worker: RotationTask current time: Thu Aug 10 2023 23:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T23:05:00.037] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-10T23:05:00.039] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-10T23:05:00.041] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-10T23:30:00.002] [INFO] worker - ExpiredTask current time:  2023-08-10T23:30:00.002Z
+[2023-08-10T23:30:00.004] [INFO] www - Message from worker: ExpiredTask current time: Thu Aug 10 2023 23:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-10T23:30:00.028] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-10T23:30:00.029] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-10T23:30:00.029] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-10T23:30:00.029] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-10T23:30:00.029] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-10T23:30:00.029] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }

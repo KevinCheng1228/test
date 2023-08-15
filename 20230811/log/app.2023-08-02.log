@@ -1,0 +1,831 @@
+[2023-08-02T00:05:00.004] [INFO] worker - RotationTask current time:  2023-08-02T00:05:00.004Z
+[2023-08-02T00:05:00.005] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 00:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T00:05:00.020] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T00:05:00.022] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T00:05:00.024] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T00:30:00.013] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 00:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T00:30:00.012] [INFO] worker - ExpiredTask current time:  2023-08-02T00:30:00.012Z
+[2023-08-02T00:30:00.029] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T00:30:00.029] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T00:30:00.029] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T00:30:00.029] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T00:30:00.029] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T00:30:00.029] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T01:05:00.006] [INFO] worker - RotationTask current time:  2023-08-02T01:05:00.006Z
+[2023-08-02T01:05:00.016] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 01:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T01:05:00.028] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T01:05:00.030] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T01:05:00.032] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T01:30:00.023] [INFO] worker - ExpiredTask current time:  2023-08-02T01:30:00.023Z
+[2023-08-02T01:30:00.025] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 01:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T01:30:00.039] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T01:30:00.039] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T01:30:00.039] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T01:30:00.039] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T01:30:00.039] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T01:30:00.039] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T02:05:00.003] [INFO] worker - RotationTask current time:  2023-08-02T02:05:00.003Z
+[2023-08-02T02:05:00.004] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 02:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T02:05:00.018] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T02:05:00.020] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T02:05:00.023] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T02:30:00.020] [INFO] worker - ExpiredTask current time:  2023-08-02T02:30:00.020Z
+[2023-08-02T02:30:00.022] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 02:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T02:30:00.044] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T02:30:00.044] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T02:30:00.044] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T02:30:00.044] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T02:30:00.044] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T02:30:00.044] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T02:37:02.890] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:02.890] [INFO] mqtt - MQTT start reconnect 0 times
+[2023-08-02T02:37:02.890] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:02.892] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:02.893] [INFO] mqtt - MQTT start reconnect 0 times
+[2023-08-02T02:37:02.894] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:05.894] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:05.894] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:05.898] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:05.898] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:05.907] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:37:05.910] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:37:12.242] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:12.242] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:12.242] [INFO] mqtt - MQTT start reconnect 1 times
+[2023-08-02T02:37:12.242] [INFO] mqtt - MQTT start reconnect 1 times
+[2023-08-02T02:37:12.242] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:12.243] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:15.244] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:15.244] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:15.246] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:15.246] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:15.258] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:37:15.261] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:37:18.060] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:18.060] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:37:18.060] [INFO] mqtt - MQTT start reconnect 2 times
+[2023-08-02T02:37:18.060] [INFO] mqtt - MQTT start reconnect 2 times
+[2023-08-02T02:37:18.061] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:18.060] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:37:21.061] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:21.062] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:37:21.062] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:21.061] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:37:21.079] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:37:21.080] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:49:17.225] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:49:17.225] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:49:17.225] [INFO] mqtt - MQTT start reconnect 3 times
+[2023-08-02T02:49:17.225] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:49:17.225] [INFO] mqtt - MQTT start reconnect 3 times
+[2023-08-02T02:49:17.225] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:49:20.226] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:49:20.226] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:49:20.228] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:49:20.228] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:49:20.238] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:49:20.240] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:55:22.147] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:55:22.147] [INFO] mqtt - MQTT start reconnect 4 times
+[2023-08-02T02:55:22.147] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:55:22.148] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:55:22.148] [INFO] mqtt - MQTT start reconnect 4 times
+[2023-08-02T02:55:22.148] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:55:25.147] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:55:25.147] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:55:25.151] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:55:25.152] [INFO] mqtt - MQTT error: Error: connect ECONNREFUSED 10.32.10.68:1883
+[2023-08-02T02:55:25.152] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:55:25.153] [INFO] mqtt - MQTT start reconnect 5 times
+[2023-08-02T02:55:25.153] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:55:25.164] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:55:28.156] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:55:28.157] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:55:28.170] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:55:41.626] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:55:41.626] [INFO] mqtt - MQTT start reconnect 5 times
+[2023-08-02T02:55:41.626] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:55:44.629] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:55:44.629] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:55:44.641] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:56:00.888] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:56:00.889] [INFO] mqtt - MQTT start reconnect 6 times
+[2023-08-02T02:56:00.888] [INFO] mqtt - MQTT error: Error: read ECONNRESET
+[2023-08-02T02:56:00.889] [INFO] mqtt - MQTT start reconnect 6 times
+[2023-08-02T02:56:00.889] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:56:00.889] [INFO] mqtt - RabbitMQ server is disconnected
+[2023-08-02T02:56:03.892] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:56:03.892] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:56:03.892] [INFO] mqtt - RabbitMQ vhost: 2Vy65gaOgEqZ
+[2023-08-02T02:56:03.892] [INFO] mqtt - mqttUri: mqtt://2Vy65gaOgEqZ%3AENQojPow26y6:0IVUWSP3NcHciWvqZTa3@10.32.10.68:1883
+[2023-08-02T02:56:03.903] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T02:56:03.907] [INFO] mqtt - RabbitMQ server connected
+[2023-08-02T03:05:00.019] [INFO] worker - RotationTask current time:  2023-08-02T03:05:00.019Z
+[2023-08-02T03:05:00.020] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 03:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T03:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T03:05:00.036] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T03:05:00.039] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T03:05:54.902] [INFO] common - req info:  POST /v1.0/cert/device/
+[2023-08-02T03:05:54.903] [INFO] common - accountName  admin@iot.sense
+[2023-08-02T03:05:55.035] [INFO] certCtrl - -----start generate iothub device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificates/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificates',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  '07ff5e25-6232-4ac7-ab86-6c017e2409c9',
+  'e475b2b2-f1cc-4864-b3e9-28ac7e91e56a',
+  '820759fd-29cb-4dbb-b9b5-2879962fab7d',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-02T03:05:55.036] [INFO] certCtrl - -----start generate rabbitmq device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  '2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9',
+  'e475b2b2-f1cc-4864-b3e9-28ac7e91e56a',
+  '1f3beb2f-4c26-4162-affc-9dda89fcaba3',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-02T03:05:55.292] [INFO] certCtrl - -----iothub device cert cn 07ff5e25-6232-4ac7-ab86-6c017e2409c9 output: ======> e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+Creating Leaf Device Certificate using intermediate_ca_index: e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-07ff5e25-6232-4ac7-ab86-6c017e2409c9.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-07ff5e25-6232-4ac7-ab86-6c017e2409c9.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 10 (0xa)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug  2 03:05:55 2023 GMT
+            Not After : Aug  1 03:05:55 2024 GMT
+        Subject: O = WISE-Edge365, CN = 07ff5e25-6232-4ac7-ab86-6c017e2409c9
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:d2:d9:00:00:07:2a:b8:aa:9c:81:16:6a:5f:64:
+                    2f:04:e1:0a:e4:82:db:60:16:ad:03:08:43:66:89:
+                    5e:b7:b8:d8:57:d1:00:4c:70:58:31:2a:3f:c1:a5:
+                    15:cc:5b:42:b4:98:60:1d:2c:de:ae:b6:74:d3:0c:
+                    90:1e:f5:11:bf:47:d6:d7:ae:5a:9b:8b:b7:18:81:
+                    30:99:f5:98:41:35:f3:ca:3f:9d:90:69:ca:69:3f:
+                    04:cc:da:71:53:4b:fa:3b:c3:bd:90:41:f1:fd:d6:
+                    97:ce:55:ae:b3:8e:b4:8e:98:fa:40:73:8e:9b:1a:
+                    37:d6:e3:8f:bc:ab:93:0b:9c:3d:41:57:b4:6c:74:
+                    6b:36:26:08:19:f9:51:78:99:a8:18:2c:37:95:86:
+                    0f:19:0e:97:f1:e4:35:bd:de:02:31:79:c2:81:b0:
+                    26:3a:60:64:d2:28:11:e3:14:3a:73:f4:2c:5b:01:
+                    26:5b:41:4c:be:f1:3e:fe:83:4c:36:ef:c9:a1:f0:
+                    22:92:0f:90:e0:e1:96:26:55:0b:ee:e1:b9:01:74:
+                    76:f0:1a:67:36:99:98:52:46:26:30:b3:46:36:fa:
+                    12:a4:41:5d:71:8e:47:c1:ed:c9:97:7e:89:42:94:
+                    35:14:ca:94:5c:1f:f3:d1:bf:a0:f9:95:16:65:c3:
+                    b2:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                3A:AF:8E:41:92:3E:7B:F8:67:3E:D4:66:CF:A9:A2:47:92:56:23:5E
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         32:11:06:72:3c:9f:f1:73:40:58:66:54:c1:b8:9d:e4:45:ea:
+         78:c2:e1:13:02:d2:7b:6e:f0:58:e2:44:c8:86:a6:6e:0f:35:
+         21:1f:52:fb:a7:6f:87:35:5d:52:ae:cd:23:be:bd:66:25:e2:
+         a7:2b:17:d2:7d:65:b6:9d:ab:10:63:b8:0c:d9:dd:f7:b3:48:
+         60:f9:d0:ea:e7:e8:23:7b:c4:e3:da:60:4c:3b:8f:3a:d5:31:
+         0b:b6:2b:91:88:24:f0:59:98:4b:79:f1:f4:67:c8:a6:dc:8d:
+         04:e4:13:1e:85:5b:93:5b:12:4b:4c:f5:0b:20:05:95:ea:47:
+         6b:b3:a4:9b:5f:57:0b:71:c5:5f:64:69:96:a7:1e:05:0f:ba:
+         af:1f:3a:df:59:b4:fb:eb:b5:90:83:57:12:66:cd:88:21:95:
+         cf:76:7e:73:e8:02:c3:c5:b1:c3:7c:19:7d:31:78:d6:9e:d3:
+         09:f4:15:8a:0d:31:bd:87:ad:bd:aa:2d:b1:f9:18:48:e1:01:
+         9d:e3:5e:9a:3a:03:a6:3d:99:c0:12:a6:5f:6a:9e:a8:e7:de:
+         c9:7d:3b:48:cc:c2:3d:1c:05:3a:8e:0e:fc:e2:28:96:9b:37:
+         02:4a:41:64:f7:9a:a8:51:0a:06:d7:6f:ca:0d:d2:d6:20:c9:
+         cc:fb:69:61
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-02T03:05:55.292] [INFO] certCtrl - -----end generate iothub device cert cn 07ff5e25-6232-4ac7-ab86-6c017e2409c9-----
+[2023-08-02T03:05:55.292] [INFO] certCtrl - -----rabbitmq device cert cn 2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9 output: ======> e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+Creating Leaf Device Certificate using intermediate_ca_index: e475b2b2-f1cc-4864-b3e9-28ac7e91e56a
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug  2 03:05:55 2023 GMT
+            Not After : Aug  1 03:05:55 2024 GMT
+        Subject: O = WISE-Edge365, CN = 2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:a9:0f:52:68:35:e1:e3:c3:c3:28:7d:1a:8c:af:
+                    67:18:6d:13:2b:87:0c:44:68:cc:b1:ab:01:25:4d:
+                    98:25:b0:55:ad:38:64:05:09:86:64:0d:0b:8e:ac:
+                    a3:ac:b3:fd:e5:f1:42:07:8f:a4:c1:7b:06:7d:8c:
+                    ae:a7:8a:7c:d1:ca:c0:a1:e4:f1:aa:ca:98:a6:d3:
+                    85:06:88:06:88:49:67:47:e1:98:2c:f4:3a:0a:b5:
+                    b4:6a:b4:2f:b6:4d:93:f8:85:31:e3:07:65:80:4d:
+                    e5:a8:fa:72:29:1b:d4:d4:a8:8a:62:c5:7c:55:a9:
+                    26:15:24:ae:b6:10:1c:c8:a3:a9:07:a3:58:6d:9d:
+                    9f:33:51:fa:6d:81:0a:be:32:7d:47:28:57:71:94:
+                    fe:81:65:1b:4a:77:02:84:ca:a8:a0:c0:af:a0:92:
+                    85:eb:97:e1:df:95:17:e5:29:fb:3f:3e:e0:f5:c6:
+                    03:f2:cd:4a:d2:e1:a9:0f:fa:20:92:7e:f1:27:97:
+                    2c:02:2e:6f:20:4f:11:52:ae:c7:5f:ed:50:c2:98:
+                    52:48:ef:4d:45:7a:3f:b7:51:f5:ba:8d:62:31:5c:
+                    b7:54:05:02:df:75:db:63:f1:d4:90:d5:11:e0:01:
+                    05:94:4f:91:9e:d3:76:bc:60:57:c6:8f:de:d3:ea:
+                    27:8b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                F4:1B:25:57:9F:23:79:B6:AA:F6:50:BB:6D:4A:9A:0F:8A:32:40:7F
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         12:58:b4:f3:b3:e0:39:60:5f:67:56:70:49:5d:19:50:a9:2a:
+         ae:c5:6c:91:ca:85:78:3a:d8:4e:32:f3:8e:b4:a0:c5:13:7a:
+         c5:3d:25:07:d9:fe:07:fc:0f:f7:c8:5c:b3:c8:cc:c8:57:e8:
+         72:29:f4:1e:15:fe:3e:4e:d3:91:15:5d:1b:9a:50:ba:1b:76:
+         79:7d:08:93:cf:71:ac:a3:08:a6:33:ae:59:85:00:bf:c8:56:
+         df:e8:20:4d:bc:88:d2:63:7c:c5:18:37:e2:5a:81:9c:9f:d5:
+         0a:ea:3b:88:66:f7:4f:3b:c6:4f:fc:18:b4:e6:c1:63:9c:09:
+         38:e8:9c:c4:20:95:22:a4:ac:9c:da:0a:e5:51:c7:11:7a:15:
+         7b:e6:64:0c:12:3b:d7:95:f0:de:ee:e5:9b:1e:6d:9e:94:ff:
+         8b:b2:43:64:86:22:31:5f:47:f7:40:14:6f:d5:a8:f0:8a:99:
+         ff:61:b0:6e:49:6f:ba:32:00:bd:d0:bf:59:71:b6:41:96:c0:
+         12:22:18:af:7a:16:fc:89:66:b1:fa:a9:a9:5f:72:e9:50:1c:
+         00:09:e3:52:18:13:02:a9:e2:8e:23:6d:40:61:bf:01:e0:d7:
+         ef:e5:78:99:6d:c0:ca:e5:25:26:ba:c0:fb:1c:fa:33:d5:81:
+         e6:0a:45:05
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-02T03:05:55.293] [INFO] certCtrl - -----end generate rabbitmq device cert cn 2Vy65gaOgEqZ:07ff5e25-6232-4ac7-ab86-6c017e2409c9-----
+[2023-08-02T03:06:28.799] [INFO] common - req info:  GET /v1.0/cert/device/07ff5e25-6232-4ac7-ab86-6c017e2409c9
+[2023-08-02T03:06:28.800] [INFO] common - accountName  admin@iot.sense
+[2023-08-02T03:23:57.851] [INFO] common - req info:  POST /v1.0/cert/device/
+[2023-08-02T03:23:57.852] [INFO] common - accountName  admin@iot.sense
+[2023-08-02T03:23:58.080] [INFO] certCtrl - -----start generate iothub device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificates/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificates',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  'e9addcaf-9d93-4426-8161-9109f17572ab',
+  'b427fb6a-ab47-47ae-84ba-6aae088ac14a',
+  '22aa2e78-2fc5-4fad-add4-5667dbf77755',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-02T03:23:58.081] [INFO] certCtrl - -----start generate rabbitmq device cert [
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ/script/certGenDeviceCA.sh',
+  '/home/gapplit/DM_API_Cert/tools/CACertificatesForRabbitMQ',
+  '"WISE-Edge365 Device Cert"',
+  'WISE-Edge365',
+  'root',
+  365,
+  'd550336d-e183-498b-9af8-bb7b1a6d5520',
+  '2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab',
+  'b427fb6a-ab47-47ae-84ba-6aae088ac14a',
+  '61d8d3d7-c495-4556-b5ea-4112d6028aa9',
+  '10.32.10.68',
+  '10.32.10.68',
+  'usr_cert'
+] -----
+[2023-08-02T03:23:58.432] [INFO] certCtrl - -----iothub device cert cn e9addcaf-9d93-4426-8161-9109f17572ab output: ======> b427fb6a-ab47-47ae-84ba-6aae088ac14a
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=b427fb6a-ab47-47ae-84ba-6aae088ac14a
+Creating Leaf Device Certificate using intermediate_ca_index: b427fb6a-ab47-47ae-84ba-6aae088ac14a
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-e9addcaf-9d93-4426-8161-9109f17572ab.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-e9addcaf-9d93-4426-8161-9109f17572ab.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 11 (0xb)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug  2 03:23:58 2023 GMT
+            Not After : Aug  1 03:23:58 2024 GMT
+        Subject: O = WISE-Edge365, CN = e9addcaf-9d93-4426-8161-9109f17572ab
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:f9:c1:41:51:78:e8:4f:3b:19:3d:5c:5f:27:8b:
+                    64:5a:af:2b:ef:65:8f:99:47:32:20:df:39:a1:9c:
+                    ef:c9:f7:19:ab:25:39:ff:b8:13:ce:f2:6b:f9:f0:
+                    9b:61:43:b6:89:96:d9:dc:be:da:a4:60:b4:14:ba:
+                    37:d0:86:85:86:1d:ba:7a:98:58:ee:8a:4e:0f:54:
+                    67:29:11:4b:7b:5d:41:17:dc:5b:46:ab:b2:1b:4a:
+                    c4:3b:0b:0d:fe:a1:02:3a:d0:a3:09:c5:4c:e1:c2:
+                    29:56:fb:2a:3d:f6:01:84:4a:a3:b3:6b:17:9a:b1:
+                    33:0a:e0:f9:b7:1e:96:18:0c:36:6e:99:d9:e4:27:
+                    1e:8e:60:e7:a1:e5:4c:26:56:d1:d1:b5:18:47:d8:
+                    47:0c:7b:3d:4a:42:0a:a8:53:b4:e7:72:c5:ec:df:
+                    e2:d1:53:77:29:b5:5d:53:90:bf:5a:72:03:7d:b3:
+                    26:6d:c8:2e:1f:91:5a:45:d3:73:b5:7e:c6:08:15:
+                    e8:9a:fd:78:18:ce:82:f4:a8:99:d2:5e:43:22:72:
+                    b3:6d:97:10:07:aa:47:45:90:bc:27:a2:7e:18:b4:
+                    f8:f0:33:12:ce:fd:f9:a1:80:98:1d:25:b6:62:8e:
+                    9b:ad:fc:10:bc:d9:64:52:81:e6:3c:68:3d:ac:12:
+                    be:7b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                62:A1:FE:10:87:9B:B4:9A:D9:4F:15:84:72:67:E0:F4:97:03:BC:B6
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         2e:7a:4d:25:94:87:a0:f0:a4:e0:b0:48:3a:fc:ac:33:50:0c:
+         c3:48:71:67:5f:3c:e9:43:0d:e8:46:c7:c4:59:17:56:27:24:
+         02:a5:b4:61:7a:2f:64:5f:4a:63:fb:43:64:84:15:b3:f3:b0:
+         e0:e9:da:33:83:b7:10:49:1f:41:c6:0d:8d:16:97:1d:de:f0:
+         a0:16:6d:18:e1:27:30:b9:e6:6c:e7:c7:e7:8f:91:e8:9c:a2:
+         ee:36:44:4a:92:40:b6:e8:f0:1a:cc:65:a8:98:bf:ef:fb:be:
+         99:b4:09:04:81:74:cb:3f:c6:87:d7:33:d7:b8:4b:73:8c:f9:
+         33:87:7c:04:7b:80:cf:3d:f9:d1:74:31:b6:b3:6d:83:af:f6:
+         5d:89:e6:c5:57:1a:06:4b:05:67:75:98:1b:3f:c3:00:ba:0f:
+         49:98:66:03:e4:77:b0:6f:7d:33:6c:3c:a9:ec:2e:b5:78:ac:
+         4a:ac:30:06:30:b0:b0:86:d3:bb:7a:15:c1:be:3a:00:47:69:
+         e2:cc:21:ca:b7:bf:6d:1b:ea:71:5d:26:96:9a:fa:db:8b:58:
+         33:a2:76:fb:30:18:22:60:94:9a:17:d5:4f:c1:46:8c:58:4a:
+         11:08:84:b2:ee:58:d5:ca:78:f4:88:6c:3d:63:ce:2d:a8:c2:
+         10:b2:df:8b
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-02T03:23:58.433] [INFO] certCtrl - -----end generate iothub device cert cn e9addcaf-9d93-4426-8161-9109f17572ab-----
+[2023-08-02T03:23:58.433] [INFO] certCtrl - -----rabbitmq device cert cn 2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab output: ======> b427fb6a-ab47-47ae-84ba-6aae088ac14a
+PARAMETER: server_ip=10.32.10.68 server_dns=10.32.10.68 intermediate_idx=b427fb6a-ab47-47ae-84ba-6aae088ac14a
+Creating Leaf Device Certificate using intermediate_ca_index: b427fb6a-ab47-47ae-84ba-6aae088ac14a
+----------------------------------------
+Create the Leaf Device Certificate Request
+----------------------------------------
+Verify signature of the Leaf Device  certificate with the signer
+-----------------------------------
+./device_ca/device-2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab.cert.pem: OK
+Leaf Device Certificate Generated At:
+----------------------------------------
+    ./device_ca/device-2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab.cert.pem
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O = WISE-Edge365, CN = WISE-Edge365 Intermediate Cert for edge365
+        Validity
+            Not Before: Aug  2 03:23:58 2023 GMT
+            Not After : Aug  1 03:23:58 2024 GMT
+        Subject: O = WISE-Edge365, CN = 2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:e0:23:01:80:d9:97:96:1b:d1:c8:ed:41:d5:74:
+                    4b:a8:fb:de:b0:5a:c0:3a:a7:d0:8d:d3:9e:b3:7e:
+                    e5:9f:61:66:56:82:55:28:d2:f9:74:db:6b:9d:d2:
+                    c0:22:7e:e2:6b:28:3d:e7:20:a9:b2:ea:fa:d2:04:
+                    f3:42:13:97:22:f1:48:87:a0:bd:d1:a9:42:03:51:
+                    5a:ae:b9:27:2f:04:15:a5:09:ec:a4:f4:e2:40:08:
+                    6f:98:95:bd:c6:22:e9:42:62:69:8e:19:17:b8:a6:
+                    e8:21:b1:0f:0b:01:a3:6a:97:f0:54:aa:d3:05:12:
+                    3f:d6:b9:41:d1:10:ea:f9:16:e3:79:f0:f8:05:ad:
+                    3c:05:06:6c:20:2d:a4:32:ec:48:6f:b0:25:4c:4a:
+                    83:87:11:45:d6:96:ac:49:23:58:6d:6a:8b:cc:be:
+                    62:98:95:52:cb:4b:15:7c:88:92:5a:a4:58:02:d0:
+                    44:84:4b:63:ea:c0:e9:ad:c5:01:45:9f:4e:d3:f2:
+                    45:6d:9e:5c:d1:27:f4:f3:bf:85:d4:54:3b:e7:5f:
+                    91:3d:2f:da:01:7c:a8:13:0d:22:31:c8:f4:be:c7:
+                    bd:c2:09:af:c5:fc:67:25:d5:a1:16:2b:68:5d:43:
+                    4a:2b:93:4b:73:37:db:91:91:58:13:9a:19:bf:a1:
+                    45:39
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate
+            X509v3 Subject Key Identifier: 
+                B3:36:A8:D9:61:05:A6:52:7B:D1:34:AF:DE:AA:B7:88:33:42:34:41
+            X509v3 Authority Key Identifier: 
+                keyid:64:A5:D5:D9:37:7C:CC:57:35:8C:E8:7A:D9:DB:3D:02:BC:7B:B4:4A
+
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, E-mail Protection
+    Signature Algorithm: sha256WithRSAEncryption
+         9a:d7:78:55:a0:e2:0c:0a:51:8f:24:14:fd:7e:8b:a3:60:a1:
+         6d:8e:98:f3:3b:95:4d:64:07:8d:e3:00:2c:9c:ad:fd:bb:a3:
+         cc:11:df:35:e5:76:db:b2:66:41:3f:27:1c:47:74:8e:cc:b2:
+         bc:51:a4:1d:d4:b2:96:32:79:ed:90:0f:9f:0f:c7:96:a5:c3:
+         fb:c7:1e:0d:f6:9e:20:b2:01:62:aa:b6:f0:58:d4:5f:18:7e:
+         f4:ba:74:ad:63:35:3f:2f:ca:5d:8f:42:c2:a1:2b:4e:23:02:
+         1b:94:72:92:e6:bc:97:a8:79:92:af:13:26:65:56:50:a6:ea:
+         57:55:cb:4b:5f:b8:f5:16:a9:de:87:05:1a:35:d2:08:90:f0:
+         f8:f5:aa:00:b1:38:cd:93:68:16:c5:88:6e:4f:de:b3:30:d9:
+         fc:d5:f7:a1:75:5a:19:ce:f9:66:cc:d2:21:a8:bd:3f:0b:e9:
+         c1:6d:ed:66:56:d4:4a:6e:66:35:c7:a1:e5:6d:25:45:10:10:
+         e1:ec:21:64:79:b0:ad:d1:95:39:f1:ba:d8:b7:0d:74:8b:fa:
+         f0:c8:fe:14:4e:51:44:ac:b2:1b:96:f5:e3:54:55:e4:b5:dd:
+         98:64:f6:e4:48:ed:62:02:84:1d:b9:6a:3c:51:40:d1:82:35:
+         e5:dc:86:e8
+[7m[33mCerts generated by this script are production
+Also note that these certs will expire in 365 days.
+(B[m -----
+[2023-08-02T03:23:58.433] [INFO] certCtrl - -----end generate rabbitmq device cert cn 2Vy65gaOgEqZ:e9addcaf-9d93-4426-8161-9109f17572ab-----
+[2023-08-02T03:30:00.057] [INFO] worker - ExpiredTask current time:  2023-08-02T03:30:00.057Z
+[2023-08-02T03:30:00.058] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 03:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T03:30:00.075] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T03:30:00.075] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T03:30:00.075] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T03:30:00.075] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T03:30:00.076] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T03:30:00.076] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T04:05:00.009] [INFO] worker - RotationTask current time:  2023-08-02T04:05:00.009Z
+[2023-08-02T04:05:00.010] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 04:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T04:05:05.011] [ERROR] db - Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:05.011] [ERROR] db - getRootAndIntermediateCertWithExpiredDay error:  Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:05.012] [INFO] rotationCert - Getting the root and intermediate cert has failed
+[2023-08-02T04:05:10.016] [ERROR] db - Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:10.017] [ERROR] db - getIntermediateCertWithExpiredDay error:  Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:10.017] [INFO] rotationCert - Getting the intermediate cert has failed
+[2023-08-02T04:05:15.022] [ERROR] db - Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:15.023] [ERROR] db - getDeviceCertWithExpiredDay error:  Error: Connection terminated due to connection timeout
+    at Connection.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/home/gapplit/DM_API_Cert/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:322:12)
+[2023-08-02T04:05:15.023] [INFO] rotationCert - Getting the device cert has failed
+[2023-08-02T04:30:00.004] [INFO] worker - ExpiredTask current time:  2023-08-02T04:30:00.004Z
+[2023-08-02T04:30:00.006] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 04:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T04:30:00.066] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T04:30:00.066] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T04:30:00.066] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T04:30:00.066] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T04:30:00.066] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T04:30:00.066] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T05:05:00.055] [INFO] worker - RotationTask current time:  2023-08-02T05:05:00.055Z
+[2023-08-02T05:05:00.056] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 05:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T05:05:00.069] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T05:05:00.071] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T05:05:00.073] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T05:30:00.008] [INFO] worker - ExpiredTask current time:  2023-08-02T05:30:00.008Z
+[2023-08-02T05:30:00.009] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 05:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T05:30:00.022] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T05:30:00.025] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T05:30:00.025] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T05:30:00.026] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T05:30:00.026] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T05:30:00.026] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T06:05:00.004] [INFO] worker - RotationTask current time:  2023-08-02T06:05:00.004Z
+[2023-08-02T06:05:00.008] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 06:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T06:05:00.021] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T06:05:00.024] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T06:05:00.026] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T06:30:00.026] [INFO] worker - ExpiredTask current time:  2023-08-02T06:30:00.026Z
+[2023-08-02T06:30:00.029] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 06:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T06:30:00.051] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T06:30:00.051] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T06:30:00.051] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T06:30:00.051] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T06:30:00.051] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T06:30:00.051] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T07:05:00.027] [INFO] worker - RotationTask current time:  2023-08-02T07:05:00.026Z
+[2023-08-02T07:05:00.027] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 07:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T07:05:00.042] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T07:05:00.045] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T07:05:00.048] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T07:30:00.006] [INFO] worker - ExpiredTask current time:  2023-08-02T07:30:00.006Z
+[2023-08-02T07:30:00.007] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 07:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T07:30:00.023] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T07:30:00.024] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T07:30:00.024] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T07:30:00.024] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T07:30:00.024] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T07:30:00.024] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T08:05:00.049] [INFO] worker - RotationTask current time:  2023-08-02T08:05:00.049Z
+[2023-08-02T08:05:00.050] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 08:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T08:05:00.062] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T08:05:00.064] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T08:05:00.066] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T08:30:00.004] [INFO] worker - ExpiredTask current time:  2023-08-02T08:30:00.004Z
+[2023-08-02T08:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 08:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T08:30:00.025] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T08:30:00.025] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T08:30:00.025] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T08:30:00.025] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T08:30:00.025] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T08:30:00.025] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T09:05:00.005] [INFO] worker - RotationTask current time:  2023-08-02T09:05:00.005Z
+[2023-08-02T09:05:00.006] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 09:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T09:05:00.018] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T09:05:00.021] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T09:05:00.025] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T09:30:00.033] [INFO] worker - ExpiredTask current time:  2023-08-02T09:30:00.033Z
+[2023-08-02T09:30:00.034] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 09:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T09:30:00.052] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T09:30:00.052] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T09:30:00.052] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T09:30:00.052] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T09:30:00.052] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T09:30:00.052] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T10:05:00.010] [INFO] worker - RotationTask current time:  2023-08-02T10:05:00.010Z
+[2023-08-02T10:05:00.012] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 10:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T10:05:00.026] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T10:05:00.028] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T10:05:00.030] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T10:30:00.004] [INFO] worker - ExpiredTask current time:  2023-08-02T10:30:00.004Z
+[2023-08-02T10:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 10:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T10:30:00.021] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T10:30:00.021] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T10:30:00.021] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T10:30:00.021] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T10:30:00.021] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T10:30:00.021] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T11:05:00.011] [INFO] worker - RotationTask current time:  2023-08-02T11:05:00.011Z
+[2023-08-02T11:05:00.013] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 11:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T11:05:00.026] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T11:05:00.030] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T11:05:00.033] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T11:30:00.044] [INFO] worker - ExpiredTask current time:  2023-08-02T11:30:00.044Z
+[2023-08-02T11:30:00.045] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 11:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T11:30:00.061] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T11:30:00.061] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T11:30:00.061] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T11:30:00.061] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T11:30:00.061] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T11:30:00.061] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T12:05:00.023] [INFO] worker - RotationTask current time:  2023-08-02T12:05:00.023Z
+[2023-08-02T12:05:00.024] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 12:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T12:05:00.038] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T12:05:00.040] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T12:05:00.041] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T12:30:00.013] [INFO] worker - ExpiredTask current time:  2023-08-02T12:30:00.013Z
+[2023-08-02T12:30:00.014] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 12:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T12:30:00.029] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T12:30:00.029] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T12:30:00.029] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T12:30:00.029] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T12:30:00.029] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T12:30:00.029] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T13:05:00.036] [INFO] worker - RotationTask current time:  2023-08-02T13:05:00.036Z
+[2023-08-02T13:05:00.038] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 13:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T13:05:00.049] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T13:05:00.053] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T13:05:00.055] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T13:30:00.004] [INFO] worker - ExpiredTask current time:  2023-08-02T13:30:00.004Z
+[2023-08-02T13:30:00.005] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 13:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T13:30:00.019] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T13:30:00.019] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T13:30:00.019] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T13:30:00.019] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T13:30:00.019] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T13:30:00.019] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T14:05:00.019] [INFO] worker - RotationTask current time:  2023-08-02T14:05:00.019Z
+[2023-08-02T14:05:00.020] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 14:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T14:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T14:05:00.037] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T14:05:00.040] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T14:30:00.039] [INFO] worker - ExpiredTask current time:  2023-08-02T14:30:00.039Z
+[2023-08-02T14:30:00.040] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 14:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T14:30:00.058] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T14:30:00.059] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T14:30:00.059] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T14:30:00.059] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T14:30:00.059] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T14:30:00.059] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T15:05:00.009] [INFO] worker - RotationTask current time:  2023-08-02T15:05:00.009Z
+[2023-08-02T15:05:00.009] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 15:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T15:05:00.023] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T15:05:00.026] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T15:05:00.029] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T15:30:00.025] [INFO] worker - ExpiredTask current time:  2023-08-02T15:30:00.025Z
+[2023-08-02T15:30:00.026] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 15:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T15:30:00.043] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T15:30:00.043] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T15:30:00.043] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T15:30:00.043] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T15:30:00.043] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T15:30:00.043] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T16:05:00.022] [INFO] worker - RotationTask current time:  2023-08-02T16:05:00.022Z
+[2023-08-02T16:05:00.023] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 16:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T16:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T16:05:00.036] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T16:05:00.038] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T16:30:00.034] [INFO] worker - ExpiredTask current time:  2023-08-02T16:30:00.034Z
+[2023-08-02T16:30:00.035] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 16:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T16:30:00.049] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T16:30:00.050] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T16:30:00.050] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T16:30:00.050] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T16:30:00.050] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T16:30:00.050] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T17:05:00.020] [INFO] worker - RotationTask current time:  2023-08-02T17:05:00.020Z
+[2023-08-02T17:05:00.020] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 17:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T17:05:00.034] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T17:05:00.037] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T17:05:00.039] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T17:30:00.015] [INFO] worker - ExpiredTask current time:  2023-08-02T17:30:00.015Z
+[2023-08-02T17:30:00.016] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 17:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T17:30:00.031] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T17:30:00.031] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T17:30:00.031] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T17:30:00.031] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T17:30:00.031] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T17:30:00.031] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T18:05:00.013] [INFO] worker - RotationTask current time:  2023-08-02T18:05:00.013Z
+[2023-08-02T18:05:00.014] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 18:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T18:05:00.029] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T18:05:00.031] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T18:05:00.033] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T18:30:00.031] [INFO] worker - ExpiredTask current time:  2023-08-02T18:30:00.031Z
+[2023-08-02T18:30:00.032] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T18:30:00.050] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T18:30:00.050] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T18:30:00.050] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T18:30:00.050] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T18:30:00.050] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T18:30:00.051] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T19:05:00.029] [INFO] worker - RotationTask current time:  2023-08-02T19:05:00.029Z
+[2023-08-02T19:05:00.030] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 19:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T19:05:00.058] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T19:05:00.065] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T19:05:00.067] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T19:30:00.032] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 19:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T19:30:00.029] [INFO] worker - ExpiredTask current time:  2023-08-02T19:30:00.029Z
+[2023-08-02T19:30:00.047] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T19:30:00.047] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T19:30:00.047] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T19:30:00.047] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T19:30:00.047] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T19:30:00.047] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T20:05:00.007] [INFO] worker - RotationTask current time:  2023-08-02T20:05:00.007Z
+[2023-08-02T20:05:00.007] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 20:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T20:05:00.019] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T20:05:00.021] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T20:05:00.023] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T20:30:00.027] [INFO] worker - ExpiredTask current time:  2023-08-02T20:30:00.027Z
+[2023-08-02T20:30:00.029] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 20:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T20:30:00.044] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T20:30:00.046] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T20:30:00.046] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T20:30:00.046] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T20:30:00.046] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T20:30:00.046] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T21:05:00.026] [INFO] worker - RotationTask current time:  2023-08-02T21:05:00.026Z
+[2023-08-02T21:05:00.026] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 21:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T21:05:00.040] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T21:05:00.043] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T21:05:00.046] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T21:30:00.024] [INFO] worker - ExpiredTask current time:  2023-08-02T21:30:00.024Z
+[2023-08-02T21:30:00.025] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 21:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T21:30:00.040] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T21:30:00.040] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T21:30:00.040] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T21:30:00.040] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T21:30:00.040] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T21:30:00.040] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T22:05:00.019] [INFO] worker - RotationTask current time:  2023-08-02T22:05:00.019Z
+[2023-08-02T22:05:00.020] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 22:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T22:05:00.033] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T22:05:00.036] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T22:05:00.038] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T22:30:00.009] [INFO] worker - ExpiredTask current time:  2023-08-02T22:30:00.009Z
+[2023-08-02T22:30:00.010] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 22:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T22:30:00.027] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T22:30:00.027] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T22:30:00.027] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T22:30:00.027] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T22:30:00.027] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T22:30:00.027] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }
+[2023-08-02T23:05:00.007] [INFO] worker - RotationTask current time:  2023-08-02T23:05:00.007Z
+[2023-08-02T23:05:00.009] [INFO] www - Message from worker: RotationTask current time: Wed Aug 02 2023 23:05:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T23:05:00.020] [INFO] rotationCert - The expiration time for the root and intermediate cert has not been reached yet
+[2023-08-02T23:05:00.021] [INFO] rotationCert - The expiration time for the intermediate cert has not been reached yet
+[2023-08-02T23:05:00.023] [INFO] rotationCert - The expiration time for the device cert has not been reached yet
+[2023-08-02T23:30:00.014] [INFO] worker - ExpiredTask current time:  2023-08-02T23:30:00.014Z
+[2023-08-02T23:30:00.015] [INFO] www - Message from worker: ExpiredTask current time: Wed Aug 02 2023 23:30:00 GMT+0000 (Coordinated Universal Time)
+[2023-08-02T23:30:00.029] [INFO] expiredCert - Getting the retired for the root cert has not been reached yet
+[2023-08-02T23:30:00.029] [INFO] expiredCert - Getting the retired for the intermediate cert has not been reached yet
+[2023-08-02T23:30:00.029] [INFO] expiredCert - Getting the retired for the device cert has not been reached yet
+[2023-08-02T23:30:00.029] [INFO] expiredCert - Getting the retired for the server cert has not been reached yet
+[2023-08-02T23:30:00.029] [INFO] expiredCert - expired: certInfo map size  0
+[2023-08-02T23:30:00.033] [INFO] expiredCert - expired: certInfo map info  [Map Iterator] {  }

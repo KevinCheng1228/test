@@ -1,0 +1,13 @@
+router.get('/device/list', (req, res) => {
+    let accountName = common.getUserNameFromJwtToken(req);
+
+    pg.query('select id, serial_no from adv_cert_device where status = 0 and is_deleted = false', [])
+        .then(result => {
+            if (!result.status) throw new Error(result.message);
+            return res.send({ result: result.rows })
+        })
+        .catch(error => {
+            logger.error('/device/list: ', error.message);
+            responseError(res, error.message);
+        })
+});
