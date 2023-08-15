@@ -1,0 +1,23 @@
+{
+    "_id" : ObjectId("64d9cfe0e2f6c976b1e78432"),
+    "orgid" : 3,
+    "devid" : 81,
+    "devname" : "UATDevice03wX509",
+    "devserialno" : "1dad3f53-1b3b-49c3-8518-e6b67fa17e7d",
+    "protocoltype" : 2,
+    "accountid" : 1,
+    "accountname" : "ssopassroot@email.com",
+    "settime" : ISODate("2023-08-14T06:55:28.940Z"),
+    "cmd" : "edgelink_firmware",
+    "key" : "",
+    "exptime" : "",
+    "comment" : "",
+    "topic" : "Advantech/182C651D93C4/file",
+    "status" : 3,
+    "service" : "api-dm",
+    "file_name" : "ECU1252M_adv-rootfs_EdgeLink_2.8.3_Beta_2306291129_v2.8.x.bin",
+    "file_version" : "2.8.2",
+    "file_path" : "file_manage/-1/3/1691658749988/2.8.2/",
+    "dispatch_no" : "5_f278c2381e7e4701980b8cac3c21ca85",
+    "updatetime" : ISODate("2023-08-14T07:05:29.541Z")
+}
