@@ -1,0 +1,53 @@
+Name:             busybox-0
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             aks-newpool-31543711-vmss000000/10.32.5.5
+Start Time:       Wed, 24 May 2023 05:57:34 +0000
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.32.5.23
+IPs:
+  IP:  10.32.5.23
+Containers:
+  busybox:
+    Container ID:   containerd://1d3f493629e7cf4da9ccbe12707ca0aee0cec570dcf112469a4302ea6072162b
+    Image:          harbor.wise-paas.io/ensaas-production/alpine:curl
+    Image ID:       harbor.wise-paas.io/ensaas-production/alpine@sha256:9c8edbcd317ee4e3a15f045c2fc4de26543d2fc827a58906212cf0daa7414a75
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Wed, 24 May 2023 05:57:35 +0000
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:                100m
+      ephemeral-storage:  256Mi
+      memory:             128Mi
+    Requests:
+      cpu:                100m
+      ephemeral-storage:  256Mi
+      memory:             128Mi
+    Environment:          <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-sfgqp (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  kube-api-access-sfgqp:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              kubernetes.io/hostname=aks-newpool-31543711-vmss000000
+Tolerations:                 node.kubernetes.io/memory-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:                      <none>
