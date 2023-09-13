@@ -1,0 +1,903 @@
+2023-09-13 09:47:04.746 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(85,396,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:04.817 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(85,396,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:04.827 CalcTagEvaluateThread(EvaluateThreadForNormalTags) active log, sleepTimes=15245386, skipSleepTimes=2511, mainCycleTimes=15247897
+2023-09-13 09:47:04.888 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(85,396,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:04.958 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(85,396,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.032 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(85,396,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.101 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(85,396,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.154 NonDataMsgThread active log
+2023-09-13 09:47:05.171 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_NUM_SITES, evalfreq=60000, formula=TotalObjects(85,396,-1, 'G_SITE_ID'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.244 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(85,396,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.315 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(85,396,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.331 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_1, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.414 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_2, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.489 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_3, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.571 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_4, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.650 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_5, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.729 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_6, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.804 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_7, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.875 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SITE_ALARM_8, evalfreq=60000, formula=TotalObjects(85,396,-1,'G_SITE_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.948 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SN5_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(85,396), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.967 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_SN5_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(85,396)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:05.985 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(85,396,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.006 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(85,396,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.022 ForUserFunctionTagsThread: calc tag, devid=494, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(85,396,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.039 ForUserFunctionTagsThread: calc tag, devid=494, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(85,396)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.055 ForUserFunctionTagsThread: calc tag, devid=494, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(85,396)  >2,2,(   if(getGroupAlarmStatus(85,396)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.085 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(41,402,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.108 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(41,402,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.118 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(41,402,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.134 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(41,402,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.144 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.315 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.473 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.628 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.782 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:06.936 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.107 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.273 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(41,402,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.439 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(41,402,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.467 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(41,402), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.483 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(41,402,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.652 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(41,402), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.668 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(41,402), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.681 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(41,402,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.841 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_INV_NO_OUTPUT, evalfreq=60000, formula=TotalObjects(41,402,-1, 'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.987 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(41,402,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:07.987 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(41,402,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:08.152 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(41,402,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:08.176 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 1) +TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 2)+TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 3) +TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 4)+TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 6)+TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 5) + TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 7) + TotalObjects(41,402,-1, {402:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:09.467 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:09.625 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_LOGGER_ONLINE',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:09.792 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(41,402,-1, 'G_GROUP_ALARM', 1) +TotalObjects(41,402,-1,  'G_GROUP_ALARM', 2)+TotalObjects(41,402,-1,  'G_GROUP_ALARM', 3) +TotalObjects(41,402,-1,  'G_GROUP_ALARM', 4)+TotalObjects(41,402,-1, 'G_GROUP_ALARM', 6)+TotalObjects(41,402,-1, 'G_GROUP_ALARM', 5) + TotalObjects(41,402,-1, 'G_GROUP_ALARM', 7) + TotalObjects(41,402,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:09.828 CalcTagEvaluateThread(EvaluateThreadForNormalTags) active log, sleepTimes=15249569, skipSleepTimes=2511, mainCycleTimes=15252080
+2023-09-13 09:47:10.158 NonDataMsgThread active log
+2023-09-13 09:47:10.534 ApiServiceTest OK
+2023-09-13 09:47:11.186 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(41,402,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:11.340 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(41,402,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:11.492 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(41,402,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:11.669 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(41,402,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:11.823 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(41,402,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:11.973 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(41,402,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.123 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_NUM_SITES, evalfreq=60000, formula=TotalObjects(41,402,-1, 'G_SITE_ID'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.286 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(41,402,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.457 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(41,402,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.477 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_1, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.660 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_2, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.813 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_3, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:12.982 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_4, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.147 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_5, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.304 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_6, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.453 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_7, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.608 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SITE_ALARM_8, evalfreq=60000, formula=TotalObjects(41,402,-1,'G_SITE_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.753 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SN5_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(41,402), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.769 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_SN5_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(41,402)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.782 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(41,402,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.794 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(41,402,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.811 ForUserFunctionTagsThread: calc tag, devid=500, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(41,402,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.827 ForUserFunctionTagsThread: calc tag, devid=500, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(41,402)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.846 ForUserFunctionTagsThread: calc tag, devid=500, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(41,402)  >2,2,(   if(getGroupAlarmStatus(41,402)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.874 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(82,403,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.889 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(82,403,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.898 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(82,403,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.914 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(82,403,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.929 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.936 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.941 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.949 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.954 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.960 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.966 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.972 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(82,403,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.977 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(82,403,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:13.996 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(82,403,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.002 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(82,403), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.016 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(82,403,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.023 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(82,403,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.030 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(82,403,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.046 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(82,403,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.056 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(82,403,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.071 ForUserFunctionTagsThread: calc tag, devid=501, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(82,403,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.082 ForUserFunctionTagsThread: calc tag, devid=501, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(82,403)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.099 ForUserFunctionTagsThread: calc tag, devid=501, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(82,403)  >2,2,(   if(getGroupAlarmStatus(82,403)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.121 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(84,405,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.138 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(84,405,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.151 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(84,405,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.168 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(84,405,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.183 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.196 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.204 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.212 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.217 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.222 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.229 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.239 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(84,405,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.246 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(84,405,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.264 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(84,405,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.272 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(84,405), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.286 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(84,405,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.295 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(84,405,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.300 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(84,405,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.313 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(84,405,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.319 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(84,405,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.333 ForUserFunctionTagsThread: calc tag, devid=503, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(84,405,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.345 ForUserFunctionTagsThread: calc tag, devid=503, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(84,405)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.362 ForUserFunctionTagsThread: calc tag, devid=503, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(84,405)  >2,2,(   if(getGroupAlarmStatus(84,405)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.391 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(83,409,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.410 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(83,409,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.422 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(83,409,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.437 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(83,409,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.448 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.455 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.461 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.465 EvaluateThread.CheckWorkThreads
+2023-09-13 09:47:14.465 TimerThread active log::Evaluator: Ver=2.00.002.03.20230620.1641-fix08, MaxMemory=174M, TotalMemory=32M, FreeMemory=9M, tagCountInMem=2233, ReceivedMqttMsgCnt=2476
+2023-09-13 09:47:14.468 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.475 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.482 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.489 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.497 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(83,409,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.504 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(83,409,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.520 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(83,409,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.530 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(83,409), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.543 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(83,409,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.550 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(83,409,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.556 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(83,409,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.570 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(83,409,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.576 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(83,409,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.592 ForUserFunctionTagsThread: calc tag, devid=507, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(83,409,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.606 ForUserFunctionTagsThread: calc tag, devid=507, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(83,409)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.622 ForUserFunctionTagsThread: calc tag, devid=507, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(83,409)  >2,2,(   if(getGroupAlarmStatus(83,409)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.649 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(47,411,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.665 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(47,411,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.680 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(47,411,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.696 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(47,411,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.712 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.719 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.725 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.731 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.739 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.745 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.750 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.756 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(47,411,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.761 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(47,411,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.775 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(47,411,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.780 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(47,411), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.796 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(47,411,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.802 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(47,411,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.807 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(47,411,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.821 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(47,411,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.827 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(47,411,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.829 CalcTagEvaluateThread(EvaluateThreadForNormalTags) active log, sleepTimes=15253745, skipSleepTimes=2512, mainCycleTimes=15256257
+2023-09-13 09:47:14.852 ForUserFunctionTagsThread: calc tag, devid=509, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(47,411,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.866 ForUserFunctionTagsThread: calc tag, devid=509, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(47,411)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.880 ForUserFunctionTagsThread: calc tag, devid=509, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(47,411)  >2,2,(   if(getGroupAlarmStatus(47,411)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.910 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(43,412,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.927 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(43,412,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.941 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(43,412,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.969 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(43,412,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:14.981 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.007 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.035 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.062 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.093 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.122 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.151 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.161 NonDataMsgThread active log
+2023-09-13 09:47:15.178 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(43,412,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.208 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(43,412,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.225 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(43,412), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.243 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(43,412,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.269 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(43,412), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.284 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(43,412), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.309 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(43,412,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.337 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(43,412,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.337 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(43,412,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.361 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(43,412,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.379 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 1) +TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 2)+TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 3) +TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 4)+TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 6)+TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 5) + TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 7) + TotalObjects(43,412,-1, {412:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.597 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(43,412,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.626 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(43,412,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.656 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(43,412,-1, 'G_GROUP_ALARM', 1) +TotalObjects(43,412,-1,  'G_GROUP_ALARM', 2)+TotalObjects(43,412,-1,  'G_GROUP_ALARM', 3) +TotalObjects(43,412,-1,  'G_GROUP_ALARM', 4)+TotalObjects(43,412,-1, 'G_GROUP_ALARM', 6)+TotalObjects(43,412,-1, 'G_GROUP_ALARM', 5) + TotalObjects(43,412,-1, 'G_GROUP_ALARM', 7) + TotalObjects(43,412,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.867 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(43,412,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.890 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(43,412,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.913 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(43,412,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.940 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(43,412,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:15.963 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(43,412,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.002 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(43,412,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.033 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(43,412,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.057 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(43,412,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.072 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(43,412), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.087 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(43,412)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.103 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(43,412,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.115 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(43,412,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.137 ForUserFunctionTagsThread: calc tag, devid=510, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(43,412,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.153 ForUserFunctionTagsThread: calc tag, devid=510, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(43,412)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.165 ForUserFunctionTagsThread: calc tag, devid=510, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(43,412)  >2,2,(   if(getGroupAlarmStatus(43,412)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.188 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(46,414,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.209 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(46,414,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.221 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(46,414,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.233 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(46,414,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.246 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.253 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.259 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.264 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.270 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.275 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.281 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.286 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(46,414,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.291 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(46,414,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.307 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(46,414,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.313 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(46,414), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.322 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(46,414,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.327 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(46,414,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.333 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(46,414,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.346 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(46,414,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.353 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(46,414,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.361 ForUserFunctionTagsThread: calc tag, devid=512, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(46,414,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.368 ForUserFunctionTagsThread: calc tag, devid=512, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(46,414)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.387 ForUserFunctionTagsThread: calc tag, devid=512, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(46,414)  >2,2,(   if(getGroupAlarmStatus(46,414)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.427 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(45,415,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.445 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(45,415,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.460 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(45,415,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.476 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(45,415,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.490 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.501 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.509 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.517 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.528 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.537 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.545 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.553 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(45,415,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.560 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(45,415,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.573 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(45,415,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.582 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(45,415), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.600 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(45,415,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.607 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(45,415,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.614 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(45,415,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.623 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(45,415,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.632 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(45,415,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.641 ForUserFunctionTagsThread: calc tag, devid=513, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(45,415,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.652 ForUserFunctionTagsThread: calc tag, devid=513, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(45,415)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.670 ForUserFunctionTagsThread: calc tag, devid=513, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(45,415)  >2,2,(   if(getGroupAlarmStatus(45,415)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.704 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(44,416,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.719 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(44,416,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.734 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(44,416,'N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.747 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(44,416,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.764 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.771 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.778 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.784 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.790 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.800 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.810 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.817 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(44,416,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.825 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(44,416,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.841 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(44,416,-1, 'D_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.848 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(44,416), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.863 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(44,416,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.869 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(44,416,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.878 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(44,416,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.889 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(44,416,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.895 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(44,416,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.913 ForUserFunctionTagsThread: calc tag, devid=514, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(44,416,'M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.924 ForUserFunctionTagsThread: calc tag, devid=514, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(44,416)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.941 ForUserFunctionTagsThread: calc tag, devid=514, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(44,416)  >2,2,(   if(getGroupAlarmStatus(44,416)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.975 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(42,417,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:16.993 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(42,417,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.009 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(42,417,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.024 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(42,417,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.040 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.120 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.180 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.257 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.324 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.386 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.449 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.509 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(42,417,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.574 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(42,417,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.591 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(42,417), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.607 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(42,417,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.667 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(42,417), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.683 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(42,417), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.694 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(42,417,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.746 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_INV_NO_OUTPUT, evalfreq=60000, formula=TotalObjects(42,417,-1, 'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.799 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(42,417,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.799 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(42,417,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.850 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(42,417,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:17.867 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 1) +TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 2)+TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 3) +TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 4)+TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 6)+TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 5) + TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 7) + TotalObjects(42,417,-1, {417:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.337 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.396 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_LOGGER_ONLINE',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.457 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(42,417,-1, 'G_GROUP_ALARM', 1) +TotalObjects(42,417,-1,  'G_GROUP_ALARM', 2)+TotalObjects(42,417,-1,  'G_GROUP_ALARM', 3) +TotalObjects(42,417,-1,  'G_GROUP_ALARM', 4)+TotalObjects(42,417,-1, 'G_GROUP_ALARM', 6)+TotalObjects(42,417,-1, 'G_GROUP_ALARM', 5) + TotalObjects(42,417,-1, 'G_GROUP_ALARM', 7) + TotalObjects(42,417,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.887 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(42,417,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.941 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(42,417,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:18.996 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(42,417,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.048 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(42,417,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.100 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(42,417,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.156 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(42,417,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.209 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_NUM_SITES, evalfreq=60000, formula=TotalObjects(42,417,-1, 'G_SITE_ID'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.262 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(42,417,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.311 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(42,417,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.330 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_1, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.387 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_2, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.436 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_3, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.495 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_4, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.550 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_5, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.630 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_6, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.681 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_7, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.736 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SITE_ALARM_8, evalfreq=60000, formula=TotalObjects(42,417,-1,'G_SITE_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.790 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SN5_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(42,417), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.826 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_SN5_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(42,417)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.830 CalcTagEvaluateThread(EvaluateThreadForNormalTags) active log, sleepTimes=15257928, skipSleepTimes=2512, mainCycleTimes=15260440
+2023-09-13 09:47:19.843 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(42,417,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.857 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(42,417,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.867 ForUserFunctionTagsThread: calc tag, devid=515, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(42,417,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.880 ForUserFunctionTagsThread: calc tag, devid=515, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(42,417)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.892 ForUserFunctionTagsThread: calc tag, devid=515, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(42,417)  >2,2,(   if(getGroupAlarmStatus(42,417)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.931 EvaluateThreadForHasUserDefinedFunctionsTags: Time used for last main cycle = 19977ms
+2023-09-13 09:47:19.931 CalcTagEvaluateThread(EvaluateThreadForHasUserDefinedFunctionsTags) active log, sleepTimes=494582, skipSleepTimes=729, tagCount=468, mainCycleTimes=495311
+2023-09-13 09:47:19.931 ForUserFunctionTagsThread: calc tag, devid=97, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(43,75), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.944 ForUserFunctionTagsThread: calc tag, devid=97, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(43,75), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.966 ForUserFunctionTagsThread: calc tag, devid=288, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(81,190), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.978 ForUserFunctionTagsThread: calc tag, devid=288, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(81,190), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:19.989 ForUserFunctionTagsThread: calc tag, devid=293, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(86,195), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.004 ForUserFunctionTagsThread: calc tag, devid=293, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(86,195), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.019 ForUserFunctionTagsThread: calc tag, devid=294, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(87,196), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.048 ForUserFunctionTagsThread: calc tag, devid=294, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(87,196), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.066 ForUserFunctionTagsThread: calc tag, devid=295, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(88,197), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.081 ForUserFunctionTagsThread: calc tag, devid=295, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(88,197), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.096 ForUserFunctionTagsThread: calc tag, devid=296, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(89,198), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.111 ForUserFunctionTagsThread: calc tag, devid=296, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(89,198), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.135 ForUserFunctionTagsThread: calc tag, devid=297, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(90,199), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.165 NonDataMsgThread active log
+2023-09-13 09:47:20.165 ForUserFunctionTagsThread: calc tag, devid=297, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(90,199), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.184 ForUserFunctionTagsThread: calc tag, devid=298, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(91,200), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.200 ForUserFunctionTagsThread: calc tag, devid=298, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(91,200), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.212 ForUserFunctionTagsThread: calc tag, devid=299, tagname=isAlarm, evalfreq=60000, formula=getObjectAlarmStatus(92,201), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.227 ForUserFunctionTagsThread: calc tag, devid=299, tagname=status, evalfreq=60000, formula=getGroupAlarmStatus(92,201), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.246 ForUserFunctionTagsThread: calc tag, devid=314, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,216), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.262 ForUserFunctionTagsThread: calc tag, devid=314, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,216)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.277 ForUserFunctionTagsThread: calc tag, devid=314, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,216), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.293 ForUserFunctionTagsThread: calc tag, devid=314, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,216)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.316 ForUserFunctionTagsThread: calc tag, devid=316, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,218), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.331 ForUserFunctionTagsThread: calc tag, devid=316, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,218)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.347 ForUserFunctionTagsThread: calc tag, devid=316, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,218), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.382 ForUserFunctionTagsThread: calc tag, devid=316, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,218)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.398 ForUserFunctionTagsThread: calc tag, devid=317, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,219), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.415 ForUserFunctionTagsThread: calc tag, devid=317, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,219)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.428 ForUserFunctionTagsThread: calc tag, devid=317, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,219), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.446 ForUserFunctionTagsThread: calc tag, devid=317, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,219)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.458 ForUserFunctionTagsThread: calc tag, devid=318, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(83,220), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.479 ForUserFunctionTagsThread: calc tag, devid=318, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(83,220)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.492 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.504 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.516 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.529 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.543 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.543 ApiServiceTest OK
+2023-09-13 09:47:20.552 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.563 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.581 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.598 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.614 ForUserFunctionTagsThread: calc tag, devid=318, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.624 ForUserFunctionTagsThread: calc tag, devid=319, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(84,221), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.645 ForUserFunctionTagsThread: calc tag, devid=319, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(84,221)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.659 ForUserFunctionTagsThread: calc tag, devid=319, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(84,221), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.673 ForUserFunctionTagsThread: calc tag, devid=319, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(84,221)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.686 ForUserFunctionTagsThread: calc tag, devid=321, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(84,223), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.694 ForUserFunctionTagsThread: calc tag, devid=321, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(84,223)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.713 ForUserFunctionTagsThread: calc tag, devid=321, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(84,223), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.730 ForUserFunctionTagsThread: calc tag, devid=321, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(84,223)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.744 ForUserFunctionTagsThread: calc tag, devid=322, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(84,224), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.760 ForUserFunctionTagsThread: calc tag, devid=322, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(84,224)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.774 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.790 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.802 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.809 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.816 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.833 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.848 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.859 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.873 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.890 ForUserFunctionTagsThread: calc tag, devid=322, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.905 ForUserFunctionTagsThread: calc tag, devid=323, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,225), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.922 ForUserFunctionTagsThread: calc tag, devid=323, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,225)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.941 ForUserFunctionTagsThread: calc tag, devid=323, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,225), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.957 ForUserFunctionTagsThread: calc tag, devid=323, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,225)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.973 ForUserFunctionTagsThread: calc tag, devid=324, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,226), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:20.984 ForUserFunctionTagsThread: calc tag, devid=324, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,226)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.000 ForUserFunctionTagsThread: calc tag, devid=324, tagname=W_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,226), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.012 ForUserFunctionTagsThread: calc tag, devid=324, tagname=W_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,226)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.028 ForUserFunctionTagsThread: calc tag, devid=325, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,227), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.046 ForUserFunctionTagsThread: calc tag, devid=325, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,227)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.059 ForUserFunctionTagsThread: calc tag, devid=325, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,227), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.078 ForUserFunctionTagsThread: calc tag, devid=325, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,227)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.097 ForUserFunctionTagsThread: calc tag, devid=326, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(82,228), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.110 ForUserFunctionTagsThread: calc tag, devid=326, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(82,228)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.122 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.150 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.159 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.171 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.186 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.204 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.233 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.244 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.280 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.295 ForUserFunctionTagsThread: calc tag, devid=326, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.303 ForUserFunctionTagsThread: calc tag, devid=327, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,229), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.320 ForUserFunctionTagsThread: calc tag, devid=327, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,229)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.335 ForUserFunctionTagsThread: calc tag, devid=327, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,229), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.345 ForUserFunctionTagsThread: calc tag, devid=327, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,229)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.356 ForUserFunctionTagsThread: calc tag, devid=329, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,231), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.370 ForUserFunctionTagsThread: calc tag, devid=329, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,231)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.386 ForUserFunctionTagsThread: calc tag, devid=329, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,231), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.402 ForUserFunctionTagsThread: calc tag, devid=329, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,231)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.411 ForUserFunctionTagsThread: calc tag, devid=330, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,232), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.425 ForUserFunctionTagsThread: calc tag, devid=330, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,232)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.435 ForUserFunctionTagsThread: calc tag, devid=330, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,232), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.449 ForUserFunctionTagsThread: calc tag, devid=330, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,232)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.466 ForUserFunctionTagsThread: calc tag, devid=331, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(44,233), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.481 ForUserFunctionTagsThread: calc tag, devid=331, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(44,233)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.492 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.508 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.522 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.534 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.546 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.557 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.569 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.580 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.594 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.606 ForUserFunctionTagsThread: calc tag, devid=331, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.616 ForUserFunctionTagsThread: calc tag, devid=332, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,234), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.630 ForUserFunctionTagsThread: calc tag, devid=332, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,234)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.642 ForUserFunctionTagsThread: calc tag, devid=332, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,234), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.656 ForUserFunctionTagsThread: calc tag, devid=332, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,234)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.671 ForUserFunctionTagsThread: calc tag, devid=334, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,236), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.699 ForUserFunctionTagsThread: calc tag, devid=334, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,236)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.710 ForUserFunctionTagsThread: calc tag, devid=334, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,236), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.730 ForUserFunctionTagsThread: calc tag, devid=334, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,236)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.747 ForUserFunctionTagsThread: calc tag, devid=335, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,237), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.761 ForUserFunctionTagsThread: calc tag, devid=335, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,237)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.776 ForUserFunctionTagsThread: calc tag, devid=335, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,237), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.789 ForUserFunctionTagsThread: calc tag, devid=335, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,237)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.804 ForUserFunctionTagsThread: calc tag, devid=336, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,238), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.817 ForUserFunctionTagsThread: calc tag, devid=336, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,238)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.832 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.847 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.863 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.877 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.893 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.905 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.919 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.933 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.946 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.957 ForUserFunctionTagsThread: calc tag, devid=336, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.967 ForUserFunctionTagsThread: calc tag, devid=337, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(46,239), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:21.986 ForUserFunctionTagsThread: calc tag, devid=337, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(46,239)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.003 ForUserFunctionTagsThread: calc tag, devid=337, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(46,239), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.039 ForUserFunctionTagsThread: calc tag, devid=337, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(46,239)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.055 ForUserFunctionTagsThread: calc tag, devid=339, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(46,241), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.077 ForUserFunctionTagsThread: calc tag, devid=339, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(46,241)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.093 ForUserFunctionTagsThread: calc tag, devid=339, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(46,241), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.112 ForUserFunctionTagsThread: calc tag, devid=339, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(46,241)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.129 ForUserFunctionTagsThread: calc tag, devid=340, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(46,242), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.144 ForUserFunctionTagsThread: calc tag, devid=340, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(46,242)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.172 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.189 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.200 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.213 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.223 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.234 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.244 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.260 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.272 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.288 ForUserFunctionTagsThread: calc tag, devid=340, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.300 ForUserFunctionTagsThread: calc tag, devid=346, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,248), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.311 ForUserFunctionTagsThread: calc tag, devid=346, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,248)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.324 ForUserFunctionTagsThread: calc tag, devid=346, tagname=W_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(45,248), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.337 ForUserFunctionTagsThread: calc tag, devid=346, tagname=W_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(45,248)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.348 ForUserFunctionTagsThread: calc tag, devid=348, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(47,250), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.362 ForUserFunctionTagsThread: calc tag, devid=348, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(47,250)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.378 ForUserFunctionTagsThread: calc tag, devid=348, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(47,250), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.403 ForUserFunctionTagsThread: calc tag, devid=348, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(47,250)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.416 ForUserFunctionTagsThread: calc tag, devid=350, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(47,252), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.429 ForUserFunctionTagsThread: calc tag, devid=350, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(47,252)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.441 ForUserFunctionTagsThread: calc tag, devid=350, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(47,252), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.456 ForUserFunctionTagsThread: calc tag, devid=350, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(47,252)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.470 ForUserFunctionTagsThread: calc tag, devid=351, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(47,253), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.487 ForUserFunctionTagsThread: calc tag, devid=351, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(47,253)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.497 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.510 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.519 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.531 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.545 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.556 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.576 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.601 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.617 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.630 ForUserFunctionTagsThread: calc tag, devid=351, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.646 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.662 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.676 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.689 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.703 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.720 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.733 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.744 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(-1, {255:G_DEVICE_ALARM}, 1) +TotalObjects(-1, {255:G_DEVICE_ALARM}, 2)+TotalObjects(-1, {255:G_DEVICE_ALARM}, 3) +TotalObjects(-1, {255:G_DEVICE_ALARM}, 4)+TotalObjects(-1, {255:G_DEVICE_ALARM}, 6)+TotalObjects(-1, {255:G_DEVICE_ALARM}, 5) + TotalObjects(-1, {255:G_DEVICE_ALARM}, 7) + TotalObjects(-1, {255:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.745 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(-1, 'G_GROUP_ALARM', 1) +TotalObjects(-1,  'G_GROUP_ALARM', 2)+TotalObjects(-1,  'G_GROUP_ALARM', 3) +TotalObjects(-1,  'G_GROUP_ALARM', 4)+TotalObjects(-1, 'G_GROUP_ALARM', 6)+TotalObjects(-1, 'G_GROUP_ALARM', 5) + TotalObjects(-1, 'G_GROUP_ALARM', 7) + TotalObjects(-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.943 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.956 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.970 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum('M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.984 ForUserFunctionTagsThread: calc tag, devid=353, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum('G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:22.999 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(81,256,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.016 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(81,256,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.032 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(81,256,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.049 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(81,256,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.072 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.094 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.116 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.139 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.166 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.188 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.206 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.226 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(81,256,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.247 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(81,256,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.266 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(81,256), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.282 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(81,256,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.306 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(81,256), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.319 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(81,256), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.333 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(81,256,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.349 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(81,256,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.349 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(81,256,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.367 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(81,256,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.380 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 1) +TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 2)+TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 3) +TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 4)+TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 6)+TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 5) + TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 7) + TotalObjects(81,256,-1, {256:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.517 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(81,256,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.533 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(81,256,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.554 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(81,256,-1, 'G_GROUP_ALARM', 1) +TotalObjects(81,256,-1,  'G_GROUP_ALARM', 2)+TotalObjects(81,256,-1,  'G_GROUP_ALARM', 3) +TotalObjects(81,256,-1,  'G_GROUP_ALARM', 4)+TotalObjects(81,256,-1, 'G_GROUP_ALARM', 6)+TotalObjects(81,256,-1, 'G_GROUP_ALARM', 5) + TotalObjects(81,256,-1, 'G_GROUP_ALARM', 7) + TotalObjects(81,256,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.704 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(81,256,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.721 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(81,256,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.739 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(81,256,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.754 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(81,256,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.771 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(81,256,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.788 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(81,256,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.806 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(81,256,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.827 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(81,256,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.847 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(81,256), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.864 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(81,256)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.882 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(81,256,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.897 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(81,256,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.912 ForUserFunctionTagsThread: calc tag, devid=354, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(81,256,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.923 ForUserFunctionTagsThread: calc tag, devid=354, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(81,256)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.934 ForUserFunctionTagsThread: calc tag, devid=354, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(81,256)  >2,2,(   if(getGroupAlarmStatus(81,256)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.964 ForUserFunctionTagsThread: calc tag, devid=355, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,257), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.978 ForUserFunctionTagsThread: calc tag, devid=355, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,257)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:23.993 ForUserFunctionTagsThread: calc tag, devid=355, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,257), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.008 ForUserFunctionTagsThread: calc tag, devid=355, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,257)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.023 ForUserFunctionTagsThread: calc tag, devid=357, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,259), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.037 ForUserFunctionTagsThread: calc tag, devid=357, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,259)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.051 ForUserFunctionTagsThread: calc tag, devid=357, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,259), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.068 ForUserFunctionTagsThread: calc tag, devid=357, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,259)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.084 ForUserFunctionTagsThread: calc tag, devid=358, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,260), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.093 ForUserFunctionTagsThread: calc tag, devid=358, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,260)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.102 ForUserFunctionTagsThread: calc tag, devid=358, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,260), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.118 ForUserFunctionTagsThread: calc tag, devid=358, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,260)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.136 ForUserFunctionTagsThread: calc tag, devid=359, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,261), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.156 ForUserFunctionTagsThread: calc tag, devid=359, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,261)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.175 ForUserFunctionTagsThread: calc tag, devid=359, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,261), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.189 ForUserFunctionTagsThread: calc tag, devid=359, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,261)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.205 ForUserFunctionTagsThread: calc tag, devid=360, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,262), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.222 ForUserFunctionTagsThread: calc tag, devid=360, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,262)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.237 ForUserFunctionTagsThread: calc tag, devid=360, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,262), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.250 ForUserFunctionTagsThread: calc tag, devid=360, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,262)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.267 ForUserFunctionTagsThread: calc tag, devid=361, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,263), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.282 ForUserFunctionTagsThread: calc tag, devid=361, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,263)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.312 ForUserFunctionTagsThread: calc tag, devid=361, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,263), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.330 ForUserFunctionTagsThread: calc tag, devid=361, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,263)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.349 ForUserFunctionTagsThread: calc tag, devid=362, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(98,264), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.363 ForUserFunctionTagsThread: calc tag, devid=362, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(98,264)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.385 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.410 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.432 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.454 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.468 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.472 EvaluateThread.CheckWorkThreads
+2023-09-13 09:47:24.473 TimerThread active log::Evaluator: Ver=2.00.002.03.20230620.1641-fix08, MaxMemory=174M, TotalMemory=32M, FreeMemory=7M, tagCountInMem=2233, ReceivedMqttMsgCnt=2477
+2023-09-13 09:47:24.479 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.493 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.510 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.528 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.542 ForUserFunctionTagsThread: calc tag, devid=362, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.562 ForUserFunctionTagsThread: calc tag, devid=363, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(99,265), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.580 ForUserFunctionTagsThread: calc tag, devid=363, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(99,265)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.596 ForUserFunctionTagsThread: calc tag, devid=363, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(99,265), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.613 ForUserFunctionTagsThread: calc tag, devid=363, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(99,265)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.632 ForUserFunctionTagsThread: calc tag, devid=365, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(99,267), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.646 ForUserFunctionTagsThread: calc tag, devid=365, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(99,267)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.655 ForUserFunctionTagsThread: calc tag, devid=365, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(99,267), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.676 ForUserFunctionTagsThread: calc tag, devid=365, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(99,267)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.694 ForUserFunctionTagsThread: calc tag, devid=366, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(99,268), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.712 ForUserFunctionTagsThread: calc tag, devid=366, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(99,268)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.727 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.736 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.748 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.761 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.774 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.788 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.802 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.816 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.826 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.831 CalcTagEvaluateThread(EvaluateThreadForNormalTags) active log, sleepTimes=15262089, skipSleepTimes=2513, mainCycleTimes=15264602
+2023-09-13 09:47:24.843 ForUserFunctionTagsThread: calc tag, devid=366, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.853 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(86,269,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.863 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(86,269,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.881 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(86,269,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.896 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(86,269,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.910 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.934 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.951 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.971 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:24.988 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.003 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.022 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.037 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(86,269,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.056 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(86,269,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.074 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.092 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(86,269,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.109 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(86,269), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.124 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(86,269), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.137 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(86,269,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.168 NonDataMsgThread active log
+2023-09-13 09:47:25.168 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(86,269,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.168 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(86,269,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.193 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(86,269,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.244 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(86,269,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.259 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(86,269,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.288 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(86,269,-1, 'G_GROUP_ALARM', 1) +TotalObjects(86,269,-1,  'G_GROUP_ALARM', 2)+TotalObjects(86,269,-1,  'G_GROUP_ALARM', 3) +TotalObjects(86,269,-1,  'G_GROUP_ALARM', 4)+TotalObjects(86,269,-1, 'G_GROUP_ALARM', 6)+TotalObjects(86,269,-1, 'G_GROUP_ALARM', 5) + TotalObjects(86,269,-1, 'G_GROUP_ALARM', 7) + TotalObjects(86,269,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.414 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(86,269,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.427 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(86,269,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.443 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(86,269,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.459 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(86,269,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.473 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(86,269,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.488 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(86,269,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.503 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(86,269,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.520 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(86,269,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.537 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(86,269), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.549 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(86,269)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.562 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(86,269,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.576 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(86,269,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.593 ForUserFunctionTagsThread: calc tag, devid=367, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(86,269,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.609 ForUserFunctionTagsThread: calc tag, devid=367, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(86,269)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.634 ForUserFunctionTagsThread: calc tag, devid=367, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(86,269)  >2,2,(   if(getGroupAlarmStatus(86,269)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.664 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(87,270,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.675 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(87,270,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.685 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(87,270,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.702 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(87,270,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.717 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.728 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.737 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.746 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.756 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.766 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.775 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.784 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(87,270,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.793 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(87,270,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.807 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(87,270), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.828 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(87,270,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.841 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(87,270), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.864 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(87,270), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.877 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(87,270,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.886 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(87,270,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.886 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(87,270,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.897 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(87,270,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:25.910 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 1) +TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 2)+TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 3) +TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 4)+TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 6)+TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 5) + TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 7) + TotalObjects(87,270,-1, {270:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.032 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(87,270,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.041 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(87,270,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.050 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(87,270,-1, 'G_GROUP_ALARM', 1) +TotalObjects(87,270,-1,  'G_GROUP_ALARM', 2)+TotalObjects(87,270,-1,  'G_GROUP_ALARM', 3) +TotalObjects(87,270,-1,  'G_GROUP_ALARM', 4)+TotalObjects(87,270,-1, 'G_GROUP_ALARM', 6)+TotalObjects(87,270,-1, 'G_GROUP_ALARM', 5) + TotalObjects(87,270,-1, 'G_GROUP_ALARM', 7) + TotalObjects(87,270,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.165 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(87,270,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.175 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(87,270,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.184 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(87,270,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.194 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(87,270,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.202 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(87,270,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.211 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(87,270,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.221 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(87,270,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.234 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(87,270,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.260 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(87,270), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.276 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(87,270)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.294 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(87,270,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.314 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(87,270,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.328 ForUserFunctionTagsThread: calc tag, devid=368, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(87,270,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.340 ForUserFunctionTagsThread: calc tag, devid=368, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(87,270)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.354 ForUserFunctionTagsThread: calc tag, devid=368, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(87,270)  >2,2,(   if(getGroupAlarmStatus(87,270)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.375 ForUserFunctionTagsThread: calc tag, devid=369, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,271), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.390 ForUserFunctionTagsThread: calc tag, devid=369, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,271)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.411 ForUserFunctionTagsThread: calc tag, devid=369, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,271), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.428 ForUserFunctionTagsThread: calc tag, devid=369, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,271)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.443 ForUserFunctionTagsThread: calc tag, devid=371, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,273), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.458 ForUserFunctionTagsThread: calc tag, devid=371, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,273)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.482 ForUserFunctionTagsThread: calc tag, devid=371, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,273), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.499 ForUserFunctionTagsThread: calc tag, devid=371, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,273)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.520 ForUserFunctionTagsThread: calc tag, devid=372, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,274), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.576 ForUserFunctionTagsThread: calc tag, devid=372, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,274)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.596 ForUserFunctionTagsThread: calc tag, devid=372, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,274), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.617 ForUserFunctionTagsThread: calc tag, devid=372, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,274)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.637 ForUserFunctionTagsThread: calc tag, devid=373, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,275), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.654 ForUserFunctionTagsThread: calc tag, devid=373, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,275)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.670 ForUserFunctionTagsThread: calc tag, devid=373, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,275), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.688 ForUserFunctionTagsThread: calc tag, devid=373, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,275)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.703 ForUserFunctionTagsThread: calc tag, devid=374, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(97,276), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.748 ForUserFunctionTagsThread: calc tag, devid=374, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(97,276)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.771 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.786 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.799 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.811 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.818 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.830 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.841 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.859 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.877 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.887 ForUserFunctionTagsThread: calc tag, devid=374, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.901 ForUserFunctionTagsThread: calc tag, devid=375, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,277), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.915 ForUserFunctionTagsThread: calc tag, devid=375, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,277)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.930 ForUserFunctionTagsThread: calc tag, devid=375, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,277), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.944 ForUserFunctionTagsThread: calc tag, devid=375, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,277)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.952 ForUserFunctionTagsThread: calc tag, devid=377, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,279), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.963 ForUserFunctionTagsThread: calc tag, devid=377, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,279)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:26.987 ForUserFunctionTagsThread: calc tag, devid=377, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,279), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.004 ForUserFunctionTagsThread: calc tag, devid=377, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,279)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.017 ForUserFunctionTagsThread: calc tag, devid=378, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,280), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.032 ForUserFunctionTagsThread: calc tag, devid=378, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,280)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.047 ForUserFunctionTagsThread: calc tag, devid=378, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,280), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.071 ForUserFunctionTagsThread: calc tag, devid=378, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,280)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.092 ForUserFunctionTagsThread: calc tag, devid=379, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,281), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.107 ForUserFunctionTagsThread: calc tag, devid=379, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,281)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.124 ForUserFunctionTagsThread: calc tag, devid=379, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,281), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.135 ForUserFunctionTagsThread: calc tag, devid=379, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,281)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.153 ForUserFunctionTagsThread: calc tag, devid=380, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(100,282), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.169 ForUserFunctionTagsThread: calc tag, devid=380, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(100,282)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.191 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.208 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.220 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.233 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.248 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.262 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.276 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.289 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.304 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.321 ForUserFunctionTagsThread: calc tag, devid=380, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.336 ForUserFunctionTagsThread: calc tag, devid=381, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,283), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.347 ForUserFunctionTagsThread: calc tag, devid=381, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,283)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.362 ForUserFunctionTagsThread: calc tag, devid=381, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,283), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.372 ForUserFunctionTagsThread: calc tag, devid=381, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,283)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.390 ForUserFunctionTagsThread: calc tag, devid=383, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,285), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.402 ForUserFunctionTagsThread: calc tag, devid=383, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,285)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.420 ForUserFunctionTagsThread: calc tag, devid=383, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,285), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.434 ForUserFunctionTagsThread: calc tag, devid=383, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,285)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.445 ForUserFunctionTagsThread: calc tag, devid=384, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,286), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.460 ForUserFunctionTagsThread: calc tag, devid=384, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,286)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.474 ForUserFunctionTagsThread: calc tag, devid=384, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,286), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.485 ForUserFunctionTagsThread: calc tag, devid=384, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,286)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.501 ForUserFunctionTagsThread: calc tag, devid=385, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(101,287), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.518 ForUserFunctionTagsThread: calc tag, devid=385, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(101,287)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.534 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.556 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.569 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.586 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.600 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.616 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.631 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.655 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.665 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.674 ForUserFunctionTagsThread: calc tag, devid=385, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.688 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(89,288,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.703 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(89,288,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.719 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(89,288,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.733 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(89,288,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.748 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.768 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.782 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.798 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.818 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.835 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.854 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.872 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(89,288,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.886 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(89,288,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.903 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(89,288), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.919 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(89,288,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.935 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(89,288), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.954 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(89,288), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.974 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(89,288,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.991 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(89,288,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:27.991 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(89,288,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.007 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(89,288,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.023 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 1) +TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 2)+TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 3) +TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 4)+TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 6)+TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 5) + TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 7) + TotalObjects(89,288,-1, {288:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.159 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(89,288,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.171 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(89,288,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.186 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(89,288,-1, 'G_GROUP_ALARM', 1) +TotalObjects(89,288,-1,  'G_GROUP_ALARM', 2)+TotalObjects(89,288,-1,  'G_GROUP_ALARM', 3) +TotalObjects(89,288,-1,  'G_GROUP_ALARM', 4)+TotalObjects(89,288,-1, 'G_GROUP_ALARM', 6)+TotalObjects(89,288,-1, 'G_GROUP_ALARM', 5) + TotalObjects(89,288,-1, 'G_GROUP_ALARM', 7) + TotalObjects(89,288,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.319 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(89,288,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.339 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(89,288,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.355 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(89,288,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.370 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(89,288,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.383 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(89,288,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.396 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(89,288,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.411 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(89,288,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.428 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(89,288,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.443 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(89,288), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.455 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(89,288)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.470 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(89,288,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.481 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(89,288,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.492 ForUserFunctionTagsThread: calc tag, devid=386, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(89,288,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.504 ForUserFunctionTagsThread: calc tag, devid=386, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(89,288)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.516 ForUserFunctionTagsThread: calc tag, devid=386, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(89,288)  >2,2,(   if(getGroupAlarmStatus(89,288)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.556 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum(88,289,'N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.568 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum(88,289,'N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.576 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum(88,289,'N_ACWHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.587 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum(88,289,'N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.607 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_1, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.618 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_2, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',2), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.632 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_3, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',3), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.647 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_4, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',4), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.660 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_5, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',5), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.669 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_6, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',6), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.681 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_7, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',7), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.692 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_ALARM_8, evalfreq=60000, formula=TotalObjects(88,289,-1,'D_ALARM_LEVEL',8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.702 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum(88,289,'M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.714 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(88,289), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.724 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_DEVICE_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(88,289,-1, 'D_IS_ALARMING',1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.738 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_DEVICE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(88,289), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.753 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(88,289), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.763 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_INV_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(88,289,-1, 'N_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.772 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_IRDTN, evalfreq=60000, formula=Avg2(88,289,'IRR01:W_IRDTN'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.774 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_IRR_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(88,289,-1, 'W_IS_ALARMING', 1), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.782 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum(88,289,'M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.792 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_DEV_ALM, evalfreq=60000, formula=TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 1) +TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 2)+TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 3) +TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 4)+TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 6)+TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 5) + TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 7) + TotalObjects(88,289,-1, {289:G_DEVICE_ALARM}, 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.873 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_EDGE_DEVICES, evalfreq=60000, formula=TotalObjects(88,289,-1,'G_LOGGER_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.881 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_EDGE_ONLINE, evalfreq=60000, formula=TotalObjects(88,289,-1,'G_LOGGER_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.892 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_GRP_ALM, evalfreq=60000, formula=TotalObjects(88,289,-1, 'G_GROUP_ALARM', 1) +TotalObjects(88,289,-1,  'G_GROUP_ALARM', 2)+TotalObjects(88,289,-1,  'G_GROUP_ALARM', 3) +TotalObjects(88,289,-1,  'G_GROUP_ALARM', 4)+TotalObjects(88,289,-1, 'G_GROUP_ALARM', 6)+TotalObjects(88,289,-1, 'G_GROUP_ALARM', 5) + TotalObjects(88,289,-1, 'G_GROUP_ALARM', 7) + TotalObjects(88,289,-1,  'G_GROUP_ALARM', 8), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.965 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_INV, evalfreq=60000, formula=TotalObjects(88,289,-1,'N_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.976 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_INV_ONLINE, evalfreq=60000, formula=TotalObjects(88,289,-1,'N_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.985 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_IRR, evalfreq=60000, formula=TotalObjects(88,289,-1,'W_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:28.993 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_IRR_ONLINE, evalfreq=60000, formula=TotalObjects(88,289,-1,'W_ONLINE'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.000 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_PVDB, evalfreq=60000, formula=TotalObjects(88,289,-1,'M_KWP'), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.008 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_NUM_PVDB_ONLINE, evalfreq=60000, formula=TotalObjects(88,289,-1,'M_ONLINE',0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.019 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_PVDB_ALARM_COUNT, evalfreq=60000, formula=TotalObjects(88,289,-1, 'M_IS_ALARMING', 1) , nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.027 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum(88,289,'M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.042 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_SITE_ALARM_LEVEL, evalfreq=60000, formula=getGroupAlarmStatus(88,289), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.054 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_SITE_IS_ALARMING, evalfreq=60000, formula=if(getGroupAlarmStatus(88,289)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.069 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum(88,289,'G_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.098 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_YIELD_M, evalfreq=60000, formula=getGroupParamSum(88,289,'M_YIELD_M', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.112 ForUserFunctionTagsThread: calc tag, devid=387, tagname=G_YIELD_Y, evalfreq=60000, formula=getGroupParamSum(88,289,'G_YIELD_Y', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.127 ForUserFunctionTagsThread: calc tag, devid=387, tagname=isAlarm, evalfreq=60000, formula=if(getGroupAlarmStatus(88,289)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.140 ForUserFunctionTagsThread: calc tag, devid=387, tagname=status, evalfreq=60000, formula=if(getGroupAlarmStatus(88,289)  >2,2,(   if(getGroupAlarmStatus(88,289)  >0,1,0)     )), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.164 ForUserFunctionTagsThread: calc tag, devid=388, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,290), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.177 ForUserFunctionTagsThread: calc tag, devid=388, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,290)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.199 ForUserFunctionTagsThread: calc tag, devid=388, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,290), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.216 ForUserFunctionTagsThread: calc tag, devid=388, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,290)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.225 ForUserFunctionTagsThread: calc tag, devid=390, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,292), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.237 ForUserFunctionTagsThread: calc tag, devid=390, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,292)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.253 ForUserFunctionTagsThread: calc tag, devid=390, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,292), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.270 ForUserFunctionTagsThread: calc tag, devid=390, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,292)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.279 ForUserFunctionTagsThread: calc tag, devid=391, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,293), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.289 ForUserFunctionTagsThread: calc tag, devid=391, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,293)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.298 ForUserFunctionTagsThread: calc tag, devid=391, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,293), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.315 ForUserFunctionTagsThread: calc tag, devid=391, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,293)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.330 ForUserFunctionTagsThread: calc tag, devid=392, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,294), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.345 ForUserFunctionTagsThread: calc tag, devid=392, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,294)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.353 ForUserFunctionTagsThread: calc tag, devid=392, tagname=N_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,294), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.367 ForUserFunctionTagsThread: calc tag, devid=392, tagname=N_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,294)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.386 ForUserFunctionTagsThread: calc tag, devid=393, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(96,295), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.396 ForUserFunctionTagsThread: calc tag, devid=393, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(96,295)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.405 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_ACW, evalfreq=60000, formula=getGroupParamSum('N_ACW', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.417 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_ACWH, evalfreq=60000, formula=getGroupParamSum('N_ACWH', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.428 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_ACWHD, evalfreq=60000, formula=getGroupParamSum('N_AWCHD', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.442 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_ACWHDA, evalfreq=60000, formula=getGroupParamSum('N_ACWHDA', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.455 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_AP, evalfreq=60000, formula=getGroupParamSum('M_AP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.467 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_DEVICE_ALARM, evalfreq=60000, formula=getObjectAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.493 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_GROUP_ALARM, evalfreq=60000, formula=getGroupAlarmStatus(), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.509 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_KWP, evalfreq=60000, formula=getGroupParamSum('M_KWP', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.522 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_RAE, evalfreq=60000, formula=getGroupParamSum('M_RAE', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.536 ForUserFunctionTagsThread: calc tag, devid=393, tagname=G_YIELD_D, evalfreq=60000, formula=getGroupParamSum('M_YIELD_D', 0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.548 ForUserFunctionTagsThread: calc tag, devid=394, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(95,296), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.571 ForUserFunctionTagsThread: calc tag, devid=394, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(95,296)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.585 ForUserFunctionTagsThread: calc tag, devid=394, tagname=M_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(95,296), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.602 ForUserFunctionTagsThread: calc tag, devid=394, tagname=M_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(95,296)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.621 ForUserFunctionTagsThread: calc tag, devid=396, tagname=D_ALARM_LEVEL, evalfreq=60000, formula=getObjectAlarmStatus(95,298), nextEvalTime=2023-09-13 09:47:00.000
+2023-09-13 09:47:29.640 ForUserFunctionTagsThread: calc tag, devid=396, tagname=D_IS_ALARMING, evalfreq=60000, formula=if(getObjectAlarmStatus(95,298)> 0,1,0), nextEvalTime=2023-09-13 09:47:00.000
