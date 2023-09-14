@@ -1,0 +1,164 @@
+ene-simplejson-service start>> NodeJs ver=v18.16.1
+Git Branch: develop, Git Tag: 2.00.001, Build Version: Build005, Update Time: 2023-08-02T09:20:00.000Z
+APP_NAME:api-org-wise-mplus
+IS_K8S:true
+PREFIX DATACENTER:
+DATACENTER:local
+EXDATACENTER:local
+CLUSTER:solarscada
+WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+NAMESPACE:edge365
+EXDOMAIN:sembcorp.net
+DOMAIN:.net
+API_SSO_URL:http://api.sso.solarscada.en.internal/v4.0
+VERSION:2.0.21
+EDITION:azure-aks
+API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
+API_ALARM_URL:http://api-alarm-wise-mplus:80
+API_DEVTOOL_URL:http://api-devtool-wise-mplus:80
+API_SOE_URL:http://api-soe:80
+ETCD_SERVER_HOST:http://pivot-etcd:2379
+API_DataConnect_URL:http://pivot-api-hub.edge365.svc
+DATASOURCE_NAME:  deviceon-bi-simplejson
+IWaterDatasource:{"id":"iapps/iWater/1.05.001/2022-08-03T07:12:58.560Z","name":null,"url":"http://iapp-iwater-api-develop-eks002.hz.wise-paas.com.cn/graphql"}
+API_INSPECTION_URL: http://inspectionapp-inspection__ORGID__.localsembcorp.net
+API_DASHBOARD_URL:http://dashboard-pro-edge365:80
+CloudService is Run at cloud
+pgCredentials: {"database":"f343d5b5-17d4-448b-a944-ae3efb10b948","externalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","host":"ebd34b508e91.privatelink.postgres.database.azure.com","internalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","password":"wEMizvHmDXBbT0KeOaRyFQLcV","port":5432,"uri":"postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948","username":"ee2f15fd-4461-4a0e-b1ec-9f193f2111d1"}
+Get configure data of RabbitMQ success
+Server is listening to port 8080
+Connected to mqtt broker success
+The current leader is 2.0.21/2023-09-13T10:50:08.830Z
+All IApps:  ["DPM/7587872959135577073","DataConnect/7587872959135577105","Edge365/7587872959135577109","PreProcess/7587872959135576992","RTM.enabler/7587872959135577661","RTM/7587872959135577411"]
+name = RTM, value = 2.1.0/2023-08-29T11:25:40.156Z
+name = PreProcess, value = 1.0.1/2023-08-29T11:25:05.286Z
+name = RTM.enabler, value = 2.1.0/2023-08-29T11:26:16.523Z
+name = Edge365, value = 2.0.21/2023-08-29T11:25:07.249Z
+name = DataConnect, value = 2.0.21/2023-08-29T11:25:07.236Z
+name = DPM, value = 2.0.21/2023-08-29T11:24:52.613Z
+Infos: RTM, 2.1.0, 2023-08-29T11:25:40.156Z
+Metatdata Namespace Prefix:  iapps/RTM/2.1.0/2023-08-29T11:25:40.156Z/
+Infos: PreProcess, 1.0.1, 2023-08-29T11:25:05.286Z
+Metatdata Namespace Prefix:  iapps/PreProcess/1.0.1/2023-08-29T11:25:05.286Z/
+Infos: RTM.enabler, 2.1.0, 2023-08-29T11:26:16.523Z
+Metatdata Namespace Prefix:  iapps/RTM.enabler/2.1.0/2023-08-29T11:26:16.523Z/
+Infos: Edge365, 2.0.21, 2023-08-29T11:25:07.249Z
+Metatdata Namespace Prefix:  iapps/Edge365/2.0.21/2023-08-29T11:25:07.249Z/
+Infos: DataConnect, 2.0.21, 2023-08-29T11:25:07.236Z
+Metatdata Namespace Prefix:  iapps/DataConnect/2.0.21/2023-08-29T11:25:07.236Z/
+Infos: DPM, 2.0.21, 2023-08-29T11:24:52.613Z
+Metatdata Namespace Prefix:  iapps/DPM/2.0.21/2023-08-29T11:24:52.613Z/
+Metadata All Keys: ["cmdcFeature","cmdcLink","enablerEmbeddedLink","enablerFeature","enablerLink","generalSettingsUrl","l3EHSLink","l3MOMLink","l3OEEMLink","masterDataLink","portal","sigInUrl","userFeature","userLink"]
+Metadata Keys: []
+Metadata All Keys: ["dashboardSource"]
+Metadata Keys: []
+Metadata All Keys: ["licenseType"]
+Metadata Keys: []
+Metadata All Keys: ["iAppSelectItems","portal"]
+Metadata Keys: []
+Metadata All Keys: ["cmdcLink","dcEnvLink","objectLink","pivotBasicFeature","userLink"]
+Metadata Keys: []
+Metadata All Keys: ["iAppFeature","iAppLink","licenseType","licenseUsageCount","licenseUsageLimit","portal"]
+Metadata Keys: []
+The new leader is 2.0.21/2023-09-14T03:07:56.306Z
+SERVICE_SECRET: 1l9Q23F6gq31yiDSC57OkXUBkLMDOS
+[Event Lisener] Watch Secret Change: 1l9Q23F6gq31yiDSC57OkXUBkLMDOS
+rootTenantId is: VGVuYW50.ZMDtPwQpNN4lUFDJ
+2023-09-14T03:19:26.593Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:26.595Z
+2023-09-14T03:19:26.980Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:26.981Z
+token pass
+timeEnd:2023-09-14T03:19:27.002Z  spend time: 21 ms
+token pass
+timeEnd:2023-09-14T03:19:29.118Z  spend time: 2523 ms
+2023-09-14T03:19:32.193Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:32.193Z
+token pass
+timeEnd:2023-09-14T03:19:32.207Z  spend time: 14 ms
+2023-09-14T03:19:32.208Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:32.208Z
+token pass
+timeEnd:2023-09-14T03:19:32.222Z  spend time: 14 ms
+2023-09-14T03:19:34.381Z POST /searchPanelName?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.387Z POST /searchSimulateData?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.421Z POST /searchParamProperty?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.428Z POST /searchDevice?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.434Z POST /searchDeviceType?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.442Z POST /searchDatasourceList?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.444Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.451Z POST /searchDataType?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:34.477Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:34.478Z
+token pass
+timeEnd:2023-09-14T03:19:34.492Z  spend time: 14 ms
+2023-09-14T03:19:36.255Z POST /searchGroup?lang=en-US api-org-wise-mplus:80 1.1
+X-Source-Org-Id: source=[Dashboard], orgId=[40]
+IApp Secret = [1l9Q23F6gq31yiDSC57OkXUBkLMDOS]
+NDE 41
+2023-09-14T03:19:37.360Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:37.360Z
+token pass
+timeEnd:2023-09-14T03:19:37.380Z  spend time: 20 ms
+2023-09-14T03:19:41.226Z POST /searchDevice?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:43.835Z POST /searchDevice?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:43.859Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:43.859Z
+token pass
+timeEnd:2023-09-14T03:19:43.884Z  spend time: 25 ms
+2023-09-14T03:19:44.869Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:46.837Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:46.842Z POST /searchSimulateData?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:46.910Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:46.910Z
+token pass
+timeEnd:2023-09-14T03:19:46.924Z  spend time: 14 ms
+2023-09-14T03:19:48.770Z POST /searchPanelName?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.783Z POST /searchSimulateData?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.830Z POST /searchDatasourceList?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.830Z POST /searchDevice?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.832Z POST /searchDeviceType?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.854Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.857Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:48.857Z
+2023-09-14T03:19:48.859Z POST /searchParamProperty?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:48.860Z POST /searchDataType?lang=en-US api-org-wise-mplus:80 1.1
+token pass
+timeEnd:2023-09-14T03:19:48.881Z  spend time: 24 ms
+2023-09-14T03:19:50.098Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:51.432Z POST /searchDeviceParam?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:51.433Z POST /searchSimulateData?lang=en-US api-org-wise-mplus:80 1.1
+2023-09-14T03:19:51.529Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:19:51.529Z
+token pass
+timeEnd:2023-09-14T03:19:51.558Z  spend time: 29 ms
+2023-09-14T03:20:11.441Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:20:11.441Z
+token pass
+timeEnd:2023-09-14T03:20:11.470Z  spend time: 29 ms
+2023-09-14T03:20:19.465Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:20:19.465Z
+token pass
+timeEnd:2023-09-14T03:20:19.498Z  spend time: 33 ms
+2023-09-14T03:20:25.802Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:20:25.803Z
+token pass
+timeEnd:2023-09-14T03:20:25.842Z  spend time: 39 ms
+2023-09-14T03:20:35.819Z POST /query?lang=en-US api-org-wise-mplus:80 1.1
+------query data from DB-------
+timeStart:2023-09-14T03:20:35.819Z
+token pass
+timeEnd:2023-09-14T03:20:35.852Z  spend time: 33 ms
