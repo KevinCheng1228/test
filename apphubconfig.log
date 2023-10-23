@@ -1,0 +1,589 @@
+2023-08-29 09:33:24:724 +0000 [Backup Log Timer Task] INFO  - ------------------------- LOG_KEEP_DAYS = null, use default service name
+2023-08-29 09:33:24:724 +0000 [Backup Log Timer Task] INFO  - ------------------------- LOG_PATH = log
+2023-08-29 09:33:30:300 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:33:30:300 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:33:37:603 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:34:16:606 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:33:16 UTC 2023
+2023-08-29 09:34:16:606 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:34:17:606 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:34:30:305 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:34:30:305 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:35:16:611 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:34:16 UTC 2023
+2023-08-29 09:35:16:611 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:35:17:612 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:35:30:310 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:35:30:310 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:36:16:616 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:35:16 UTC 2023
+2023-08-29 09:36:16:617 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:36:17:617 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:36:30:315 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:36:30:315 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:37:16:622 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:36:16 UTC 2023
+2023-08-29 09:37:16:622 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:37:17:622 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:37:30:320 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:37:30:320 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:38:16:631 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:37:16 UTC 2023
+2023-08-29 09:38:16:631 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:38:17:631 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:38:30:324 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:38:30:324 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:38:37:633 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:39:16:636 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:38:16 UTC 2023
+2023-08-29 09:39:16:636 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:39:17:636 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:39:30:329 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:39:30:329 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:40:16:641 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:39:16 UTC 2023
+2023-08-29 09:40:16:641 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:40:17:641 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:40:30:334 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:40:30:334 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:41:16:646 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:40:16 UTC 2023
+2023-08-29 09:41:16:646 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:41:17:646 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:41:30:339 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:41:30:339 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:42:16:651 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:41:16 UTC 2023
+2023-08-29 09:42:16:651 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:42:17:651 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:42:30:344 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:42:30:344 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:43:16:656 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:42:16 UTC 2023
+2023-08-29 09:43:16:656 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:43:17:656 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:43:30:348 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:43:30:348 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:43:37:658 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:44:16:661 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:43:16 UTC 2023
+2023-08-29 09:44:16:661 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:44:17:661 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:44:30:353 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:44:30:353 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:45:16:666 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:44:16 UTC 2023
+2023-08-29 09:45:16:666 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:45:17:666 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:45:30:360 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:45:30:360 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:46:16:671 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:45:16 UTC 2023
+2023-08-29 09:46:16:671 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:46:17:671 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:46:30:365 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:46:30:365 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:47:16:678 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:46:16 UTC 2023
+2023-08-29 09:47:16:678 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:47:17:678 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:47:30:369 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:47:30:369 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:48:16:683 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:47:16 UTC 2023
+2023-08-29 09:48:16:683 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:48:17:684 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:48:30:374 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:48:30:374 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:48:37:685 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:49:16:688 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:48:16 UTC 2023
+2023-08-29 09:49:16:689 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:49:17:689 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:49:30:379 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:49:30:379 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:50:16:693 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:49:16 UTC 2023
+2023-08-29 09:50:16:693 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:50:17:694 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:50:30:384 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:50:30:384 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:51:16:698 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:50:16 UTC 2023
+2023-08-29 09:51:16:699 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:51:17:699 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:51:30:388 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:51:30:388 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:52:16:704 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:51:16 UTC 2023
+2023-08-29 09:52:16:704 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:52:17:704 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:52:30:393 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:52:30:393 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:53:16:708 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:52:16 UTC 2023
+2023-08-29 09:53:16:709 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:53:17:709 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:53:30:397 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:53:30:397 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:53:37:710 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:54:16:714 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:53:16 UTC 2023
+2023-08-29 09:54:16:714 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:54:17:714 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:54:30:402 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:54:30:403 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:55:16:719 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:54:16 UTC 2023
+2023-08-29 09:55:16:719 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:55:17:719 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:55:30:407 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:55:30:407 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:56:16:724 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:55:16 UTC 2023
+2023-08-29 09:56:16:724 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:56:17:724 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:56:30:412 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:56:30:412 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:57:16:733 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:56:16 UTC 2023
+2023-08-29 09:57:16:733 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:57:17:733 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:57:30:416 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:57:30:416 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:58:16:738 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:57:16 UTC 2023
+2023-08-29 09:58:16:738 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:58:17:738 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:58:30:421 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 09:58:30:421 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:58:37:740 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 09:59:16:743 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:58:16 UTC 2023
+2023-08-29 09:59:16:743 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 09:59:17:743 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 09:59:30:433 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 09:59:30:433 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:00:16:748 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 09:59:16 UTC 2023
+2023-08-29 10:00:16:749 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:00:17:749 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:00:30:437 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:00:30:437 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:01:16:754 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:00:16 UTC 2023
+2023-08-29 10:01:16:754 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:01:17:754 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:01:30:442 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:01:30:443 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:02:16:759 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:01:16 UTC 2023
+2023-08-29 10:02:16:759 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:02:17:759 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:02:30:447 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:02:30:447 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:03:16:764 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:02:16 UTC 2023
+2023-08-29 10:03:16:765 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:03:17:765 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:03:30:452 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:03:30:452 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:03:37:766 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:04:16:770 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:03:16 UTC 2023
+2023-08-29 10:04:16:770 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:04:17:770 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:04:30:456 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:04:30:456 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:05:16:775 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:04:16 UTC 2023
+2023-08-29 10:05:16:775 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:05:17:775 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:05:30:461 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:05:30:461 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:06:16:780 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:05:16 UTC 2023
+2023-08-29 10:06:16:780 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:06:17:780 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:06:30:466 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:06:30:466 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:07:16:785 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:06:16 UTC 2023
+2023-08-29 10:07:16:785 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:07:17:785 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:07:30:470 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:07:30:470 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:08:16:790 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:07:16 UTC 2023
+2023-08-29 10:08:16:790 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:08:17:790 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:08:30:475 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:08:30:476 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:08:37:792 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:09:16:795 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:08:16 UTC 2023
+2023-08-29 10:09:16:795 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:09:17:795 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:09:30:480 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:09:30:480 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:10:16:801 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:09:16 UTC 2023
+2023-08-29 10:10:16:801 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:10:17:801 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:10:30:485 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:10:30:485 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:11:16:806 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:10:16 UTC 2023
+2023-08-29 10:11:16:806 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:11:17:806 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:11:30:490 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:11:30:490 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:12:16:811 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:11:16 UTC 2023
+2023-08-29 10:12:16:811 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:12:17:812 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:12:30:494 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:12:30:494 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:13:16:817 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:12:16 UTC 2023
+2023-08-29 10:13:16:817 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:13:17:817 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:13:30:499 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:13:30:500 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:13:37:819 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:14:16:822 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:13:16 UTC 2023
+2023-08-29 10:14:16:822 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:14:17:822 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:14:30:504 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:14:30:504 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:15:16:827 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:14:16 UTC 2023
+2023-08-29 10:15:16:827 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:15:17:827 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:15:30:509 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:15:30:509 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:16:16:834 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:15:16 UTC 2023
+2023-08-29 10:16:16:834 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:16:17:834 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:16:30:514 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:16:30:514 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:17:16:839 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:16:16 UTC 2023
+2023-08-29 10:17:16:840 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:17:17:840 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:17:30:519 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:17:30:519 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:18:16:845 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:17:16 UTC 2023
+2023-08-29 10:18:16:845 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:18:17:845 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:18:30:525 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:18:30:532 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:18:37:847 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:19:16:850 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:18:16 UTC 2023
+2023-08-29 10:19:16:850 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:19:17:850 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:19:30:530 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:19:30:536 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:20:16:855 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:19:16 UTC 2023
+2023-08-29 10:20:16:855 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:20:17:855 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:20:30:535 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:20:30:541 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:21:16:860 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:20:16 UTC 2023
+2023-08-29 10:21:16:860 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:21:17:860 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:21:30:539 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:21:30:545 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:22:16:865 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:21:16 UTC 2023
+2023-08-29 10:22:16:865 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:22:17:865 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:22:30:544 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:22:30:549 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:23:16:870 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:22:16 UTC 2023
+2023-08-29 10:23:16:870 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:23:17:870 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:23:30:549 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:23:30:554 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:23:37:872 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:24:16:875 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:23:16 UTC 2023
+2023-08-29 10:24:16:875 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:24:17:875 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:24:30:554 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:24:30:560 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:25:16:880 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:24:16 UTC 2023
+2023-08-29 10:25:16:880 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:25:17:880 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:25:30:559 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:25:30:565 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:26:16:885 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:25:16 UTC 2023
+2023-08-29 10:26:16:885 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:26:17:885 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:26:30:564 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:26:30:569 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:27:16:890 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:26:16 UTC 2023
+2023-08-29 10:27:16:891 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:27:17:891 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:27:30:568 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:27:30:574 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:28:16:895 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:27:16 UTC 2023
+2023-08-29 10:28:16:896 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:28:17:896 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:28:30:573 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:28:30:579 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:28:37:897 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:29:16:901 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:28:16 UTC 2023
+2023-08-29 10:29:16:901 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:29:17:901 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:29:30:578 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:29:30:583 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:30:16:906 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:29:16 UTC 2023
+2023-08-29 10:30:16:906 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:30:17:906 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:30:30:583 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:30:30:588 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:31:16:911 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:30:16 UTC 2023
+2023-08-29 10:31:16:911 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:31:17:911 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:31:30:588 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:31:30:592 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:32:16:918 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:31:16 UTC 2023
+2023-08-29 10:32:16:918 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:32:17:918 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:32:30:592 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:32:30:597 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:33:16:923 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:32:16 UTC 2023
+2023-08-29 10:33:16:923 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:33:17:923 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:33:30:597 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:33:30:601 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:33:37:925 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:34:16:929 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:33:16 UTC 2023
+2023-08-29 10:34:16:929 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:34:17:929 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:34:30:603 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:34:30:606 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:35:16:934 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:34:16 UTC 2023
+2023-08-29 10:35:16:934 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:35:17:934 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:35:30:607 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:35:30:611 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:36:16:939 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:35:16 UTC 2023
+2023-08-29 10:36:16:940 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:36:17:940 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:36:30:612 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:36:30:616 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:37:16:945 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:36:16 UTC 2023
+2023-08-29 10:37:16:945 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:37:17:945 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:37:30:617 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:37:30:620 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:38:16:950 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:37:16 UTC 2023
+2023-08-29 10:38:16:950 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:38:17:950 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:38:30:622 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:38:30:625 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:38:37:952 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:39:16:955 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:38:16 UTC 2023
+2023-08-29 10:39:16:955 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:39:17:955 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:39:30:627 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:39:30:630 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:40:16:960 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:39:16 UTC 2023
+2023-08-29 10:40:16:960 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:40:17:960 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:40:30:633 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:40:30:637 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:41:16:966 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:40:16 UTC 2023
+2023-08-29 10:41:16:966 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:41:17:966 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:41:30:638 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:41:30:641 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:42:16:971 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:41:16 UTC 2023
+2023-08-29 10:42:16:971 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:42:17:971 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:42:30:643 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:42:30:646 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:43:16:976 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:42:16 UTC 2023
+2023-08-29 10:43:16:976 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:43:17:976 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:43:30:648 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:43:30:650 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:43:37:978 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:44:16:981 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:43:16 UTC 2023
+2023-08-29 10:44:16:981 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:44:17:981 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:44:30:652 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:44:30:654 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:45:16:986 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:44:16 UTC 2023
+2023-08-29 10:45:16:986 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:45:17:986 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:45:30:657 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:45:30:658 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:46:16:991 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:45:16 UTC 2023
+2023-08-29 10:46:16:991 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:46:17:991 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:46:30:662 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:46:30:663 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:47:16:996 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:46:16 UTC 2023
+2023-08-29 10:47:16:996 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:47:17:996 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:47:30:666 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:47:30:667 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:48:17:001 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:47:17 UTC 2023
+2023-08-29 10:48:17:001 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:48:18:001 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:48:30:671 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:48:30:671 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:48:38:005 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:49:17:015 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:48:17 UTC 2023
+2023-08-29 10:49:17:016 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:49:18:016 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:49:30:676 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:49:30:676 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:50:17:020 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:49:17 UTC 2023
+2023-08-29 10:50:17:021 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:50:18:021 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:50:30:681 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:50:30:681 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:51:17:025 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:50:17 UTC 2023
+2023-08-29 10:51:17:025 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:51:18:026 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:51:30:685 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:51:30:685 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:52:17:030 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:51:17 UTC 2023
+2023-08-29 10:52:17:030 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:52:18:031 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:52:30:690 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:52:30:690 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:53:17:035 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:52:17 UTC 2023
+2023-08-29 10:53:17:035 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:53:18:035 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:53:30:694 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:53:30:694 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:53:38:037 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:54:17:040 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:53:17 UTC 2023
+2023-08-29 10:54:17:040 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:54:18:040 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:54:30:699 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:54:30:699 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:55:17:045 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:54:17 UTC 2023
+2023-08-29 10:55:17:045 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:55:18:046 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:55:30:704 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:55:30:704 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:56:17:050 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:55:17 UTC 2023
+2023-08-29 10:56:17:050 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:56:18:051 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:56:30:708 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:56:30:708 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:57:17:056 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:56:17 UTC 2023
+2023-08-29 10:57:17:056 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:57:18:056 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:57:30:713 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:57:30:713 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:58:17:061 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:57:17 UTC 2023
+2023-08-29 10:58:17:061 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:58:18:062 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:58:30:718 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 10:58:30:718 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:58:38:063 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 10:59:17:066 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:58:17 UTC 2023
+2023-08-29 10:59:17:066 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 10:59:18:067 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 10:59:30:722 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 10:59:30:722 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:00:17:071 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 10:59:17 UTC 2023
+2023-08-29 11:00:17:072 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:00:18:072 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:00:30:735 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:00:30:735 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:01:17:077 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:00:17 UTC 2023
+2023-08-29 11:01:17:077 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:01:18:077 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:01:30:739 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:01:30:739 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:02:17:082 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:01:17 UTC 2023
+2023-08-29 11:02:17:082 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:02:18:082 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:02:30:744 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:02:30:744 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:03:17:087 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:02:17 UTC 2023
+2023-08-29 11:03:17:087 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:03:18:087 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:03:30:749 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:03:30:749 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:03:38:088 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 11:04:17:091 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:03:17 UTC 2023
+2023-08-29 11:04:17:092 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:04:18:092 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:04:30:754 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:04:30:754 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:05:17:096 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:04:17 UTC 2023
+2023-08-29 11:05:17:096 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:05:18:097 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:05:30:759 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:05:30:759 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:06:17:101 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:05:17 UTC 2023
+2023-08-29 11:06:17:101 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:06:18:101 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:06:30:763 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:06:30:763 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:07:17:106 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:06:17 UTC 2023
+2023-08-29 11:07:17:107 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:07:18:107 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:07:30:768 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:07:30:768 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:08:17:111 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:07:17 UTC 2023
+2023-08-29 11:08:17:112 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:08:18:112 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:08:30:773 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:08:30:773 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:08:38:113 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 11:09:17:117 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:08:17 UTC 2023
+2023-08-29 11:09:17:118 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:09:18:118 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:09:30:778 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:09:30:778 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:10:17:123 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:09:17 UTC 2023
+2023-08-29 11:10:17:123 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:10:18:123 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:10:30:783 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:10:30:783 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:11:17:128 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:10:17 UTC 2023
+2023-08-29 11:11:17:128 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:11:18:128 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:11:30:788 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:11:30:788 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:12:17:137 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:11:17 UTC 2023
+2023-08-29 11:12:17:138 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:12:18:138 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:12:30:793 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:12:30:793 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:13:17:143 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:12:17 UTC 2023
+2023-08-29 11:13:17:143 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:13:18:143 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:13:30:797 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:13:30:798 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:13:38:145 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 11:14:17:148 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:13:17 UTC 2023
+2023-08-29 11:14:17:148 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:14:18:148 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:14:30:802 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:14:30:802 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:15:17:153 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:14:17 UTC 2023
+2023-08-29 11:15:17:153 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:15:18:153 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:15:30:807 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:15:30:807 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:16:17:158 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:15:17 UTC 2023
+2023-08-29 11:16:17:158 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:16:18:158 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:16:30:812 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:16:30:812 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:17:17:163 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:16:17 UTC 2023
+2023-08-29 11:17:17:163 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:17:18:163 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:17:30:817 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:17:30:817 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:18:17:175 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:17:17 UTC 2023
+2023-08-29 11:18:17:176 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:18:18:176 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:18:30:822 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:18:30:822 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:18:38:177 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 11:19:17:180 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:18:17 UTC 2023
+2023-08-29 11:19:17:181 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:19:18:181 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:19:30:828 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:19:30:828 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:20:17:185 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:19:17 UTC 2023
+2023-08-29 11:20:17:185 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:20:18:185 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:20:22:154 +0000 [pool-1-thread-19] INFO  -  [v] topic: dm.apphubconfig.notify
+2023-08-29 11:20:22:154 +0000 [pool-1-thread-19] INFO  -  [o] Received '{"creatorId":1,"type":3,"category":"device","devSerialNoList":["bba32745-9c0b-4690-a662-4942d8d4bf96"]}'
+2023-08-29 11:20:22:154 +0000 [pool-1-thread-19] INFO  - MQTT msg count: received 1 messages since last log time, Average=0.0/Second
+2023-08-29 11:20:22:154 +0000 [pool-1-thread-19] ERROR  - This MQTT topic(dm.apphubconfig.notify) with message({"creatorId":1,"type":3,"category":"device","devSerialNoList":["bba32745-9c0b-4690-a662-4942d8d4bf96"]}) is Not processed.
+2023-08-29 11:20:30:835 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:20:30:835 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:21:17:190 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:20:17 UTC 2023
+2023-08-29 11:21:17:190 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:21:18:190 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:21:30:839 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:21:30:839 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:22:17:195 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:21:17 UTC 2023
+2023-08-29 11:22:17:195 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:22:18:195 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:22:30:844 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:22:30:844 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:23:17:200 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:22:17 UTC 2023
+2023-08-29 11:23:17:200 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:23:18:200 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:23:30:848 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:23:30:848 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:23:38:202 +0000 [TimerThread] INFO  - TimerThread: finish check device buffer expiry
+2023-08-29 11:24:17:205 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:23:17 UTC 2023
+2023-08-29 11:24:17:205 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:24:18:205 +0000 [TimerThread] INFO  - TimerThread: active...
+2023-08-29 11:24:30:853 +0000 [AppHubThread] INFO  - AppHubThread thread
+2023-08-29 11:24:30:853 +0000 [ApiNotifyThread] INFO  - ApiNotifyThread thread
+2023-08-29 11:25:17:210 +0000 [TimerThread] INFO  - expiredDate : Tue Aug 29 11:24:17 UTC 2023
+2023-08-29 11:25:17:210 +0000 [TimerThread] INFO  - TimerThread: markExpiredDevLoraCfg()
+2023-08-29 11:25:18:210 +0000 [TimerThread] INFO  - TimerThread: active...
