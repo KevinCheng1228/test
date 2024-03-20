@@ -1,0 +1,972 @@
+IS_K8S:true
+PREFIX DATACENTER:
+DATACENTER:local
+EXDATACENTER:local
+CLUSTER:solarscada
+WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+NAMESPACE:edge365
+DOMAIN:.net
+EXDOMAIN:sembcorp.net
+SSO_URL:http://api.sso.solarscada.en.internal/v4.0
+DASHBOARD_URL:http://dashboard-pro-edge365:80
+NOTIFICATION_URL:http://wise-mplus-notification.edge365.svc
+MP_URL:http://api.mp.solarscada.en.internal/v1
+DCCS_URL:http://api.dccs.solarscada.en.internal/v1
+MQTTHOST_URL:10.32.10.68
+SAASCOMPOSER_URL:http://saas-composer-edge365:80
+WISEMPLUS_URL:http://portal-wise-mplus.edge365.solarscada.internal
+WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
+SIMPLEJSON_PLUGIN_URL:http://api-org-wise-mplus:80
+VERSION:2.0.21
+EDITION:azure-aks
+APP_ID:ZBWhLdEaWNhWP1KqrlxvdUSymeRZ0Qmi-1690516200
+APP_NAME:api-portal-wise-mplus
+API_INSPECTION_URL:http://api-job-executor-wise-mplus.edge365.svc
+API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
+API_ALARM_SERVICE_URL:http://api-dbmaster-wise-mplus:80
+API_SUBSCRIBE_URL: http://api-subscribe-deviceon-bi.edge365.svc
+AZURE_IOTHUB_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Cd5ExdPwW8Azthka3iyKuq9DR8tfSrL7SAIoTN6ou8U=
+AZURE_IOTHUB_DEV_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=Sm032ly6Z7vYcVvGMTr2SaJvyQEV1l8yEAIoTBnD5wM=
+ETCD_SERVER_HOST: http://pivot-etcd:2379
+TENANT_ETCD_SERVER_HOST: http://tenant-etcd:2379
+IFP_TENANT_URL: http://ifp-tenant:80
+DataConnect_Portal_URL: http://pivot-api-hub-edge365-solarscada.sembcorp.net
+SYNC_SAASCOMPOSER: true
+DEBUG: false
+PG_Max_Conn: 100
+DataLoader_Max_Cache: 200
+IFS_SERVICE_MANGER_URL: http://ifs-service-manager
+SI_PORTAL_QUOTA_CHECK: false
+PATCH_DEVICEON_SCOPE: false
+TWO_FACTOR_AUTH: true
+postgre is Run at cloud
+Get configure data of RabbitMQ success
+mongodb is Run at cloud
+Redis is run at cloud
+Redis connect info: {"host":"redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063-master.edge365.svc","port":6379,"password":"qmtiYAoqSijJHLn"}
+INSPECTION APP URL:http://inspectionapp-inspection__orgid__-solarscada.sembcorp.net
+Enabling inline tracing for this federated service. To disable, use ApolloServerPluginInlineTraceDisabled.
+8080
+【System Info】Start delExpiredDateUserInOrgTask every day
+[DEBUG] start update alarm template with bi_edition = azure-aks
+(node:1) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Redis auth success
+The current leader is 2.0.21/2024-02-13T02:02:23.553Z
+The current leader is 2.0.21/2024-02-13T02:02:23.552Z
+Connected to mqtt broker success
+init srp success
+Connect [mongodb] success !
+patchDeviceOnScopeOnExisitingUser success,update 0 users
+[DEBUG] update alarm template finsih, took 0.518s
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+EtcdLeaseInvalidError: Lease 7587874148948228798 is expired or revoked
+    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+    at ClientDuplexStreamImpl.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874148948228796 is expired or revoked
+    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+    at ClientDuplexStreamImpl.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Trying to re-grant it...
+disconnected...
+EtcdLeaseInvalidError: Lease 7587874175341531317 is expired or revoked
+    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+    at ClientDuplexStreamImpl.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874175341531315 is expired or revoked
+    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+    at ClientDuplexStreamImpl.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Trying to re-grant it...
+successfully reconnected!
+successfully reconnected!
+login start time:2024-03-19T08:20:36.540Z
+*ifp login* start:2024-03-19T08:20:36.541Z
+post sso time:2024-03-19T08:20:36.545Z
+sso success time:2024-03-19T08:20:36.641Z
+update lastlogintime time:2024-03-19T08:20:36.653Z
+*ifp login* end:2024-03-19T08:20:41.952Z
+login first step success :2024-03-19T08:20:41.952Z
+get user time:2024-03-19T08:20:42.004Z
+*ifp publicUser* start:2024-03-19T08:20:42.006Z
+login start time:2024-03-19T08:20:50.944Z
+*ifp login* start:2024-03-19T08:20:50.944Z
+post sso time:2024-03-19T08:20:50.946Z
+sso success time:2024-03-19T08:20:51.034Z
+update lastlogintime time:2024-03-19T08:20:51.042Z
+*ifp login* end:2024-03-19T08:20:51.338Z
+login first step success :2024-03-19T08:20:51.338Z
+get user time:2024-03-19T08:20:51.380Z
+*ifp publicUser* start:2024-03-19T08:20:51.381Z
+login start time:2024-03-19T08:20:53.881Z
+*ifp login* start:2024-03-19T08:20:53.881Z
+post sso time:2024-03-19T08:20:53.882Z
+login:Request failed with status code 401
+login start time:2024-03-19T08:21:10.080Z
+*ifp login* start:2024-03-19T08:21:10.081Z
+post sso time:2024-03-19T08:21:10.081Z
+login:Request failed with status code 401
+auth end time:2024-03-19T08:22:51.240Z
+set cookie domain=sembcorp.net
+login start time:2024-03-19T08:26:42.393Z
+*ifp login* start:2024-03-19T08:26:42.394Z
+post sso time:2024-03-19T08:26:42.395Z
+sso success time:2024-03-19T08:26:42.484Z
+update lastlogintime time:2024-03-19T08:26:42.493Z
+*ifp login* end:2024-03-19T08:26:42.736Z
+login first step success :2024-03-19T08:26:42.736Z
+get user time:2024-03-19T08:26:42.780Z
+*ifp publicUser* start:2024-03-19T08:26:42.782Z
+login start time:2024-03-19T08:26:44.467Z
+*ifp login* start:2024-03-19T08:26:44.467Z
+post sso time:2024-03-19T08:26:44.467Z
+login:Request failed with status code 401
+login start time:2024-03-19T08:26:51.620Z
+*ifp login* start:2024-03-19T08:26:51.620Z
+post sso time:2024-03-19T08:26:51.621Z
+sso success time:2024-03-19T08:26:51.709Z
+update lastlogintime time:2024-03-19T08:26:51.717Z
+*ifp login* end:2024-03-19T08:26:52.249Z
+login first step success :2024-03-19T08:26:52.249Z
+get user time:2024-03-19T08:26:52.291Z
+*ifp publicUser* start:2024-03-19T08:26:52.292Z
+login start time:2024-03-19T08:27:04.548Z
+*ifp login* start:2024-03-19T08:27:04.548Z
+post sso time:2024-03-19T08:27:04.548Z
+sso success time:2024-03-19T08:27:04.645Z
+update lastlogintime time:2024-03-19T08:27:04.653Z
+*ifp login* end:2024-03-19T08:27:04.935Z
+login first step success :2024-03-19T08:27:04.935Z
+get user time:2024-03-19T08:27:04.993Z
+*ifp publicUser* start:2024-03-19T08:27:04.994Z
+login start time:2024-03-19T08:41:38.642Z
+*ifp login* start:2024-03-19T08:41:38.643Z
+post sso time:2024-03-19T08:41:38.654Z
+sso success time:2024-03-19T08:41:38.749Z
+update lastlogintime time:2024-03-19T08:41:38.760Z
+*ifp login* end:2024-03-19T08:41:38.948Z
+login first step success :2024-03-19T08:41:38.948Z
+get user time:2024-03-19T08:41:38.991Z
+*ifp publicUser* start:2024-03-19T08:41:38.992Z
+login start time:2024-03-19T08:44:40.304Z
+*ifp login* start:2024-03-19T08:44:40.305Z
+post sso time:2024-03-19T08:44:40.305Z
+sso success time:2024-03-19T08:44:40.488Z
+update lastlogintime time:2024-03-19T08:44:40.502Z
+*ifp login* end:2024-03-19T08:44:40.753Z
+login first step success :2024-03-19T08:44:40.753Z
+get user time:2024-03-19T08:44:40.796Z
+*ifp publicUser* start:2024-03-19T08:44:40.797Z
+login start time:2024-03-19T08:44:50.837Z
+*ifp login* start:2024-03-19T08:44:50.837Z
+post sso time:2024-03-19T08:44:50.837Z
+sso success time:2024-03-19T08:44:50.957Z
+update lastlogintime time:2024-03-19T08:44:50.965Z
+*ifp login* end:2024-03-19T08:44:51.141Z
+login first step success :2024-03-19T08:44:51.141Z
+get user time:2024-03-19T08:44:51.182Z
+*ifp publicUser* start:2024-03-19T08:44:51.183Z
+login start time:2024-03-19T08:45:25.213Z
+*ifp login* start:2024-03-19T08:45:25.213Z
+post sso time:2024-03-19T08:45:25.214Z
+sso success time:2024-03-19T08:45:25.326Z
+update lastlogintime time:2024-03-19T08:45:25.335Z
+*ifp login* end:2024-03-19T08:45:25.543Z
+login first step success :2024-03-19T08:45:25.543Z
+get user time:2024-03-19T08:45:25.580Z
+*ifp publicUser* start:2024-03-19T08:45:25.581Z
+login start time:2024-03-19T08:47:15.904Z
+*ifp login* start:2024-03-19T08:47:15.904Z
+post sso time:2024-03-19T08:47:15.905Z
+sso success time:2024-03-19T08:47:16.018Z
+update lastlogintime time:2024-03-19T08:47:16.027Z
+*ifp login* end:2024-03-19T08:47:16.241Z
+login first step success :2024-03-19T08:47:16.241Z
+get user time:2024-03-19T08:47:16.288Z
+*ifp publicUser* start:2024-03-19T08:47:16.289Z
+login start time:2024-03-19T08:48:52.549Z
+*ifp login* start:2024-03-19T08:48:52.550Z
+post sso time:2024-03-19T08:48:52.564Z
+sso success time:2024-03-19T08:48:52.736Z
+update lastlogintime time:2024-03-19T08:48:52.746Z
+*ifp login* end:2024-03-19T08:48:52.940Z
+login first step success :2024-03-19T08:48:52.940Z
+get user time:2024-03-19T08:48:52.987Z
+*ifp publicUser* start:2024-03-19T08:48:52.988Z
+login start time:2024-03-19T08:49:09.868Z
+*ifp login* start:2024-03-19T08:49:09.868Z
+post sso time:2024-03-19T08:49:09.868Z
+sso success time:2024-03-19T08:49:09.957Z
+update lastlogintime time:2024-03-19T08:49:09.966Z
+*ifp login* end:2024-03-19T08:49:10.241Z
+login first step success :2024-03-19T08:49:10.241Z
+get user time:2024-03-19T08:49:10.277Z
+*ifp publicUser* start:2024-03-19T08:49:10.277Z
+login start time:2024-03-19T08:49:34.553Z
+*ifp login* start:2024-03-19T08:49:34.553Z
+post sso time:2024-03-19T08:49:34.554Z
+sso success time:2024-03-19T08:49:34.630Z
+update lastlogintime time:2024-03-19T08:49:34.637Z
+*ifp login* end:2024-03-19T08:49:34.942Z
+login first step success :2024-03-19T08:49:34.942Z
+get user time:2024-03-19T08:49:34.984Z
+*ifp publicUser* start:2024-03-19T08:49:34.985Z
+login start time:2024-03-19T08:49:37.088Z
+*ifp login* start:2024-03-19T08:49:37.088Z
+post sso time:2024-03-19T08:49:37.088Z
+sso success time:2024-03-19T08:49:37.198Z
+update lastlogintime time:2024-03-19T08:49:37.207Z
+*ifp login* end:2024-03-19T08:49:37.450Z
+login first step success :2024-03-19T08:49:37.450Z
+get user time:2024-03-19T08:49:37.487Z
+*ifp publicUser* start:2024-03-19T08:49:37.487Z
+auth end time:2024-03-19T08:52:30.719Z
+if-none-match: undefined
+if-none-match: undefined
+if-none-match: undefined
+get langresc succeed
+set cookie domain=sembcorp.net
+auth end time:2024-03-19T08:53:58.893Z
+auth end time:2024-03-19T09:00:26.441Z
+auth end time:2024-03-19T09:01:10.956Z
+login start time:2024-03-19T09:10:33.186Z
+*ifp login* start:2024-03-19T09:10:33.186Z
+post sso time:2024-03-19T09:10:33.187Z
+sso success time:2024-03-19T09:10:33.301Z
+update lastlogintime time:2024-03-19T09:10:33.313Z
+*ifp login* end:2024-03-19T09:10:33.541Z
+login first step success :2024-03-19T09:10:33.541Z
+get user time:2024-03-19T09:10:33.602Z
+*ifp publicUser* start:2024-03-19T09:10:33.602Z
+login start time:2024-03-19T09:35:30.636Z
+*ifp login* start:2024-03-19T09:35:30.637Z
+post sso time:2024-03-19T09:35:30.638Z
+sso success time:2024-03-19T09:35:30.720Z
+update lastlogintime time:2024-03-19T09:35:30.733Z
+*ifp login* end:2024-03-19T09:35:33.448Z
+login first step success :2024-03-19T09:35:33.448Z
+get user time:2024-03-19T09:35:33.490Z
+*ifp publicUser* start:2024-03-19T09:35:33.490Z
+login start time:2024-03-19T09:35:40.412Z
+*ifp login* start:2024-03-19T09:35:40.412Z
+post sso time:2024-03-19T09:35:40.412Z
+sso success time:2024-03-19T09:35:40.544Z
+update lastlogintime time:2024-03-19T09:35:40.552Z
+*ifp login* end:2024-03-19T09:35:40.735Z
+login first step success :2024-03-19T09:35:40.735Z
+get user time:2024-03-19T09:35:40.776Z
+*ifp publicUser* start:2024-03-19T09:35:40.776Z
+login start time:2024-03-19T09:35:53.253Z
+*ifp login* start:2024-03-19T09:35:53.253Z
+post sso time:2024-03-19T09:35:53.254Z
+sso success time:2024-03-19T09:35:53.329Z
+update lastlogintime time:2024-03-19T09:35:53.341Z
+*ifp login* end:2024-03-19T09:35:53.636Z
+login first step success :2024-03-19T09:35:53.636Z
+get user time:2024-03-19T09:35:53.676Z
+*ifp publicUser* start:2024-03-19T09:35:53.677Z
+login start time:2024-03-19T09:36:52.314Z
+*ifp login* start:2024-03-19T09:36:52.314Z
+post sso time:2024-03-19T09:36:52.328Z
+sso success time:2024-03-19T09:36:52.431Z
+update lastlogintime time:2024-03-19T09:36:52.442Z
+*ifp login* end:2024-03-19T09:36:52.642Z
+login first step success :2024-03-19T09:36:52.642Z
+get user time:2024-03-19T09:36:52.684Z
+*ifp publicUser* start:2024-03-19T09:36:52.685Z
+auth end time:2024-03-19T09:41:35.962Z
+if-none-match: W/"2.0.21"
+if-none-match: W/"2.0.21"
+if-none-match: W/"2.0.21"
+login start time:2024-03-19T09:41:45.304Z
+*ifp login* start:2024-03-19T09:41:45.304Z
+post sso time:2024-03-19T09:41:45.304Z
+sso success time:2024-03-19T09:41:45.413Z
+update lastlogintime time:2024-03-19T09:41:45.425Z
+*ifp login* end:2024-03-19T09:41:45.735Z
+login first step success :2024-03-19T09:41:45.735Z
+get user time:2024-03-19T09:41:45.776Z
+*ifp publicUser* start:2024-03-19T09:41:45.777Z
+set cookie domain=sembcorp.net
+login start time:2024-03-19T09:42:41.867Z
+*ifp login* start:2024-03-19T09:42:41.867Z
+post sso time:2024-03-19T09:42:41.868Z
+sso success time:2024-03-19T09:42:42.017Z
+update lastlogintime time:2024-03-19T09:42:42.025Z
+*ifp login* end:2024-03-19T09:42:42.241Z
+login first step success :2024-03-19T09:42:42.241Z
+get user time:2024-03-19T09:42:42.284Z
+*ifp publicUser* start:2024-03-19T09:42:42.285Z
+login start time:2024-03-19T09:42:49.165Z
+*ifp login* start:2024-03-19T09:42:49.165Z
+post sso time:2024-03-19T09:42:49.165Z
+sso success time:2024-03-19T09:42:49.317Z
+update lastlogintime time:2024-03-19T09:42:49.326Z
+*ifp login* end:2024-03-19T09:42:49.535Z
+login first step success :2024-03-19T09:42:49.535Z
+get user time:2024-03-19T09:42:49.576Z
+*ifp publicUser* start:2024-03-19T09:42:49.576Z
+login start time:2024-03-19T09:47:24.781Z
+*ifp login* start:2024-03-19T09:47:24.781Z
+post sso time:2024-03-19T09:47:24.782Z
+sso success time:2024-03-19T09:47:24.873Z
+update lastlogintime time:2024-03-19T09:47:24.882Z
+*ifp login* end:2024-03-19T09:47:25.141Z
+login first step success :2024-03-19T09:47:25.141Z
+get user time:2024-03-19T09:47:25.194Z
+*ifp publicUser* start:2024-03-19T09:47:25.195Z
+We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Trying to re-grant it...
+EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Trying to re-grant it...
+EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+auth end time:2024-03-19T09:50:11.622Z
+login start time:2024-03-19T09:50:18.613Z
+*ifp login* start:2024-03-19T09:50:18.613Z
+post sso time:2024-03-19T09:50:18.614Z
+sso success time:2024-03-19T09:50:18.714Z
+update lastlogintime time:2024-03-19T09:50:18.724Z
+*ifp login* end:2024-03-19T09:50:18.941Z
+login first step success :2024-03-19T09:50:18.941Z
+get user time:2024-03-19T09:50:18.983Z
+*ifp publicUser* start:2024-03-19T09:50:18.984Z
+disconnected...
+disconnected...
+We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
+    at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
+  [Symbol(RecoverableError)]: true
+}
+Trying to re-grant it...
+14 UNAVAILABLE: read ETIMEDOUT
+GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+  [Symbol(RecoverableError)]: true
+}
+Unhandled Rejection at: Promise {
+  <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+      at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+      at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+  for call at
+      at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+      at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+      at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+      at new Promise (<anonymous>)
+      at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+      at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+      at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+      at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+      at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+      at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+      at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+      at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+      at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+      at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+    [Symbol(RecoverableError)]: true
+  }
+} reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+  [Symbol(RecoverableError)]: true
+}
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+successfully reconnected!
+SERVICE_SECRET: npMIsZ-HC9VSsMzHKl-VI5vdOr2PWf
+rootTenantId is VGVuYW50.ZMDtPwQpNN4lUFDL
+disconnected...
+disconnected...
+We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
+    at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
+  [Symbol(RecoverableError)]: true
+}
+Trying to re-grant it...
+14 UNAVAILABLE: read ETIMEDOUT
+GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+  [Symbol(RecoverableError)]: true
+}
+Unhandled Rejection at: Promise {
+  <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+      at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+      at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+  for call at
+      at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+      at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+      at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+      at new Promise (<anonymous>)
+      at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+      at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+      at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+      at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+      at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+      at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+      at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+      at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+      at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+      at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+    [Symbol(RecoverableError)]: true
+  }
+} reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+    at new Promise (<anonymous>)
+    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+  [Symbol(RecoverableError)]: true
+}
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+disconnected...
+successfully reconnected!
+tenant SERVICE_SECRET: ltxznXiRV4MsTndUwC0oaQZky12XK3
+【System Info】Schedule Task Start at 2024-03-19T16:05:00.021Z
+0
+【System Info】delExpiredDateUserInOrg Task Finish at 2024-03-19T16:05:00.039Z;
+auth end time:2024-03-20T01:07:49.811Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:10:24.552Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+login start time:2024-03-20T01:32:42.293Z
+*ifp login* start:2024-03-20T01:32:42.293Z
+post sso time:2024-03-20T01:32:42.304Z
+sso success time:2024-03-20T01:32:42.395Z
+update lastlogintime time:2024-03-20T01:32:42.404Z
+*ifp login* end:2024-03-20T01:32:42.636Z
+login first step success :2024-03-20T01:32:42.636Z
+get user time:2024-03-20T01:32:42.672Z
+*ifp publicUser* start:2024-03-20T01:32:42.672Z
+*ifp publicUser* end:2024-03-20T01:32:42.688Z
+syncTenantUsers get users time:2024-03-20T01:32:43.041Z
+ifp sync tenantUsers length:0
+sync tenantUsers length:0
+syncTenantUsers finish time:2024-03-20T01:32:43.042Z
+login end time:2024-03-20T01:32:43.042Z
+auth end time:2024-03-20T01:32:58.903Z
+if-none-match: undefined
+if-none-match: undefined
+if-none-match: undefined
+get langresc succeed
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:39:03.044Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:39:19.170Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:40:57.988Z
+auth end time:2024-03-20T01:42:55.563Z
+auth end time:2024-03-20T01:47:23.371Z
+auth end time:2024-03-20T01:47:34.817Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:49:36.482Z
+login start time:2024-03-20T01:51:03.461Z
+*ifp login* start:2024-03-20T01:51:03.461Z
+post sso time:2024-03-20T01:51:03.475Z
+sso success time:2024-03-20T01:51:03.637Z
+update lastlogintime time:2024-03-20T01:51:03.647Z
+*ifp login* end:2024-03-20T01:51:03.858Z
+login first step success :2024-03-20T01:51:03.858Z
+get user time:2024-03-20T01:51:03.902Z
+*ifp publicUser* start:2024-03-20T01:51:03.902Z
+*ifp publicUser* end:2024-03-20T01:51:03.918Z
+syncTenantUsers get users time:2024-03-20T01:51:04.159Z
+ifp sync tenantUsers length:0
+sync tenantUsers length:0
+syncTenantUsers finish time:2024-03-20T01:51:04.160Z
+login end time:2024-03-20T01:51:04.160Z
+auth end time:2024-03-20T01:51:27.021Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T01:52:15.436Z
+auth end time:2024-03-20T01:52:28.145Z
+auth end time:2024-03-20T01:52:32.879Z
+delete cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+RequestError: Error: socket hang up
+    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/app/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:526:28)
+    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (node:events:526:28)
+    at Socket.socketOnEnd (node:_http_client:466:9)
+    at Socket.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  cause: Error: socket hang up
+      at connResetException (node:internal/errors:691:14)
+      at Socket.socketOnEnd (node:_http_client:466:23)
+      at Socket.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+    code: 'ECONNRESET'
+  },
+  error: Error: socket hang up
+      at connResetException (node:internal/errors:691:14)
+      at Socket.socketOnEnd (node:_http_client:466:23)
+      at Socket.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+    code: 'ECONNRESET'
+  },
+  options: {
+    method: 'POST',
+    uri: 'http://api-dbmaster-wise-mplus:80/query',
+    headers: { 'content-type': 'application/json' },
+    body: {
+      query: '{DevList(devID:[4790]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+    },
+    json: true,
+    callback: [Function: RP$callback],
+    transform: undefined,
+    simple: true,
+    resolveWithFullResponse: false,
+    transform2xxOnly: false
+  },
+  response: undefined
+}
+RequestError: Error: socket hang up
+    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/app/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:526:28)
+    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (node:events:526:28)
+    at Socket.socketOnEnd (node:_http_client:466:9)
+    at Socket.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  cause: Error: socket hang up
+      at connResetException (node:internal/errors:691:14)
+      at Socket.socketOnEnd (node:_http_client:466:23)
+      at Socket.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+    code: 'ECONNRESET'
+  },
+  error: Error: socket hang up
+      at connResetException (node:internal/errors:691:14)
+      at Socket.socketOnEnd (node:_http_client:466:23)
+      at Socket.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+    code: 'ECONNRESET'
+  },
+  options: {
+    method: 'POST',
+    uri: 'http://api-dbmaster-wise-mplus:80/query',
+    headers: { 'content-type': 'application/json' },
+    body: {
+      query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+    },
+    json: true,
+    callback: [Function: RP$callback],
+    transform: undefined,
+    simple: true,
+    resolveWithFullResponse: false,
+    transform2xxOnly: false
+  },
+  response: undefined
+}
+RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
+    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/app/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:526:28)
+    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (node:events:526:28)
+    at Socket.socketErrorListener (node:_http_client:442:9)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  cause: Error: connect ECONNREFUSED 10.0.76.103:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '10.0.76.103',
+    port: 80
+  },
+  error: Error: connect ECONNREFUSED 10.0.76.103:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '10.0.76.103',
+    port: 80
+  },
+  options: {
+    method: 'POST',
+    uri: 'http://api-dbmaster-wise-mplus:80/query',
+    headers: { 'content-type': 'application/json' },
+    body: {
+      query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+    },
+    json: true,
+    callback: [Function: RP$callback],
+    transform: undefined,
+    simple: true,
+    resolveWithFullResponse: false,
+    transform2xxOnly: false
+  },
+  response: undefined
+}
+login start time:2024-03-20T01:53:01.938Z
+*ifp login* start:2024-03-20T01:53:01.938Z
+post sso time:2024-03-20T01:53:01.939Z
+sso success time:2024-03-20T01:53:02.013Z
+update lastlogintime time:2024-03-20T01:53:02.023Z
+*ifp login* end:2024-03-20T01:53:02.265Z
+login first step success :2024-03-20T01:53:02.265Z
+get user time:2024-03-20T01:53:02.307Z
+*ifp publicUser* start:2024-03-20T01:53:02.308Z
+*ifp publicUser* end:2024-03-20T01:53:02.321Z
+syncTenantUsers get users time:2024-03-20T01:53:02.574Z
+ifp sync tenantUsers length:0
+sync tenantUsers length:0
+syncTenantUsers finish time:2024-03-20T01:53:02.574Z
+login end time:2024-03-20T01:53:02.574Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+login start time:2024-03-20T01:57:37.349Z
+*ifp login* start:2024-03-20T01:57:37.349Z
+post sso time:2024-03-20T01:57:37.350Z
+sso success time:2024-03-20T01:57:37.431Z
+update lastlogintime time:2024-03-20T01:57:37.446Z
+*ifp login* end:2024-03-20T01:57:37.661Z
+login first step success :2024-03-20T01:57:37.661Z
+get user time:2024-03-20T01:57:37.708Z
+*ifp publicUser* start:2024-03-20T01:57:37.709Z
+*ifp publicUser* end:2024-03-20T01:57:37.723Z
+syncTenantUsers get users time:2024-03-20T01:57:37.977Z
+ifp sync tenantUsers length:0
+sync tenantUsers length:0
+syncTenantUsers finish time:2024-03-20T01:57:37.978Z
+login end time:2024-03-20T01:57:37.978Z
+post sso time:2024-03-20T02:00:00.039Z
+(node:1) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+login:Request failed with status code 401
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T02:14:39.466Z
+if-none-match: undefined
+if-none-match: undefined
+if-none-match: undefined
+get langresc succeed
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T02:17:27.651Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+login start time:2024-03-20T02:33:48.166Z
+*ifp login* start:2024-03-20T02:33:48.166Z
+post sso time:2024-03-20T02:33:48.167Z
+sso success time:2024-03-20T02:33:48.295Z
+update lastlogintime time:2024-03-20T02:33:48.305Z
+*ifp login* end:2024-03-20T02:33:48.593Z
+login first step success :2024-03-20T02:33:48.593Z
+get user time:2024-03-20T02:33:48.643Z
+*ifp publicUser* start:2024-03-20T02:33:48.644Z
+*ifp publicUser* end:2024-03-20T02:33:48.659Z
+syncTenantUsers get users time:2024-03-20T02:33:48.907Z
+ifp sync tenantUsers length:0
+sync tenantUsers length:0
+syncTenantUsers finish time:2024-03-20T02:33:48.908Z
+login end time:2024-03-20T02:33:48.908Z
+auth end time:2024-03-20T02:33:59.070Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T02:37:59.256Z
+RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
+    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/app/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:526:28)
+    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (node:events:526:28)
+    at Socket.socketErrorListener (node:_http_client:442:9)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  cause: Error: connect ECONNREFUSED 10.0.76.103:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '10.0.76.103',
+    port: 80
+  },
+  error: Error: connect ECONNREFUSED 10.0.76.103:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '10.0.76.103',
+    port: 80
+  },
+  options: {
+    method: 'POST',
+    uri: 'http://api-dbmaster-wise-mplus:80/query',
+    headers: { 'content-type': 'application/json' },
+    body: {
+      query: '{DevList(devID:[5068]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+    },
+    json: true,
+    callback: [Function: RP$callback],
+    transform: undefined,
+    simple: true,
+    resolveWithFullResponse: false,
+    transform2xxOnly: false
+  },
+  response: undefined
+}
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T02:47:23.769Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T02:57:06.386Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:17:41.833Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:21:58.213Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+[DEBUG] query = {
+  gateways {
+    id
+    name
+    scadaId
+  }
+}
+, variable = [object Object]
+add machines
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:36:05.138Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:37:28.371Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:51:21.074Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:56:22.148Z
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T03:59:22.722Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T04:01:47.060Z
+if-none-match: undefined
+if-none-match: undefined
+if-none-match: undefined
+get langresc succeed
+set cookie domain=sembcorp.net
+auth end time:2024-03-20T04:02:46.807Z
+set cookie domain=sembcorp.net
+set cookie domain=sembcorp.net
