@@ -1,0 +1,1420 @@
+info: System information {
+  'process.pid': 6,
+  'process.ppid': 1,
+  'process.platform': 'linux',
+  'process.arch': 'x64',
+  'process.versions': {
+    node: '16.14.2',
+    v8: '9.4.146.24-node.20',
+    uv: '1.43.0',
+    zlib: '1.2.11',
+    brotli: '1.0.9',
+    ares: '1.18.1',
+    modules: '93',
+    nghttp2: '1.45.1',
+    napi: '8',
+    llhttp: '6.0.4',
+    openssl: '1.1.1n+quic',
+    cldr: '40.0',
+    icu: '70.1',
+    tz: '2021a3',
+    unicode: '14.0',
+    ngtcp2: '0.1.0-DEV',
+    nghttp3: '0.1.0-DEV',
+    pkg: '5.6.0'
+  },
+  'os.userInfo()': {
+    uid: 0,
+    gid: 0,
+    username: 'root',
+    homedir: '/root',
+    shell: '/bin/bash'
+  }
+}
+info: Entrypoint {
+  entrypoints: null,
+  IFS_SERVICE_MANGER_URL: 'http://ifs-service-manager'
+}
+info: #discoverMongoose ENSAAS_SERVICES. { name: 'mongodb' }
+info: #discoverMongoose MONGODB_URL {
+  MONGODB_URL: 'mongodb://3e944efc-8f48-4863-8cf1-b4e7aa75f263:D9F3qNfHK6a95jjJkwzDkh0h@10.32.9.4:27017/49c6f7ef-cc93-4751-abc1-4cc0d2ed53f5?replicaSet=rs0'
+}
+info: #mongoose.connect
+info: #MongooseDatabase._conn #dbConn open
+info: TenantService.initFirstTenant { tenantsIsEmpty: false }
+info: TenantService.initFirstTenant { tenantsIsEmpty: false }
+info: UserService.initFirstAdmin {
+  IFP_FIRST_ADMIN_USERNAME: undefined,
+  IFP_FIRST_ADMIN_PASSWORD: undefined,
+  IFP_FIRST_ADMIN_NAME: undefined
+}
+info: HTTP Server listening on { PORT: 80 }
+info: IfsServiceMangerApiService startHealthCheckTask
+info: #RegisterWatcher Service initRegister!
+info: EtcdLauncher Service registered {
+  name: 'ifp-tenant',
+  version: '1.2.0',
+  sid: '2024-03-19T10:20:30.440Z'
+}
+info: EtcdLauncher iApp registered { name: 'Tenant', version: '1.2.0', sid: '2024-03-19T10:20:30.443Z' }
+info: #ServiceRegister Secret Watcher put { key: 'ifp-tenant', secret: true }
+info: #ServiceRegister Secret Watcher put { key: 'pivot-api-hub', secret: true }
+info: #discoverRedis ENSAAS_SERVICES. { name: 'redis' }
+info: #discoverRedis REDIS_URL {
+  REDIS_URL: 'redis://:qmtiYAoqSijJHLn@redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063-master.edge365.svc:6379'
+}
+info: RedisFactory.redis connect { status: 'connect' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '30ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '30ms',
+  tenantsCount: 0
+}
+warn: PivotApiService Pivot API isReady. { ready: true }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '30ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '53ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '18ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '18ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '18ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '34ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '35ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '35ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '35ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '79ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '27ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '28ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '28ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '126ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '28ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '29ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '29ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '100ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '18ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '18ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '18ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '47ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '38ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '39ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '39ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '86ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '24ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '26ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '26ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '45ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '29ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '65ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '65ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '97ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '15ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '18ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '18ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '52ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '65ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '68ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '68ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '91ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '31ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '33ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '33ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '56ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '23ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '25ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '26ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '50ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '19ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '24ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '25ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '56ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '29ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '31ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '31ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '70ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '41ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '43ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '43ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '71ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '28ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '31ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '31ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '69ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '15ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '53ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '53ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '91ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '28ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '28ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '28ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '48ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '33ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '33ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '34ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '61ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '36ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '37ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '37ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '85ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '23ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '25ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '25ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '57ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '39ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '42ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '42ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '74ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '35ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '38ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '38ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '71ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '41ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '43ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '43ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '87ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '35ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '35ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '36ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '73ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '47ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '50ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '50ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '75ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '25ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '29ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '29ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '68ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '37ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '40ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '40ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '72ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '25ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '26ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '26ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '55ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '20ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '20ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '20ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '53ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'wenhong.pai@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '33ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '33ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '33ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'wenhong.pai@sembcorp.com',
+  cost: '83ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '36ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '39ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '39ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '71ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '33ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '37ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '37ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '58ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '31ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '31ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '31ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '58ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '18ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '18ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '18ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '78ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '35ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '35ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '35ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '62ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '32ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '34ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '34ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '62ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '27ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '29ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '29ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '56ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '36ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '53ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '53ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '80ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '34ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '34ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '34ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '67ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '25ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '25ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '26ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '52ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '37ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '38ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '38ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '57ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '23ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '23ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '23ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '58ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '36ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '37ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '37ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '61ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '55ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '55ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '55ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '79ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '27ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '27ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '27ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '88ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '31ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '31ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '31ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '61ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '36ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '36ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '36ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '70ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '30ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '30ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '30ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'darren.yeo@sembcorp.com',
+  cost: '60ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '31ms', subscriptionsCount: 1 }
+info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '34ms', tenantsCount: 0 }
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '34ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'admin@iot.sense',
+  cost: '72ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'darren.yeo@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '22ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '22ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '22ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '41ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: #applySubscriptionTenants query subscriptions done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '41ms',
+  subscriptionsCount: 0
+}
+info: #applySubscriptionTenants sync subscriptions and tenants done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '41ms',
+  tenantsCount: 0
+}
+info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '41ms' }
+info: #applySubscriptionTenants update subscription tenant relation done {
+  username: 'minkhang.lee@sembcorp.com',
+  cost: '69ms',
+  subscriptionTreeNodeCount: 0,
+  subscriptionTenantCount: 0
+}
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'admin@iot.sense',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: EnSaaS Users Me {
+  username: 'minkhang.lee@sembcorp.com',
+  userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+}
+info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
