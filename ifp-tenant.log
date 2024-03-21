@@ -1,0 +1,1777 @@
+2024-03-19T10:20:28.547025062Z info: System information {
+2024-03-19T10:20:28.547061364Z   'process.pid': 6,
+2024-03-19T10:20:28.547063865Z   'process.ppid': 1,
+2024-03-19T10:20:28.547065965Z   'process.platform': 'linux',
+2024-03-19T10:20:28.547067865Z   'process.arch': 'x64',
+2024-03-19T10:20:28.547069765Z   'process.versions': {
+2024-03-19T10:20:28.547071565Z     node: '16.14.2',
+2024-03-19T10:20:28.547073465Z     v8: '9.4.146.24-node.20',
+2024-03-19T10:20:28.547075365Z     uv: '1.43.0',
+2024-03-19T10:20:28.547077166Z     zlib: '1.2.11',
+2024-03-19T10:20:28.547079066Z     brotli: '1.0.9',
+2024-03-19T10:20:28.547080866Z     ares: '1.18.1',
+2024-03-19T10:20:28.547082766Z     modules: '93',
+2024-03-19T10:20:28.547084666Z     nghttp2: '1.45.1',
+2024-03-19T10:20:28.547086466Z     napi: '8',
+2024-03-19T10:20:28.547088466Z     llhttp: '6.0.4',
+2024-03-19T10:20:28.547090267Z     openssl: '1.1.1n+quic',
+2024-03-19T10:20:28.547092167Z     cldr: '40.0',
+2024-03-19T10:20:28.547094067Z     icu: '70.1',
+2024-03-19T10:20:28.547095967Z     tz: '2021a3',
+2024-03-19T10:20:28.547097767Z     unicode: '14.0',
+2024-03-19T10:20:28.547099667Z     ngtcp2: '0.1.0-DEV',
+2024-03-19T10:20:28.547101467Z     nghttp3: '0.1.0-DEV',
+2024-03-19T10:20:28.547103368Z     pkg: '5.6.0'
+2024-03-19T10:20:28.547105168Z   },
+2024-03-19T10:20:28.547107068Z   'os.userInfo()': {
+2024-03-19T10:20:28.547109068Z     uid: 0,
+2024-03-19T10:20:28.547110968Z     gid: 0,
+2024-03-19T10:20:28.547112868Z     username: 'root',
+2024-03-19T10:20:28.547114968Z     homedir: '/root',
+2024-03-19T10:20:28.547116769Z     shell: '/bin/bash'
+2024-03-19T10:20:28.547118669Z   }
+2024-03-19T10:20:28.547120569Z }
+2024-03-19T10:20:28.547930128Z info: Entrypoint {
+2024-03-19T10:20:28.547941529Z   entrypoints: null,
+2024-03-19T10:20:28.547945729Z   IFS_SERVICE_MANGER_URL: 'http://ifs-service-manager'
+2024-03-19T10:20:28.547948630Z }
+2024-03-19T10:20:28.631727871Z info: #discoverMongoose ENSAAS_SERVICES. { name: 'mongodb' }
+2024-03-19T10:20:28.632373218Z info: #discoverMongoose MONGODB_URL {
+2024-03-19T10:20:28.632383419Z   MONGODB_URL: 'mongodb://3e944efc-8f48-4863-8cf1-b4e7aa75f263:D9F3qNfHK6a95jjJkwzDkh0h@10.32.9.4:27017/49c6f7ef-cc93-4751-abc1-4cc0d2ed53f5?replicaSet=rs0'
+2024-03-19T10:20:28.632387119Z }
+2024-03-19T10:20:28.739745289Z info: #mongoose.connect
+2024-03-19T10:20:28.853720144Z info: #MongooseDatabase._conn #dbConn open
+2024-03-19T10:20:28.947338707Z info: TenantService.initFirstTenant { tenantsIsEmpty: false }
+2024-03-19T10:20:28.949896794Z info: TenantService.initFirstTenant { tenantsIsEmpty: false }
+2024-03-19T10:20:29.053538192Z info: UserService.initFirstAdmin {
+2024-03-19T10:20:29.053560293Z   IFP_FIRST_ADMIN_USERNAME: undefined,
+2024-03-19T10:20:29.053562694Z   IFP_FIRST_ADMIN_PASSWORD: undefined,
+2024-03-19T10:20:29.053564694Z   IFP_FIRST_ADMIN_NAME: undefined
+2024-03-19T10:20:29.053566594Z }
+2024-03-19T10:20:30.036014212Z info: HTTP Server listening on { PORT: 80 }
+2024-03-19T10:20:30.036232928Z info: IfsServiceMangerApiService startHealthCheckTask
+2024-03-19T10:20:30.437226623Z info: #RegisterWatcher Service initRegister!
+2024-03-19T10:20:41.608275832Z info: EtcdLauncher Service registered {
+2024-03-19T10:20:41.608302634Z   name: 'ifp-tenant',
+2024-03-19T10:20:41.608305134Z   version: '1.2.0',
+2024-03-19T10:20:41.608307135Z   sid: '2024-03-19T10:20:30.440Z'
+2024-03-19T10:20:41.608309035Z }
+2024-03-19T10:20:41.611833292Z info: EtcdLauncher iApp registered { name: 'Tenant', version: '1.2.0', sid: '2024-03-19T10:20:30.443Z' }
+2024-03-19T10:20:41.699235677Z info: #ServiceRegister Secret Watcher put { key: 'ifp-tenant', secret: true }
+2024-03-19T10:20:41.699643506Z info: #ServiceRegister Secret Watcher put { key: 'pivot-api-hub', secret: true }
+2024-03-19T10:21:31.341927295Z info: #discoverRedis ENSAAS_SERVICES. { name: 'redis' }
+2024-03-19T10:21:31.342093907Z info: #discoverRedis REDIS_URL {
+2024-03-19T10:21:31.342111509Z   REDIS_URL: 'redis://:qmtiYAoqSijJHLn@redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063-master.edge365.svc:6379'
+2024-03-19T10:21:31.342115309Z }
+2024-03-19T10:21:31.389229066Z info: RedisFactory.redis connect { status: 'connect' }
+2024-03-20T01:06:51.136885812Z info: EnSaaS Users Me {
+2024-03-20T01:06:51.136943916Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:06:51.136951917Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:06:51.136956717Z }
+2024-03-20T01:06:51.136991720Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:06:51.434661389Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:07:05.683721065Z info: EnSaaS Users Me {
+2024-03-20T01:07:05.683748167Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:07:05.683754867Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:07:05.683758768Z }
+2024-03-20T01:07:05.683812472Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:07:05.932418014Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:07:05.986355894Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:07:05.986379696Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:07:05.986384696Z   cost: '30ms',
+2024-03-20T01:07:05.986389396Z   subscriptionsCount: 0
+2024-03-20T01:07:05.986393197Z }
+2024-03-20T01:07:05.986558609Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T01:07:05.986570110Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:07:05.986575710Z   cost: '30ms',
+2024-03-20T01:07:05.986580110Z   tenantsCount: 0
+2024-03-20T01:07:05.986583911Z }
+2024-03-20T01:07:05.986676117Z warn: PivotApiService Pivot API isReady. { ready: true }
+2024-03-20T01:07:05.986839929Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '30ms' }
+2024-03-20T01:07:06.010091245Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:07:06.010125047Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:07:06.010131048Z   cost: '53ms',
+2024-03-20T01:07:06.010137748Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:07:06.010142049Z   subscriptionTenantCount: 0
+2024-03-20T01:07:06.010145949Z }
+2024-03-20T01:10:15.808780400Z info: EnSaaS Users Me {
+2024-03-20T01:10:15.808805801Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:15.808812402Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:10:15.808816502Z }
+2024-03-20T01:10:15.808872406Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:15.941994121Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:16.393215686Z info: EnSaaS Users Me {
+2024-03-20T01:10:16.393255489Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:16.393260589Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:10:16.393263390Z }
+2024-03-20T01:10:16.393277291Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:16.540110716Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:17.330411379Z info: EnSaaS Users Me {
+2024-03-20T01:10:17.330462183Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:17.330467483Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:10:17.330470484Z }
+2024-03-20T01:10:17.330489585Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:17.538647931Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:17.658557671Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:10:17.658583273Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:17.658588074Z   cost: '18ms',
+2024-03-20T01:10:17.658592274Z   subscriptionsCount: 0
+2024-03-20T01:10:17.658595674Z }
+2024-03-20T01:10:17.658830391Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T01:10:17.658848793Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:17.658853693Z   cost: '18ms',
+2024-03-20T01:10:17.658857493Z   tenantsCount: 0
+2024-03-20T01:10:17.658861094Z }
+2024-03-20T01:10:17.658953401Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '18ms' }
+2024-03-20T01:10:17.674251728Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:10:17.674282331Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:17.674286431Z   cost: '34ms',
+2024-03-20T01:10:17.674290431Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:10:17.674293831Z   subscriptionTenantCount: 0
+2024-03-20T01:10:17.674296832Z }
+2024-03-20T01:10:22.337161588Z info: EnSaaS Users Me {
+2024-03-20T01:10:22.337210892Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:22.337214892Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:10:22.337217392Z }
+2024-03-20T01:10:22.337236494Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:22.538370711Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T01:10:22.605493956Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:10:22.605531059Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:22.605534559Z   cost: '35ms',
+2024-03-20T01:10:22.605537760Z   subscriptionsCount: 0
+2024-03-20T01:10:22.605540160Z }
+2024-03-20T01:10:22.605618866Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T01:10:22.605632867Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:22.605637067Z   cost: '35ms',
+2024-03-20T01:10:22.605641067Z   tenantsCount: 0
+2024-03-20T01:10:22.605644867Z }
+2024-03-20T01:10:22.605738474Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '35ms' }
+2024-03-20T01:10:22.649589105Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:10:22.649609306Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T01:10:22.649614107Z   cost: '79ms',
+2024-03-20T01:10:22.649618507Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:10:22.649621707Z   subscriptionTenantCount: 0
+2024-03-20T01:10:22.649624807Z }
+2024-03-20T01:32:42.498930675Z info: EnSaaS Users Me {
+2024-03-20T01:32:42.498980278Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:42.498984779Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:32:42.498998880Z }
+2024-03-20T01:32:42.499021382Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:42.632303668Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:42.787304649Z info: EnSaaS Users Me {
+2024-03-20T01:32:42.787352452Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:42.787357952Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:32:42.787361053Z }
+2024-03-20T01:32:42.787371953Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:42.948036050Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:43.764018263Z info: EnSaaS Users Me {
+2024-03-20T01:32:43.764067467Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:43.764072567Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:32:43.764075667Z }
+2024-03-20T01:32:43.764092169Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:43.940127594Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:44.066248654Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:32:44.066305958Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:44.066310859Z   cost: '27ms',
+2024-03-20T01:32:44.066314059Z   subscriptionsCount: 0
+2024-03-20T01:32:44.066316459Z }
+2024-03-20T01:32:44.066431968Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '28ms', tenantsCount: 0 }
+2024-03-20T01:32:44.066535275Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '28ms' }
+2024-03-20T01:32:44.164509569Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:32:44.164552172Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:44.164555472Z   cost: '126ms',
+2024-03-20T01:32:44.164558273Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:32:44.164560773Z   subscriptionTenantCount: 0
+2024-03-20T01:32:44.164563173Z }
+2024-03-20T01:32:44.892955155Z info: EnSaaS Users Me {
+2024-03-20T01:32:44.893000058Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:44.893006158Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:32:44.893009359Z }
+2024-03-20T01:32:44.893024060Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:45.040863915Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:45.097162949Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:32:45.097183250Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:45.097186550Z   cost: '28ms',
+2024-03-20T01:32:45.097189751Z   subscriptionsCount: 0
+2024-03-20T01:32:45.097192251Z }
+2024-03-20T01:32:45.097311959Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '29ms', tenantsCount: 0 }
+2024-03-20T01:32:45.097436669Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '29ms' }
+2024-03-20T01:32:45.168488986Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:32:45.168511287Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:45.168514688Z   cost: '100ms',
+2024-03-20T01:32:45.168517788Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:32:45.168539189Z   subscriptionTenantCount: 0
+2024-03-20T01:32:45.168542890Z }
+2024-03-20T01:32:51.221410812Z info: EnSaaS Users Me {
+2024-03-20T01:32:51.221434513Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:51.221440214Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:32:51.221443614Z }
+2024-03-20T01:32:51.221491318Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:51.352168754Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:32:51.579818041Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:32:51.579843343Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:51.579846943Z   cost: '18ms',
+2024-03-20T01:32:51.579850243Z   subscriptionsCount: 0
+2024-03-20T01:32:51.579852844Z }
+2024-03-20T01:32:51.579958451Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '18ms', tenantsCount: 0 }
+2024-03-20T01:32:51.580074660Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '18ms' }
+2024-03-20T01:32:51.608589263Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:32:51.608616765Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:32:51.608620165Z   cost: '47ms',
+2024-03-20T01:32:51.608622965Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:32:51.608625465Z   subscriptionTenantCount: 0
+2024-03-20T01:32:51.608627766Z }
+2024-03-20T01:33:16.802615764Z info: EnSaaS Users Me {
+2024-03-20T01:33:16.802669268Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:33:16.802675469Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:33:16.802678969Z }
+2024-03-20T01:33:16.802707471Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:16.940029919Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:17.888356398Z info: EnSaaS Users Me {
+2024-03-20T01:33:17.888376799Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:33:17.888381500Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:33:17.888384500Z }
+2024-03-20T01:33:17.888446605Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:18.040379832Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:24.158164497Z info: EnSaaS Users Me {
+2024-03-20T01:33:24.158218701Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:33:24.158224801Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:33:24.158228602Z }
+2024-03-20T01:33:24.158269405Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:24.346562279Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T01:33:24.404972183Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T01:33:24.405015086Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:33:24.405019186Z   cost: '38ms',
+2024-03-20T01:33:24.405022687Z   subscriptionsCount: 0
+2024-03-20T01:33:24.405025987Z }
+2024-03-20T01:33:24.405143996Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '39ms', tenantsCount: 0 }
+2024-03-20T01:33:24.405264805Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '39ms' }
+2024-03-20T01:33:24.452840510Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:33:24.452886814Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T01:33:24.452892614Z   cost: '86ms',
+2024-03-20T01:33:24.452896514Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:33:24.452899414Z   subscriptionTenantCount: 0
+2024-03-20T01:33:24.452902215Z }
+2024-03-20T01:39:00.360368365Z info: EnSaaS Users Me {
+2024-03-20T01:39:00.360439471Z   username: 'admin@iot.sense',
+2024-03-20T01:39:00.360446771Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:00.360450371Z }
+2024-03-20T01:39:00.360474673Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:00.535690111Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:00.842137039Z info: EnSaaS Users Me {
+2024-03-20T01:39:00.842171942Z   username: 'admin@iot.sense',
+2024-03-20T01:39:00.842178342Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:00.842181743Z }
+2024-03-20T01:39:00.842198144Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:00.932453308Z info: EnSaaS Users Me {
+2024-03-20T01:39:00.932495011Z   username: 'admin@iot.sense',
+2024-03-20T01:39:00.932500012Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:00.932503412Z }
+2024-03-20T01:39:00.932523114Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:00.981863957Z info: EnSaaS Users Me {
+2024-03-20T01:39:00.981904760Z   username: 'admin@iot.sense',
+2024-03-20T01:39:00.981910260Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:00.981914061Z }
+2024-03-20T01:39:00.981929962Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:01.434336568Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:01.436091597Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:01.645388852Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:01.706036530Z info: EnSaaS Users Me {
+2024-03-20T01:39:01.706067032Z   username: 'admin@iot.sense',
+2024-03-20T01:39:01.706072833Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:01.706076733Z }
+2024-03-20T01:39:01.706101535Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:02.032092406Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:02.081360244Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '24ms', subscriptionsCount: 1 }
+2024-03-20T01:39:02.083544706Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '26ms', tenantsCount: 0 }
+2024-03-20T01:39:02.083671115Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '26ms' }
+2024-03-20T01:39:02.102602713Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:39:02.102634115Z   username: 'admin@iot.sense',
+2024-03-20T01:39:02.102638115Z   cost: '45ms',
+2024-03-20T01:39:02.102640916Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:39:02.102643916Z   subscriptionTenantCount: 0
+2024-03-20T01:39:02.102646616Z }
+2024-03-20T01:39:03.766140049Z info: EnSaaS Users Me {
+2024-03-20T01:39:03.766158351Z   username: 'admin@iot.sense',
+2024-03-20T01:39:03.766161951Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:03.766164551Z }
+2024-03-20T01:39:03.766202054Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:03.941801720Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:04.536177200Z info: EnSaaS Users Me {
+2024-03-20T01:39:04.536223604Z   username: 'admin@iot.sense',
+2024-03-20T01:39:04.536229104Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:04.536233004Z }
+2024-03-20T01:39:04.536259106Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:04.738981270Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:04.796606223Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '29ms', subscriptionsCount: 1 }
+2024-03-20T01:39:04.832453769Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '65ms', tenantsCount: 0 }
+2024-03-20T01:39:04.832501673Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '65ms' }
+2024-03-20T01:39:04.864691949Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:39:04.864743753Z   username: 'admin@iot.sense',
+2024-03-20T01:39:04.864748353Z   cost: '97ms',
+2024-03-20T01:39:04.864751553Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:39:04.864754554Z   subscriptionTenantCount: 0
+2024-03-20T01:39:04.864757754Z }
+2024-03-20T01:39:08.119012463Z info: EnSaaS Users Me {
+2024-03-20T01:39:08.119043865Z   username: 'admin@iot.sense',
+2024-03-20T01:39:08.119048065Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:08.119051065Z }
+2024-03-20T01:39:08.119062866Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:08.247797269Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:08.355202897Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '15ms', subscriptionsCount: 1 }
+2024-03-20T01:39:08.357824390Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '18ms', tenantsCount: 0 }
+2024-03-20T01:39:08.357923298Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '18ms' }
+2024-03-20T01:39:08.391684590Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:39:08.391716192Z   username: 'admin@iot.sense',
+2024-03-20T01:39:08.391721092Z   cost: '52ms',
+2024-03-20T01:39:08.391724893Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:39:08.391728193Z   subscriptionTenantCount: 0
+2024-03-20T01:39:08.391731293Z }
+2024-03-20T01:39:14.503425315Z info: EnSaaS Users Me {
+2024-03-20T01:39:14.503476919Z   username: 'admin@iot.sense',
+2024-03-20T01:39:14.503483119Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:39:14.503487220Z }
+2024-03-20T01:39:14.503526422Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:39:14.638327872Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:39:14.747861057Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '65ms', subscriptionsCount: 1 }
+2024-03-20T01:39:14.750504652Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '68ms', tenantsCount: 0 }
+2024-03-20T01:39:14.750636162Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '68ms' }
+2024-03-20T01:39:14.774026188Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:39:14.774077792Z   username: 'admin@iot.sense',
+2024-03-20T01:39:14.774082193Z   cost: '91ms',
+2024-03-20T01:39:14.774084793Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:39:14.774088293Z   subscriptionTenantCount: 0
+2024-03-20T01:39:14.774090693Z }
+2024-03-20T01:40:53.912041238Z info: EnSaaS Users Me {
+2024-03-20T01:40:53.912078441Z   username: 'admin@iot.sense',
+2024-03-20T01:40:53.912084641Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:40:53.912088542Z }
+2024-03-20T01:40:53.912125544Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:40:54.039336731Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:47:21.420741060Z info: EnSaaS Users Me {
+2024-03-20T01:47:21.420783863Z   username: 'admin@iot.sense',
+2024-03-20T01:47:21.420789063Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:47:21.420792364Z }
+2024-03-20T01:47:21.420815765Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:47:21.549215874Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:47:21.675485228Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '31ms', subscriptionsCount: 1 }
+2024-03-20T01:47:21.677327863Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '33ms', tenantsCount: 0 }
+2024-03-20T01:47:21.677470673Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '33ms' }
+2024-03-20T01:47:21.701466431Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:47:21.701485233Z   username: 'admin@iot.sense',
+2024-03-20T01:47:21.701488833Z   cost: '56ms',
+2024-03-20T01:47:21.701491533Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:47:21.701494434Z   subscriptionTenantCount: 0
+2024-03-20T01:47:21.701497634Z }
+2024-03-20T01:49:36.717620515Z info: EnSaaS Users Me {
+2024-03-20T01:49:36.717645615Z   username: 'admin@iot.sense',
+2024-03-20T01:49:36.717649615Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:49:36.717652415Z }
+2024-03-20T01:49:36.717708615Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:49:36.734966626Z info: EnSaaS Users Me {
+2024-03-20T01:49:36.734998326Z   username: 'admin@iot.sense',
+2024-03-20T01:49:36.735003326Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:49:36.735007126Z }
+2024-03-20T01:49:36.735026226Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:49:36.740061829Z info: EnSaaS Users Me {
+2024-03-20T01:49:36.740079229Z   username: 'admin@iot.sense',
+2024-03-20T01:49:36.740086329Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:49:36.740090929Z }
+2024-03-20T01:49:36.740103229Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:49:36.832271887Z info: EnSaaS Users Me {
+2024-03-20T01:49:36.832308587Z   username: 'admin@iot.sense',
+2024-03-20T01:49:36.832312587Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:49:36.832314987Z }
+2024-03-20T01:49:36.832318187Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:49:37.635611727Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:49:37.932655485Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:49:37.935434680Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:49:37.936541678Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:49:52.732652848Z info: EnSaaS Users Me {
+2024-03-20T01:49:52.732690748Z   username: 'admin@iot.sense',
+2024-03-20T01:49:52.732697648Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:49:52.732701848Z }
+2024-03-20T01:49:52.732720748Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:49:52.957241368Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:49:53.079874184Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '23ms', subscriptionsCount: 1 }
+2024-03-20T01:49:53.082118485Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '25ms', tenantsCount: 0 }
+2024-03-20T01:49:53.082258785Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '26ms' }
+2024-03-20T01:49:53.107029888Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:49:53.107044188Z   username: 'admin@iot.sense',
+2024-03-20T01:49:53.107047388Z   cost: '50ms',
+2024-03-20T01:49:53.107050088Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:49:53.107052688Z   subscriptionTenantCount: 0
+2024-03-20T01:49:53.107055288Z }
+2024-03-20T01:51:03.685711641Z info: EnSaaS Users Me {
+2024-03-20T01:51:03.685742241Z   username: 'admin@iot.sense',
+2024-03-20T01:51:03.685748041Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:51:03.685751941Z }
+2024-03-20T01:51:03.685768541Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:51:03.839255831Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:51:03.958686123Z info: EnSaaS Users Me {
+2024-03-20T01:51:03.958706323Z   username: 'admin@iot.sense',
+2024-03-20T01:51:03.958710523Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:51:03.958713423Z }
+2024-03-20T01:51:03.958720923Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:51:04.134984112Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:51:04.911199960Z info: EnSaaS Users Me {
+2024-03-20T01:51:04.911240260Z   username: 'admin@iot.sense',
+2024-03-20T01:51:04.911244460Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:51:04.911247160Z }
+2024-03-20T01:51:04.911280560Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:51:05.035486281Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:51:05.083944728Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '19ms', subscriptionsCount: 1 }
+2024-03-20T01:51:05.089079033Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '24ms', tenantsCount: 0 }
+2024-03-20T01:51:05.089196334Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '25ms' }
+2024-03-20T01:51:05.120839265Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:51:05.120857665Z   username: 'admin@iot.sense',
+2024-03-20T01:51:05.120861065Z   cost: '56ms',
+2024-03-20T01:51:05.120863365Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:51:05.120865765Z   subscriptionTenantCount: 0
+2024-03-20T01:51:05.120868165Z }
+2024-03-20T01:51:12.397564656Z info: EnSaaS Users Me {
+2024-03-20T01:51:12.397601656Z   username: 'admin@iot.sense',
+2024-03-20T01:51:12.397605356Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:51:12.397607856Z }
+2024-03-20T01:51:12.397620156Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:51:12.542422059Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:51:12.675388363Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '29ms', subscriptionsCount: 1 }
+2024-03-20T01:51:12.677448563Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '31ms', tenantsCount: 0 }
+2024-03-20T01:51:12.677547363Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '31ms' }
+2024-03-20T01:51:12.716420664Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:51:12.716444064Z   username: 'admin@iot.sense',
+2024-03-20T01:51:12.716447064Z   cost: '70ms',
+2024-03-20T01:51:12.716449464Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:51:12.716452264Z   subscriptionTenantCount: 0
+2024-03-20T01:51:12.716454564Z }
+2024-03-20T01:51:16.588220839Z info: EnSaaS Users Me {
+2024-03-20T01:51:16.588252839Z   username: 'admin@iot.sense',
+2024-03-20T01:51:16.588256639Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:51:16.588259039Z }
+2024-03-20T01:51:16.588272439Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:51:16.737461567Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:51:16.808291980Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '41ms', subscriptionsCount: 1 }
+2024-03-20T01:51:16.810218581Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '43ms', tenantsCount: 0 }
+2024-03-20T01:51:16.810295881Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '43ms' }
+2024-03-20T01:51:16.838403186Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:51:16.838427386Z   username: 'admin@iot.sense',
+2024-03-20T01:51:16.838431586Z   cost: '71ms',
+2024-03-20T01:51:16.838435486Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:51:16.838438886Z   subscriptionTenantCount: 0
+2024-03-20T01:51:16.838442486Z }
+2024-03-20T01:53:02.087644832Z info: EnSaaS Users Me {
+2024-03-20T01:53:02.087670132Z   username: 'admin@iot.sense',
+2024-03-20T01:53:02.087674232Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:53:02.087677532Z }
+2024-03-20T01:53:02.087690032Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:53:02.239348859Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:53:02.351815579Z info: EnSaaS Users Me {
+2024-03-20T01:53:02.351844779Z   username: 'admin@iot.sense',
+2024-03-20T01:53:02.351848579Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:53:02.351850979Z }
+2024-03-20T01:53:02.351863879Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:53:02.538885312Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:53:03.088826210Z info: EnSaaS Users Me {
+2024-03-20T01:53:03.088851510Z   username: 'admin@iot.sense',
+2024-03-20T01:53:03.088856310Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:53:03.088859410Z }
+2024-03-20T01:53:03.088877110Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:53:03.239790036Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:53:03.295090746Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '28ms', subscriptionsCount: 1 }
+2024-03-20T01:53:03.297374947Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '31ms', tenantsCount: 0 }
+2024-03-20T01:53:03.297478247Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '31ms' }
+2024-03-20T01:53:03.336209754Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:53:03.336227554Z   username: 'admin@iot.sense',
+2024-03-20T01:53:03.336230554Z   cost: '69ms',
+2024-03-20T01:53:03.336233054Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:53:03.336236854Z   subscriptionTenantCount: 0
+2024-03-20T01:53:03.336239954Z }
+2024-03-20T01:55:40.433820045Z info: EnSaaS Users Me {
+2024-03-20T01:55:40.433854545Z   username: 'admin@iot.sense',
+2024-03-20T01:55:40.433860145Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:55:40.433864145Z }
+2024-03-20T01:55:40.433879345Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:55:40.636194782Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:57:37.498986832Z info: EnSaaS Users Me {
+2024-03-20T01:57:37.499022032Z   username: 'admin@iot.sense',
+2024-03-20T01:57:37.499027432Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:57:37.499030332Z }
+2024-03-20T01:57:37.499040732Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:57:37.637259256Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:57:37.786058890Z info: EnSaaS Users Me {
+2024-03-20T01:57:37.786101090Z   username: 'admin@iot.sense',
+2024-03-20T01:57:37.786106390Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:57:37.786109190Z }
+2024-03-20T01:57:37.786123690Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:57:37.945235133Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:57:38.787835091Z info: EnSaaS Users Me {
+2024-03-20T01:57:38.787885991Z   username: 'admin@iot.sense',
+2024-03-20T01:57:38.787890891Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T01:57:38.787894191Z }
+2024-03-20T01:57:38.787913491Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T01:57:38.945169632Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T01:57:38.993530176Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '15ms', subscriptionsCount: 1 }
+2024-03-20T01:57:39.031956110Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '53ms', tenantsCount: 0 }
+2024-03-20T01:57:39.032105911Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '53ms' }
+2024-03-20T01:57:39.069389144Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T01:57:39.069442044Z   username: 'admin@iot.sense',
+2024-03-20T01:57:39.069447344Z   cost: '91ms',
+2024-03-20T01:57:39.069450744Z   subscriptionTreeNodeCount: 0,
+2024-03-20T01:57:39.069454544Z   subscriptionTenantCount: 0
+2024-03-20T01:57:39.069458244Z }
+2024-03-20T02:14:13.429098254Z info: EnSaaS Users Me {
+2024-03-20T02:14:13.429125854Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:13.429130354Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:14:13.429133254Z }
+2024-03-20T02:14:13.429144654Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:13.632243474Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:14.441122737Z info: EnSaaS Users Me {
+2024-03-20T02:14:14.441172637Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:14.441183337Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:14:14.441187637Z }
+2024-03-20T02:14:14.441221938Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:14.640121937Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:14.699879137Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:14:14.699923837Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:14.699928837Z   cost: '28ms',
+2024-03-20T02:14:14.699932937Z   subscriptionsCount: 0
+2024-03-20T02:14:14.699936237Z }
+2024-03-20T02:14:14.699989237Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '28ms', tenantsCount: 0 }
+2024-03-20T02:14:14.700671941Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '28ms' }
+2024-03-20T02:14:14.720160239Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:14:14.720182839Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:14.720187539Z   cost: '48ms',
+2024-03-20T02:14:14.720192039Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:14:14.720195739Z   subscriptionTenantCount: 0
+2024-03-20T02:14:14.720199339Z }
+2024-03-20T02:14:26.519982972Z info: EnSaaS Users Me {
+2024-03-20T02:14:26.520010872Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:26.520014972Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:14:26.520017972Z }
+2024-03-20T02:14:26.520074572Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:26.643205312Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:26.774938868Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:14:26.774964068Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:26.774969368Z   cost: '33ms',
+2024-03-20T02:14:26.774973468Z   subscriptionsCount: 0
+2024-03-20T02:14:26.774977068Z }
+2024-03-20T02:14:26.775043968Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '33ms', tenantsCount: 0 }
+2024-03-20T02:14:26.775111268Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '34ms' }
+2024-03-20T02:14:26.802768885Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:14:26.802830885Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:26.802836785Z   cost: '61ms',
+2024-03-20T02:14:26.802841085Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:14:26.802844685Z   subscriptionTenantCount: 0
+2024-03-20T02:14:26.802848085Z }
+2024-03-20T02:14:32.965241365Z info: EnSaaS Users Me {
+2024-03-20T02:14:32.965296165Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:32.965302165Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:14:32.965305865Z }
+2024-03-20T02:14:32.965314565Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:33.337279533Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:14:33.400221499Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:14:33.400264899Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:33.400269399Z   cost: '36ms',
+2024-03-20T02:14:33.400273099Z   subscriptionsCount: 0
+2024-03-20T02:14:33.400276099Z }
+2024-03-20T02:14:33.400357499Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '37ms', tenantsCount: 0 }
+2024-03-20T02:14:33.400510100Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '37ms' }
+2024-03-20T02:14:33.448807203Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:14:33.448829904Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:14:33.448834704Z   cost: '85ms',
+2024-03-20T02:14:33.448838604Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:14:33.448841904Z   subscriptionTenantCount: 0
+2024-03-20T02:14:33.448845104Z }
+2024-03-20T02:18:53.699667670Z info: EnSaaS Users Me {
+2024-03-20T02:18:53.699694576Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:18:53.699701278Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:18:53.699705379Z }
+2024-03-20T02:18:53.699720282Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:18:53.837656521Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:21:58.327940249Z info: EnSaaS Users Me {
+2024-03-20T02:21:58.328000554Z   username: 'admin@iot.sense',
+2024-03-20T02:21:58.328006855Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:21:58.328011455Z }
+2024-03-20T02:21:58.328041158Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:21:58.535200584Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:29:18.064311923Z info: EnSaaS Users Me {
+2024-03-20T02:29:18.064375524Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:29:18.064382324Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:29:18.064386124Z }
+2024-03-20T02:29:18.064424825Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:29:18.236204174Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:31:55.271540402Z info: EnSaaS Users Me {
+2024-03-20T02:31:55.271601303Z   username: 'admin@iot.sense',
+2024-03-20T02:31:55.271608003Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:31:55.271611503Z }
+2024-03-20T02:31:55.271615603Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:31:55.448811762Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:31:55.575908683Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '23ms', subscriptionsCount: 1 }
+2024-03-20T02:31:55.577631805Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '25ms', tenantsCount: 0 }
+2024-03-20T02:31:55.577742406Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '25ms' }
+2024-03-20T02:31:55.609531911Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:31:55.609573612Z   username: 'admin@iot.sense',
+2024-03-20T02:31:55.609578612Z   cost: '57ms',
+2024-03-20T02:31:55.609582212Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:31:55.609586512Z   subscriptionTenantCount: 0
+2024-03-20T02:31:55.609590412Z }
+2024-03-20T02:31:56.362506708Z info: EnSaaS Users Me {
+2024-03-20T02:31:56.362552308Z   username: 'admin@iot.sense',
+2024-03-20T02:31:56.362558508Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:31:56.362562408Z }
+2024-03-20T02:31:56.362584309Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:31:56.541117170Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:31:56.600778158Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '39ms', subscriptionsCount: 1 }
+2024-03-20T02:31:56.603336183Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '42ms', tenantsCount: 0 }
+2024-03-20T02:31:56.603440684Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '42ms' }
+2024-03-20T02:31:56.635590001Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:31:56.635621702Z   username: 'admin@iot.sense',
+2024-03-20T02:31:56.635626802Z   cost: '74ms',
+2024-03-20T02:31:56.635630502Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:31:56.635634302Z   subscriptionTenantCount: 0
+2024-03-20T02:31:56.635637602Z }
+2024-03-20T02:31:59.724630771Z info: EnSaaS Users Me {
+2024-03-20T02:31:59.724660072Z   username: 'admin@iot.sense',
+2024-03-20T02:31:59.724665272Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:31:59.724668172Z }
+2024-03-20T02:31:59.724680172Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:31:59.937258669Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:32:00.000661694Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '35ms', subscriptionsCount: 1 }
+2024-03-20T02:32:00.003359821Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '38ms', tenantsCount: 0 }
+2024-03-20T02:32:00.003479822Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '38ms' }
+2024-03-20T02:32:00.037787960Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:32:00.037840561Z   username: 'admin@iot.sense',
+2024-03-20T02:32:00.037875561Z   cost: '71ms',
+2024-03-20T02:32:00.037879361Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:32:00.037882361Z   subscriptionTenantCount: 0
+2024-03-20T02:32:00.037885261Z }
+2024-03-20T02:32:08.444683778Z info: EnSaaS Users Me {
+2024-03-20T02:32:08.444739479Z   username: 'admin@iot.sense',
+2024-03-20T02:32:08.444745579Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:32:08.444749079Z }
+2024-03-20T02:32:08.444763679Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:32:08.639962624Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:32:08.784048255Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '41ms', subscriptionsCount: 1 }
+2024-03-20T02:32:08.786005479Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '43ms', tenantsCount: 0 }
+2024-03-20T02:32:08.786116180Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '43ms' }
+2024-03-20T02:32:08.829440301Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:32:08.829471601Z   username: 'admin@iot.sense',
+2024-03-20T02:32:08.829477401Z   cost: '87ms',
+2024-03-20T02:32:08.829481501Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:32:08.829485101Z   subscriptionTenantCount: 0
+2024-03-20T02:32:08.829488901Z }
+2024-03-20T02:32:27.880838309Z info: EnSaaS Users Me {
+2024-03-20T02:32:27.880889109Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T02:32:27.880894909Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:32:27.880898709Z }
+2024-03-20T02:32:27.880912409Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T02:32:28.040464851Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T02:32:34.334968551Z info: EnSaaS Users Me {
+2024-03-20T02:32:34.335020451Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T02:32:34.335026651Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:32:34.335030051Z }
+2024-03-20T02:32:34.335043152Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T02:32:34.549876655Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T02:32:34.608974589Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:32:34.609014589Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T02:32:34.609018389Z   cost: '35ms',
+2024-03-20T02:32:34.609021689Z   subscriptionsCount: 0
+2024-03-20T02:32:34.609024289Z }
+2024-03-20T02:32:34.609071990Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T02:32:34.609088790Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T02:32:34.609094190Z   cost: '35ms',
+2024-03-20T02:32:34.609098390Z   tenantsCount: 0
+2024-03-20T02:32:34.609102190Z }
+2024-03-20T02:32:34.609171791Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '36ms' }
+2024-03-20T02:32:34.647173198Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:32:34.647196599Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T02:32:34.647200899Z   cost: '73ms',
+2024-03-20T02:32:34.647204199Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:32:34.647206999Z   subscriptionTenantCount: 0
+2024-03-20T02:32:34.647209699Z }
+2024-03-20T02:33:28.797552505Z info: EnSaaS Users Me {
+2024-03-20T02:33:28.797579805Z   username: 'admin@iot.sense',
+2024-03-20T02:33:28.797586305Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:28.797589205Z }
+2024-03-20T02:33:28.797600705Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:28.940604538Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:29.012366056Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '47ms', subscriptionsCount: 1 }
+2024-03-20T02:33:29.016008293Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '50ms', tenantsCount: 0 }
+2024-03-20T02:33:29.016117594Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '50ms' }
+2024-03-20T02:33:29.040787841Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:33:29.040814441Z   username: 'admin@iot.sense',
+2024-03-20T02:33:29.040820441Z   cost: '75ms',
+2024-03-20T02:33:29.040824242Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:33:29.040828142Z   subscriptionTenantCount: 0
+2024-03-20T02:33:29.040831542Z }
+2024-03-20T02:33:45.448939512Z info: EnSaaS Users Me {
+2024-03-20T02:33:45.448995613Z   username: 'admin@iot.sense',
+2024-03-20T02:33:45.449000913Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:45.449004813Z }
+2024-03-20T02:33:45.449021513Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:45.634663689Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:48.328207012Z info: EnSaaS Users Me {
+2024-03-20T02:33:48.328233312Z   username: 'admin@iot.sense',
+2024-03-20T02:33:48.328237512Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:48.328240512Z }
+2024-03-20T02:33:48.328257712Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:48.535951554Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:48.684036595Z info: EnSaaS Users Me {
+2024-03-20T02:33:48.684086596Z   username: 'admin@iot.sense',
+2024-03-20T02:33:48.684091696Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:48.684094596Z }
+2024-03-20T02:33:48.684118596Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:48.843070829Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:49.364874604Z info: EnSaaS Users Me {
+2024-03-20T02:33:49.364919104Z   username: 'admin@iot.sense',
+2024-03-20T02:33:49.364923404Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:49.364926204Z }
+2024-03-20T02:33:49.364940205Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:49.534835929Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:49.593031017Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '25ms', subscriptionsCount: 1 }
+2024-03-20T02:33:49.596781648Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '29ms', tenantsCount: 0 }
+2024-03-20T02:33:49.596885049Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '29ms' }
+2024-03-20T02:33:49.635289271Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:33:49.635332072Z   username: 'admin@iot.sense',
+2024-03-20T02:33:49.635336072Z   cost: '68ms',
+2024-03-20T02:33:49.635338472Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:33:49.635340872Z   subscriptionTenantCount: 0
+2024-03-20T02:33:49.635343172Z }
+2024-03-20T02:33:56.439278707Z info: EnSaaS Users Me {
+2024-03-20T02:33:56.439315708Z   username: 'admin@iot.sense',
+2024-03-20T02:33:56.439321808Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:33:56.439325808Z }
+2024-03-20T02:33:56.439346908Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:33:56.734569820Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:33:56.804117188Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '37ms', subscriptionsCount: 1 }
+2024-03-20T02:33:56.806972512Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '40ms', tenantsCount: 0 }
+2024-03-20T02:33:56.807085112Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '40ms' }
+2024-03-20T02:33:56.838602870Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:33:56.838625170Z   username: 'admin@iot.sense',
+2024-03-20T02:33:56.838629370Z   cost: '72ms',
+2024-03-20T02:33:56.838633070Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:33:56.838636370Z   subscriptionTenantCount: 0
+2024-03-20T02:33:56.838639770Z }
+2024-03-20T02:37:45.567357484Z info: EnSaaS Users Me {
+2024-03-20T02:37:45.567398486Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:45.567404286Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:45.567407986Z }
+2024-03-20T02:37:45.567428187Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:45.734958878Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.056714610Z info: EnSaaS Users Me {
+2024-03-20T02:37:46.056752811Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:46.056758411Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:46.056762211Z }
+2024-03-20T02:37:46.056792812Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.072815557Z info: EnSaaS Users Me {
+2024-03-20T02:37:46.072880559Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:46.072887159Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:46.072890759Z }
+2024-03-20T02:37:46.072909260Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.132301378Z info: EnSaaS Users Me {
+2024-03-20T02:37:46.132354180Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:46.132359580Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:46.132362980Z }
+2024-03-20T02:37:46.132447683Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.538835089Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.732290862Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.835783878Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:46.893239530Z info: EnSaaS Users Me {
+2024-03-20T02:37:46.893281631Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:46.893285631Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:46.893288132Z }
+2024-03-20T02:37:46.893318333Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:47.052464539Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:47.178207011Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:37:47.178248613Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:47.178252513Z   cost: '25ms',
+2024-03-20T02:37:47.178255813Z   subscriptionsCount: 0
+2024-03-20T02:37:47.178258213Z }
+2024-03-20T02:37:47.178304815Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '26ms', tenantsCount: 0 }
+2024-03-20T02:37:47.178427319Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '26ms' }
+2024-03-20T02:37:47.207866519Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:37:47.207901120Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:47.207904620Z   cost: '55ms',
+2024-03-20T02:37:47.207907520Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:37:47.207909920Z   subscriptionTenantCount: 0
+2024-03-20T02:37:47.207912321Z }
+2024-03-20T02:37:47.273543250Z info: EnSaaS Users Me {
+2024-03-20T02:37:47.273592652Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:47.273597852Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:47.273601552Z }
+2024-03-20T02:37:47.273618553Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:47.441380052Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:53.227646540Z info: EnSaaS Users Me {
+2024-03-20T02:37:53.227680341Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:53.227684241Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:53.227686741Z }
+2024-03-20T02:37:53.227698641Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:53.441123401Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:53.479507116Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:37:53.479529717Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:53.479533317Z   cost: '20ms',
+2024-03-20T02:37:53.479536217Z   subscriptionsCount: 0
+2024-03-20T02:37:53.479538617Z }
+2024-03-20T02:37:53.479596619Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '20ms', tenantsCount: 0 }
+2024-03-20T02:37:53.479703723Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '20ms' }
+2024-03-20T02:37:53.513065979Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:37:53.513102180Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:53.513105881Z   cost: '53ms',
+2024-03-20T02:37:53.513108681Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:37:53.513110981Z   subscriptionTenantCount: 0
+2024-03-20T02:37:53.513113381Z }
+2024-03-20T02:37:56.736380894Z info: EnSaaS Users Me {
+2024-03-20T02:37:56.736420995Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:56.736473696Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:37:56.736477996Z }
+2024-03-20T02:37:56.736492197Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:56.936434921Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-20T02:37:56.998304198Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:37:56.998349899Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:56.998354599Z   cost: '33ms',
+2024-03-20T02:37:56.998358099Z   subscriptionsCount: 0
+2024-03-20T02:37:56.998361899Z }
+2024-03-20T02:37:56.998385900Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '33ms', tenantsCount: 0 }
+2024-03-20T02:37:56.998436301Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '33ms' }
+2024-03-20T02:37:57.049058545Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:37:57.049109146Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-20T02:37:57.049113246Z   cost: '83ms',
+2024-03-20T02:37:57.049116146Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:37:57.049119646Z   subscriptionTenantCount: 0
+2024-03-20T02:37:57.049123646Z }
+2024-03-20T02:47:11.871918949Z info: EnSaaS Users Me {
+2024-03-20T02:47:11.871983353Z   username: 'admin@iot.sense',
+2024-03-20T02:47:11.871987953Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:47:11.871990853Z }
+2024-03-20T02:47:11.872009454Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:47:12.039207572Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:47:12.096239125Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '36ms', subscriptionsCount: 1 }
+2024-03-20T02:47:12.098483465Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '39ms', tenantsCount: 0 }
+2024-03-20T02:47:12.098552070Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '39ms' }
+2024-03-20T02:47:12.130714274Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:47:12.130768177Z   username: 'admin@iot.sense',
+2024-03-20T02:47:12.130774177Z   cost: '71ms',
+2024-03-20T02:47:12.130778277Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:47:12.130782078Z   subscriptionTenantCount: 0
+2024-03-20T02:47:12.130786178Z }
+2024-03-20T02:47:18.635593986Z info: EnSaaS Users Me {
+2024-03-20T02:47:18.635646487Z   username: 'admin@iot.sense',
+2024-03-20T02:47:18.635652287Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:47:18.635655988Z }
+2024-03-20T02:47:18.635690689Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T02:47:18.843023507Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T02:47:18.904007466Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '33ms', subscriptionsCount: 1 }
+2024-03-20T02:47:18.907174362Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '37ms', tenantsCount: 0 }
+2024-03-20T02:47:18.907230664Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '37ms' }
+2024-03-20T02:47:18.928949226Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:47:18.928986327Z   username: 'admin@iot.sense',
+2024-03-20T02:47:18.928989827Z   cost: '58ms',
+2024-03-20T02:47:18.928992427Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:47:18.928994827Z   subscriptionTenantCount: 0
+2024-03-20T02:47:18.928997327Z }
+2024-03-20T02:58:20.358923650Z info: EnSaaS Users Me {
+2024-03-20T02:58:20.358966852Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:20.358971052Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:58:20.358973752Z }
+2024-03-20T02:58:20.358987552Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:20.541488817Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:26.944001547Z info: EnSaaS Users Me {
+2024-03-20T02:58:26.944041848Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:26.944046148Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:58:26.944048848Z }
+2024-03-20T02:58:26.944057748Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:27.132450057Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:27.185902707Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:58:27.185945208Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:27.185950308Z   cost: '31ms',
+2024-03-20T02:58:27.185954608Z   subscriptionsCount: 0
+2024-03-20T02:58:27.185958609Z }
+2024-03-20T02:58:27.185978709Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '31ms', tenantsCount: 0 }
+2024-03-20T02:58:27.186069711Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '31ms' }
+2024-03-20T02:58:27.213021342Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:58:27.213052642Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:27.213056243Z   cost: '58ms',
+2024-03-20T02:58:27.213059443Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:58:27.213062043Z   subscriptionTenantCount: 0
+2024-03-20T02:58:27.213064543Z }
+2024-03-20T02:58:42.051532620Z info: EnSaaS Users Me {
+2024-03-20T02:58:42.051571521Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:42.051576721Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:58:42.051579421Z }
+2024-03-20T02:58:42.051597322Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:42.238675771Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:58:42.285813440Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:58:42.285849541Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:42.285854641Z   cost: '18ms',
+2024-03-20T02:58:42.285858641Z   subscriptionsCount: 0
+2024-03-20T02:58:42.285862141Z }
+2024-03-20T02:58:42.285891042Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '18ms', tenantsCount: 0 }
+2024-03-20T02:58:42.285991144Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '18ms' }
+2024-03-20T02:58:42.345637344Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:58:42.345670544Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:58:42.345674844Z   cost: '78ms',
+2024-03-20T02:58:42.345679044Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:58:42.345698945Z   subscriptionTenantCount: 0
+2024-03-20T02:58:42.345702245Z }
+2024-03-20T02:59:03.056812401Z info: EnSaaS Users Me {
+2024-03-20T02:59:03.056838701Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:59:03.056844301Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T02:59:03.056848001Z }
+2024-03-20T02:59:03.056865502Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:59:03.239380159Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T02:59:03.398632127Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T02:59:03.398660428Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:59:03.398663728Z   cost: '35ms',
+2024-03-20T02:59:03.398666928Z   subscriptionsCount: 0
+2024-03-20T02:59:03.398669528Z }
+2024-03-20T02:59:03.398755329Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '35ms', tenantsCount: 0 }
+2024-03-20T02:59:03.398798130Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '35ms' }
+2024-03-20T02:59:03.425786882Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T02:59:03.425795082Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T02:59:03.425798282Z   cost: '62ms',
+2024-03-20T02:59:03.425801382Z   subscriptionTreeNodeCount: 0,
+2024-03-20T02:59:03.425804382Z   subscriptionTenantCount: 0
+2024-03-20T02:59:03.425806982Z }
+2024-03-20T03:02:19.720211817Z info: EnSaaS Users Me {
+2024-03-20T03:02:19.720246120Z   username: 'admin@iot.sense',
+2024-03-20T03:02:19.720250320Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:02:19.720253021Z }
+2024-03-20T03:02:19.720264322Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:02:19.845501684Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:32.813421255Z info: EnSaaS Users Me {
+2024-03-20T03:17:32.813448356Z   username: 'admin@iot.sense',
+2024-03-20T03:17:32.813452456Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:32.813455156Z }
+2024-03-20T03:17:32.813471356Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:32.941256936Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.191718249Z info: EnSaaS Users Me {
+2024-03-20T03:17:33.191762150Z   username: 'admin@iot.sense',
+2024-03-20T03:17:33.191766451Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:33.191769251Z }
+2024-03-20T03:17:33.191772551Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.198230937Z info: EnSaaS Users Me {
+2024-03-20T03:17:33.198261938Z   username: 'admin@iot.sense',
+2024-03-20T03:17:33.198267738Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:33.198271238Z }
+2024-03-20T03:17:33.198285638Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.241690888Z info: EnSaaS Users Me {
+2024-03-20T03:17:33.241723089Z   username: 'admin@iot.sense',
+2024-03-20T03:17:33.241728689Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:33.241732589Z }
+2024-03-20T03:17:33.241751290Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.632168433Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.838165566Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:33.932191373Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:34.075559502Z info: EnSaaS Users Me {
+2024-03-20T03:17:34.075610704Z   username: 'admin@iot.sense',
+2024-03-20T03:17:34.075616704Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:34.075621004Z }
+2024-03-20T03:17:34.075652005Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:34.251325064Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:34.301496909Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '32ms', subscriptionsCount: 1 }
+2024-03-20T03:17:34.303619370Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '34ms', tenantsCount: 0 }
+2024-03-20T03:17:34.303730173Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '34ms' }
+2024-03-20T03:17:34.331737580Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:17:34.331773981Z   username: 'admin@iot.sense',
+2024-03-20T03:17:34.331779381Z   cost: '62ms',
+2024-03-20T03:17:34.331782881Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:17:34.331786081Z   subscriptionTenantCount: 0
+2024-03-20T03:17:34.331789381Z }
+2024-03-20T03:17:39.110954736Z info: EnSaaS Users Me {
+2024-03-20T03:17:39.110997137Z   username: 'admin@iot.sense',
+2024-03-20T03:17:39.111001538Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:17:39.111004238Z }
+2024-03-20T03:17:39.111015738Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:17:39.240643828Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:17:39.297683364Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '27ms', subscriptionsCount: 1 }
+2024-03-20T03:17:39.299854323Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '29ms', tenantsCount: 0 }
+2024-03-20T03:17:39.299916424Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '29ms' }
+2024-03-20T03:17:39.326949352Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:17:39.326971853Z   username: 'admin@iot.sense',
+2024-03-20T03:17:39.326975553Z   cost: '56ms',
+2024-03-20T03:17:39.326978353Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:17:39.326980653Z   subscriptionTenantCount: 0
+2024-03-20T03:17:39.326983153Z }
+2024-03-20T03:32:07.419364271Z info: EnSaaS Users Me {
+2024-03-20T03:32:07.419393774Z   username: 'admin@iot.sense',
+2024-03-20T03:32:07.419399575Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:32:07.419403675Z }
+2024-03-20T03:32:07.419419676Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:32:07.640742020Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:32:11.734787355Z info: EnSaaS Users Me {
+2024-03-20T03:32:11.734813357Z   username: 'admin@iot.sense',
+2024-03-20T03:32:11.734819057Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:32:11.734822958Z }
+2024-03-20T03:32:11.734838559Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:32:11.944348066Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:32:12.016310646Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '36ms', subscriptionsCount: 1 }
+2024-03-20T03:32:12.033296657Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '53ms', tenantsCount: 0 }
+2024-03-20T03:32:12.033393465Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '53ms' }
+2024-03-20T03:32:12.060699534Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:32:12.060748238Z   username: 'admin@iot.sense',
+2024-03-20T03:32:12.060752038Z   cost: '80ms',
+2024-03-20T03:32:12.060754438Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:32:12.060757139Z   subscriptionTenantCount: 0
+2024-03-20T03:32:12.060759539Z }
+2024-03-20T03:33:02.684294413Z info: EnSaaS Users Me {
+2024-03-20T03:33:02.684316415Z   username: 'admin@iot.sense',
+2024-03-20T03:33:02.684320115Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:33:02.684323215Z }
+2024-03-20T03:33:02.684362018Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T03:33:02.839931162Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T03:35:22.184386683Z info: EnSaaS Users Me {
+2024-03-20T03:35:22.184459186Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:35:22.184466086Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:35:22.184470586Z }
+2024-03-20T03:35:22.184482687Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:35:22.344702324Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:35:31.997355373Z info: EnSaaS Users Me {
+2024-03-20T03:35:31.997389574Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:35:31.997399575Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:35:31.997404575Z }
+2024-03-20T03:35:31.997421276Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:35:32.143582378Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:35:32.288788739Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:35:32.288839542Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:35:32.288847142Z   cost: '34ms',
+2024-03-20T03:35:32.288851342Z   subscriptionsCount: 0
+2024-03-20T03:35:32.288855842Z }
+2024-03-20T03:35:32.288950946Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T03:35:32.288961347Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:35:32.288965747Z   cost: '34ms',
+2024-03-20T03:35:32.288969647Z   tenantsCount: 0
+2024-03-20T03:35:32.288973447Z }
+2024-03-20T03:35:32.289068051Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '34ms' }
+2024-03-20T03:35:32.321246339Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:35:32.321266840Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:35:32.321271440Z   cost: '67ms',
+2024-03-20T03:35:32.321275540Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:35:32.321279240Z   subscriptionTenantCount: 0
+2024-03-20T03:35:32.321282841Z }
+2024-03-20T03:37:12.845962005Z info: EnSaaS Users Me {
+2024-03-20T03:37:12.846027707Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:12.846034608Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:37:12.846038408Z }
+2024-03-20T03:37:12.846057208Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:13.043275937Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:13.722450720Z info: EnSaaS Users Me {
+2024-03-20T03:37:13.722480721Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:13.722486721Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:37:13.722491521Z }
+2024-03-20T03:37:13.722504822Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:13.847039144Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:14.951484605Z info: EnSaaS Users Me {
+2024-03-20T03:37:14.951507505Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:14.951511906Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:37:14.951514806Z }
+2024-03-20T03:37:14.951529206Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:15.137655868Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:15.192977499Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:37:15.193012800Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:15.193017800Z   cost: '25ms',
+2024-03-20T03:37:15.193022300Z   subscriptionsCount: 0
+2024-03-20T03:37:15.193025900Z }
+2024-03-20T03:37:15.193059802Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '25ms', tenantsCount: 0 }
+2024-03-20T03:37:15.193176305Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '26ms' }
+2024-03-20T03:37:15.219939091Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:37:15.219984693Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:15.219989593Z   cost: '52ms',
+2024-03-20T03:37:15.219994493Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:37:15.219999593Z   subscriptionTenantCount: 0
+2024-03-20T03:37:15.220003794Z }
+2024-03-20T03:37:22.618894134Z info: EnSaaS Users Me {
+2024-03-20T03:37:22.618926335Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:22.618931035Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:37:22.618933835Z }
+2024-03-20T03:37:22.618944636Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:22.837293839Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:37:22.894086626Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:37:22.894110027Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:22.894113727Z   cost: '37ms',
+2024-03-20T03:37:22.894117927Z   subscriptionsCount: 0
+2024-03-20T03:37:22.894120627Z }
+2024-03-20T03:37:22.894209629Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '38ms', tenantsCount: 0 }
+2024-03-20T03:37:22.894280831Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '38ms' }
+2024-03-20T03:37:22.913223861Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:37:22.913258562Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:37:22.913262162Z   cost: '57ms',
+2024-03-20T03:37:22.913265262Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:37:22.913267762Z   subscriptionTenantCount: 0
+2024-03-20T03:37:22.913270062Z }
+2024-03-20T03:38:59.662990826Z info: EnSaaS Users Me {
+2024-03-20T03:38:59.663044027Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:38:59.663049727Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:38:59.663054627Z }
+2024-03-20T03:38:59.663094928Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:38:59.836866548Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:39:26.918628559Z info: EnSaaS Users Me {
+2024-03-20T03:39:26.918664160Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:26.918670460Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:39:26.918674560Z }
+2024-03-20T03:39:26.918698761Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:27.044997572Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:27.576773570Z info: EnSaaS Users Me {
+2024-03-20T03:39:27.576794070Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:27.576798170Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:39:27.576801070Z }
+2024-03-20T03:39:27.576812670Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:27.738606555Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:28.587068346Z info: EnSaaS Users Me {
+2024-03-20T03:39:28.587126647Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:28.587133747Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:39:28.587137747Z }
+2024-03-20T03:39:28.587163348Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:28.737393183Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:39:28.776557731Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:39:28.776603832Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:28.776608932Z   cost: '23ms',
+2024-03-20T03:39:28.776613032Z   subscriptionsCount: 0
+2024-03-20T03:39:28.776616432Z }
+2024-03-20T03:39:28.776631433Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T03:39:28.776635533Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:28.776638833Z   cost: '23ms',
+2024-03-20T03:39:28.776642133Z   tenantsCount: 0
+2024-03-20T03:39:28.776645433Z }
+2024-03-20T03:39:28.776741235Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '23ms' }
+2024-03-20T03:39:28.812087891Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:39:28.812103891Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:39:28.812106991Z   cost: '58ms',
+2024-03-20T03:39:28.812110291Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:39:28.812113091Z   subscriptionTenantCount: 0
+2024-03-20T03:39:28.812115891Z }
+2024-03-20T03:51:12.125039413Z info: EnSaaS Users Me {
+2024-03-20T03:51:12.125072314Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:12.125077015Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:51:12.125090515Z }
+2024-03-20T03:51:12.125105716Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:51:12.338156484Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:51:12.389182895Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:51:12.389229697Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:12.389233497Z   cost: '36ms',
+2024-03-20T03:51:12.389236997Z   subscriptionsCount: 0
+2024-03-20T03:51:12.389241098Z }
+2024-03-20T03:51:12.389266799Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T03:51:12.389272699Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:12.389276399Z   cost: '37ms',
+2024-03-20T03:51:12.389279999Z   tenantsCount: 0
+2024-03-20T03:51:12.389282799Z }
+2024-03-20T03:51:12.389338102Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '37ms' }
+2024-03-20T03:51:12.413649151Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:51:12.413666652Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:12.413669852Z   cost: '61ms',
+2024-03-20T03:51:12.413673052Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:51:12.413675652Z   subscriptionTenantCount: 0
+2024-03-20T03:51:12.413677952Z }
+2024-03-20T03:51:16.832651146Z info: EnSaaS Users Me {
+2024-03-20T03:51:16.832691548Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:16.832699348Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:51:16.832703749Z }
+2024-03-20T03:51:16.832729250Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:51:17.038952802Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T03:51:17.228389136Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:51:17.228429038Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:17.228433238Z   cost: '55ms',
+2024-03-20T03:51:17.228436438Z   subscriptionsCount: 0
+2024-03-20T03:51:17.228439038Z }
+2024-03-20T03:51:17.228538743Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T03:51:17.228564344Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:17.228570145Z   cost: '55ms',
+2024-03-20T03:51:17.228574645Z   tenantsCount: 0
+2024-03-20T03:51:17.228578745Z }
+2024-03-20T03:51:17.228612347Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '55ms' }
+2024-03-20T03:51:17.253005736Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:51:17.253050638Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T03:51:17.253053438Z   cost: '79ms',
+2024-03-20T03:51:17.253056538Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:51:17.253058938Z   subscriptionTenantCount: 0
+2024-03-20T03:51:17.253061439Z }
+2024-03-20T03:56:06.290384907Z info: EnSaaS Users Me {
+2024-03-20T03:56:06.290448108Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:06.290453209Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:56:06.290455909Z }
+2024-03-20T03:56:06.290469109Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:06.438204626Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:07.084348671Z info: EnSaaS Users Me {
+2024-03-20T03:56:07.084494274Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:07.084501074Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:56:07.084503774Z }
+2024-03-20T03:56:07.084506974Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:07.241112596Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:08.170587094Z info: EnSaaS Users Me {
+2024-03-20T03:56:08.170646096Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:08.170653296Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:56:08.170656196Z }
+2024-03-20T03:56:08.170679296Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:08.337811562Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:08.389695262Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:56:08.389725763Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:08.389730663Z   cost: '27ms',
+2024-03-20T03:56:08.389736063Z   subscriptionsCount: 0
+2024-03-20T03:56:08.389739363Z }
+2024-03-20T03:56:08.389888567Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '27ms', tenantsCount: 0 }
+2024-03-20T03:56:08.390005469Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '27ms' }
+2024-03-20T03:56:08.451290487Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:56:08.451355188Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:08.451360288Z   cost: '88ms',
+2024-03-20T03:56:08.451364088Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:56:08.451367489Z   subscriptionTenantCount: 0
+2024-03-20T03:56:08.451370889Z }
+2024-03-20T03:56:15.447705847Z info: EnSaaS Users Me {
+2024-03-20T03:56:15.447765349Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:15.447771349Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:56:15.447774149Z }
+2024-03-20T03:56:15.447789249Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:15.650159980Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:56:15.772534281Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:56:15.772576182Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:15.772581382Z   cost: '31ms',
+2024-03-20T03:56:15.772586782Z   subscriptionsCount: 0
+2024-03-20T03:56:15.772590682Z }
+2024-03-20T03:56:15.772609483Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '31ms', tenantsCount: 0 }
+2024-03-20T03:56:15.772741386Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '31ms' }
+2024-03-20T03:56:15.803180882Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:56:15.803236783Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:56:15.803243684Z   cost: '61ms',
+2024-03-20T03:56:15.803247684Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:56:15.803255684Z   subscriptionTenantCount: 0
+2024-03-20T03:56:15.803259684Z }
+2024-03-20T03:58:57.322394416Z info: EnSaaS Users Me {
+2024-03-20T03:58:57.322452917Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:58:57.322457817Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:58:57.322491518Z }
+2024-03-20T03:58:57.322518718Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:58:57.448695561Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:58:57.991566762Z info: EnSaaS Users Me {
+2024-03-20T03:58:57.991626063Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:58:57.991633063Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:58:57.991638163Z }
+2024-03-20T03:58:57.991667764Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:58:58.235465645Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:59:13.019338128Z info: EnSaaS Users Me {
+2024-03-20T03:59:13.019385429Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:59:13.019390829Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T03:59:13.019395029Z }
+2024-03-20T03:59:13.019412229Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:59:13.147593169Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T03:59:13.278861661Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T03:59:13.278922562Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:59:13.278927662Z   cost: '36ms',
+2024-03-20T03:59:13.278931362Z   subscriptionsCount: 0
+2024-03-20T03:59:13.278934362Z }
+2024-03-20T03:59:13.278995663Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '36ms', tenantsCount: 0 }
+2024-03-20T03:59:13.279020964Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '36ms' }
+2024-03-20T03:59:13.312770927Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T03:59:13.312836328Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T03:59:13.312842529Z   cost: '70ms',
+2024-03-20T03:59:13.312846729Z   subscriptionTreeNodeCount: 0,
+2024-03-20T03:59:13.312850529Z   subscriptionTenantCount: 0
+2024-03-20T03:59:13.312854129Z }
+2024-03-20T04:01:17.748408994Z info: EnSaaS Users Me {
+2024-03-20T04:01:17.748441899Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T04:01:17.748446300Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T04:01:17.748449301Z }
+2024-03-20T04:01:17.748458202Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T04:01:17.932007406Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T04:01:25.029743730Z info: EnSaaS Users Me {
+2024-03-20T04:01:25.029776634Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T04:01:25.029782335Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T04:01:25.029786436Z }
+2024-03-20T04:01:25.029842944Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T04:01:25.242325340Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T04:01:25.371373817Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T04:01:25.371446331Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T04:01:25.371452733Z   cost: '30ms',
+2024-03-20T04:01:25.371457434Z   subscriptionsCount: 0
+2024-03-20T04:01:25.371461134Z }
+2024-03-20T04:01:25.371469636Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'darren.yeo@sembcorp.com', cost: '30ms', tenantsCount: 0 }
+2024-03-20T04:01:25.371514145Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'darren.yeo@sembcorp.com', cost: '30ms' }
+2024-03-20T04:01:25.401629554Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T04:01:25.401683765Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T04:01:25.401689866Z   cost: '60ms',
+2024-03-20T04:01:25.401694367Z   subscriptionTreeNodeCount: 0,
+2024-03-20T04:01:25.401698068Z   subscriptionTenantCount: 0
+2024-03-20T04:01:25.401701269Z }
+2024-03-20T04:02:36.947508752Z info: EnSaaS Users Me {
+2024-03-20T04:02:36.947545655Z   username: 'admin@iot.sense',
+2024-03-20T04:02:36.947552455Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T04:02:36.947557156Z }
+2024-03-20T04:02:36.947571957Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T04:02:37.140214469Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T04:02:37.194685425Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '31ms', subscriptionsCount: 1 }
+2024-03-20T04:02:37.197275422Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '34ms', tenantsCount: 0 }
+2024-03-20T04:02:37.197340532Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '34ms' }
+2024-03-20T04:02:37.235878844Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T04:02:37.235926051Z   username: 'admin@iot.sense',
+2024-03-20T04:02:37.235930452Z   cost: '72ms',
+2024-03-20T04:02:37.235933152Z   subscriptionTreeNodeCount: 0,
+2024-03-20T04:02:37.235935853Z   subscriptionTenantCount: 0
+2024-03-20T04:02:37.235939253Z }
+2024-03-20T04:05:49.545237047Z info: EnSaaS Users Me {
+2024-03-20T04:05:49.545281250Z   username: 'darren.yeo@sembcorp.com',
+2024-03-20T04:05:49.545286351Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T04:05:49.545289251Z }
+2024-03-20T04:05:49.545303252Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T04:05:49.741671170Z info: IfpAuthService.signIn { username: 'darren.yeo@sembcorp.com' }
+2024-03-20T06:59:52.293862959Z info: EnSaaS Users Me {
+2024-03-20T06:59:52.293916961Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:52.293921862Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T06:59:52.293924662Z }
+2024-03-20T06:59:52.293954263Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:52.435410930Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:52.540043795Z info: EnSaaS Users Me {
+2024-03-20T06:59:52.540074197Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:52.540080197Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T06:59:52.540084297Z }
+2024-03-20T06:59:52.540132099Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:52.734156109Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:56.475400171Z info: EnSaaS Users Me {
+2024-03-20T06:59:56.475446573Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:56.475452574Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T06:59:56.475456074Z }
+2024-03-20T06:59:56.475505376Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:56.632184191Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T06:59:56.704363915Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T06:59:56.704428118Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:56.704434018Z   cost: '22ms',
+2024-03-20T06:59:56.704437118Z   subscriptionsCount: 0
+2024-03-20T06:59:56.704439518Z }
+2024-03-20T06:59:56.704519922Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T06:59:56.704532523Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:56.704536923Z   cost: '22ms',
+2024-03-20T06:59:56.704540223Z   tenantsCount: 0
+2024-03-20T06:59:56.704543123Z }
+2024-03-20T06:59:56.704621227Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '22ms' }
+2024-03-20T06:59:56.724069222Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T06:59:56.724109024Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T06:59:56.724114024Z   cost: '41ms',
+2024-03-20T06:59:56.724118125Z   subscriptionTreeNodeCount: 0,
+2024-03-20T06:59:56.724121525Z   subscriptionTenantCount: 0
+2024-03-20T06:59:56.724125225Z }
+2024-03-20T07:01:00.250427673Z info: EnSaaS Users Me {
+2024-03-20T07:01:00.250459474Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T07:01:00.250464174Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T07:01:00.250467074Z }
+2024-03-20T07:01:00.250493275Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T07:01:00.432325313Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T07:01:00.494400884Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-20T07:01:00.494439386Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T07:01:00.494444686Z   cost: '41ms',
+2024-03-20T07:01:00.494448886Z   subscriptionsCount: 0
+2024-03-20T07:01:00.494452586Z }
+2024-03-20T07:01:00.494469287Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-20T07:01:00.494473487Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T07:01:00.494476987Z   cost: '41ms',
+2024-03-20T07:01:00.494480387Z   tenantsCount: 0
+2024-03-20T07:01:00.494483987Z }
+2024-03-20T07:01:00.494532289Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '41ms' }
+2024-03-20T07:01:00.522790714Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T07:01:00.522809815Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T07:01:00.522814715Z   cost: '69ms',
+2024-03-20T07:01:00.522819315Z   subscriptionTreeNodeCount: 0,
+2024-03-20T07:01:00.522823115Z   subscriptionTenantCount: 0
+2024-03-20T07:01:00.522826815Z }
+2024-03-20T07:29:20.535945630Z info: EnSaaS Users Me {
+2024-03-20T07:29:20.535973333Z   username: 'admin@iot.sense',
+2024-03-20T07:29:20.535978733Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T07:29:20.535982533Z }
+2024-03-20T07:29:20.535992234Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T07:29:20.556567545Z info: EnSaaS Users Me {
+2024-03-20T07:29:20.556616449Z   username: 'admin@iot.sense',
+2024-03-20T07:29:20.556621749Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T07:29:20.556644451Z }
+2024-03-20T07:29:20.556658152Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T07:29:20.632146062Z info: EnSaaS Users Me {
+2024-03-20T07:29:20.632197866Z   username: 'admin@iot.sense',
+2024-03-20T07:29:20.632204267Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T07:29:20.632207667Z }
+2024-03-20T07:29:20.632236169Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T07:29:20.633526370Z info: EnSaaS Users Me {
+2024-03-20T07:29:20.633549072Z   username: 'admin@iot.sense',
+2024-03-20T07:29:20.633554272Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T07:29:20.633556773Z }
+2024-03-20T07:29:20.633580074Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T07:29:20.937146642Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T07:29:21.337112956Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T07:29:21.635770339Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T07:29:21.637061140Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T08:03:55.942564978Z info: EnSaaS Users Me {
+2024-03-20T08:03:55.942615381Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T08:03:55.942619782Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T08:03:55.942622482Z }
+2024-03-20T08:03:55.942635683Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:03:56.134690391Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:00.918459884Z info: EnSaaS Users Me {
+2024-03-20T08:04:00.918508889Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T08:04:00.918515889Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T08:04:00.918519690Z }
+2024-03-20T08:04:00.918535491Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:00.919535380Z info: EnSaaS Users Me {
+2024-03-20T08:04:00.919551681Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T08:04:00.919555282Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T08:04:00.919558282Z }
+2024-03-20T08:04:00.919583084Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:00.954934533Z info: EnSaaS Users Me {
+2024-03-20T08:04:00.954982537Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-20T08:04:00.954987237Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T08:04:00.954989938Z }
+2024-03-20T08:04:00.955012340Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:01.434110409Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:01.534876383Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T08:04:01.535624849Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-20T10:39:11.395655268Z info: EnSaaS Users Me {
+2024-03-20T10:39:11.395710372Z   username: 'admin@iot.sense',
+2024-03-20T10:39:11.395714972Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T10:39:11.395717872Z }
+2024-03-20T10:39:11.395738174Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T10:39:11.537240052Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T10:39:13.945047918Z info: EnSaaS Users Me {
+2024-03-20T10:39:13.945073020Z   username: 'admin@iot.sense',
+2024-03-20T10:39:13.945077220Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T10:39:13.945079720Z }
+2024-03-20T10:39:13.945787165Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T10:39:14.137108868Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T10:39:14.663065067Z info: EnSaaS Users Me {
+2024-03-20T10:39:14.663126371Z   username: 'admin@iot.sense',
+2024-03-20T10:39:14.663131971Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T10:39:14.663140772Z }
+2024-03-20T10:39:14.663155273Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T10:39:14.838979904Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T10:39:14.899738816Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '33ms', subscriptionsCount: 1 }
+2024-03-20T10:39:14.901939154Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '35ms', tenantsCount: 0 }
+2024-03-20T10:39:14.902040661Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '35ms' }
+2024-03-20T10:39:14.930099721Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T10:39:14.930118222Z   username: 'admin@iot.sense',
+2024-03-20T10:39:14.930123122Z   cost: '63ms',
+2024-03-20T10:39:14.930126623Z   subscriptionTreeNodeCount: 0,
+2024-03-20T10:39:14.930129923Z   subscriptionTenantCount: 0
+2024-03-20T10:39:14.930133223Z }
+2024-03-20T10:39:28.469236726Z info: EnSaaS Users Me {
+2024-03-20T10:39:28.469265127Z   username: 'admin@iot.sense',
+2024-03-20T10:39:28.469270227Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-20T10:39:28.469274128Z }
+2024-03-20T10:39:28.469287928Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-20T10:39:28.645471401Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-20T10:39:28.789470496Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '28ms', subscriptionsCount: 1 }
+2024-03-20T10:39:28.791750352Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '30ms', tenantsCount: 0 }
+2024-03-20T10:39:28.791878961Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '30ms' }
+2024-03-20T10:39:28.810135013Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-20T10:39:28.810150214Z   username: 'admin@iot.sense',
+2024-03-20T10:39:28.810153515Z   cost: '48ms',
+2024-03-20T10:39:28.810156915Z   subscriptionTreeNodeCount: 0,
+2024-03-20T10:39:28.810159815Z   subscriptionTenantCount: 0
+2024-03-20T10:39:28.810162515Z }
+2024-03-21T01:25:38.312158837Z info: EnSaaS Users Me {
+2024-03-21T01:25:38.312213540Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:25:38.312221340Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:25:38.312225240Z }
+2024-03-21T01:25:38.312241041Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:25:38.446402015Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:25:44.960984069Z info: EnSaaS Users Me {
+2024-03-21T01:25:44.961010971Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:25:44.961017272Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:25:44.961020672Z }
+2024-03-21T01:25:44.961034573Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:25:45.139376639Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:25:45.194822950Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:25:45.194860153Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:25:45.194863653Z   cost: '31ms',
+2024-03-21T01:25:45.194867154Z   subscriptionsCount: 0
+2024-03-21T01:25:45.194870754Z }
+2024-03-21T01:25:45.194916657Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-21T01:25:45.194921858Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:25:45.194924258Z   cost: '31ms',
+2024-03-21T01:25:45.194927058Z   tenantsCount: 0
+2024-03-21T01:25:45.194929258Z }
+2024-03-21T01:25:45.194969261Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '31ms' }
+2024-03-21T01:25:45.230953359Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:25:45.231001363Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:25:45.231004963Z   cost: '67ms',
+2024-03-21T01:25:45.231008063Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:25:45.231010564Z   subscriptionTenantCount: 0
+2024-03-21T01:25:45.231012964Z }
+2024-03-21T01:30:05.593938354Z info: EnSaaS Users Me {
+2024-03-21T01:30:05.593962956Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:05.593966956Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:30:05.593969756Z }
+2024-03-21T01:30:05.593979257Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:30:05.741121093Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:30:05.806397668Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:30:05.806447971Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:05.806454071Z   cost: '38ms',
+2024-03-21T01:30:05.806458572Z   subscriptionsCount: 0
+2024-03-21T01:30:05.806462672Z }
+2024-03-21T01:30:05.806745289Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-21T01:30:05.806767490Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:05.806772490Z   cost: '38ms',
+2024-03-21T01:30:05.806775991Z   tenantsCount: 0
+2024-03-21T01:30:05.806778491Z }
+2024-03-21T01:30:05.806781691Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '38ms' }
+2024-03-21T01:30:05.839276920Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:30:05.839296921Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:05.839301022Z   cost: '71ms',
+2024-03-21T01:30:05.839306022Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:30:05.839310122Z   subscriptionTenantCount: 0
+2024-03-21T01:30:05.839314122Z }
+2024-03-21T01:30:10.927364555Z info: EnSaaS Users Me {
+2024-03-21T01:30:10.927407658Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:10.927413459Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:30:10.927417059Z }
+2024-03-21T01:30:10.927432860Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:30:11.155585494Z info: IfpAuthService.signIn { username: 'minkhang.lee@sembcorp.com' }
+2024-03-21T01:30:11.203604332Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:30:11.203656535Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:11.203662036Z   cost: '26ms',
+2024-03-21T01:30:11.203665636Z   subscriptionsCount: 0
+2024-03-21T01:30:11.203668736Z }
+2024-03-21T01:30:11.203683437Z info: #applySubscriptionTenants sync subscriptions and tenants done {
+2024-03-21T01:30:11.203686837Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:11.203689837Z   cost: '26ms',
+2024-03-21T01:30:11.203692837Z   tenantsCount: 0
+2024-03-21T01:30:11.203695738Z }
+2024-03-21T01:30:11.203770142Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'minkhang.lee@sembcorp.com', cost: '26ms' }
+2024-03-21T01:30:11.235465548Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:30:11.235489849Z   username: 'minkhang.lee@sembcorp.com',
+2024-03-21T01:30:11.235493449Z   cost: '58ms',
+2024-03-21T01:30:11.235496450Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:30:11.235498950Z   subscriptionTenantCount: 0
+2024-03-21T01:30:11.235501250Z }
+2024-03-21T01:39:52.178894336Z info: EnSaaS Users Me {
+2024-03-21T01:39:52.178923339Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:52.178927539Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:39:52.178930139Z }
+2024-03-21T01:39:52.179039949Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:52.337556264Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:52.453311399Z info: EnSaaS Users Me {
+2024-03-21T01:39:52.453341601Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:52.453346702Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:39:52.453349902Z }
+2024-03-21T01:39:52.453371004Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:52.636459692Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:53.311647089Z info: EnSaaS Users Me {
+2024-03-21T01:39:53.311692693Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:53.311698693Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:39:53.311702294Z }
+2024-03-21T01:39:53.311724896Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:53.441748182Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:53.557499389Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:39:53.557551294Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:53.557556995Z   cost: '87ms',
+2024-03-21T01:39:53.557561595Z   subscriptionsCount: 0
+2024-03-21T01:39:53.557565495Z }
+2024-03-21T01:39:53.557600299Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '87ms', tenantsCount: 0 }
+2024-03-21T01:39:53.557741013Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '87ms' }
+2024-03-21T01:39:53.586508423Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:39:53.586559628Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:53.586589631Z   cost: '116ms',
+2024-03-21T01:39:53.586595031Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:39:53.586598332Z   subscriptionTenantCount: 0
+2024-03-21T01:39:53.586601332Z }
+2024-03-21T01:39:59.275993767Z info: EnSaaS Users Me {
+2024-03-21T01:39:59.276024171Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:59.276029171Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:39:59.276032971Z }
+2024-03-21T01:39:59.276054073Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:59.437600731Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:39:59.488678708Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:39:59.488725913Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:59.488729913Z   cost: '24ms',
+2024-03-21T01:39:59.488732913Z   subscriptionsCount: 0
+2024-03-21T01:39:59.488735213Z }
+2024-03-21T01:39:59.488754715Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '24ms', tenantsCount: 0 }
+2024-03-21T01:39:59.488796019Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '24ms' }
+2024-03-21T01:39:59.511706997Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:39:59.511729099Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:39:59.511732199Z   cost: '47ms',
+2024-03-21T01:39:59.511736000Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:39:59.511738700Z   subscriptionTenantCount: 0
+2024-03-21T01:39:59.511741200Z }
+2024-03-21T01:46:53.224939811Z info: EnSaaS Users Me {
+2024-03-21T01:46:53.224987614Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:46:53.224993514Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:46:53.224997014Z }
+2024-03-21T01:46:53.225029016Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:53.446377934Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:53.925389621Z info: EnSaaS Users Me {
+2024-03-21T01:46:53.925431423Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:46:53.925436523Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:46:53.925440624Z }
+2024-03-21T01:46:53.925451924Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:54.132265942Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:54.833580405Z info: EnSaaS Users Me {
+2024-03-21T01:46:54.833618407Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:46:54.833622907Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:46:54.833626708Z }
+2024-03-21T01:46:54.833679911Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:55.037004812Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:46:55.099247269Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:46:55.099299573Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:46:55.099306873Z   cost: '22ms',
+2024-03-21T01:46:55.099311673Z   subscriptionsCount: 0
+2024-03-21T01:46:55.099316174Z }
+2024-03-21T01:46:55.099327074Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '23ms', tenantsCount: 0 }
+2024-03-21T01:46:55.099422780Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '23ms' }
+2024-03-21T01:46:55.124038806Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:46:55.124060107Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:46:55.124063607Z   cost: '47ms',
+2024-03-21T01:46:55.124066807Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:46:55.124069308Z   subscriptionTenantCount: 0
+2024-03-21T01:46:55.124071608Z }
+2024-03-21T01:47:01.132242063Z info: EnSaaS Users Me {
+2024-03-21T01:47:01.132269264Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:47:01.132273164Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T01:47:01.132275964Z }
+2024-03-21T01:47:01.132361469Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:47:01.339751304Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T01:47:01.392529189Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T01:47:01.392552290Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:47:01.392558490Z   cost: '34ms',
+2024-03-21T01:47:01.392561890Z   subscriptionsCount: 0
+2024-03-21T01:47:01.392564391Z }
+2024-03-21T01:47:01.392628594Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '34ms', tenantsCount: 0 }
+2024-03-21T01:47:01.392713899Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '34ms' }
+2024-03-21T01:47:01.418916731Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T01:47:01.418945532Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T01:47:01.418949133Z   cost: '60ms',
+2024-03-21T01:47:01.418952433Z   subscriptionTreeNodeCount: 0,
+2024-03-21T01:47:01.418955033Z   subscriptionTenantCount: 0
+2024-03-21T01:47:01.418957533Z }
+2024-03-21T02:12:28.961008128Z info: EnSaaS Users Me {
+2024-03-21T02:12:28.961031731Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:28.961036131Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:12:28.961038932Z }
+2024-03-21T02:12:28.961042232Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:29.140844614Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:29.576523055Z info: EnSaaS Users Me {
+2024-03-21T02:12:29.576567260Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:29.576575161Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:12:29.576578761Z }
+2024-03-21T02:12:29.576616366Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:29.732154221Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:30.923708564Z info: EnSaaS Users Me {
+2024-03-21T02:12:30.923753770Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:30.923758470Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:12:30.923761271Z }
+2024-03-21T02:12:30.923775172Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:31.134634433Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:31.195378797Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T02:12:31.195421602Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:31.195446005Z   cost: '39ms',
+2024-03-21T02:12:31.195449406Z   subscriptionsCount: 0
+2024-03-21T02:12:31.195451906Z }
+2024-03-21T02:12:31.195465908Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '39ms', tenantsCount: 0 }
+2024-03-21T02:12:31.195604524Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '39ms' }
+2024-03-21T02:12:31.216011898Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:12:31.216026500Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:31.216029500Z   cost: '59ms',
+2024-03-21T02:12:31.216032701Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:12:31.216035201Z   subscriptionTenantCount: 0
+2024-03-21T02:12:31.216037501Z }
+2024-03-21T02:12:37.227515030Z info: EnSaaS Users Me {
+2024-03-21T02:12:37.227563736Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:37.227568736Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:12:37.227572637Z }
+2024-03-21T02:12:37.227590339Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:37.440750353Z info: IfpAuthService.signIn { username: 'wenhong.pai@sembcorp.com' }
+2024-03-21T02:12:37.500276920Z info: #applySubscriptionTenants query subscriptions done {
+2024-03-21T02:12:37.500317324Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:37.500322525Z   cost: '40ms',
+2024-03-21T02:12:37.500326225Z   subscriptionsCount: 0
+2024-03-21T02:12:37.500329125Z }
+2024-03-21T02:12:37.500350928Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'wenhong.pai@sembcorp.com', cost: '40ms', tenantsCount: 0 }
+2024-03-21T02:12:37.500424536Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'wenhong.pai@sembcorp.com', cost: '40ms' }
+2024-03-21T02:12:37.524811267Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:12:37.524833970Z   username: 'wenhong.pai@sembcorp.com',
+2024-03-21T02:12:37.524837670Z   cost: '64ms',
+2024-03-21T02:12:37.524843671Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:12:37.524846571Z   subscriptionTenantCount: 0
+2024-03-21T02:12:37.524848871Z }
+2024-03-21T02:18:32.909889899Z info: EnSaaS Users Me {
+2024-03-21T02:18:32.909918901Z   username: 'admin@iot.sense',
+2024-03-21T02:18:32.909924901Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:32.909928601Z }
+2024-03-21T02:18:32.909944502Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:33.048295009Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:33.179831038Z info: EnSaaS Users Me {
+2024-03-21T02:18:33.179881641Z   username: 'admin@iot.sense',
+2024-03-21T02:18:33.179887342Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:33.179890942Z }
+2024-03-21T02:18:33.179929745Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:33.341484080Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:33.797497874Z info: EnSaaS Users Me {
+2024-03-21T02:18:33.797523076Z   username: 'admin@iot.sense',
+2024-03-21T02:18:33.797528976Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:33.797533576Z }
+2024-03-21T02:18:33.797569779Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:33.947184476Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:34.005214848Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '29ms', subscriptionsCount: 1 }
+2024-03-21T02:18:34.007330996Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '32ms', tenantsCount: 0 }
+2024-03-21T02:18:34.007427403Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '32ms' }
+2024-03-21T02:18:34.029944683Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:18:34.029976485Z   username: 'admin@iot.sense',
+2024-03-21T02:18:34.029982285Z   cost: '54ms',
+2024-03-21T02:18:34.029985786Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:18:34.029989586Z   subscriptionTenantCount: 0
+2024-03-21T02:18:34.029992786Z }
+2024-03-21T02:18:40.522617298Z info: EnSaaS Users Me {
+2024-03-21T02:18:40.522646200Z   username: 'admin@iot.sense',
+2024-03-21T02:18:40.522650400Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:40.522653101Z }
+2024-03-21T02:18:40.522664901Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:40.733011591Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:40.782775519Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '26ms', subscriptionsCount: 1 }
+2024-03-21T02:18:40.784946768Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '28ms', tenantsCount: 0 }
+2024-03-21T02:18:40.785019674Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '28ms' }
+2024-03-21T02:18:40.813395328Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:18:40.813418130Z   username: 'admin@iot.sense',
+2024-03-21T02:18:40.813421930Z   cost: '57ms',
+2024-03-21T02:18:40.813424430Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:18:40.813427130Z   subscriptionTenantCount: 0
+2024-03-21T02:18:40.813429531Z }
+2024-03-21T02:18:45.451917051Z info: EnSaaS Users Me {
+2024-03-21T02:18:45.451942653Z   username: 'admin@iot.sense',
+2024-03-21T02:18:45.451946553Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:45.451949153Z }
+2024-03-21T02:18:45.451960954Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:45.554139692Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:45.678246141Z info: EnSaaS Users Me {
+2024-03-21T02:18:45.678311146Z   username: 'admin@iot.sense',
+2024-03-21T02:18:45.678319346Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:45.678323847Z }
+2024-03-21T02:18:45.678330147Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:45.849430591Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:47.024696604Z info: EnSaaS Users Me {
+2024-03-21T02:18:47.024729407Z   username: 'admin@iot.sense',
+2024-03-21T02:18:47.024733607Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:18:47.024736407Z }
+2024-03-21T02:18:47.024749908Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:18:47.232198743Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:18:47.306995078Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '42ms', subscriptionsCount: 1 }
+2024-03-21T02:18:47.309421932Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '45ms', tenantsCount: 0 }
+2024-03-21T02:18:47.309495237Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '45ms' }
+2024-03-21T02:18:47.336980477Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:18:47.337015479Z   username: 'admin@iot.sense',
+2024-03-21T02:18:47.337020080Z   cost: '72ms',
+2024-03-21T02:18:47.337023280Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:18:47.337027280Z   subscriptionTenantCount: 0
+2024-03-21T02:18:47.337031080Z }
+2024-03-21T02:19:21.189114729Z info: EnSaaS Users Me {
+2024-03-21T02:19:21.189136430Z   username: 'admin@iot.sense',
+2024-03-21T02:19:21.189139830Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T02:19:21.189142730Z }
+2024-03-21T02:19:21.189185033Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T02:19:21.339989144Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
+2024-03-21T02:19:21.396541348Z info: #applySubscriptionTenants query subscriptions done { username: 'admin@iot.sense', cost: '32ms', subscriptionsCount: 1 }
+2024-03-21T02:19:21.399648346Z info: #applySubscriptionTenants sync subscriptions and tenants done { username: 'admin@iot.sense', cost: '35ms', tenantsCount: 0 }
+2024-03-21T02:19:21.399730552Z info: #applySubscriptionTenants applyDeviceOnRootOrg done { username: 'admin@iot.sense', cost: '35ms' }
+2024-03-21T02:19:21.425448091Z info: #applySubscriptionTenants update subscription tenant relation done {
+2024-03-21T02:19:21.425477992Z   username: 'admin@iot.sense',
+2024-03-21T02:19:21.425481993Z   cost: '60ms',
+2024-03-21T02:19:21.425484793Z   subscriptionTreeNodeCount: 0,
+2024-03-21T02:19:21.425487693Z   subscriptionTenantCount: 0
+2024-03-21T02:19:21.425490393Z }
+2024-03-21T03:20:30.709397311Z info: EnSaaS Users Me {
+2024-03-21T03:20:30.709424815Z   username: 'admin@iot.sense',
+2024-03-21T03:20:30.709429015Z   userRoleOfClient: { subscriptionRole: '', clientRole: '' }
+2024-03-21T03:20:30.709431715Z }
+2024-03-21T03:20:30.709465120Z info: EnSaaS Users Me No WISE_PAAS_MP_API_URL env will skip resource role check and pass { username: 'admin@iot.sense' }
+2024-03-21T03:20:30.843664125Z info: IfpAuthService.signIn { username: 'admin@iot.sense' }
