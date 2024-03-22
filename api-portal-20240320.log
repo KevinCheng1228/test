@@ -1,972 +1,1341 @@
-IS_K8S:true
-PREFIX DATACENTER:
-DATACENTER:local
-EXDATACENTER:local
-CLUSTER:solarscada
-WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
-NAMESPACE:edge365
-DOMAIN:.net
-EXDOMAIN:sembcorp.net
-SSO_URL:http://api.sso.solarscada.en.internal/v4.0
-DASHBOARD_URL:http://dashboard-pro-edge365:80
-NOTIFICATION_URL:http://wise-mplus-notification.edge365.svc
-MP_URL:http://api.mp.solarscada.en.internal/v1
-DCCS_URL:http://api.dccs.solarscada.en.internal/v1
-MQTTHOST_URL:10.32.10.68
-SAASCOMPOSER_URL:http://saas-composer-edge365:80
-WISEMPLUS_URL:http://portal-wise-mplus.edge365.solarscada.internal
-WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
-SIMPLEJSON_PLUGIN_URL:http://api-org-wise-mplus:80
-VERSION:2.0.21
-EDITION:azure-aks
-APP_ID:ZBWhLdEaWNhWP1KqrlxvdUSymeRZ0Qmi-1690516200
-APP_NAME:api-portal-wise-mplus
-API_INSPECTION_URL:http://api-job-executor-wise-mplus.edge365.svc
-API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
-API_ALARM_SERVICE_URL:http://api-dbmaster-wise-mplus:80
-API_SUBSCRIBE_URL: http://api-subscribe-deviceon-bi.edge365.svc
-AZURE_IOTHUB_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Cd5ExdPwW8Azthka3iyKuq9DR8tfSrL7SAIoTN6ou8U=
-AZURE_IOTHUB_DEV_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=Sm032ly6Z7vYcVvGMTr2SaJvyQEV1l8yEAIoTBnD5wM=
-ETCD_SERVER_HOST: http://pivot-etcd:2379
-TENANT_ETCD_SERVER_HOST: http://tenant-etcd:2379
-IFP_TENANT_URL: http://ifp-tenant:80
-DataConnect_Portal_URL: http://pivot-api-hub-edge365-solarscada.sembcorp.net
-SYNC_SAASCOMPOSER: true
-DEBUG: false
-PG_Max_Conn: 100
-DataLoader_Max_Cache: 200
-IFS_SERVICE_MANGER_URL: http://ifs-service-manager
-SI_PORTAL_QUOTA_CHECK: false
-PATCH_DEVICEON_SCOPE: false
-TWO_FACTOR_AUTH: true
-postgre is Run at cloud
-Get configure data of RabbitMQ success
-mongodb is Run at cloud
-Redis is run at cloud
-Redis connect info: {"host":"redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063-master.edge365.svc","port":6379,"password":"qmtiYAoqSijJHLn"}
-INSPECTION APP URL:http://inspectionapp-inspection__orgid__-solarscada.sembcorp.net
-Enabling inline tracing for this federated service. To disable, use ApolloServerPluginInlineTraceDisabled.
-8080
-【System Info】Start delExpiredDateUserInOrgTask every day
-[DEBUG] start update alarm template with bi_edition = azure-aks
-(node:1) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
-(Use `node --trace-warnings ...` to show where the warning was created)
-Redis auth success
-The current leader is 2.0.21/2024-02-13T02:02:23.553Z
-The current leader is 2.0.21/2024-02-13T02:02:23.552Z
-Connected to mqtt broker success
-init srp success
-Connect [mongodb] success !
-patchDeviceOnScopeOnExisitingUser success,update 0 users
-[DEBUG] update alarm template finsih, took 0.518s
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-EtcdLeaseInvalidError: Lease 7587874148948228798 is expired or revoked
-    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
-    at ClientDuplexStreamImpl.emit (node:events:526:28)
-    at addChunk (node:internal/streams/readable:315:12)
-    at readableAddChunk (node:internal/streams/readable:289:9)
-    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874148948228796 is expired or revoked
-    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
-    at ClientDuplexStreamImpl.emit (node:events:526:28)
-    at addChunk (node:internal/streams/readable:315:12)
-    at readableAddChunk (node:internal/streams/readable:289:9)
-    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-Trying to re-grant it...
-disconnected...
-EtcdLeaseInvalidError: Lease 7587874175341531317 is expired or revoked
-    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
-    at ClientDuplexStreamImpl.emit (node:events:526:28)
-    at addChunk (node:internal/streams/readable:315:12)
-    at readableAddChunk (node:internal/streams/readable:289:9)
-    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874175341531315 is expired or revoked
-    at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
-    at ClientDuplexStreamImpl.emit (node:events:526:28)
-    at addChunk (node:internal/streams/readable:315:12)
-    at readableAddChunk (node:internal/streams/readable:289:9)
-    at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
-    at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-Trying to re-grant it...
-successfully reconnected!
-successfully reconnected!
-login start time:2024-03-19T08:20:36.540Z
-*ifp login* start:2024-03-19T08:20:36.541Z
-post sso time:2024-03-19T08:20:36.545Z
-sso success time:2024-03-19T08:20:36.641Z
-update lastlogintime time:2024-03-19T08:20:36.653Z
-*ifp login* end:2024-03-19T08:20:41.952Z
-login first step success :2024-03-19T08:20:41.952Z
-get user time:2024-03-19T08:20:42.004Z
-*ifp publicUser* start:2024-03-19T08:20:42.006Z
-login start time:2024-03-19T08:20:50.944Z
-*ifp login* start:2024-03-19T08:20:50.944Z
-post sso time:2024-03-19T08:20:50.946Z
-sso success time:2024-03-19T08:20:51.034Z
-update lastlogintime time:2024-03-19T08:20:51.042Z
-*ifp login* end:2024-03-19T08:20:51.338Z
-login first step success :2024-03-19T08:20:51.338Z
-get user time:2024-03-19T08:20:51.380Z
-*ifp publicUser* start:2024-03-19T08:20:51.381Z
-login start time:2024-03-19T08:20:53.881Z
-*ifp login* start:2024-03-19T08:20:53.881Z
-post sso time:2024-03-19T08:20:53.882Z
-login:Request failed with status code 401
-login start time:2024-03-19T08:21:10.080Z
-*ifp login* start:2024-03-19T08:21:10.081Z
-post sso time:2024-03-19T08:21:10.081Z
-login:Request failed with status code 401
-auth end time:2024-03-19T08:22:51.240Z
-set cookie domain=sembcorp.net
-login start time:2024-03-19T08:26:42.393Z
-*ifp login* start:2024-03-19T08:26:42.394Z
-post sso time:2024-03-19T08:26:42.395Z
-sso success time:2024-03-19T08:26:42.484Z
-update lastlogintime time:2024-03-19T08:26:42.493Z
-*ifp login* end:2024-03-19T08:26:42.736Z
-login first step success :2024-03-19T08:26:42.736Z
-get user time:2024-03-19T08:26:42.780Z
-*ifp publicUser* start:2024-03-19T08:26:42.782Z
-login start time:2024-03-19T08:26:44.467Z
-*ifp login* start:2024-03-19T08:26:44.467Z
-post sso time:2024-03-19T08:26:44.467Z
-login:Request failed with status code 401
-login start time:2024-03-19T08:26:51.620Z
-*ifp login* start:2024-03-19T08:26:51.620Z
-post sso time:2024-03-19T08:26:51.621Z
-sso success time:2024-03-19T08:26:51.709Z
-update lastlogintime time:2024-03-19T08:26:51.717Z
-*ifp login* end:2024-03-19T08:26:52.249Z
-login first step success :2024-03-19T08:26:52.249Z
-get user time:2024-03-19T08:26:52.291Z
-*ifp publicUser* start:2024-03-19T08:26:52.292Z
-login start time:2024-03-19T08:27:04.548Z
-*ifp login* start:2024-03-19T08:27:04.548Z
-post sso time:2024-03-19T08:27:04.548Z
-sso success time:2024-03-19T08:27:04.645Z
-update lastlogintime time:2024-03-19T08:27:04.653Z
-*ifp login* end:2024-03-19T08:27:04.935Z
-login first step success :2024-03-19T08:27:04.935Z
-get user time:2024-03-19T08:27:04.993Z
-*ifp publicUser* start:2024-03-19T08:27:04.994Z
-login start time:2024-03-19T08:41:38.642Z
-*ifp login* start:2024-03-19T08:41:38.643Z
-post sso time:2024-03-19T08:41:38.654Z
-sso success time:2024-03-19T08:41:38.749Z
-update lastlogintime time:2024-03-19T08:41:38.760Z
-*ifp login* end:2024-03-19T08:41:38.948Z
-login first step success :2024-03-19T08:41:38.948Z
-get user time:2024-03-19T08:41:38.991Z
-*ifp publicUser* start:2024-03-19T08:41:38.992Z
-login start time:2024-03-19T08:44:40.304Z
-*ifp login* start:2024-03-19T08:44:40.305Z
-post sso time:2024-03-19T08:44:40.305Z
-sso success time:2024-03-19T08:44:40.488Z
-update lastlogintime time:2024-03-19T08:44:40.502Z
-*ifp login* end:2024-03-19T08:44:40.753Z
-login first step success :2024-03-19T08:44:40.753Z
-get user time:2024-03-19T08:44:40.796Z
-*ifp publicUser* start:2024-03-19T08:44:40.797Z
-login start time:2024-03-19T08:44:50.837Z
-*ifp login* start:2024-03-19T08:44:50.837Z
-post sso time:2024-03-19T08:44:50.837Z
-sso success time:2024-03-19T08:44:50.957Z
-update lastlogintime time:2024-03-19T08:44:50.965Z
-*ifp login* end:2024-03-19T08:44:51.141Z
-login first step success :2024-03-19T08:44:51.141Z
-get user time:2024-03-19T08:44:51.182Z
-*ifp publicUser* start:2024-03-19T08:44:51.183Z
-login start time:2024-03-19T08:45:25.213Z
-*ifp login* start:2024-03-19T08:45:25.213Z
-post sso time:2024-03-19T08:45:25.214Z
-sso success time:2024-03-19T08:45:25.326Z
-update lastlogintime time:2024-03-19T08:45:25.335Z
-*ifp login* end:2024-03-19T08:45:25.543Z
-login first step success :2024-03-19T08:45:25.543Z
-get user time:2024-03-19T08:45:25.580Z
-*ifp publicUser* start:2024-03-19T08:45:25.581Z
-login start time:2024-03-19T08:47:15.904Z
-*ifp login* start:2024-03-19T08:47:15.904Z
-post sso time:2024-03-19T08:47:15.905Z
-sso success time:2024-03-19T08:47:16.018Z
-update lastlogintime time:2024-03-19T08:47:16.027Z
-*ifp login* end:2024-03-19T08:47:16.241Z
-login first step success :2024-03-19T08:47:16.241Z
-get user time:2024-03-19T08:47:16.288Z
-*ifp publicUser* start:2024-03-19T08:47:16.289Z
-login start time:2024-03-19T08:48:52.549Z
-*ifp login* start:2024-03-19T08:48:52.550Z
-post sso time:2024-03-19T08:48:52.564Z
-sso success time:2024-03-19T08:48:52.736Z
-update lastlogintime time:2024-03-19T08:48:52.746Z
-*ifp login* end:2024-03-19T08:48:52.940Z
-login first step success :2024-03-19T08:48:52.940Z
-get user time:2024-03-19T08:48:52.987Z
-*ifp publicUser* start:2024-03-19T08:48:52.988Z
-login start time:2024-03-19T08:49:09.868Z
-*ifp login* start:2024-03-19T08:49:09.868Z
-post sso time:2024-03-19T08:49:09.868Z
-sso success time:2024-03-19T08:49:09.957Z
-update lastlogintime time:2024-03-19T08:49:09.966Z
-*ifp login* end:2024-03-19T08:49:10.241Z
-login first step success :2024-03-19T08:49:10.241Z
-get user time:2024-03-19T08:49:10.277Z
-*ifp publicUser* start:2024-03-19T08:49:10.277Z
-login start time:2024-03-19T08:49:34.553Z
-*ifp login* start:2024-03-19T08:49:34.553Z
-post sso time:2024-03-19T08:49:34.554Z
-sso success time:2024-03-19T08:49:34.630Z
-update lastlogintime time:2024-03-19T08:49:34.637Z
-*ifp login* end:2024-03-19T08:49:34.942Z
-login first step success :2024-03-19T08:49:34.942Z
-get user time:2024-03-19T08:49:34.984Z
-*ifp publicUser* start:2024-03-19T08:49:34.985Z
-login start time:2024-03-19T08:49:37.088Z
-*ifp login* start:2024-03-19T08:49:37.088Z
-post sso time:2024-03-19T08:49:37.088Z
-sso success time:2024-03-19T08:49:37.198Z
-update lastlogintime time:2024-03-19T08:49:37.207Z
-*ifp login* end:2024-03-19T08:49:37.450Z
-login first step success :2024-03-19T08:49:37.450Z
-get user time:2024-03-19T08:49:37.487Z
-*ifp publicUser* start:2024-03-19T08:49:37.487Z
-auth end time:2024-03-19T08:52:30.719Z
-if-none-match: undefined
-if-none-match: undefined
-if-none-match: undefined
-get langresc succeed
-set cookie domain=sembcorp.net
-auth end time:2024-03-19T08:53:58.893Z
-auth end time:2024-03-19T09:00:26.441Z
-auth end time:2024-03-19T09:01:10.956Z
-login start time:2024-03-19T09:10:33.186Z
-*ifp login* start:2024-03-19T09:10:33.186Z
-post sso time:2024-03-19T09:10:33.187Z
-sso success time:2024-03-19T09:10:33.301Z
-update lastlogintime time:2024-03-19T09:10:33.313Z
-*ifp login* end:2024-03-19T09:10:33.541Z
-login first step success :2024-03-19T09:10:33.541Z
-get user time:2024-03-19T09:10:33.602Z
-*ifp publicUser* start:2024-03-19T09:10:33.602Z
-login start time:2024-03-19T09:35:30.636Z
-*ifp login* start:2024-03-19T09:35:30.637Z
-post sso time:2024-03-19T09:35:30.638Z
-sso success time:2024-03-19T09:35:30.720Z
-update lastlogintime time:2024-03-19T09:35:30.733Z
-*ifp login* end:2024-03-19T09:35:33.448Z
-login first step success :2024-03-19T09:35:33.448Z
-get user time:2024-03-19T09:35:33.490Z
-*ifp publicUser* start:2024-03-19T09:35:33.490Z
-login start time:2024-03-19T09:35:40.412Z
-*ifp login* start:2024-03-19T09:35:40.412Z
-post sso time:2024-03-19T09:35:40.412Z
-sso success time:2024-03-19T09:35:40.544Z
-update lastlogintime time:2024-03-19T09:35:40.552Z
-*ifp login* end:2024-03-19T09:35:40.735Z
-login first step success :2024-03-19T09:35:40.735Z
-get user time:2024-03-19T09:35:40.776Z
-*ifp publicUser* start:2024-03-19T09:35:40.776Z
-login start time:2024-03-19T09:35:53.253Z
-*ifp login* start:2024-03-19T09:35:53.253Z
-post sso time:2024-03-19T09:35:53.254Z
-sso success time:2024-03-19T09:35:53.329Z
-update lastlogintime time:2024-03-19T09:35:53.341Z
-*ifp login* end:2024-03-19T09:35:53.636Z
-login first step success :2024-03-19T09:35:53.636Z
-get user time:2024-03-19T09:35:53.676Z
-*ifp publicUser* start:2024-03-19T09:35:53.677Z
-login start time:2024-03-19T09:36:52.314Z
-*ifp login* start:2024-03-19T09:36:52.314Z
-post sso time:2024-03-19T09:36:52.328Z
-sso success time:2024-03-19T09:36:52.431Z
-update lastlogintime time:2024-03-19T09:36:52.442Z
-*ifp login* end:2024-03-19T09:36:52.642Z
-login first step success :2024-03-19T09:36:52.642Z
-get user time:2024-03-19T09:36:52.684Z
-*ifp publicUser* start:2024-03-19T09:36:52.685Z
-auth end time:2024-03-19T09:41:35.962Z
-if-none-match: W/"2.0.21"
-if-none-match: W/"2.0.21"
-if-none-match: W/"2.0.21"
-login start time:2024-03-19T09:41:45.304Z
-*ifp login* start:2024-03-19T09:41:45.304Z
-post sso time:2024-03-19T09:41:45.304Z
-sso success time:2024-03-19T09:41:45.413Z
-update lastlogintime time:2024-03-19T09:41:45.425Z
-*ifp login* end:2024-03-19T09:41:45.735Z
-login first step success :2024-03-19T09:41:45.735Z
-get user time:2024-03-19T09:41:45.776Z
-*ifp publicUser* start:2024-03-19T09:41:45.777Z
-set cookie domain=sembcorp.net
-login start time:2024-03-19T09:42:41.867Z
-*ifp login* start:2024-03-19T09:42:41.867Z
-post sso time:2024-03-19T09:42:41.868Z
-sso success time:2024-03-19T09:42:42.017Z
-update lastlogintime time:2024-03-19T09:42:42.025Z
-*ifp login* end:2024-03-19T09:42:42.241Z
-login first step success :2024-03-19T09:42:42.241Z
-get user time:2024-03-19T09:42:42.284Z
-*ifp publicUser* start:2024-03-19T09:42:42.285Z
-login start time:2024-03-19T09:42:49.165Z
-*ifp login* start:2024-03-19T09:42:49.165Z
-post sso time:2024-03-19T09:42:49.165Z
-sso success time:2024-03-19T09:42:49.317Z
-update lastlogintime time:2024-03-19T09:42:49.326Z
-*ifp login* end:2024-03-19T09:42:49.535Z
-login first step success :2024-03-19T09:42:49.535Z
-get user time:2024-03-19T09:42:49.576Z
-*ifp publicUser* start:2024-03-19T09:42:49.576Z
-login start time:2024-03-19T09:47:24.781Z
-*ifp login* start:2024-03-19T09:47:24.781Z
-post sso time:2024-03-19T09:47:24.782Z
-sso success time:2024-03-19T09:47:24.873Z
-update lastlogintime time:2024-03-19T09:47:24.882Z
-*ifp login* end:2024-03-19T09:47:25.141Z
-login first step success :2024-03-19T09:47:25.141Z
-get user time:2024-03-19T09:47:25.194Z
-*ifp publicUser* start:2024-03-19T09:47:25.195Z
-We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
-    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
-    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)
-Trying to re-grant it...
-EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
-    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
-    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)
-We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
-    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
-    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)
-Trying to re-grant it...
-EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
-    at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
-    at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)
-auth end time:2024-03-19T09:50:11.622Z
-login start time:2024-03-19T09:50:18.613Z
-*ifp login* start:2024-03-19T09:50:18.613Z
-post sso time:2024-03-19T09:50:18.614Z
-sso success time:2024-03-19T09:50:18.714Z
-update lastlogintime time:2024-03-19T09:50:18.724Z
-*ifp login* end:2024-03-19T09:50:18.941Z
-login first step success :2024-03-19T09:50:18.941Z
-get user time:2024-03-19T09:50:18.983Z
-*ifp publicUser* start:2024-03-19T09:50:18.984Z
-disconnected...
-disconnected...
-We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
-    at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
-  [Symbol(RecoverableError)]: true
-}
-Trying to re-grant it...
-14 UNAVAILABLE: read ETIMEDOUT
-GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-  [Symbol(RecoverableError)]: true
-}
-Unhandled Rejection at: Promise {
-  <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-      at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-      at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-      at processTicksAndRejections (node:internal/process/task_queues:78:11)
-  for call at
-      at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-      at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-      at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-      at new Promise (<anonymous>)
-      at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-      at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-      at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-      at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-      at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-      at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-      at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-      at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-      at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-      at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-    [Symbol(RecoverableError)]: true
-  }
-} reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-  [Symbol(RecoverableError)]: true
-}
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-successfully reconnected!
-SERVICE_SECRET: npMIsZ-HC9VSsMzHKl-VI5vdOr2PWf
-rootTenantId is VGVuYW50.ZMDtPwQpNN4lUFDL
-disconnected...
-disconnected...
-We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at runNextTicks (node:internal/process/task_queues:61:5)
-    at listOnTimeout (node:internal/timers:528:9)
-    at processTimers (node:internal/timers:502:7)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
-    at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
-  [Symbol(RecoverableError)]: true
-}
-Trying to re-grant it...
-14 UNAVAILABLE: read ETIMEDOUT
-GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-  [Symbol(RecoverableError)]: true
-}
-Unhandled Rejection at: Promise {
-  <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-      at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-      at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-      at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-      at processTicksAndRejections (node:internal/process/task_queues:78:11)
-  for call at
-      at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-      at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-      at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-      at new Promise (<anonymous>)
-      at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-      at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-      at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-      at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-      at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-      at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-      at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-      at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-      at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-      at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-    [Symbol(RecoverableError)]: true
-  }
-} reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
-    at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
-    at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
-    at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
-    at processTicksAndRejections (node:internal/process/task_queues:78:11)
-for call at
-    at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
-    at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
-    at /app/node_modules/etcd3/lib/connection-pool.js:35:23
-    at new Promise (<anonymous>)
-    at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
-    at /app/node_modules/etcd3/lib/connection-pool.js:225:34
-    at /app/node_modules/etcd3/lib/connection-pool.js:264:28
-    at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
-    at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
-    at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
-    at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
-    at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
-    at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
-    at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
-  [Symbol(RecoverableError)]: true
-}
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-disconnected...
-successfully reconnected!
-tenant SERVICE_SECRET: ltxznXiRV4MsTndUwC0oaQZky12XK3
-【System Info】Schedule Task Start at 2024-03-19T16:05:00.021Z
-0
-【System Info】delExpiredDateUserInOrg Task Finish at 2024-03-19T16:05:00.039Z;
-auth end time:2024-03-20T01:07:49.811Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:10:24.552Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-login start time:2024-03-20T01:32:42.293Z
-*ifp login* start:2024-03-20T01:32:42.293Z
-post sso time:2024-03-20T01:32:42.304Z
-sso success time:2024-03-20T01:32:42.395Z
-update lastlogintime time:2024-03-20T01:32:42.404Z
-*ifp login* end:2024-03-20T01:32:42.636Z
-login first step success :2024-03-20T01:32:42.636Z
-get user time:2024-03-20T01:32:42.672Z
-*ifp publicUser* start:2024-03-20T01:32:42.672Z
-*ifp publicUser* end:2024-03-20T01:32:42.688Z
-syncTenantUsers get users time:2024-03-20T01:32:43.041Z
-ifp sync tenantUsers length:0
-sync tenantUsers length:0
-syncTenantUsers finish time:2024-03-20T01:32:43.042Z
-login end time:2024-03-20T01:32:43.042Z
-auth end time:2024-03-20T01:32:58.903Z
-if-none-match: undefined
-if-none-match: undefined
-if-none-match: undefined
-get langresc succeed
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:39:03.044Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:39:19.170Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:40:57.988Z
-auth end time:2024-03-20T01:42:55.563Z
-auth end time:2024-03-20T01:47:23.371Z
-auth end time:2024-03-20T01:47:34.817Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:49:36.482Z
-login start time:2024-03-20T01:51:03.461Z
-*ifp login* start:2024-03-20T01:51:03.461Z
-post sso time:2024-03-20T01:51:03.475Z
-sso success time:2024-03-20T01:51:03.637Z
-update lastlogintime time:2024-03-20T01:51:03.647Z
-*ifp login* end:2024-03-20T01:51:03.858Z
-login first step success :2024-03-20T01:51:03.858Z
-get user time:2024-03-20T01:51:03.902Z
-*ifp publicUser* start:2024-03-20T01:51:03.902Z
-*ifp publicUser* end:2024-03-20T01:51:03.918Z
-syncTenantUsers get users time:2024-03-20T01:51:04.159Z
-ifp sync tenantUsers length:0
-sync tenantUsers length:0
-syncTenantUsers finish time:2024-03-20T01:51:04.160Z
-login end time:2024-03-20T01:51:04.160Z
-auth end time:2024-03-20T01:51:27.021Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T01:52:15.436Z
-auth end time:2024-03-20T01:52:28.145Z
-auth end time:2024-03-20T01:52:32.879Z
-delete cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-RequestError: Error: socket hang up
-    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
-    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
-    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
-    at self.callback (/app/node_modules/request/request.js:185:22)
-    at Request.emit (node:events:526:28)
-    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
-    at ClientRequest.emit (node:events:526:28)
-    at Socket.socketOnEnd (node:_http_client:466:9)
-    at Socket.emit (node:events:538:35)
-    at endReadableNT (node:internal/streams/readable:1345:12)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-  cause: Error: socket hang up
-      at connResetException (node:internal/errors:691:14)
-      at Socket.socketOnEnd (node:_http_client:466:23)
-      at Socket.emit (node:events:538:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-    code: 'ECONNRESET'
-  },
-  error: Error: socket hang up
-      at connResetException (node:internal/errors:691:14)
-      at Socket.socketOnEnd (node:_http_client:466:23)
-      at Socket.emit (node:events:538:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-    code: 'ECONNRESET'
-  },
-  options: {
-    method: 'POST',
-    uri: 'http://api-dbmaster-wise-mplus:80/query',
-    headers: { 'content-type': 'application/json' },
-    body: {
-      query: '{DevList(devID:[4790]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
-    },
-    json: true,
-    callback: [Function: RP$callback],
-    transform: undefined,
-    simple: true,
-    resolveWithFullResponse: false,
-    transform2xxOnly: false
-  },
-  response: undefined
-}
-RequestError: Error: socket hang up
-    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
-    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
-    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
-    at self.callback (/app/node_modules/request/request.js:185:22)
-    at Request.emit (node:events:526:28)
-    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
-    at ClientRequest.emit (node:events:526:28)
-    at Socket.socketOnEnd (node:_http_client:466:9)
-    at Socket.emit (node:events:538:35)
-    at endReadableNT (node:internal/streams/readable:1345:12)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-  cause: Error: socket hang up
-      at connResetException (node:internal/errors:691:14)
-      at Socket.socketOnEnd (node:_http_client:466:23)
-      at Socket.emit (node:events:538:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-    code: 'ECONNRESET'
-  },
-  error: Error: socket hang up
-      at connResetException (node:internal/errors:691:14)
-      at Socket.socketOnEnd (node:_http_client:466:23)
-      at Socket.emit (node:events:538:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-    code: 'ECONNRESET'
-  },
-  options: {
-    method: 'POST',
-    uri: 'http://api-dbmaster-wise-mplus:80/query',
-    headers: { 'content-type': 'application/json' },
-    body: {
-      query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
-    },
-    json: true,
-    callback: [Function: RP$callback],
-    transform: undefined,
-    simple: true,
-    resolveWithFullResponse: false,
-    transform2xxOnly: false
-  },
-  response: undefined
-}
-RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
-    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
-    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
-    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
-    at self.callback (/app/node_modules/request/request.js:185:22)
-    at Request.emit (node:events:526:28)
-    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
-    at ClientRequest.emit (node:events:526:28)
-    at Socket.socketErrorListener (node:_http_client:442:9)
-    at Socket.emit (node:events:526:28)
-    at emitErrorNT (node:internal/streams/destroy:157:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-  cause: Error: connect ECONNREFUSED 10.0.76.103:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '10.0.76.103',
-    port: 80
-  },
-  error: Error: connect ECONNREFUSED 10.0.76.103:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '10.0.76.103',
-    port: 80
-  },
-  options: {
-    method: 'POST',
-    uri: 'http://api-dbmaster-wise-mplus:80/query',
-    headers: { 'content-type': 'application/json' },
-    body: {
-      query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
-    },
-    json: true,
-    callback: [Function: RP$callback],
-    transform: undefined,
-    simple: true,
-    resolveWithFullResponse: false,
-    transform2xxOnly: false
-  },
-  response: undefined
-}
-login start time:2024-03-20T01:53:01.938Z
-*ifp login* start:2024-03-20T01:53:01.938Z
-post sso time:2024-03-20T01:53:01.939Z
-sso success time:2024-03-20T01:53:02.013Z
-update lastlogintime time:2024-03-20T01:53:02.023Z
-*ifp login* end:2024-03-20T01:53:02.265Z
-login first step success :2024-03-20T01:53:02.265Z
-get user time:2024-03-20T01:53:02.307Z
-*ifp publicUser* start:2024-03-20T01:53:02.308Z
-*ifp publicUser* end:2024-03-20T01:53:02.321Z
-syncTenantUsers get users time:2024-03-20T01:53:02.574Z
-ifp sync tenantUsers length:0
-sync tenantUsers length:0
-syncTenantUsers finish time:2024-03-20T01:53:02.574Z
-login end time:2024-03-20T01:53:02.574Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-login start time:2024-03-20T01:57:37.349Z
-*ifp login* start:2024-03-20T01:57:37.349Z
-post sso time:2024-03-20T01:57:37.350Z
-sso success time:2024-03-20T01:57:37.431Z
-update lastlogintime time:2024-03-20T01:57:37.446Z
-*ifp login* end:2024-03-20T01:57:37.661Z
-login first step success :2024-03-20T01:57:37.661Z
-get user time:2024-03-20T01:57:37.708Z
-*ifp publicUser* start:2024-03-20T01:57:37.709Z
-*ifp publicUser* end:2024-03-20T01:57:37.723Z
-syncTenantUsers get users time:2024-03-20T01:57:37.977Z
-ifp sync tenantUsers length:0
-sync tenantUsers length:0
-syncTenantUsers finish time:2024-03-20T01:57:37.978Z
-login end time:2024-03-20T01:57:37.978Z
-post sso time:2024-03-20T02:00:00.039Z
-(node:1) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-login:Request failed with status code 401
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T02:14:39.466Z
-if-none-match: undefined
-if-none-match: undefined
-if-none-match: undefined
-get langresc succeed
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T02:17:27.651Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-login start time:2024-03-20T02:33:48.166Z
-*ifp login* start:2024-03-20T02:33:48.166Z
-post sso time:2024-03-20T02:33:48.167Z
-sso success time:2024-03-20T02:33:48.295Z
-update lastlogintime time:2024-03-20T02:33:48.305Z
-*ifp login* end:2024-03-20T02:33:48.593Z
-login first step success :2024-03-20T02:33:48.593Z
-get user time:2024-03-20T02:33:48.643Z
-*ifp publicUser* start:2024-03-20T02:33:48.644Z
-*ifp publicUser* end:2024-03-20T02:33:48.659Z
-syncTenantUsers get users time:2024-03-20T02:33:48.907Z
-ifp sync tenantUsers length:0
-sync tenantUsers length:0
-syncTenantUsers finish time:2024-03-20T02:33:48.908Z
-login end time:2024-03-20T02:33:48.908Z
-auth end time:2024-03-20T02:33:59.070Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T02:37:59.256Z
-RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
-    at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
-    at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
-    at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
-    at self.callback (/app/node_modules/request/request.js:185:22)
-    at Request.emit (node:events:526:28)
-    at Request.onRequestError (/app/node_modules/request/request.js:877:8)
-    at ClientRequest.emit (node:events:526:28)
-    at Socket.socketErrorListener (node:_http_client:442:9)
-    at Socket.emit (node:events:526:28)
-    at emitErrorNT (node:internal/streams/destroy:157:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-  cause: Error: connect ECONNREFUSED 10.0.76.103:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '10.0.76.103',
-    port: 80
-  },
-  error: Error: connect ECONNREFUSED 10.0.76.103:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '10.0.76.103',
-    port: 80
-  },
-  options: {
-    method: 'POST',
-    uri: 'http://api-dbmaster-wise-mplus:80/query',
-    headers: { 'content-type': 'application/json' },
-    body: {
-      query: '{DevList(devID:[5068]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
-    },
-    json: true,
-    callback: [Function: RP$callback],
-    transform: undefined,
-    simple: true,
-    resolveWithFullResponse: false,
-    transform2xxOnly: false
-  },
-  response: undefined
-}
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T02:47:23.769Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T02:57:06.386Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:17:41.833Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:21:58.213Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-[DEBUG] query = {
-  gateways {
-    id
-    name
-    scadaId
-  }
-}
-, variable = [object Object]
-add machines
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:36:05.138Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:37:28.371Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:51:21.074Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:56:22.148Z
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T03:59:22.722Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T04:01:47.060Z
-if-none-match: undefined
-if-none-match: undefined
-if-none-match: undefined
-get langresc succeed
-set cookie domain=sembcorp.net
-auth end time:2024-03-20T04:02:46.807Z
-set cookie domain=sembcorp.net
-set cookie domain=sembcorp.net
+2024-03-19T08:11:24.455127114Z IS_K8S:true
+2024-03-19T08:11:24.455787328Z PREFIX DATACENTER:
+2024-03-19T08:11:24.455897231Z DATACENTER:local
+2024-03-19T08:11:24.455937032Z EXDATACENTER:local
+2024-03-19T08:11:24.455940832Z CLUSTER:solarscada
+2024-03-19T08:11:24.455943332Z WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+2024-03-19T08:11:24.455947732Z NAMESPACE:edge365
+2024-03-19T08:11:24.455951032Z DOMAIN:.net
+2024-03-19T08:11:24.455963032Z EXDOMAIN:sembcorp.net
+2024-03-19T08:11:24.456035334Z SSO_URL:http://api.sso.solarscada.en.internal/v4.0
+2024-03-19T08:11:24.456075335Z DASHBOARD_URL:http://dashboard-pro-edge365:80
+2024-03-19T08:11:24.456084035Z NOTIFICATION_URL:http://wise-mplus-notification.edge365.svc
+2024-03-19T08:11:24.456229138Z MP_URL:http://api.mp.solarscada.en.internal/v1
+2024-03-19T08:11:24.456238638Z DCCS_URL:http://api.dccs.solarscada.en.internal/v1
+2024-03-19T08:11:24.456524545Z MQTTHOST_URL:10.32.10.68
+2024-03-19T08:11:24.456538545Z SAASCOMPOSER_URL:http://saas-composer-edge365:80
+2024-03-19T08:11:24.456545045Z WISEMPLUS_URL:http://portal-wise-mplus.edge365.solarscada.internal
+2024-03-19T08:11:24.456597346Z WISEMPLUS_PROFILE_URL:http://api-profile-proxy-mplus:80
+2024-03-19T08:11:24.456601546Z SIMPLEJSON_PLUGIN_URL:http://api-org-wise-mplus:80
+2024-03-19T08:11:24.456604246Z VERSION:2.0.21
+2024-03-19T08:11:24.456614547Z EDITION:azure-aks
+2024-03-19T08:11:24.456617447Z APP_ID:ZBWhLdEaWNhWP1KqrlxvdUSymeRZ0Qmi-1690516200
+2024-03-19T08:11:24.456748949Z APP_NAME:api-portal-wise-mplus
+2024-03-19T08:11:24.456754250Z API_INSPECTION_URL:http://api-job-executor-wise-mplus.edge365.svc
+2024-03-19T08:11:24.456762250Z API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
+2024-03-19T08:11:24.456791550Z API_ALARM_SERVICE_URL:http://api-dbmaster-wise-mplus:80
+2024-03-19T08:11:24.456794450Z API_SUBSCRIBE_URL: http://api-subscribe-deviceon-bi.edge365.svc
+2024-03-19T08:11:24.457096557Z AZURE_IOTHUB_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Cd5ExdPwW8Azthka3iyKuq9DR8tfSrL7SAIoTN6ou8U=
+2024-03-19T08:11:24.457124958Z AZURE_IOTHUB_DEV_CONN_STR: HostName=azsgp-sn5-iot-2p.azure-devices.net;SharedAccessKeyName=device;SharedAccessKey=Sm032ly6Z7vYcVvGMTr2SaJvyQEV1l8yEAIoTBnD5wM=
+2024-03-19T08:11:24.457131258Z ETCD_SERVER_HOST: http://pivot-etcd:2379
+2024-03-19T08:11:24.457178359Z TENANT_ETCD_SERVER_HOST: http://tenant-etcd:2379
+2024-03-19T08:11:24.457189259Z IFP_TENANT_URL: http://ifp-tenant:80
+2024-03-19T08:11:24.457266761Z DataConnect_Portal_URL: http://pivot-api-hub-edge365-solarscada.sembcorp.net
+2024-03-19T08:11:24.457270761Z SYNC_SAASCOMPOSER: true
+2024-03-19T08:11:24.457273761Z DEBUG: false
+2024-03-19T08:11:24.457276561Z PG_Max_Conn: 100
+2024-03-19T08:11:24.457396764Z DataLoader_Max_Cache: 200
+2024-03-19T08:11:24.457461365Z IFS_SERVICE_MANGER_URL: http://ifs-service-manager
+2024-03-19T08:11:24.457468965Z SI_PORTAL_QUOTA_CHECK: false
+2024-03-19T08:11:24.457471865Z PATCH_DEVICEON_SCOPE: false
+2024-03-19T08:11:24.457474965Z TWO_FACTOR_AUTH: true
+2024-03-19T08:11:24.457837774Z postgre is Run at cloud
+2024-03-19T08:11:24.748825397Z Get configure data of RabbitMQ success
+2024-03-19T08:11:25.828836036Z mongodb is Run at cloud
+2024-03-19T08:11:27.134714461Z Redis is run at cloud
+2024-03-19T08:11:27.134759762Z Redis connect info: {"host":"redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063-master.edge365.svc","port":6379,"password":"qmtiYAoqSijJHLn"}
+2024-03-19T08:11:27.142169826Z INSPECTION APP URL:http://inspectionapp-inspection__orgid__-solarscada.sembcorp.net
+2024-03-19T08:11:28.739176477Z Enabling inline tracing for this federated service. To disable, use ApolloServerPluginInlineTraceDisabled.
+2024-03-19T08:11:29.858902693Z 8080
+2024-03-19T08:11:29.862261967Z 【System Info】Start delExpiredDateUserInOrgTask every day
+2024-03-19T08:11:29.940725899Z [DEBUG] start update alarm template with bi_edition = azure-aks
+2024-03-19T08:11:29.946024816Z (node:1) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2024-03-19T08:11:29.946059817Z (Use `node --trace-warnings ...` to show where the warning was created)
+2024-03-19T08:11:30.078614543Z Redis auth success
+2024-03-19T08:11:30.141362728Z The current leader is 2.0.21/2024-02-13T02:02:23.553Z
+2024-03-19T08:11:30.229162266Z The current leader is 2.0.21/2024-02-13T02:02:23.552Z
+2024-03-19T08:11:30.244939814Z Connected to mqtt broker success
+2024-03-19T08:11:30.264087337Z init srp success
+2024-03-19T08:11:30.379159377Z Connect [mongodb] success !
+2024-03-19T08:11:30.442744480Z patchDeviceOnScopeOnExisitingUser success,update 0 users
+2024-03-19T08:11:30.459051640Z [DEBUG] update alarm template finsih, took 0.518s
+2024-03-19T08:11:39.943969200Z disconnected...
+2024-03-19T08:11:39.944032802Z disconnected...
+2024-03-19T08:11:40.064735657Z disconnected...
+2024-03-19T08:11:40.115713679Z disconnected...
+2024-03-19T08:11:40.349661026Z disconnected...
+2024-03-19T08:11:40.349719228Z disconnected...
+2024-03-19T08:11:41.051523368Z disconnected...
+2024-03-19T08:11:41.051859176Z disconnected...
+2024-03-19T08:11:41.145695340Z disconnected...
+2024-03-19T08:11:41.241310344Z disconnected...
+2024-03-19T08:11:41.249314820Z disconnected...
+2024-03-19T08:11:41.470034376Z disconnected...
+2024-03-19T08:11:41.765801884Z disconnected...
+2024-03-19T08:11:42.567019112Z disconnected...
+2024-03-19T08:11:43.333314472Z disconnected...
+2024-03-19T08:11:43.372293129Z disconnected...
+2024-03-19T08:11:43.780357307Z disconnected...
+2024-03-19T08:11:44.980396910Z EtcdLeaseInvalidError: Lease 7587874148948228798 is expired or revoked
+2024-03-19T08:11:44.980444011Z     at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+2024-03-19T08:11:44.980450112Z     at ClientDuplexStreamImpl.emit (node:events:526:28)
+2024-03-19T08:11:44.980454212Z     at addChunk (node:internal/streams/readable:315:12)
+2024-03-19T08:11:44.980458112Z     at readableAddChunk (node:internal/streams/readable:289:9)
+2024-03-19T08:11:44.980462012Z     at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+2024-03-19T08:11:44.980465712Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+2024-03-19T08:11:44.980469712Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+2024-03-19T08:11:44.980473612Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+2024-03-19T08:11:44.980477412Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-03-19T08:11:44.981451834Z We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874148948228796 is expired or revoked
+2024-03-19T08:11:44.981487834Z     at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+2024-03-19T08:11:44.981494435Z     at ClientDuplexStreamImpl.emit (node:events:526:28)
+2024-03-19T08:11:44.981498935Z     at addChunk (node:internal/streams/readable:315:12)
+2024-03-19T08:11:44.981503035Z     at readableAddChunk (node:internal/streams/readable:289:9)
+2024-03-19T08:11:44.981506835Z     at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+2024-03-19T08:11:44.981519435Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+2024-03-19T08:11:44.981523035Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+2024-03-19T08:11:44.981526935Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+2024-03-19T08:11:44.981530435Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-03-19T08:11:44.981534235Z Trying to re-grant it...
+2024-03-19T08:11:45.187582569Z disconnected...
+2024-03-19T08:11:46.136609549Z EtcdLeaseInvalidError: Lease 7587874175341531317 is expired or revoked
+2024-03-19T08:11:46.136659450Z     at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+2024-03-19T08:11:46.136666050Z     at ClientDuplexStreamImpl.emit (node:events:526:28)
+2024-03-19T08:11:46.136669650Z     at addChunk (node:internal/streams/readable:315:12)
+2024-03-19T08:11:46.136673250Z     at readableAddChunk (node:internal/streams/readable:289:9)
+2024-03-19T08:11:46.136676851Z     at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+2024-03-19T08:11:46.136680451Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+2024-03-19T08:11:46.136684651Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+2024-03-19T08:11:46.136688451Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+2024-03-19T08:11:46.136692051Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-03-19T08:11:46.136714751Z We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease 7587874175341531315 is expired or revoked
+2024-03-19T08:11:46.136720152Z     at ClientDuplexStreamImpl.<anonymous> (/app/node_modules/etcd3/lib/lease.js:249:54)
+2024-03-19T08:11:46.136724152Z     at ClientDuplexStreamImpl.emit (node:events:526:28)
+2024-03-19T08:11:46.136727752Z     at addChunk (node:internal/streams/readable:315:12)
+2024-03-19T08:11:46.136731352Z     at readableAddChunk (node:internal/streams/readable:289:9)
+2024-03-19T08:11:46.136735252Z     at ClientDuplexStreamImpl.Readable.push (node:internal/streams/readable:228:10)
+2024-03-19T08:11:46.136739152Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client.js:409:24)
+2024-03-19T08:11:46.136743252Z     at Object.onReceiveMessage (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:315:178)
+2024-03-19T08:11:46.136748052Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:175:39
+2024-03-19T08:11:46.136752552Z     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-03-19T08:11:46.136757352Z Trying to re-grant it...
+2024-03-19T08:11:49.247517258Z successfully reconnected!
+2024-03-19T08:11:52.834665644Z successfully reconnected!
+2024-03-19T08:20:36.540806255Z login start time:2024-03-19T08:20:36.540Z
+2024-03-19T08:20:36.541214363Z *ifp login* start:2024-03-19T08:20:36.541Z
+2024-03-19T08:20:36.545963859Z post sso time:2024-03-19T08:20:36.545Z
+2024-03-19T08:20:36.641695896Z sso success time:2024-03-19T08:20:36.641Z
+2024-03-19T08:20:36.653716740Z update lastlogintime time:2024-03-19T08:20:36.653Z
+2024-03-19T08:20:41.952219359Z *ifp login* end:2024-03-19T08:20:41.952Z
+2024-03-19T08:20:41.952375362Z login first step success :2024-03-19T08:20:41.952Z
+2024-03-19T08:20:42.004623919Z get user time:2024-03-19T08:20:42.004Z
+2024-03-19T08:20:42.006876665Z *ifp publicUser* start:2024-03-19T08:20:42.006Z
+2024-03-19T08:20:50.944523013Z login start time:2024-03-19T08:20:50.944Z
+2024-03-19T08:20:50.944593914Z *ifp login* start:2024-03-19T08:20:50.944Z
+2024-03-19T08:20:50.946590454Z post sso time:2024-03-19T08:20:50.946Z
+2024-03-19T08:20:51.034193127Z sso success time:2024-03-19T08:20:51.034Z
+2024-03-19T08:20:51.043124008Z update lastlogintime time:2024-03-19T08:20:51.042Z
+2024-03-19T08:20:51.338404582Z *ifp login* end:2024-03-19T08:20:51.338Z
+2024-03-19T08:20:51.338461584Z login first step success :2024-03-19T08:20:51.338Z
+2024-03-19T08:20:51.380476334Z get user time:2024-03-19T08:20:51.380Z
+2024-03-19T08:20:51.381401152Z *ifp publicUser* start:2024-03-19T08:20:51.381Z
+2024-03-19T08:20:53.881721954Z login start time:2024-03-19T08:20:53.881Z
+2024-03-19T08:20:53.881788355Z *ifp login* start:2024-03-19T08:20:53.881Z
+2024-03-19T08:20:53.883223185Z post sso time:2024-03-19T08:20:53.882Z
+2024-03-19T08:20:54.047986830Z login:Request failed with status code 401
+2024-03-19T08:21:10.081123162Z login start time:2024-03-19T08:21:10.080Z
+2024-03-19T08:21:10.081226864Z *ifp login* start:2024-03-19T08:21:10.081Z
+2024-03-19T08:21:10.082060382Z post sso time:2024-03-19T08:21:10.081Z
+2024-03-19T08:21:10.160773072Z login:Request failed with status code 401
+2024-03-19T08:22:51.240682264Z auth end time:2024-03-19T08:22:51.240Z
+2024-03-19T08:23:04.830997609Z set cookie domain=sembcorp.net
+2024-03-19T08:26:42.393846459Z login start time:2024-03-19T08:26:42.393Z
+2024-03-19T08:26:42.394408871Z *ifp login* start:2024-03-19T08:26:42.394Z
+2024-03-19T08:26:42.395558496Z post sso time:2024-03-19T08:26:42.395Z
+2024-03-19T08:26:42.484376624Z sso success time:2024-03-19T08:26:42.484Z
+2024-03-19T08:26:42.493631025Z update lastlogintime time:2024-03-19T08:26:42.493Z
+2024-03-19T08:26:42.737048211Z *ifp login* end:2024-03-19T08:26:42.736Z
+2024-03-19T08:26:42.737103712Z login first step success :2024-03-19T08:26:42.736Z
+2024-03-19T08:26:42.780396952Z get user time:2024-03-19T08:26:42.780Z
+2024-03-19T08:26:42.782427396Z *ifp publicUser* start:2024-03-19T08:26:42.782Z
+2024-03-19T08:26:44.467347680Z login start time:2024-03-19T08:26:44.467Z
+2024-03-19T08:26:44.467405481Z *ifp login* start:2024-03-19T08:26:44.467Z
+2024-03-19T08:26:44.468009894Z post sso time:2024-03-19T08:26:44.467Z
+2024-03-19T08:26:44.651895887Z login:Request failed with status code 401
+2024-03-19T08:26:51.620262717Z login start time:2024-03-19T08:26:51.620Z
+2024-03-19T08:26:51.620322818Z *ifp login* start:2024-03-19T08:26:51.620Z
+2024-03-19T08:26:51.621909653Z post sso time:2024-03-19T08:26:51.621Z
+2024-03-19T08:26:51.709558142Z sso success time:2024-03-19T08:26:51.709Z
+2024-03-19T08:26:51.717324010Z update lastlogintime time:2024-03-19T08:26:51.717Z
+2024-03-19T08:26:52.249467781Z *ifp login* end:2024-03-19T08:26:52.249Z
+2024-03-19T08:26:52.249523083Z login first step success :2024-03-19T08:26:52.249Z
+2024-03-19T08:26:52.292138101Z get user time:2024-03-19T08:26:52.291Z
+2024-03-19T08:26:52.292989720Z *ifp publicUser* start:2024-03-19T08:26:52.292Z
+2024-03-19T08:27:04.548223497Z login start time:2024-03-19T08:27:04.548Z
+2024-03-19T08:27:04.548284098Z *ifp login* start:2024-03-19T08:27:04.548Z
+2024-03-19T08:27:04.548910011Z post sso time:2024-03-19T08:27:04.548Z
+2024-03-19T08:27:04.645746979Z sso success time:2024-03-19T08:27:04.645Z
+2024-03-19T08:27:04.653304141Z update lastlogintime time:2024-03-19T08:27:04.653Z
+2024-03-19T08:27:04.935907877Z *ifp login* end:2024-03-19T08:27:04.935Z
+2024-03-19T08:27:04.935945777Z login first step success :2024-03-19T08:27:04.935Z
+2024-03-19T08:27:04.993106098Z get user time:2024-03-19T08:27:04.993Z
+2024-03-19T08:27:04.994103020Z *ifp publicUser* start:2024-03-19T08:27:04.994Z
+2024-03-19T08:41:38.643206283Z login start time:2024-03-19T08:41:38.642Z
+2024-03-19T08:41:38.643417988Z *ifp login* start:2024-03-19T08:41:38.643Z
+2024-03-19T08:41:38.654669453Z post sso time:2024-03-19T08:41:38.654Z
+2024-03-19T08:41:38.750088903Z sso success time:2024-03-19T08:41:38.749Z
+2024-03-19T08:41:38.760505248Z update lastlogintime time:2024-03-19T08:41:38.760Z
+2024-03-19T08:41:38.948857388Z *ifp login* end:2024-03-19T08:41:38.948Z
+2024-03-19T08:41:38.948912589Z login first step success :2024-03-19T08:41:38.948Z
+2024-03-19T08:41:38.991408991Z get user time:2024-03-19T08:41:38.991Z
+2024-03-19T08:41:38.992279312Z *ifp publicUser* start:2024-03-19T08:41:38.992Z
+2024-03-19T08:44:40.305045012Z login start time:2024-03-19T08:44:40.304Z
+2024-03-19T08:44:40.305263217Z *ifp login* start:2024-03-19T08:44:40.305Z
+2024-03-19T08:44:40.305874831Z post sso time:2024-03-19T08:44:40.305Z
+2024-03-19T08:44:40.488430448Z sso success time:2024-03-19T08:44:40.488Z
+2024-03-19T08:44:40.503086078Z update lastlogintime time:2024-03-19T08:44:40.502Z
+2024-03-19T08:44:40.753417623Z *ifp login* end:2024-03-19T08:44:40.753Z
+2024-03-19T08:44:40.753460624Z login first step success :2024-03-19T08:44:40.753Z
+2024-03-19T08:44:40.796566296Z get user time:2024-03-19T08:44:40.796Z
+2024-03-19T08:44:40.797327013Z *ifp publicUser* start:2024-03-19T08:44:40.797Z
+2024-03-19T08:44:50.837330639Z login start time:2024-03-19T08:44:50.837Z
+2024-03-19T08:44:50.837391340Z *ifp login* start:2024-03-19T08:44:50.837Z
+2024-03-19T08:44:50.838051855Z post sso time:2024-03-19T08:44:50.837Z
+2024-03-19T08:44:50.957411586Z sso success time:2024-03-19T08:44:50.957Z
+2024-03-19T08:44:50.965765370Z update lastlogintime time:2024-03-19T08:44:50.965Z
+2024-03-19T08:44:51.141211736Z *ifp login* end:2024-03-19T08:44:51.141Z
+2024-03-19T08:44:51.141259437Z login first step success :2024-03-19T08:44:51.141Z
+2024-03-19T08:44:51.182471846Z get user time:2024-03-19T08:44:51.182Z
+2024-03-19T08:44:51.183132860Z *ifp publicUser* start:2024-03-19T08:44:51.183Z
+2024-03-19T08:45:25.213813401Z login start time:2024-03-19T08:45:25.213Z
+2024-03-19T08:45:25.213874803Z *ifp login* start:2024-03-19T08:45:25.213Z
+2024-03-19T08:45:25.214625619Z post sso time:2024-03-19T08:45:25.214Z
+2024-03-19T08:45:25.327057142Z sso success time:2024-03-19T08:45:25.326Z
+2024-03-19T08:45:25.335453830Z update lastlogintime time:2024-03-19T08:45:25.335Z
+2024-03-19T08:45:25.543821105Z *ifp login* end:2024-03-19T08:45:25.543Z
+2024-03-19T08:45:25.543869406Z login first step success :2024-03-19T08:45:25.543Z
+2024-03-19T08:45:25.581022840Z get user time:2024-03-19T08:45:25.580Z
+2024-03-19T08:45:25.581695955Z *ifp publicUser* start:2024-03-19T08:45:25.581Z
+2024-03-19T08:47:15.904480560Z login start time:2024-03-19T08:47:15.904Z
+2024-03-19T08:47:15.904615763Z *ifp login* start:2024-03-19T08:47:15.904Z
+2024-03-19T08:47:15.905287678Z post sso time:2024-03-19T08:47:15.905Z
+2024-03-19T08:47:16.018197887Z sso success time:2024-03-19T08:47:16.018Z
+2024-03-19T08:47:16.027796100Z update lastlogintime time:2024-03-19T08:47:16.027Z
+2024-03-19T08:47:16.241366245Z *ifp login* end:2024-03-19T08:47:16.241Z
+2024-03-19T08:47:16.241407446Z login first step success :2024-03-19T08:47:16.241Z
+2024-03-19T08:47:16.289055905Z get user time:2024-03-19T08:47:16.288Z
+2024-03-19T08:47:16.289717219Z *ifp publicUser* start:2024-03-19T08:47:16.289Z
+2024-03-19T08:48:52.549737906Z login start time:2024-03-19T08:48:52.549Z
+2024-03-19T08:48:52.550451222Z *ifp login* start:2024-03-19T08:48:52.550Z
+2024-03-19T08:48:52.564222922Z post sso time:2024-03-19T08:48:52.564Z
+2024-03-19T08:48:52.736296970Z sso success time:2024-03-19T08:48:52.736Z
+2024-03-19T08:48:52.746316088Z update lastlogintime time:2024-03-19T08:48:52.746Z
+2024-03-19T08:48:52.940390015Z *ifp login* end:2024-03-19T08:48:52.940Z
+2024-03-19T08:48:52.940428816Z login first step success :2024-03-19T08:48:52.940Z
+2024-03-19T08:48:52.987809648Z get user time:2024-03-19T08:48:52.987Z
+2024-03-19T08:48:52.988365160Z *ifp publicUser* start:2024-03-19T08:48:52.988Z
+2024-03-19T08:49:09.868491027Z login start time:2024-03-19T08:49:09.868Z
+2024-03-19T08:49:09.868539828Z *ifp login* start:2024-03-19T08:49:09.868Z
+2024-03-19T08:49:09.869114141Z post sso time:2024-03-19T08:49:09.868Z
+2024-03-19T08:49:09.957402292Z sso success time:2024-03-19T08:49:09.957Z
+2024-03-19T08:49:09.966358590Z update lastlogintime time:2024-03-19T08:49:09.966Z
+2024-03-19T08:49:10.241502869Z *ifp login* end:2024-03-19T08:49:10.241Z
+2024-03-19T08:49:10.241550970Z login first step success :2024-03-19T08:49:10.241Z
+2024-03-19T08:49:10.277269759Z get user time:2024-03-19T08:49:10.277Z
+2024-03-19T08:49:10.277919873Z *ifp publicUser* start:2024-03-19T08:49:10.277Z
+2024-03-19T08:49:34.553726058Z login start time:2024-03-19T08:49:34.553Z
+2024-03-19T08:49:34.553782459Z *ifp login* start:2024-03-19T08:49:34.553Z
+2024-03-19T08:49:34.554371472Z post sso time:2024-03-19T08:49:34.554Z
+2024-03-19T08:49:34.630197256Z sso success time:2024-03-19T08:49:34.630Z
+2024-03-19T08:49:34.638086331Z update lastlogintime time:2024-03-19T08:49:34.637Z
+2024-03-19T08:49:34.942264283Z *ifp login* end:2024-03-19T08:49:34.942Z
+2024-03-19T08:49:34.942309284Z login first step success :2024-03-19T08:49:34.942Z
+2024-03-19T08:49:34.985093934Z get user time:2024-03-19T08:49:34.984Z
+2024-03-19T08:49:34.985872051Z *ifp publicUser* start:2024-03-19T08:49:34.985Z
+2024-03-19T08:49:37.088205421Z login start time:2024-03-19T08:49:37.088Z
+2024-03-19T08:49:37.088263723Z *ifp login* start:2024-03-19T08:49:37.088Z
+2024-03-19T08:49:37.088775234Z post sso time:2024-03-19T08:49:37.088Z
+2024-03-19T08:49:37.198499070Z sso success time:2024-03-19T08:49:37.198Z
+2024-03-19T08:49:37.207513370Z update lastlogintime time:2024-03-19T08:49:37.207Z
+2024-03-19T08:49:37.450632667Z *ifp login* end:2024-03-19T08:49:37.450Z
+2024-03-19T08:49:37.450685768Z login first step success :2024-03-19T08:49:37.450Z
+2024-03-19T08:49:37.487590788Z get user time:2024-03-19T08:49:37.487Z
+2024-03-19T08:49:37.488104499Z *ifp publicUser* start:2024-03-19T08:49:37.487Z
+2024-03-19T08:52:30.719334023Z auth end time:2024-03-19T08:52:30.719Z
+2024-03-19T08:52:30.970010592Z if-none-match: undefined
+2024-03-19T08:52:30.970475502Z if-none-match: undefined
+2024-03-19T08:52:30.971012314Z if-none-match: undefined
+2024-03-19T08:52:31.005818387Z get langresc succeed
+2024-03-19T08:52:34.201370172Z set cookie domain=sembcorp.net
+2024-03-19T08:53:58.893227306Z auth end time:2024-03-19T08:53:58.893Z
+2024-03-19T09:00:26.441765885Z auth end time:2024-03-19T09:00:26.441Z
+2024-03-19T09:01:10.956276465Z auth end time:2024-03-19T09:01:10.956Z
+2024-03-19T09:10:33.186379106Z login start time:2024-03-19T09:10:33.186Z
+2024-03-19T09:10:33.186429607Z *ifp login* start:2024-03-19T09:10:33.186Z
+2024-03-19T09:10:33.187333227Z post sso time:2024-03-19T09:10:33.187Z
+2024-03-19T09:10:33.301668053Z sso success time:2024-03-19T09:10:33.301Z
+2024-03-19T09:10:33.313727720Z update lastlogintime time:2024-03-19T09:10:33.313Z
+2024-03-19T09:10:33.541542754Z *ifp login* end:2024-03-19T09:10:33.541Z
+2024-03-19T09:10:33.541587054Z login first step success :2024-03-19T09:10:33.541Z
+2024-03-19T09:10:33.602394098Z get user time:2024-03-19T09:10:33.602Z
+2024-03-19T09:10:33.603054413Z *ifp publicUser* start:2024-03-19T09:10:33.602Z
+2024-03-19T09:35:30.637406873Z login start time:2024-03-19T09:35:30.636Z
+2024-03-19T09:35:30.637479975Z *ifp login* start:2024-03-19T09:35:30.637Z
+2024-03-19T09:35:30.639029409Z post sso time:2024-03-19T09:35:30.638Z
+2024-03-19T09:35:30.720628420Z sso success time:2024-03-19T09:35:30.720Z
+2024-03-19T09:35:30.733727610Z update lastlogintime time:2024-03-19T09:35:30.733Z
+2024-03-19T09:35:33.448427344Z *ifp login* end:2024-03-19T09:35:33.448Z
+2024-03-19T09:35:33.448492746Z login first step success :2024-03-19T09:35:33.448Z
+2024-03-19T09:35:33.490195871Z get user time:2024-03-19T09:35:33.490Z
+2024-03-19T09:35:33.490875286Z *ifp publicUser* start:2024-03-19T09:35:33.490Z
+2024-03-19T09:35:40.412395301Z login start time:2024-03-19T09:35:40.412Z
+2024-03-19T09:35:40.412440002Z *ifp login* start:2024-03-19T09:35:40.412Z
+2024-03-19T09:35:40.412988214Z post sso time:2024-03-19T09:35:40.412Z
+2024-03-19T09:35:40.544337940Z sso success time:2024-03-19T09:35:40.544Z
+2024-03-19T09:35:40.552131614Z update lastlogintime time:2024-03-19T09:35:40.552Z
+2024-03-19T09:35:40.735651102Z *ifp login* end:2024-03-19T09:35:40.735Z
+2024-03-19T09:35:40.735700903Z login first step success :2024-03-19T09:35:40.735Z
+2024-03-19T09:35:40.776400110Z get user time:2024-03-19T09:35:40.776Z
+2024-03-19T09:35:40.776975823Z *ifp publicUser* start:2024-03-19T09:35:40.776Z
+2024-03-19T09:35:53.253946114Z login start time:2024-03-19T09:35:53.253Z
+2024-03-19T09:35:53.253988715Z *ifp login* start:2024-03-19T09:35:53.253Z
+2024-03-19T09:35:53.254474026Z post sso time:2024-03-19T09:35:53.254Z
+2024-03-19T09:35:53.329959603Z sso success time:2024-03-19T09:35:53.329Z
+2024-03-19T09:35:53.341342356Z update lastlogintime time:2024-03-19T09:35:53.341Z
+2024-03-19T09:35:53.636371710Z *ifp login* end:2024-03-19T09:35:53.636Z
+2024-03-19T09:35:53.636421211Z login first step success :2024-03-19T09:35:53.636Z
+2024-03-19T09:35:53.676905210Z get user time:2024-03-19T09:35:53.676Z
+2024-03-19T09:35:53.677492623Z *ifp publicUser* start:2024-03-19T09:35:53.677Z
+2024-03-19T09:36:52.314268830Z login start time:2024-03-19T09:36:52.314Z
+2024-03-19T09:36:52.314550536Z *ifp login* start:2024-03-19T09:36:52.314Z
+2024-03-19T09:36:52.328623948Z post sso time:2024-03-19T09:36:52.328Z
+2024-03-19T09:36:52.431374527Z sso success time:2024-03-19T09:36:52.431Z
+2024-03-19T09:36:52.442226668Z update lastlogintime time:2024-03-19T09:36:52.442Z
+2024-03-19T09:36:52.642515011Z *ifp login* end:2024-03-19T09:36:52.642Z
+2024-03-19T09:36:52.642566812Z login first step success :2024-03-19T09:36:52.642Z
+2024-03-19T09:36:52.685046255Z get user time:2024-03-19T09:36:52.684Z
+2024-03-19T09:36:52.685671069Z *ifp publicUser* start:2024-03-19T09:36:52.685Z
+2024-03-19T09:41:35.962322970Z auth end time:2024-03-19T09:41:35.962Z
+2024-03-19T09:41:36.088620055Z if-none-match: W/"2.0.21"
+2024-03-19T09:41:36.093005052Z if-none-match: W/"2.0.21"
+2024-03-19T09:41:36.097933961Z if-none-match: W/"2.0.21"
+2024-03-19T09:41:45.304208025Z login start time:2024-03-19T09:41:45.304Z
+2024-03-19T09:41:45.304251426Z *ifp login* start:2024-03-19T09:41:45.304Z
+2024-03-19T09:41:45.305032843Z post sso time:2024-03-19T09:41:45.304Z
+2024-03-19T09:41:45.413237235Z sso success time:2024-03-19T09:41:45.413Z
+2024-03-19T09:41:45.426015717Z update lastlogintime time:2024-03-19T09:41:45.425Z
+2024-03-19T09:41:45.735845864Z *ifp login* end:2024-03-19T09:41:45.735Z
+2024-03-19T09:41:45.735893465Z login first step success :2024-03-19T09:41:45.735Z
+2024-03-19T09:41:45.776994774Z get user time:2024-03-19T09:41:45.776Z
+2024-03-19T09:41:45.777607287Z *ifp publicUser* start:2024-03-19T09:41:45.777Z
+2024-03-19T09:41:46.750046075Z set cookie domain=sembcorp.net
+2024-03-19T09:42:41.867734991Z login start time:2024-03-19T09:42:41.867Z
+2024-03-19T09:42:41.867794992Z *ifp login* start:2024-03-19T09:42:41.867Z
+2024-03-19T09:42:41.868490107Z post sso time:2024-03-19T09:42:41.868Z
+2024-03-19T09:42:42.017771105Z sso success time:2024-03-19T09:42:42.017Z
+2024-03-19T09:42:42.025870384Z update lastlogintime time:2024-03-19T09:42:42.025Z
+2024-03-19T09:42:42.242013458Z *ifp login* end:2024-03-19T09:42:42.241Z
+2024-03-19T09:42:42.242054859Z login first step success :2024-03-19T09:42:42.241Z
+2024-03-19T09:42:42.284858905Z get user time:2024-03-19T09:42:42.284Z
+2024-03-19T09:42:42.285424717Z *ifp publicUser* start:2024-03-19T09:42:42.285Z
+2024-03-19T09:42:49.165219990Z login start time:2024-03-19T09:42:49.165Z
+2024-03-19T09:42:49.165275791Z *ifp login* start:2024-03-19T09:42:49.165Z
+2024-03-19T09:42:49.165850203Z post sso time:2024-03-19T09:42:49.165Z
+2024-03-19T09:42:49.318102667Z sso success time:2024-03-19T09:42:49.317Z
+2024-03-19T09:42:49.326287647Z update lastlogintime time:2024-03-19T09:42:49.326Z
+2024-03-19T09:42:49.535733374Z *ifp login* end:2024-03-19T09:42:49.535Z
+2024-03-19T09:42:49.535776975Z login first step success :2024-03-19T09:42:49.535Z
+2024-03-19T09:42:49.576347071Z get user time:2024-03-19T09:42:49.576Z
+2024-03-19T09:42:49.576915684Z *ifp publicUser* start:2024-03-19T09:42:49.576Z
+2024-03-19T09:47:24.781999907Z login start time:2024-03-19T09:47:24.781Z
+2024-03-19T09:47:24.782053009Z *ifp login* start:2024-03-19T09:47:24.781Z
+2024-03-19T09:47:24.782579320Z post sso time:2024-03-19T09:47:24.782Z
+2024-03-19T09:47:24.873241051Z sso success time:2024-03-19T09:47:24.873Z
+2024-03-19T09:47:24.882139150Z update lastlogintime time:2024-03-19T09:47:24.882Z
+2024-03-19T09:47:25.141575461Z *ifp login* end:2024-03-19T09:47:25.141Z
+2024-03-19T09:47:25.141639262Z login first step success :2024-03-19T09:47:25.141Z
+2024-03-19T09:47:25.194733552Z get user time:2024-03-19T09:47:25.194Z
+2024-03-19T09:47:25.195430267Z *ifp publicUser* start:2024-03-19T09:47:25.195Z
+2024-03-19T09:49:21.509924187Z We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+2024-03-19T09:49:21.509977988Z     at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+2024-03-19T09:49:21.509984188Z     at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+2024-03-19T09:49:21.509989188Z     at listOnTimeout (node:internal/timers:559:17)
+2024-03-19T09:49:21.509993088Z     at processTimers (node:internal/timers:502:7)
+2024-03-19T09:49:21.510027489Z Trying to re-grant it...
+2024-03-19T09:49:21.510227093Z EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+2024-03-19T09:49:21.510242094Z     at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+2024-03-19T09:49:21.510245494Z     at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+2024-03-19T09:49:21.510248694Z     at listOnTimeout (node:internal/timers:559:17)
+2024-03-19T09:49:21.510251794Z     at processTimers (node:internal/timers:502:7)
+2024-03-19T09:49:21.871649778Z We lost our lease as a result of this error: EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+2024-03-19T09:49:21.871702979Z     at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+2024-03-19T09:49:21.871709079Z     at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+2024-03-19T09:49:21.871713579Z     at listOnTimeout (node:internal/timers:559:17)
+2024-03-19T09:49:21.871717679Z     at processTimers (node:internal/timers:502:7)
+2024-03-19T09:49:21.871721879Z Trying to re-grant it...
+2024-03-19T09:49:21.873864726Z EtcdLeaseInvalidError: Lease We lost connection to etcd and our lease has expired. is expired or revoked
+2024-03-19T09:49:21.873900427Z     at Lease.keepalive (/app/node_modules/etcd3/lib/lease.js:225:31)
+2024-03-19T09:49:21.873906127Z     at Timeout._onTimeout (/app/node_modules/etcd3/lib/lease.js:276:35)
+2024-03-19T09:49:21.873910227Z     at listOnTimeout (node:internal/timers:559:17)
+2024-03-19T09:49:21.873913927Z     at processTimers (node:internal/timers:502:7)
+2024-03-19T09:50:11.622717397Z auth end time:2024-03-19T09:50:11.622Z
+2024-03-19T09:50:18.614064293Z login start time:2024-03-19T09:50:18.613Z
+2024-03-19T09:50:18.614117994Z *ifp login* start:2024-03-19T09:50:18.613Z
+2024-03-19T09:50:18.615024814Z post sso time:2024-03-19T09:50:18.614Z
+2024-03-19T09:50:18.714983706Z sso success time:2024-03-19T09:50:18.714Z
+2024-03-19T09:50:18.724586516Z update lastlogintime time:2024-03-19T09:50:18.724Z
+2024-03-19T09:50:18.941495927Z *ifp login* end:2024-03-19T09:50:18.941Z
+2024-03-19T09:50:18.941539028Z login first step success :2024-03-19T09:50:18.941Z
+2024-03-19T09:50:18.984055223Z get user time:2024-03-19T09:50:18.983Z
+2024-03-19T09:50:18.984654737Z *ifp publicUser* start:2024-03-19T09:50:18.984Z
+2024-03-19T10:04:18.647325078Z disconnected...
+2024-03-19T10:04:18.648063194Z disconnected...
+2024-03-19T10:04:18.652555193Z We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:18.652582594Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:18.652590194Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:18.652594794Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:18.652599194Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:18.652603794Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:18.652607694Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:18.652610794Z for call at
+2024-03-19T10:04:18.652613494Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:18.652616894Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:18.652621494Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:18.652625995Z     at new Promise (<anonymous>)
+2024-03-19T10:04:18.652629695Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:18.652633195Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:18.652636895Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:18.652640495Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:18.652643895Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:18.652648095Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:18.652651295Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:18.652653895Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:18.652656395Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:18.652659095Z     at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
+2024-03-19T10:04:18.652675096Z     at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
+2024-03-19T10:04:18.652677796Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:18.652680096Z }
+2024-03-19T10:04:18.652682696Z Trying to re-grant it...
+2024-03-19T10:04:18.652695296Z 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:18.652814299Z GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:18.652825899Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:18.652828699Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:18.652831099Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:18.652833399Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:18.652835699Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:18.652838099Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:18.652840399Z for call at
+2024-03-19T10:04:18.652842599Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:18.652844899Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:18.652847099Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:18.652849499Z     at new Promise (<anonymous>)
+2024-03-19T10:04:18.652851900Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:18.652854200Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:18.652857200Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:18.652860900Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:18.652864100Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:18.652867700Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:18.652871500Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:18.652874700Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:18.652878300Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:18.652881700Z     at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:18.652885100Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:18.652888500Z }
+2024-03-19T10:04:18.653569715Z Unhandled Rejection at: Promise {
+2024-03-19T10:04:18.653595416Z   <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:18.653599516Z       at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:18.653603416Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:18.653607416Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:18.653611416Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:18.653614616Z       at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:18.653617116Z       at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:18.653658017Z   for call at
+2024-03-19T10:04:18.653661117Z       at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:18.653663817Z       at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:18.653666418Z       at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:18.653668818Z       at new Promise (<anonymous>)
+2024-03-19T10:04:18.653671118Z       at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:18.653673318Z       at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:18.653675618Z       at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:18.653679018Z       at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:18.653682618Z       at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:18.653686318Z       at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:18.653689918Z       at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:18.653693418Z       at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:18.653696218Z       at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:18.653698518Z       at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:18.653745619Z     [Symbol(RecoverableError)]: true
+2024-03-19T10:04:18.653750019Z   }
+2024-03-19T10:04:18.653752519Z } reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:18.653754819Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:18.653757520Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:18.653761220Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:18.653780320Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:18.653784720Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:18.653788420Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:18.653794720Z for call at
+2024-03-19T10:04:18.653797820Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:18.653800020Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:18.653802321Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:18.653804621Z     at new Promise (<anonymous>)
+2024-03-19T10:04:18.653806921Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:18.653809221Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:18.653811421Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:18.653813921Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:18.653816221Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:18.653818421Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:18.653820621Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:18.653827421Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:18.653829721Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:18.653831921Z     at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:18.653834221Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:18.653836421Z }
+2024-03-19T10:04:18.737652471Z disconnected...
+2024-03-19T10:04:18.843407506Z disconnected...
+2024-03-19T10:04:18.898028311Z disconnected...
+2024-03-19T10:04:19.189242539Z disconnected...
+2024-03-19T10:04:19.889095087Z disconnected...
+2024-03-19T10:04:20.392954519Z disconnected...
+2024-03-19T10:04:23.825973276Z successfully reconnected!
+2024-03-19T10:04:23.838839660Z SERVICE_SECRET: npMIsZ-HC9VSsMzHKl-VI5vdOr2PWf
+2024-03-19T10:04:23.902680171Z rootTenantId is VGVuYW50.ZMDtPwQpNN4lUFDL
+2024-03-19T10:04:26.844721179Z disconnected...
+2024-03-19T10:04:26.845130988Z disconnected...
+2024-03-19T10:04:26.846713523Z We lost our lease as a result of this error: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:26.846741623Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:26.846746623Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:26.846750423Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:26.846753824Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:26.846757424Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:26.846760624Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:26.846763824Z for call at
+2024-03-19T10:04:26.846767224Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:26.846770424Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:26.846774324Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:26.846778424Z     at new Promise (<anonymous>)
+2024-03-19T10:04:26.846781524Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:26.846785024Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:26.846788424Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:26.846791624Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:26.846795224Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:26.846798725Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:26.846802125Z     at runNextTicks (node:internal/process/task_queues:61:5)
+2024-03-19T10:04:26.846805625Z     at listOnTimeout (node:internal/timers:528:9)
+2024-03-19T10:04:26.846809525Z     at processTimers (node:internal/timers:502:7)
+2024-03-19T10:04:26.846813025Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:26.846816725Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:26.846820225Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:26.846823525Z     at async PutBuilder.applyLease (/app/node_modules/etcd3/lib/builder.js:470:30)
+2024-03-19T10:04:26.846855026Z     at async PutBuilder.exec (/app/node_modules/etcd3/lib/builder.js:447:9) {
+2024-03-19T10:04:26.846860026Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:26.846863426Z }
+2024-03-19T10:04:26.846867226Z Trying to re-grant it...
+2024-03-19T10:04:26.846884326Z 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:26.847264835Z GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:26.847283435Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:26.847288235Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:26.847292335Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:26.847295636Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:26.847299536Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:26.847302836Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:26.847306236Z for call at
+2024-03-19T10:04:26.847309736Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:26.847313136Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:26.847316336Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:26.847320136Z     at new Promise (<anonymous>)
+2024-03-19T10:04:26.847323536Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:26.847326836Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:26.847329936Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:26.847333236Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:26.847336436Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:26.847339836Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:26.847343237Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:26.847346437Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:26.847349937Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:26.847353437Z     at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:26.847357337Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:26.847360637Z }
+2024-03-19T10:04:26.847380337Z Unhandled Rejection at: Promise {
+2024-03-19T10:04:26.847385637Z   <rejected> GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:26.847388938Z       at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:26.847392338Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:26.847395638Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:26.847398738Z       at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:26.847401938Z       at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:26.847405238Z       at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:26.847416738Z   for call at
+2024-03-19T10:04:26.847420538Z       at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:26.847423938Z       at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:26.847430738Z       at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:26.847434739Z       at new Promise (<anonymous>)
+2024-03-19T10:04:26.847438239Z       at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:26.847441639Z       at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:26.847444839Z       at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:26.847448139Z       at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:26.847451839Z       at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:26.847455039Z       at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:26.847458839Z       at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:26.847462439Z       at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:26.847465739Z       at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:26.847468939Z       at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:26.847472139Z     [Symbol(RecoverableError)]: true
+2024-03-19T10:04:26.847475539Z   }
+2024-03-19T10:04:26.847479240Z } reason: GRPCUnavailableError: 14 UNAVAILABLE: read ETIMEDOUT
+2024-03-19T10:04:26.847483240Z     at callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:19)
+2024-03-19T10:04:26.847486840Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:192:76)
+2024-03-19T10:04:26.847490140Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)
+2024-03-19T10:04:26.847493340Z     at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)
+2024-03-19T10:04:26.847496440Z     at /app/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78
+2024-03-19T10:04:26.847499740Z     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2024-03-19T10:04:26.847503140Z for call at
+2024-03-19T10:04:26.847506440Z     at ServiceClientImpl.makeUnaryRequest (/app/node_modules/@grpc/grpc-js/build/src/client.js:160:32)
+2024-03-19T10:04:26.847510040Z     at ServiceClientImpl.<anonymous> (/app/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+2024-03-19T10:04:26.847513740Z     at /app/node_modules/etcd3/lib/connection-pool.js:35:23
+2024-03-19T10:04:26.847519340Z     at new Promise (<anonymous>)
+2024-03-19T10:04:26.847523141Z     at runServiceCall (/app/node_modules/etcd3/lib/connection-pool.js:34:12)
+2024-03-19T10:04:26.847526441Z     at /app/node_modules/etcd3/lib/connection-pool.js:225:34
+2024-03-19T10:04:26.847529641Z     at /app/node_modules/etcd3/lib/connection-pool.js:264:28
+2024-03-19T10:04:26.847532941Z     at ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:33)
+2024-03-19T10:04:26.847536041Z     at CircuitBreakerPolicy.execute (/app/node_modules/cockatiel/dist/CircuitBreakerPolicy.js:115:52)
+2024-03-19T10:04:26.847539541Z     at ConnectionPool.withConnection (/app/node_modules/etcd3/lib/connection-pool.js:262:49)
+2024-03-19T10:04:26.847542541Z     at async ExecuteWrapper.invoke (/app/node_modules/cockatiel/dist/common/Executor.js:40:27)
+2024-03-19T10:04:26.847551241Z     at async RetryPolicy.execute (/app/node_modules/cockatiel/dist/RetryPolicy.js:55:28)
+2024-03-19T10:04:26.847554241Z     at async ConnectionPool.exec (/app/node_modules/etcd3/lib/connection-pool.js:217:20)
+2024-03-19T10:04:26.847557341Z     at async Campaign.start (/app/node_modules/etcd3/lib/election.js:205:25) {
+2024-03-19T10:04:26.847560741Z   [Symbol(RecoverableError)]: true
+2024-03-19T10:04:26.847563841Z }
+2024-03-19T10:04:27.012703190Z disconnected...
+2024-03-19T10:04:27.036241611Z disconnected...
+2024-03-19T10:04:27.211263178Z disconnected...
+2024-03-19T10:04:27.292662076Z disconnected...
+2024-03-19T10:04:27.905964928Z disconnected...
+2024-03-19T10:04:28.734190127Z disconnected...
+2024-03-19T10:04:32.760444680Z successfully reconnected!
+2024-03-19T10:20:31.355763338Z tenant SERVICE_SECRET: ltxznXiRV4MsTndUwC0oaQZky12XK3
+2024-03-19T16:05:00.021375559Z 【System Info】Schedule Task Start at 2024-03-19T16:05:00.021Z
+2024-03-19T16:05:00.042019235Z 0
+2024-03-19T16:05:00.042916555Z 【System Info】delExpiredDateUserInOrg Task Finish at 2024-03-19T16:05:00.039Z;
+2024-03-20T01:07:49.811324933Z auth end time:2024-03-20T01:07:49.811Z
+2024-03-20T01:08:03.492729636Z set cookie domain=sembcorp.net
+2024-03-20T01:10:24.552645891Z auth end time:2024-03-20T01:10:24.552Z
+2024-03-20T01:10:30.518838939Z set cookie domain=sembcorp.net
+2024-03-20T01:27:42.681351179Z set cookie domain=sembcorp.net
+2024-03-20T01:27:42.682587207Z set cookie domain=sembcorp.net
+2024-03-20T01:32:42.293720210Z login start time:2024-03-20T01:32:42.293Z
+2024-03-20T01:32:42.293962216Z *ifp login* start:2024-03-20T01:32:42.293Z
+2024-03-20T01:32:42.304237045Z post sso time:2024-03-20T01:32:42.304Z
+2024-03-20T01:32:42.395458384Z sso success time:2024-03-20T01:32:42.395Z
+2024-03-20T01:32:42.404908095Z update lastlogintime time:2024-03-20T01:32:42.404Z
+2024-03-20T01:32:42.637000581Z *ifp login* end:2024-03-20T01:32:42.636Z
+2024-03-20T01:32:42.637051182Z login first step success :2024-03-20T01:32:42.636Z
+2024-03-20T01:32:42.672443273Z get user time:2024-03-20T01:32:42.672Z
+2024-03-20T01:32:42.673018886Z *ifp publicUser* start:2024-03-20T01:32:42.672Z
+2024-03-20T01:32:42.688850639Z *ifp publicUser* end:2024-03-20T01:32:42.688Z
+2024-03-20T01:32:43.041523319Z syncTenantUsers get users time:2024-03-20T01:32:43.041Z
+2024-03-20T01:32:43.041980629Z ifp sync tenantUsers length:0
+2024-03-20T01:32:43.042038131Z sync tenantUsers length:0
+2024-03-20T01:32:43.042128433Z syncTenantUsers finish time:2024-03-20T01:32:43.042Z
+2024-03-20T01:32:43.042367438Z login end time:2024-03-20T01:32:43.042Z
+2024-03-20T01:32:58.903819828Z auth end time:2024-03-20T01:32:58.903Z
+2024-03-20T01:32:59.011204118Z if-none-match: undefined
+2024-03-20T01:32:59.014111883Z if-none-match: undefined
+2024-03-20T01:32:59.015942723Z if-none-match: undefined
+2024-03-20T01:32:59.052960949Z get langresc succeed
+2024-03-20T01:33:05.034042572Z set cookie domain=sembcorp.net
+2024-03-20T01:39:03.044443618Z auth end time:2024-03-20T01:39:03.044Z
+2024-03-20T01:39:04.067584792Z set cookie domain=sembcorp.net
+2024-03-20T01:39:19.171158952Z auth end time:2024-03-20T01:39:19.170Z
+2024-03-20T01:39:19.618855931Z set cookie domain=sembcorp.net
+2024-03-20T01:40:57.988663040Z auth end time:2024-03-20T01:40:57.988Z
+2024-03-20T01:42:55.563939393Z auth end time:2024-03-20T01:42:55.563Z
+2024-03-20T01:47:23.371893288Z auth end time:2024-03-20T01:47:23.371Z
+2024-03-20T01:47:34.817677830Z auth end time:2024-03-20T01:47:34.817Z
+2024-03-20T01:47:36.302554072Z set cookie domain=sembcorp.net
+2024-03-20T01:49:36.482302207Z auth end time:2024-03-20T01:49:36.482Z
+2024-03-20T01:51:03.461345375Z login start time:2024-03-20T01:51:03.461Z
+2024-03-20T01:51:03.461545079Z *ifp login* start:2024-03-20T01:51:03.461Z
+2024-03-20T01:51:03.475401281Z post sso time:2024-03-20T01:51:03.475Z
+2024-03-20T01:51:03.637813424Z sso success time:2024-03-20T01:51:03.637Z
+2024-03-20T01:51:03.647906544Z update lastlogintime time:2024-03-20T01:51:03.647Z
+2024-03-20T01:51:03.858655941Z *ifp login* end:2024-03-20T01:51:03.858Z
+2024-03-20T01:51:03.858705542Z login first step success :2024-03-20T01:51:03.858Z
+2024-03-20T01:51:03.902185391Z get user time:2024-03-20T01:51:03.902Z
+2024-03-20T01:51:03.902785604Z *ifp publicUser* start:2024-03-20T01:51:03.902Z
+2024-03-20T01:51:03.918316942Z *ifp publicUser* end:2024-03-20T01:51:03.918Z
+2024-03-20T01:51:04.159779009Z syncTenantUsers get users time:2024-03-20T01:51:04.159Z
+2024-03-20T01:51:04.160276520Z ifp sync tenantUsers length:0
+2024-03-20T01:51:04.160582627Z sync tenantUsers length:0
+2024-03-20T01:51:04.160650728Z syncTenantUsers finish time:2024-03-20T01:51:04.160Z
+2024-03-20T01:51:04.160938835Z login end time:2024-03-20T01:51:04.160Z
+2024-03-20T01:51:27.021131966Z auth end time:2024-03-20T01:51:27.021Z
+2024-03-20T01:51:28.098701499Z set cookie domain=sembcorp.net
+2024-03-20T01:52:15.436826101Z auth end time:2024-03-20T01:52:15.436Z
+2024-03-20T01:52:28.145529638Z auth end time:2024-03-20T01:52:28.145Z
+2024-03-20T01:52:32.879294771Z auth end time:2024-03-20T01:52:32.879Z
+2024-03-20T01:52:40.933646965Z delete cookie domain=sembcorp.net
+2024-03-20T01:52:46.827081802Z set cookie domain=sembcorp.net
+2024-03-20T01:52:46.835017979Z set cookie domain=sembcorp.net
+2024-03-20T01:52:49.754833768Z RequestError: Error: socket hang up
+2024-03-20T01:52:49.754861268Z     at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+2024-03-20T01:52:49.754866468Z     at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+2024-03-20T01:52:49.754870468Z     at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+2024-03-20T01:52:49.754875069Z     at self.callback (/app/node_modules/request/request.js:185:22)
+2024-03-20T01:52:49.754878869Z     at Request.emit (node:events:526:28)
+2024-03-20T01:52:49.754882369Z     at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+2024-03-20T01:52:49.754886269Z     at ClientRequest.emit (node:events:526:28)
+2024-03-20T01:52:49.754890869Z     at Socket.socketOnEnd (node:_http_client:466:9)
+2024-03-20T01:52:49.754894369Z     at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.754898069Z     at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.754901669Z     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.754905769Z   cause: Error: socket hang up
+2024-03-20T01:52:49.754909369Z       at connResetException (node:internal/errors:691:14)
+2024-03-20T01:52:49.754912869Z       at Socket.socketOnEnd (node:_http_client:466:23)
+2024-03-20T01:52:49.754916270Z       at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.754919670Z       at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.754923370Z       at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.754927870Z     code: 'ECONNRESET'
+2024-03-20T01:52:49.754931370Z   },
+2024-03-20T01:52:49.754935170Z   error: Error: socket hang up
+2024-03-20T01:52:49.754938870Z       at connResetException (node:internal/errors:691:14)
+2024-03-20T01:52:49.754942770Z       at Socket.socketOnEnd (node:_http_client:466:23)
+2024-03-20T01:52:49.754956170Z       at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.754962771Z       at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.754966271Z       at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.754969571Z     code: 'ECONNRESET'
+2024-03-20T01:52:49.754972671Z   },
+2024-03-20T01:52:49.754975971Z   options: {
+2024-03-20T01:52:49.754979171Z     method: 'POST',
+2024-03-20T01:52:49.754982371Z     uri: 'http://api-dbmaster-wise-mplus:80/query',
+2024-03-20T01:52:49.754985671Z     headers: { 'content-type': 'application/json' },
+2024-03-20T01:52:49.754989071Z     body: {
+2024-03-20T01:52:49.754992671Z       query: '{DevList(devID:[4790]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+2024-03-20T01:52:49.754995771Z     },
+2024-03-20T01:52:49.754998971Z     json: true,
+2024-03-20T01:52:49.755002571Z     callback: [Function: RP$callback],
+2024-03-20T01:52:49.755005972Z     transform: undefined,
+2024-03-20T01:52:49.755009172Z     simple: true,
+2024-03-20T01:52:49.755012272Z     resolveWithFullResponse: false,
+2024-03-20T01:52:49.755015472Z     transform2xxOnly: false
+2024-03-20T01:52:49.755018672Z   },
+2024-03-20T01:52:49.755021772Z   response: undefined
+2024-03-20T01:52:49.755024972Z }
+2024-03-20T01:52:49.758643952Z RequestError: Error: socket hang up
+2024-03-20T01:52:49.758693053Z     at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+2024-03-20T01:52:49.758698954Z     at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+2024-03-20T01:52:49.758703054Z     at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+2024-03-20T01:52:49.758707054Z     at self.callback (/app/node_modules/request/request.js:185:22)
+2024-03-20T01:52:49.758711054Z     at Request.emit (node:events:526:28)
+2024-03-20T01:52:49.758714954Z     at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+2024-03-20T01:52:49.758718754Z     at ClientRequest.emit (node:events:526:28)
+2024-03-20T01:52:49.758722954Z     at Socket.socketOnEnd (node:_http_client:466:9)
+2024-03-20T01:52:49.758726654Z     at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.758730054Z     at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.758733654Z     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.758737554Z   cause: Error: socket hang up
+2024-03-20T01:52:49.758740855Z       at connResetException (node:internal/errors:691:14)
+2024-03-20T01:52:49.758744255Z       at Socket.socketOnEnd (node:_http_client:466:23)
+2024-03-20T01:52:49.758747855Z       at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.758751455Z       at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.758755055Z       at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.758759255Z     code: 'ECONNRESET'
+2024-03-20T01:52:49.758762555Z   },
+2024-03-20T01:52:49.758766055Z   error: Error: socket hang up
+2024-03-20T01:52:49.758769855Z       at connResetException (node:internal/errors:691:14)
+2024-03-20T01:52:49.758773455Z       at Socket.socketOnEnd (node:_http_client:466:23)
+2024-03-20T01:52:49.758776655Z       at Socket.emit (node:events:538:35)
+2024-03-20T01:52:49.758780155Z       at endReadableNT (node:internal/streams/readable:1345:12)
+2024-03-20T01:52:49.758783955Z       at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:49.758787656Z     code: 'ECONNRESET'
+2024-03-20T01:52:49.758801256Z   },
+2024-03-20T01:52:49.758804956Z   options: {
+2024-03-20T01:52:49.758808356Z     method: 'POST',
+2024-03-20T01:52:49.758811956Z     uri: 'http://api-dbmaster-wise-mplus:80/query',
+2024-03-20T01:52:49.758815556Z     headers: { 'content-type': 'application/json' },
+2024-03-20T01:52:49.758818956Z     body: {
+2024-03-20T01:52:49.758822956Z       query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+2024-03-20T01:52:49.758826356Z     },
+2024-03-20T01:52:49.758829556Z     json: true,
+2024-03-20T01:52:49.758832857Z     callback: [Function: RP$callback],
+2024-03-20T01:52:49.758836357Z     transform: undefined,
+2024-03-20T01:52:49.758839857Z     simple: true,
+2024-03-20T01:52:49.758843457Z     resolveWithFullResponse: false,
+2024-03-20T01:52:49.758846857Z     transform2xxOnly: false
+2024-03-20T01:52:49.758850357Z   },
+2024-03-20T01:52:49.758854057Z   response: undefined
+2024-03-20T01:52:49.758857557Z }
+2024-03-20T01:52:53.943864042Z RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T01:52:53.943918244Z     at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+2024-03-20T01:52:53.943923444Z     at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+2024-03-20T01:52:53.943927744Z     at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+2024-03-20T01:52:53.943934244Z     at self.callback (/app/node_modules/request/request.js:185:22)
+2024-03-20T01:52:53.943938544Z     at Request.emit (node:events:526:28)
+2024-03-20T01:52:53.943942344Z     at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+2024-03-20T01:52:53.943946044Z     at ClientRequest.emit (node:events:526:28)
+2024-03-20T01:52:53.943949644Z     at Socket.socketErrorListener (node:_http_client:442:9)
+2024-03-20T01:52:53.943953244Z     at Socket.emit (node:events:526:28)
+2024-03-20T01:52:53.943956845Z     at emitErrorNT (node:internal/streams/destroy:157:8)
+2024-03-20T01:52:53.943960545Z     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+2024-03-20T01:52:53.943964145Z     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T01:52:53.943968045Z   cause: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T01:52:53.943971945Z       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+2024-03-20T01:52:53.943975545Z     errno: -111,
+2024-03-20T01:52:53.943979545Z     code: 'ECONNREFUSED',
+2024-03-20T01:52:53.943983845Z     syscall: 'connect',
+2024-03-20T01:52:53.943987245Z     address: '10.0.76.103',
+2024-03-20T01:52:53.943990745Z     port: 80
+2024-03-20T01:52:53.943998345Z   },
+2024-03-20T01:52:53.944001846Z   error: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T01:52:53.944005646Z       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+2024-03-20T01:52:53.944009046Z     errno: -111,
+2024-03-20T01:52:53.944028446Z     code: 'ECONNREFUSED',
+2024-03-20T01:52:53.944032746Z     syscall: 'connect',
+2024-03-20T01:52:53.944036546Z     address: '10.0.76.103',
+2024-03-20T01:52:53.944040546Z     port: 80
+2024-03-20T01:52:53.944044446Z   },
+2024-03-20T01:52:53.944047947Z   options: {
+2024-03-20T01:52:53.944051447Z     method: 'POST',
+2024-03-20T01:52:53.944055147Z     uri: 'http://api-dbmaster-wise-mplus:80/query',
+2024-03-20T01:52:53.944058947Z     headers: { 'content-type': 'application/json' },
+2024-03-20T01:52:53.944062747Z     body: {
+2024-03-20T01:52:53.944067047Z       query: '{DevList(devID:[4947]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+2024-03-20T01:52:53.944085847Z     },
+2024-03-20T01:52:53.944089347Z     json: true,
+2024-03-20T01:52:53.944092548Z     callback: [Function: RP$callback],
+2024-03-20T01:52:53.944095548Z     transform: undefined,
+2024-03-20T01:52:53.944098748Z     simple: true,
+2024-03-20T01:52:53.944101848Z     resolveWithFullResponse: false,
+2024-03-20T01:52:53.944104948Z     transform2xxOnly: false
+2024-03-20T01:52:53.944108148Z   },
+2024-03-20T01:52:53.944131448Z   response: undefined
+2024-03-20T01:52:53.944135548Z }
+2024-03-20T01:53:01.938257152Z login start time:2024-03-20T01:53:01.938Z
+2024-03-20T01:53:01.938673461Z *ifp login* start:2024-03-20T01:53:01.938Z
+2024-03-20T01:53:01.940101393Z post sso time:2024-03-20T01:53:01.939Z
+2024-03-20T01:53:02.013429020Z sso success time:2024-03-20T01:53:02.013Z
+2024-03-20T01:53:02.023290438Z update lastlogintime time:2024-03-20T01:53:02.023Z
+2024-03-20T01:53:02.265645415Z *ifp login* end:2024-03-20T01:53:02.265Z
+2024-03-20T01:53:02.265679415Z login first step success :2024-03-20T01:53:02.265Z
+2024-03-20T01:53:02.307663647Z get user time:2024-03-20T01:53:02.307Z
+2024-03-20T01:53:02.308226259Z *ifp publicUser* start:2024-03-20T01:53:02.308Z
+2024-03-20T01:53:02.322085367Z *ifp publicUser* end:2024-03-20T01:53:02.321Z
+2024-03-20T01:53:02.574382363Z syncTenantUsers get users time:2024-03-20T01:53:02.574Z
+2024-03-20T01:53:02.574717571Z ifp sync tenantUsers length:0
+2024-03-20T01:53:02.574808173Z sync tenantUsers length:0
+2024-03-20T01:53:02.574841874Z syncTenantUsers finish time:2024-03-20T01:53:02.574Z
+2024-03-20T01:53:02.574987077Z login end time:2024-03-20T01:53:02.574Z
+2024-03-20T01:54:40.977107686Z set cookie domain=sembcorp.net
+2024-03-20T01:54:40.987241510Z set cookie domain=sembcorp.net
+2024-03-20T01:57:37.349437300Z login start time:2024-03-20T01:57:37.349Z
+2024-03-20T01:57:37.349491301Z *ifp login* start:2024-03-20T01:57:37.349Z
+2024-03-20T01:57:37.350202216Z post sso time:2024-03-20T01:57:37.350Z
+2024-03-20T01:57:37.431834956Z sso success time:2024-03-20T01:57:37.431Z
+2024-03-20T01:57:37.446317764Z update lastlogintime time:2024-03-20T01:57:37.446Z
+2024-03-20T01:57:37.661683853Z *ifp login* end:2024-03-20T01:57:37.661Z
+2024-03-20T01:57:37.661765155Z login first step success :2024-03-20T01:57:37.661Z
+2024-03-20T01:57:37.709278967Z get user time:2024-03-20T01:57:37.708Z
+2024-03-20T01:57:37.709838979Z *ifp publicUser* start:2024-03-20T01:57:37.709Z
+2024-03-20T01:57:37.723465570Z *ifp publicUser* end:2024-03-20T01:57:37.723Z
+2024-03-20T01:57:37.977882791Z syncTenantUsers get users time:2024-03-20T01:57:37.977Z
+2024-03-20T01:57:37.978126396Z ifp sync tenantUsers length:0
+2024-03-20T01:57:37.978217098Z sync tenantUsers length:0
+2024-03-20T01:57:37.978298399Z syncTenantUsers finish time:2024-03-20T01:57:37.978Z
+2024-03-20T01:57:37.978431602Z login end time:2024-03-20T01:57:37.978Z
+2024-03-20T02:00:00.058362133Z post sso time:2024-03-20T02:00:00.039Z
+2024-03-20T02:00:00.058555237Z (node:1) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2024-03-20T02:00:00.080100295Z login:Request failed with status code 401
+2024-03-20T02:10:53.176938861Z set cookie domain=sembcorp.net
+2024-03-20T02:14:39.466546805Z auth end time:2024-03-20T02:14:39.466Z
+2024-03-20T02:14:39.627388145Z if-none-match: undefined
+2024-03-20T02:14:39.630858322Z if-none-match: undefined
+2024-03-20T02:14:39.631815143Z if-none-match: undefined
+2024-03-20T02:14:39.749962743Z get langresc succeed
+2024-03-20T02:14:48.474694735Z set cookie domain=sembcorp.net
+2024-03-20T02:17:23.977231728Z set cookie domain=sembcorp.net
+2024-03-20T02:17:23.978165249Z set cookie domain=sembcorp.net
+2024-03-20T02:17:27.651168073Z auth end time:2024-03-20T02:17:27.651Z
+2024-03-20T02:26:11.922553461Z set cookie domain=sembcorp.net
+2024-03-20T02:26:11.954859772Z set cookie domain=sembcorp.net
+2024-03-20T02:33:41.150926254Z set cookie domain=sembcorp.net
+2024-03-20T02:33:41.163010610Z set cookie domain=sembcorp.net
+2024-03-20T02:33:48.166804228Z login start time:2024-03-20T02:33:48.166Z
+2024-03-20T02:33:48.166851429Z *ifp login* start:2024-03-20T02:33:48.166Z
+2024-03-20T02:33:48.167685349Z post sso time:2024-03-20T02:33:48.167Z
+2024-03-20T02:33:48.295455522Z sso success time:2024-03-20T02:33:48.295Z
+2024-03-20T02:33:48.305382053Z update lastlogintime time:2024-03-20T02:33:48.305Z
+2024-03-20T02:33:48.593996369Z *ifp login* end:2024-03-20T02:33:48.593Z
+2024-03-20T02:33:48.594041270Z login first step success :2024-03-20T02:33:48.593Z
+2024-03-20T02:33:48.643571223Z get user time:2024-03-20T02:33:48.643Z
+2024-03-20T02:33:48.644084335Z *ifp publicUser* start:2024-03-20T02:33:48.644Z
+2024-03-20T02:33:48.660071807Z *ifp publicUser* end:2024-03-20T02:33:48.659Z
+2024-03-20T02:33:48.907860373Z syncTenantUsers get users time:2024-03-20T02:33:48.907Z
+2024-03-20T02:33:48.908157680Z ifp sync tenantUsers length:0
+2024-03-20T02:33:48.908170080Z sync tenantUsers length:0
+2024-03-20T02:33:48.908297583Z syncTenantUsers finish time:2024-03-20T02:33:48.908Z
+2024-03-20T02:33:48.908479987Z login end time:2024-03-20T02:33:48.908Z
+2024-03-20T02:33:59.071007654Z auth end time:2024-03-20T02:33:59.070Z
+2024-03-20T02:37:43.139043604Z set cookie domain=sembcorp.net
+2024-03-20T02:37:43.151044068Z set cookie domain=sembcorp.net
+2024-03-20T02:37:59.256447995Z auth end time:2024-03-20T02:37:59.256Z
+2024-03-20T02:41:03.879609617Z RequestError: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T02:41:03.879641018Z     at new RequestError (/app/node_modules/request-promise-core/lib/errors.js:14:15)
+2024-03-20T02:41:03.879645418Z     at Request.plumbing.callback (/app/node_modules/request-promise-core/lib/plumbing.js:87:29)
+2024-03-20T02:41:03.879649218Z     at Request.RP$callback [as _callback] (/app/node_modules/request-promise-core/lib/plumbing.js:46:31)
+2024-03-20T02:41:03.879652718Z     at self.callback (/app/node_modules/request/request.js:185:22)
+2024-03-20T02:41:03.879655618Z     at Request.emit (node:events:526:28)
+2024-03-20T02:41:03.879658318Z     at Request.onRequestError (/app/node_modules/request/request.js:877:8)
+2024-03-20T02:41:03.879661218Z     at ClientRequest.emit (node:events:526:28)
+2024-03-20T02:41:03.879663918Z     at Socket.socketErrorListener (node:_http_client:442:9)
+2024-03-20T02:41:03.879666718Z     at Socket.emit (node:events:526:28)
+2024-03-20T02:41:03.879669318Z     at emitErrorNT (node:internal/streams/destroy:157:8)
+2024-03-20T02:41:03.879671919Z     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+2024-03-20T02:41:03.879674519Z     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+2024-03-20T02:41:03.879677019Z   cause: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T02:41:03.879679619Z       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+2024-03-20T02:41:03.879682119Z     errno: -111,
+2024-03-20T02:41:03.879685119Z     code: 'ECONNREFUSED',
+2024-03-20T02:41:03.879689419Z     syscall: 'connect',
+2024-03-20T02:41:03.879692719Z     address: '10.0.76.103',
+2024-03-20T02:41:03.879696719Z     port: 80
+2024-03-20T02:41:03.879699919Z   },
+2024-03-20T02:41:03.879720620Z   error: Error: connect ECONNREFUSED 10.0.76.103:80
+2024-03-20T02:41:03.879723120Z       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+2024-03-20T02:41:03.879725420Z     errno: -111,
+2024-03-20T02:41:03.879727620Z     code: 'ECONNREFUSED',
+2024-03-20T02:41:03.879729820Z     syscall: 'connect',
+2024-03-20T02:41:03.879732020Z     address: '10.0.76.103',
+2024-03-20T02:41:03.879734320Z     port: 80
+2024-03-20T02:41:03.879736520Z   },
+2024-03-20T02:41:03.879738720Z   options: {
+2024-03-20T02:41:03.879741120Z     method: 'POST',
+2024-03-20T02:41:03.879743420Z     uri: 'http://api-dbmaster-wise-mplus:80/query',
+2024-03-20T02:41:03.879745620Z     headers: { 'content-type': 'application/json' },
+2024-03-20T02:41:03.879747920Z     body: {
+2024-03-20T02:41:03.879751020Z       query: '{DevList(devID:[5068]){serialNo,ID,tagCount,tagNum,active,lastOnlineTime,activeTime,errCode,protocolType}}'
+2024-03-20T02:41:03.879753220Z     },
+2024-03-20T02:41:03.879755620Z     json: true,
+2024-03-20T02:41:03.879757820Z     callback: [Function: RP$callback],
+2024-03-20T02:41:03.879760020Z     transform: undefined,
+2024-03-20T02:41:03.879762221Z     simple: true,
+2024-03-20T02:41:03.879764421Z     resolveWithFullResponse: false,
+2024-03-20T02:41:03.879766721Z     transform2xxOnly: false
+2024-03-20T02:41:03.879768921Z   },
+2024-03-20T02:41:03.879771221Z   response: undefined
+2024-03-20T02:41:03.879773421Z }
+2024-03-20T02:41:54.720714829Z set cookie domain=sembcorp.net
+2024-03-20T02:47:23.769476423Z auth end time:2024-03-20T02:47:23.769Z
+2024-03-20T02:47:27.229186806Z set cookie domain=sembcorp.net
+2024-03-20T02:56:56.640301268Z set cookie domain=sembcorp.net
+2024-03-20T02:57:06.386675030Z auth end time:2024-03-20T02:57:06.386Z
+2024-03-20T03:12:09.612186308Z set cookie domain=sembcorp.net
+2024-03-20T03:17:17.351114842Z set cookie domain=sembcorp.net
+2024-03-20T03:17:17.353637798Z set cookie domain=sembcorp.net
+2024-03-20T03:17:41.833806357Z auth end time:2024-03-20T03:17:41.833Z
+2024-03-20T03:17:50.403768284Z set cookie domain=sembcorp.net
+2024-03-20T03:21:58.214035505Z auth end time:2024-03-20T03:21:58.213Z
+2024-03-20T03:22:01.790927892Z set cookie domain=sembcorp.net
+2024-03-20T03:27:20.968763437Z set cookie domain=sembcorp.net
+2024-03-20T03:33:02.590327006Z [DEBUG] query = {
+2024-03-20T03:33:02.590389607Z   gateways {
+2024-03-20T03:33:02.590395707Z     id
+2024-03-20T03:33:02.590399307Z     name
+2024-03-20T03:33:02.590402807Z     scadaId
+2024-03-20T03:33:02.590406807Z   }
+2024-03-20T03:33:02.590410908Z }
+2024-03-20T03:33:02.590415608Z , variable = [object Object]
+2024-03-20T03:33:03.197343681Z add machines
+2024-03-20T03:34:24.932947261Z set cookie domain=sembcorp.net
+2024-03-20T03:34:24.942253463Z set cookie domain=sembcorp.net
+2024-03-20T03:36:05.139028300Z auth end time:2024-03-20T03:36:05.138Z
+2024-03-20T03:36:14.158823229Z set cookie domain=sembcorp.net
+2024-03-20T03:37:02.975306876Z set cookie domain=sembcorp.net
+2024-03-20T03:37:02.995691428Z set cookie domain=sembcorp.net
+2024-03-20T03:37:28.371878810Z auth end time:2024-03-20T03:37:28.371Z
+2024-03-20T03:37:29.494073050Z set cookie domain=sembcorp.net
+2024-03-20T03:51:21.074442552Z auth end time:2024-03-20T03:51:21.074Z
+2024-03-20T03:51:27.349286532Z set cookie domain=sembcorp.net
+2024-03-20T03:53:37.104453752Z set cookie domain=sembcorp.net
+2024-03-20T03:53:37.119534987Z set cookie domain=sembcorp.net
+2024-03-20T03:56:22.148876068Z auth end time:2024-03-20T03:56:22.148Z
+2024-03-20T03:56:24.034399630Z set cookie domain=sembcorp.net
+2024-03-20T03:59:22.722455889Z auth end time:2024-03-20T03:59:22.722Z
+2024-03-20T03:59:26.851012952Z set cookie domain=sembcorp.net
+2024-03-20T03:59:30.811483482Z set cookie domain=sembcorp.net
+2024-03-20T03:59:30.817838122Z set cookie domain=sembcorp.net
+2024-03-20T04:01:47.060483669Z auth end time:2024-03-20T04:01:47.060Z
+2024-03-20T04:01:47.152916916Z if-none-match: undefined
+2024-03-20T04:01:47.153756735Z if-none-match: undefined
+2024-03-20T04:01:47.154520052Z if-none-match: undefined
+2024-03-20T04:01:47.231037046Z get langresc succeed
+2024-03-20T04:01:49.937405381Z set cookie domain=sembcorp.net
+2024-03-20T04:02:46.807760328Z auth end time:2024-03-20T04:02:46.807Z
+2024-03-20T04:02:47.929796729Z set cookie domain=sembcorp.net
+2024-03-20T04:06:57.653582017Z set cookie domain=sembcorp.net
+2024-03-20T06:59:49.627097868Z login start time:2024-03-20T06:59:49.626Z
+2024-03-20T06:59:49.627371574Z *ifp login* start:2024-03-20T06:59:49.627Z
+2024-03-20T06:59:49.643450430Z post sso time:2024-03-20T06:59:49.643Z
+2024-03-20T06:59:49.722368377Z sso success time:2024-03-20T06:59:49.722Z
+2024-03-20T06:59:49.735719972Z update lastlogintime time:2024-03-20T06:59:49.735Z
+2024-03-20T06:59:52.476603147Z *ifp login* end:2024-03-20T06:59:52.476Z
+2024-03-20T06:59:52.476682049Z login first step success :2024-03-20T06:59:52.476Z
+2024-03-20T06:59:52.518739580Z get user time:2024-03-20T06:59:52.518Z
+2024-03-20T06:59:52.519305393Z *ifp publicUser* start:2024-03-20T06:59:52.519Z
+2024-03-20T06:59:55.035415892Z *ifp publicUser* end:2024-03-20T06:59:55.035Z
+2024-03-20T06:59:55.035459993Z syncTenantUsers get users time:2024-03-20T06:59:55.035Z
+2024-03-20T06:59:55.035471893Z ifp sync tenantUsers length:0
+2024-03-20T06:59:55.035535495Z sync tenantUsers length:0
+2024-03-20T06:59:55.035550495Z syncTenantUsers finish time:2024-03-20T06:59:55.035Z
+2024-03-20T06:59:55.035744699Z login end time:2024-03-20T06:59:55.035Z
+2024-03-20T07:01:15.740086191Z auth end time:2024-03-20T07:01:15.739Z
+2024-03-20T07:01:29.115477521Z set cookie domain=sembcorp.net
+2024-03-20T07:29:20.287300552Z auth end time:2024-03-20T07:29:20.287Z
+2024-03-20T07:29:26.191824953Z set cookie domain=sembcorp.net
+2024-03-20T07:55:22.008007661Z set cookie domain=sembcorp.net
+2024-03-20T07:55:22.016741254Z set cookie domain=sembcorp.net
+2024-03-20T08:03:55.711864793Z auth end time:2024-03-20T08:03:55.711Z
+2024-03-20T08:23:13.445918800Z set cookie domain=sembcorp.net
+2024-03-20T08:23:13.446710218Z set cookie domain=sembcorp.net
+2024-03-20T08:43:48.154501716Z set cookie domain=sembcorp.net
+2024-03-20T08:43:48.162090784Z set cookie domain=sembcorp.net
+2024-03-20T10:39:08.710452964Z login start time:2024-03-20T10:39:08.710Z
+2024-03-20T10:39:08.710565266Z *ifp login* start:2024-03-20T10:39:08.710Z
+2024-03-20T10:39:08.723006841Z post sso time:2024-03-20T10:39:08.722Z
+2024-03-20T10:39:11.569069364Z *ifp login* end:2024-03-20T10:39:11.568Z
+2024-03-20T10:39:13.797438231Z sso success time:2024-03-20T10:39:13.797Z
+2024-03-20T10:39:13.808236069Z update lastlogintime time:2024-03-20T10:39:13.808Z
+2024-03-20T10:39:13.810574521Z login first step success :2024-03-20T10:39:13.810Z
+2024-03-20T10:39:13.872943300Z get user time:2024-03-20T10:39:13.872Z
+2024-03-20T10:39:13.873603214Z *ifp publicUser* start:2024-03-20T10:39:13.873Z
+2024-03-20T10:39:13.884983866Z *ifp publicUser* end:2024-03-20T10:39:13.884Z
+2024-03-20T10:39:14.183366463Z syncTenantUsers get users time:2024-03-20T10:39:14.183Z
+2024-03-20T10:39:14.183427364Z ifp sync tenantUsers length:0
+2024-03-20T10:39:14.183433364Z sync tenantUsers length:0
+2024-03-20T10:39:14.183529666Z syncTenantUsers finish time:2024-03-20T10:39:14.183Z
+2024-03-20T10:39:14.183745971Z login end time:2024-03-20T10:39:14.183Z
+2024-03-20T16:05:00.049373872Z 【System Info】Schedule Task Start at 2024-03-20T16:05:00.042Z
+2024-03-20T16:05:00.060852422Z 0
+2024-03-20T16:05:00.060908323Z 【System Info】delExpiredDateUserInOrg Task Finish at 2024-03-20T16:05:00.059Z;
+2024-03-21T01:30:13.632202880Z auth end time:2024-03-21T01:30:13.632Z
+2024-03-21T01:30:27.151034814Z set cookie domain=sembcorp.net
+2024-03-21T01:39:51.959019994Z login start time:2024-03-21T01:39:51.958Z
+2024-03-21T01:39:51.959268099Z *ifp login* start:2024-03-21T01:39:51.959Z
+2024-03-21T01:39:51.970404333Z post sso time:2024-03-21T01:39:51.970Z
+2024-03-21T01:39:52.058972194Z sso success time:2024-03-21T01:39:52.058Z
+2024-03-21T01:39:52.071861864Z update lastlogintime time:2024-03-21T01:39:52.071Z
+2024-03-21T01:39:52.356680546Z *ifp login* end:2024-03-21T01:39:52.356Z
+2024-03-21T01:39:52.356848050Z login first step success :2024-03-21T01:39:52.356Z
+2024-03-21T01:39:52.407863721Z get user time:2024-03-21T01:39:52.407Z
+2024-03-21T01:39:52.408476734Z *ifp publicUser* start:2024-03-21T01:39:52.408Z
+2024-03-21T01:39:52.421879116Z *ifp publicUser* end:2024-03-21T01:39:52.421Z
+2024-03-21T01:39:52.665317929Z syncTenantUsers get users time:2024-03-21T01:39:52.665Z
+2024-03-21T01:39:52.665373330Z ifp sync tenantUsers length:0
+2024-03-21T01:39:52.665379230Z sync tenantUsers length:0
+2024-03-21T01:39:52.665485232Z syncTenantUsers finish time:2024-03-21T01:39:52.665Z
+2024-03-21T01:39:52.665640136Z login end time:2024-03-21T01:39:52.665Z
+2024-03-21T01:40:03.235558850Z auth end time:2024-03-21T01:40:03.235Z
+2024-03-21T01:40:03.343192801Z if-none-match: undefined
+2024-03-21T01:40:03.343378505Z if-none-match: undefined
+2024-03-21T01:40:03.353380123Z if-none-match: undefined
+2024-03-21T01:40:03.407930015Z get langresc succeed
+2024-03-21T01:40:09.137115365Z set cookie domain=sembcorp.net
+2024-03-21T01:47:03.410805135Z auth end time:2024-03-21T01:47:03.410Z
+2024-03-21T01:47:09.520781486Z set cookie domain=sembcorp.net
+2024-03-21T02:00:00.075932586Z post sso time:2024-03-21T02:00:00.074Z
+2024-03-21T02:00:00.105292240Z login:Request failed with status code 401
+2024-03-21T02:12:22.454267184Z set cookie domain=sembcorp.net
+2024-03-21T02:12:24.966020766Z set cookie domain=sembcorp.net
+2024-03-21T02:12:55.167272006Z auth end time:2024-03-21T02:12:55.167Z
+2024-03-21T02:12:58.675217488Z set cookie domain=sembcorp.net
+2024-03-21T02:18:19.029993120Z set cookie domain=sembcorp.net
+2024-03-21T02:18:19.064657879Z set cookie domain=sembcorp.net
+2024-03-21T02:18:32.745357292Z login start time:2024-03-21T02:18:32.745Z
+2024-03-21T02:18:32.745623598Z *ifp login* start:2024-03-21T02:18:32.745Z
+2024-03-21T02:18:32.757098950Z post sso time:2024-03-21T02:18:32.756Z
+2024-03-21T02:18:32.866028639Z sso success time:2024-03-21T02:18:32.865Z
+2024-03-21T02:18:32.879082926Z update lastlogintime time:2024-03-21T02:18:32.878Z
+2024-03-21T02:18:33.064035483Z *ifp login* end:2024-03-21T02:18:33.063Z
+2024-03-21T02:18:33.064105384Z login first step success :2024-03-21T02:18:33.063Z
+2024-03-21T02:18:33.104631273Z get user time:2024-03-21T02:18:33.104Z
+2024-03-21T02:18:33.105351389Z *ifp publicUser* start:2024-03-21T02:18:33.105Z
+2024-03-21T02:18:33.149717662Z *ifp publicUser* end:2024-03-21T02:18:33.149Z
+2024-03-21T02:18:33.364486173Z syncTenantUsers get users time:2024-03-21T02:18:33.364Z
+2024-03-21T02:18:33.364620676Z ifp sync tenantUsers length:0
+2024-03-21T02:18:33.364631377Z sync tenantUsers length:0
+2024-03-21T02:18:33.364661477Z syncTenantUsers finish time:2024-03-21T02:18:33.364Z
+2024-03-21T02:18:33.364842181Z login end time:2024-03-21T02:18:33.364Z
+2024-03-21T02:18:45.315621060Z login start time:2024-03-21T02:18:45.315Z
+2024-03-21T02:18:45.315681161Z *ifp login* start:2024-03-21T02:18:45.315Z
+2024-03-21T02:18:45.316382778Z post sso time:2024-03-21T02:18:45.316Z
+2024-03-21T02:18:45.425967352Z sso success time:2024-03-21T02:18:45.425Z
+2024-03-21T02:18:45.440684211Z update lastlogintime time:2024-03-21T02:18:45.440Z
+2024-03-21T02:18:45.571297998Z *ifp login* end:2024-03-21T02:18:45.571Z
+2024-03-21T02:18:45.571342000Z login first step success :2024-03-21T02:18:45.571Z
+2024-03-21T02:18:45.618159642Z get user time:2024-03-21T02:18:45.618Z
+2024-03-21T02:18:45.619516075Z *ifp publicUser* start:2024-03-21T02:18:45.619Z
+2024-03-21T02:18:45.651538056Z *ifp publicUser* end:2024-03-21T02:18:45.651Z
+2024-03-21T02:18:45.951091566Z syncTenantUsers get users time:2024-03-21T02:18:45.950Z
+2024-03-21T02:18:45.951287970Z ifp sync tenantUsers length:0
+2024-03-21T02:18:45.951297371Z sync tenantUsers length:0
+2024-03-21T02:18:45.951302171Z syncTenantUsers finish time:2024-03-21T02:18:45.950Z
+2024-03-21T02:18:45.951316071Z login end time:2024-03-21T02:18:45.951Z
+2024-03-21T02:20:17.715629148Z auth end time:2024-03-21T02:20:17.715Z
+2024-03-21T02:20:18.860144198Z set cookie domain=sembcorp.net
+2024-03-21T02:54:19.048831705Z set cookie domain=sembcorp.net
+2024-03-21T02:54:19.079724987Z set cookie domain=sembcorp.net
+2024-03-21T05:33:04.560342419Z login start time:2024-03-21T05:33:04.560Z
+2024-03-21T05:33:04.560532123Z *ifp login* start:2024-03-21T05:33:04.560Z
+2024-03-21T05:33:04.574378927Z post sso time:2024-03-21T05:33:04.574Z
+2024-03-21T05:33:04.959943995Z *ifp login* end:2024-03-21T05:33:04.959Z
+2024-03-21T05:33:09.654638467Z sso success time:2024-03-21T05:33:09.654Z
+2024-03-21T05:33:09.666283123Z update lastlogintime time:2024-03-21T05:33:09.666Z
+2024-03-21T05:33:09.668553572Z login first step success :2024-03-21T05:33:09.668Z
+2024-03-21T05:33:12.231908621Z get user time:2024-03-21T05:33:12.231Z
+2024-03-21T05:33:12.232529535Z *ifp publicUser* start:2024-03-21T05:33:12.232Z
+2024-03-21T05:33:12.249703412Z *ifp publicUser* end:2024-03-21T05:33:12.249Z
+2024-03-21T05:33:14.969907850Z syncTenantUsers get users time:2024-03-21T05:33:14.969Z
+2024-03-21T05:33:14.969964451Z ifp sync tenantUsers length:0
+2024-03-21T05:33:14.969971351Z sync tenantUsers length:0
+2024-03-21T05:33:14.970029352Z syncTenantUsers finish time:2024-03-21T05:33:14.969Z
+2024-03-21T05:33:14.970202256Z login end time:2024-03-21T05:33:14.970Z
+2024-03-21T05:54:14.115550547Z auth end time:2024-03-21T05:54:14.115Z
+2024-03-21T05:54:27.684168182Z set cookie domain=sembcorp.net
+2024-03-21T06:43:10.084053112Z set cookie domain=sembcorp.net
+2024-03-21T06:43:10.103957450Z set cookie domain=sembcorp.net
+2024-03-21T07:07:19.488878410Z set cookie domain=sembcorp.net
+2024-03-21T07:07:19.494669437Z set cookie domain=sembcorp.net
+2024-03-21T07:33:43.148514715Z auth end time:2024-03-21T07:33:43.148Z
+2024-03-21T07:33:50.468690231Z login start time:2024-03-21T07:33:50.468Z
+2024-03-21T07:33:50.468742632Z *ifp login* start:2024-03-21T07:33:50.468Z
+2024-03-21T07:33:50.469680651Z post sso time:2024-03-21T07:33:50.469Z
+2024-03-21T07:33:50.564120437Z sso success time:2024-03-21T07:33:50.563Z
+2024-03-21T07:33:50.573402832Z update lastlogintime time:2024-03-21T07:33:50.573Z
+2024-03-21T07:33:50.858198919Z *ifp login* end:2024-03-21T07:33:50.858Z
+2024-03-21T07:33:50.858247920Z login first step success :2024-03-21T07:33:50.858Z
+2024-03-21T07:33:50.895475003Z get user time:2024-03-21T07:33:50.895Z
+2024-03-21T07:33:50.896008314Z *ifp publicUser* start:2024-03-21T07:33:50.895Z
+2024-03-21T07:33:50.908300472Z *ifp publicUser* end:2024-03-21T07:33:50.908Z
+2024-03-21T07:33:51.162383114Z syncTenantUsers get users time:2024-03-21T07:33:51.162Z
+2024-03-21T07:33:51.162491016Z ifp sync tenantUsers length:0
+2024-03-21T07:33:51.162510016Z sync tenantUsers length:0
+2024-03-21T07:33:51.162612619Z syncTenantUsers finish time:2024-03-21T07:33:51.162Z
+2024-03-21T07:33:51.162791322Z login end time:2024-03-21T07:33:51.162Z
+2024-03-21T07:34:07.385083634Z auth end time:2024-03-21T07:34:07.384Z
+2024-03-21T07:34:20.885899980Z set cookie domain=sembcorp.net
+2024-03-21T07:48:14.855846070Z set cookie domain=sembcorp.net
+2024-03-21T07:48:14.868168342Z set cookie domain=sembcorp.net
+2024-03-21T07:56:42.253621978Z set cookie domain=sembcorp.net
+2024-03-21T08:18:55.737516595Z set cookie domain=sembcorp.net
+2024-03-21T08:22:56.308073190Z login start time:2024-03-21T08:22:56.307Z
+2024-03-21T08:22:56.308123891Z *ifp login* start:2024-03-21T08:22:56.308Z
+2024-03-21T08:22:56.308563801Z post sso time:2024-03-21T08:22:56.308Z
+2024-03-21T08:22:56.374519058Z sso success time:2024-03-21T08:22:56.374Z
+2024-03-21T08:22:56.383807664Z update lastlogintime time:2024-03-21T08:22:56.383Z
+2024-03-21T08:22:56.653861032Z *ifp login* end:2024-03-21T08:22:56.653Z
+2024-03-21T08:22:56.653906433Z login first step success :2024-03-21T08:22:56.653Z
+2024-03-21T08:22:56.696199067Z get user time:2024-03-21T08:22:56.696Z
+2024-03-21T08:22:56.697653499Z *ifp publicUser* start:2024-03-21T08:22:56.697Z
+2024-03-21T08:22:56.711175298Z *ifp publicUser* end:2024-03-21T08:22:56.711Z
+2024-03-21T08:22:56.960322704Z syncTenantUsers get users time:2024-03-21T08:22:56.960Z
+2024-03-21T08:22:56.960397706Z ifp sync tenantUsers length:0
+2024-03-21T08:22:56.960412306Z sync tenantUsers length:0
+2024-03-21T08:22:56.960495508Z syncTenantUsers finish time:2024-03-21T08:22:56.960Z
+2024-03-21T08:22:56.960670312Z login end time:2024-03-21T08:22:56.960Z
+2024-03-21T08:23:10.164050074Z auth end time:2024-03-21T08:23:10.163Z
+2024-03-21T08:23:13.714827886Z set cookie domain=sembcorp.net
+2024-03-21T08:27:18.084776584Z auth end time:2024-03-21T08:27:18.084Z
+2024-03-21T08:27:21.458452416Z login start time:2024-03-21T08:27:21.458Z
+2024-03-21T08:27:21.458498317Z *ifp login* start:2024-03-21T08:27:21.458Z
+2024-03-21T08:27:21.460328455Z post sso time:2024-03-21T08:27:21.460Z
+2024-03-21T08:27:21.540672322Z sso success time:2024-03-21T08:27:21.540Z
+2024-03-21T08:27:21.556258145Z update lastlogintime time:2024-03-21T08:27:21.556Z
+2024-03-21T08:27:21.953687891Z *ifp login* end:2024-03-21T08:27:21.953Z
+2024-03-21T08:27:21.953736693Z login first step success :2024-03-21T08:27:21.953Z
+2024-03-21T08:27:21.999390940Z get user time:2024-03-21T08:27:21.999Z
+2024-03-21T08:27:21.999968052Z *ifp publicUser* start:2024-03-21T08:27:21.999Z
+2024-03-21T08:27:22.012808018Z *ifp publicUser* end:2024-03-21T08:27:22.012Z
+2024-03-21T08:27:22.261571280Z syncTenantUsers get users time:2024-03-21T08:27:22.261Z
+2024-03-21T08:27:22.261629481Z ifp sync tenantUsers length:0
+2024-03-21T08:27:22.261636181Z sync tenantUsers length:0
+2024-03-21T08:27:22.261765984Z syncTenantUsers finish time:2024-03-21T08:27:22.261Z
+2024-03-21T08:27:22.261973588Z login end time:2024-03-21T08:27:22.261Z
+2024-03-21T08:27:43.463385557Z auth end time:2024-03-21T08:27:43.463Z
+2024-03-21T08:27:52.041991417Z set cookie domain=sembcorp.net
+2024-03-21T09:17:43.434113083Z set cookie domain=sembcorp.net
+2024-03-21T09:17:43.438939589Z set cookie domain=sembcorp.net
+2024-03-21T09:17:43.444004602Z set cookie domain=sembcorp.net
+2024-03-21T09:18:01.137008980Z set cookie domain=sembcorp.net
+2024-03-21T09:18:01.142028692Z set cookie domain=sembcorp.net
+2024-03-21T09:18:16.503725701Z auth end time:2024-03-21T09:18:16.503Z
+2024-03-21T09:18:21.076625522Z auth end time:2024-03-21T09:18:21.076Z
+2024-03-21T09:18:26.616236945Z set cookie domain=sembcorp.net
+2024-03-21T09:21:46.961796315Z auth end time:2024-03-21T09:21:46.961Z
+2024-03-21T10:21:03.494169215Z set cookie domain=sembcorp.net
+2024-03-21T10:21:03.504369542Z set cookie domain=sembcorp.net
+2024-03-21T10:21:19.320154326Z auth end time:2024-03-21T10:21:19.320Z
+2024-03-21T10:21:35.256672868Z set cookie domain=sembcorp.net
+2024-03-21T10:22:01.582208840Z auth end time:2024-03-21T10:22:01.582Z
+2024-03-21T16:05:00.021519139Z 【System Info】Schedule Task Start at 2024-03-21T16:05:00.016Z
+2024-03-21T16:05:00.044659653Z 0
+2024-03-21T16:05:00.044707754Z 【System Info】delExpiredDateUserInOrg Task Finish at 2024-03-21T16:05:00.042Z;
+2024-03-21T18:00:16.328778318Z time:2024-03-21T18:00:16.328Z,retry 1 time,Redis null
+2024-03-22T01:04:20.022354476Z login start time:2024-03-22T01:04:20.022Z
+2024-03-22T01:04:20.022419979Z *ifp login* start:2024-03-22T01:04:20.022Z
+2024-03-22T01:04:20.023573728Z post sso time:2024-03-22T01:04:20.023Z
+2024-03-22T01:04:20.442135029Z *ifp login* end:2024-03-22T01:04:20.441Z
+2024-03-22T01:04:27.602711042Z sso success time:2024-03-22T01:04:27.602Z
+2024-03-22T01:04:27.612305549Z update lastlogintime time:2024-03-22T01:04:27.612Z
+2024-03-22T01:04:27.615029607Z login first step success :2024-03-22T01:04:27.614Z
+2024-03-22T01:04:30.189729258Z get user time:2024-03-22T01:04:30.189Z
+2024-03-22T01:04:30.190259669Z *ifp publicUser* start:2024-03-22T01:04:30.190Z
+2024-03-22T01:04:32.705732798Z *ifp publicUser* end:2024-03-22T01:04:32.705Z
+2024-03-22T01:04:33.942476523Z syncTenantUsers get users time:2024-03-22T01:04:33.942Z
+2024-03-22T01:04:33.942577027Z ifp sync tenantUsers length:0
+2024-03-22T01:04:33.942618129Z sync tenantUsers length:0
+2024-03-22T01:04:33.942801237Z syncTenantUsers finish time:2024-03-22T01:04:33.942Z
+2024-03-22T01:04:33.943039648Z login end time:2024-03-22T01:04:33.942Z
+2024-03-22T01:05:39.625850800Z auth end time:2024-03-22T01:05:39.625Z
+2024-03-22T01:05:53.179164025Z set cookie domain=sembcorp.net
+2024-03-22T01:22:29.907070625Z set cookie domain=sembcorp.net
+2024-03-22T01:22:29.922840474Z set cookie domain=sembcorp.net
+2024-03-22T01:57:37.820320049Z login start time:2024-03-22T01:57:37.820Z
+2024-03-22T01:57:37.820373750Z *ifp login* start:2024-03-22T01:57:37.820Z
+2024-03-22T01:57:37.821011764Z post sso time:2024-03-22T01:57:37.820Z
+2024-03-22T01:57:37.946826379Z sso success time:2024-03-22T01:57:37.946Z
+2024-03-22T01:57:37.957020299Z update lastlogintime time:2024-03-22T01:57:37.956Z
+2024-03-22T01:57:38.131289859Z *ifp login* end:2024-03-22T01:57:38.131Z
+2024-03-22T01:57:38.131399762Z login first step success :2024-03-22T01:57:38.131Z
+2024-03-22T01:57:38.179171493Z get user time:2024-03-22T01:57:38.179Z
+2024-03-22T01:57:38.179724504Z *ifp publicUser* start:2024-03-22T01:57:38.179Z
+2024-03-22T01:57:38.193484501Z *ifp publicUser* end:2024-03-22T01:57:38.193Z
+2024-03-22T01:57:38.545814704Z syncTenantUsers get users time:2024-03-22T01:57:38.545Z
+2024-03-22T01:57:38.545865905Z ifp sync tenantUsers length:0
+2024-03-22T01:57:38.545871005Z sync tenantUsers length:0
+2024-03-22T01:57:38.546009508Z syncTenantUsers finish time:2024-03-22T01:57:38.545Z
+2024-03-22T01:57:38.546214113Z login end time:2024-03-22T01:57:38.546Z
+2024-03-22T01:57:52.962956370Z auth end time:2024-03-22T01:57:52.962Z
+2024-03-22T01:57:58.977831052Z set cookie domain=sembcorp.net
+2024-03-22T02:00:00.070017073Z post sso time:2024-03-22T02:00:00.056Z
+2024-03-22T02:00:00.096566852Z login:Request failed with status code 401
+2024-03-22T02:01:09.733023456Z auth end time:2024-03-22T02:01:09.732Z
+2024-03-22T02:01:15.858654619Z set cookie domain=sembcorp.net
+2024-03-22T02:06:51.482870383Z auth end time:2024-03-22T02:06:51.482Z
+2024-03-22T02:06:54.984157604Z login start time:2024-03-22T02:06:54.984Z
+2024-03-22T02:06:54.984203204Z *ifp login* start:2024-03-22T02:06:54.984Z
+2024-03-22T02:06:54.985064511Z post sso time:2024-03-22T02:06:54.984Z
+2024-03-22T02:06:55.090022091Z sso success time:2024-03-22T02:06:55.089Z
+2024-03-22T02:06:55.106313012Z update lastlogintime time:2024-03-22T02:06:55.106Z
+2024-03-22T02:06:55.325129838Z *ifp login* end:2024-03-22T02:06:55.324Z
+2024-03-22T02:06:55.325189738Z login first step success :2024-03-22T02:06:55.325Z
+2024-03-22T02:06:55.381522157Z get user time:2024-03-22T02:06:55.381Z
+2024-03-22T02:06:55.382232462Z *ifp publicUser* start:2024-03-22T02:06:55.382Z
+2024-03-22T02:06:55.397483676Z *ifp publicUser* end:2024-03-22T02:06:55.397Z
+2024-03-22T02:06:55.648731943Z syncTenantUsers get users time:2024-03-22T02:06:55.648Z
+2024-03-22T02:06:55.648794543Z ifp sync tenantUsers length:0
+2024-03-22T02:06:55.648800543Z sync tenantUsers length:0
+2024-03-22T02:06:55.648955944Z syncTenantUsers finish time:2024-03-22T02:06:55.648Z
+2024-03-22T02:06:55.649138146Z login end time:2024-03-22T02:06:55.649Z
+2024-03-22T02:07:30.548712457Z auth end time:2024-03-22T02:07:30.548Z
+2024-03-22T02:07:39.046271866Z set cookie domain=sembcorp.net
+2024-03-22T02:17:58.471920867Z set cookie domain=sembcorp.net
+2024-03-22T02:34:29.631505380Z set cookie domain=sembcorp.net
+2024-03-22T02:55:55.888159885Z set cookie domain=sembcorp.net
+2024-03-22T03:12:11.088001941Z set cookie domain=sembcorp.net
+2024-03-22T03:15:28.563444870Z login start time:2024-03-22T03:15:28.563Z
+2024-03-22T03:15:28.563749972Z *ifp login* start:2024-03-22T03:15:28.563Z
+2024-03-22T03:15:28.577640586Z post sso time:2024-03-22T03:15:28.577Z
+2024-03-22T03:15:28.701493005Z sso success time:2024-03-22T03:15:28.701Z
+2024-03-22T03:15:28.713462203Z update lastlogintime time:2024-03-22T03:15:28.713Z
+2024-03-22T03:15:28.927699065Z *ifp login* end:2024-03-22T03:15:28.927Z
+2024-03-22T03:15:28.927757266Z login first step success :2024-03-22T03:15:28.927Z
+2024-03-22T03:15:28.969940713Z get user time:2024-03-22T03:15:28.969Z
+2024-03-22T03:15:28.970470517Z *ifp publicUser* start:2024-03-22T03:15:28.970Z
+2024-03-22T03:15:28.981702210Z *ifp publicUser* end:2024-03-22T03:15:28.981Z
+2024-03-22T03:15:31.733429541Z syncTenantUsers get users time:2024-03-22T03:15:31.733Z
+2024-03-22T03:15:31.733492842Z ifp sync tenantUsers length:0
+2024-03-22T03:15:31.733500542Z sync tenantUsers length:0
+2024-03-22T03:15:31.733523742Z syncTenantUsers finish time:2024-03-22T03:15:31.733Z
+2024-03-22T03:15:31.733737544Z login end time:2024-03-22T03:15:31.733Z
+2024-03-22T03:15:46.879106067Z auth end time:2024-03-22T03:15:46.878Z
+2024-03-22T03:16:00.402873326Z set cookie domain=sembcorp.net
+2024-03-22T03:16:09.266466901Z login start time:2024-03-22T03:16:09.266Z
+2024-03-22T03:16:09.266511501Z *ifp login* start:2024-03-22T03:16:09.266Z
+2024-03-22T03:16:09.267412908Z post sso time:2024-03-22T03:16:09.267Z
+2024-03-22T03:16:09.430451633Z sso success time:2024-03-22T03:16:09.430Z
+2024-03-22T03:16:09.438990697Z update lastlogintime time:2024-03-22T03:16:09.438Z
+2024-03-22T03:16:09.546318104Z *ifp login* end:2024-03-22T03:16:09.546Z
+2024-03-22T03:16:09.546364704Z login first step success :2024-03-22T03:16:09.546Z
+2024-03-22T03:16:09.586017503Z get user time:2024-03-22T03:16:09.585Z
+2024-03-22T03:16:09.586582407Z *ifp publicUser* start:2024-03-22T03:16:09.586Z
+2024-03-22T03:16:09.626994511Z *ifp publicUser* end:2024-03-22T03:16:09.626Z
+2024-03-22T03:16:09.930996396Z syncTenantUsers get users time:2024-03-22T03:16:09.930Z
+2024-03-22T03:16:09.931062396Z ifp sync tenantUsers length:0
+2024-03-22T03:16:09.931078796Z sync tenantUsers length:0
+2024-03-22T03:16:09.931249398Z syncTenantUsers finish time:2024-03-22T03:16:09.931Z
+2024-03-22T03:16:09.931383299Z login end time:2024-03-22T03:16:09.931Z
+2024-03-22T03:16:27.278035458Z auth end time:2024-03-22T03:16:27.277Z
+2024-03-22T03:16:38.191940721Z set cookie domain=sembcorp.net
+2024-03-22T03:26:21.928699332Z login start time:2024-03-22T03:26:21.928Z
+2024-03-22T03:26:21.928767233Z *ifp login* start:2024-03-22T03:26:21.928Z
+2024-03-22T03:26:21.929782850Z post sso time:2024-03-22T03:26:21.929Z
+2024-03-22T03:26:22.017455725Z sso success time:2024-03-22T03:26:22.017Z
+2024-03-22T03:26:22.026816283Z update lastlogintime time:2024-03-22T03:26:22.026Z
+2024-03-22T03:26:22.335602950Z *ifp login* end:2024-03-22T03:26:22.335Z
+2024-03-22T03:26:22.335652850Z login first step success :2024-03-22T03:26:22.335Z
+2024-03-22T03:26:22.378838392Z get user time:2024-03-22T03:26:22.378Z
+2024-03-22T03:26:22.379457000Z *ifp publicUser* start:2024-03-22T03:26:22.379Z
+2024-03-22T03:26:22.391314848Z *ifp publicUser* end:2024-03-22T03:26:22.391Z
+2024-03-22T03:26:22.651610212Z syncTenantUsers get users time:2024-03-22T03:26:22.651Z
+2024-03-22T03:26:22.651670013Z ifp sync tenantUsers length:0
+2024-03-22T03:26:22.651676513Z sync tenantUsers length:0
+2024-03-22T03:26:22.651775514Z syncTenantUsers finish time:2024-03-22T03:26:22.651Z
+2024-03-22T03:26:22.651972517Z login end time:2024-03-22T03:26:22.651Z
+2024-03-22T03:27:13.362734506Z set cookie domain=sembcorp.net
+2024-03-22T03:29:40.281575581Z auth end time:2024-03-22T03:29:40.281Z
+2024-03-22T03:29:40.383659818Z if-none-match: W/"2.0.21"
+2024-03-22T03:29:40.384628629Z if-none-match: W/"2.0.21"
+2024-03-22T03:29:40.388506872Z if-none-match: W/"2.0.21"
+2024-03-22T03:29:41.098670282Z set cookie domain=sembcorp.net
+2024-03-22T03:43:42.248573285Z set cookie domain=sembcorp.net
+2024-03-22T03:58:49.456300458Z set cookie domain=sembcorp.net
+2024-03-22T04:14:54.892980992Z set cookie domain=sembcorp.net
+2024-03-22T06:08:11.109495226Z set cookie domain=sembcorp.net
+2024-03-22T06:08:11.119980020Z set cookie domain=sembcorp.net
+2024-03-22T06:17:11.608436382Z login start time:2024-03-22T06:17:11.608Z
+2024-03-22T06:17:11.608489683Z *ifp login* start:2024-03-22T06:17:11.608Z
+2024-03-22T06:17:11.609479199Z post sso time:2024-03-22T06:17:11.609Z
+2024-03-22T06:17:12.030975168Z *ifp login* end:2024-03-22T06:17:12.030Z
+2024-03-22T06:17:14.200010760Z sso success time:2024-03-22T06:17:14.199Z
+2024-03-22T06:17:14.209992530Z update lastlogintime time:2024-03-22T06:17:14.209Z
+2024-03-22T06:17:14.212316870Z login first step success :2024-03-22T06:17:14.212Z
+2024-03-22T06:17:16.775632138Z get user time:2024-03-22T06:17:16.775Z
+2024-03-22T06:17:16.776233947Z *ifp publicUser* start:2024-03-22T06:17:16.776Z
+2024-03-22T06:17:16.788878626Z *ifp publicUser* end:2024-03-22T06:17:16.788Z
+2024-03-22T06:17:17.047815487Z syncTenantUsers get users time:2024-03-22T06:17:17.047Z
+2024-03-22T06:17:17.047925288Z ifp sync tenantUsers length:0
+2024-03-22T06:17:17.047939288Z sync tenantUsers length:0
+2024-03-22T06:17:17.048006989Z syncTenantUsers finish time:2024-03-22T06:17:17.047Z
+2024-03-22T06:17:17.048185292Z login end time:2024-03-22T06:17:17.048Z
+2024-03-22T06:19:40.262466941Z auth end time:2024-03-22T06:19:40.262Z
+2024-03-22T06:19:53.623705763Z set cookie domain=sembcorp.net
+2024-03-22T06:28:24.466214162Z login start time:2024-03-22T06:28:24.466Z
+2024-03-22T06:28:24.466268064Z *ifp login* start:2024-03-22T06:28:24.466Z
+2024-03-22T06:28:24.467216303Z post sso time:2024-03-22T06:28:24.467Z
+2024-03-22T06:28:24.591537765Z sso success time:2024-03-22T06:28:24.591Z
+2024-03-22T06:28:24.601386766Z update lastlogintime time:2024-03-22T06:28:24.601Z
+2024-03-22T06:28:24.836855754Z *ifp login* end:2024-03-22T06:28:24.836Z
+2024-03-22T06:28:24.836895256Z login first step success :2024-03-22T06:28:24.836Z
+2024-03-22T06:28:24.881464171Z get user time:2024-03-22T06:28:24.881Z
+2024-03-22T06:28:24.882110197Z *ifp publicUser* start:2024-03-22T06:28:24.882Z
+2024-03-22T06:28:24.896408479Z *ifp publicUser* end:2024-03-22T06:28:24.896Z
+2024-03-22T06:28:25.142057482Z syncTenantUsers get users time:2024-03-22T06:28:25.141Z
+2024-03-22T06:28:25.142122685Z ifp sync tenantUsers length:0
+2024-03-22T06:28:25.142129485Z sync tenantUsers length:0
+2024-03-22T06:28:25.142176987Z syncTenantUsers finish time:2024-03-22T06:28:25.142Z
+2024-03-22T06:28:25.142364095Z login end time:2024-03-22T06:28:25.142Z
+2024-03-22T06:28:45.736920357Z auth end time:2024-03-22T06:28:45.736Z
+2024-03-22T06:28:45.852074545Z if-none-match: undefined
+2024-03-22T06:28:45.852530863Z if-none-match: undefined
+2024-03-22T06:28:45.853107985Z if-none-match: undefined
+2024-03-22T06:28:45.892863035Z get langresc succeed
+2024-03-22T06:28:56.722738484Z set cookie domain=sembcorp.net
+2024-03-22T06:31:29.196308072Z auth end time:2024-03-22T06:31:29.196Z
+2024-03-22T06:47:42.431875056Z set cookie domain=sembcorp.net
