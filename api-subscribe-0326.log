@@ -1,0 +1,335 @@
+ene-simplejson-service start>> NodeJs ver=v16.14.2
+Git Branch: develop, Git Tag: 2.00.001, Build Version: Build007, Update Time: 2023-08-03T14:04:00.000Z
+EXDOMAIN:sembcorp.net
+DOMAIN:.net
+APP_POSTFIX:-deviceon-bi
+DATACENTER:local
+CLUSTER:solarscada
+WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+NAMESPACE:edge365
+APP_NAME:api-subscribe-deviceon-bi
+VERSION:2.1.1
+EDITION:azure-aks
+API_PORTAL_URL:http://api-portal-wise-mplus:80
+API_SSO_URL:http://api.sso.solarscada.en.internal/v4.0
+API_SSO_EXURL:http://api-sso-solarscada.sembcorp.net/v4.0
+API_DCCS_URL:http://api.dccs.solarscada.en.internal/v1
+API_DCCS_EXURL:http://api-dccs-solarscada.sembcorp.net/v1
+API_MARKETPLACE_URL:https://wise-paas-api.advantech.com
+API_PROFILE_PROXY_URL:http://api-profile-proxy-mplus:80
+API_LICENSE_URL:http://api.license.solarscada.en.internal/v1
+API_INSPECTION_URL:http://api-job-executor-wise-mplus.edge365.svc
+API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
+API_PLUGIN_URL: http://api-plugin-deviceon-bi.edge365.svc
+API_FORWARDING_URL: http://api-forwarding-deviceon-bi.edge365.svc
+API_SUBSCRIBE_URL: http://api-subscribe-deviceon-bi.edge365.svc
+API_SAAS_COMPOSER_URL: http://saas-composer-edge365:80
+API_TENANT_URL: http://ifp-tenant:80
+PORTAL_URL:https://portal-deviceon-bi-edge365-solarscada.sembcorp.net
+PORTAL_PIVOT_URL:https://pivot-api-hub-edge365-solarscada.sembcorp.net
+SSO_ADMIN.username:advantech.iiot@advantech.com
+SSO_ADMIN.password:@Dvan2021
+SSO_ADMIN.credentialcode:@dvan2021
+ETCD_SERVER_HOST:http://pivot-etcd:2379
+Get configure data of RabbitMQ success
+mongodb is Run at cloud
+CloudService is Run at cloud
+pgCredentials: {"database":"f343d5b5-17d4-448b-a944-ae3efb10b948","externalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","host":"ebd34b508e91.privatelink.postgres.database.azure.com","internalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","password":"wEMizvHmDXBbT0KeOaRyFQLcV","port":5432,"uri":"postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948","username":"ee2f15fd-4461-4a0e-b1ec-9f193f2111d1"}
+Start schedule task every day
+【Start retry schedule task every day】
+Server is listening to port 8080
+(node:1) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+The current leader is 2.1.1/2024-03-26T02:03:39.840Z
+Connected to mqtt broker success
+Connect [mongodb] success !
+PMList from GitHub: ["Itsung.shen@advantech.com.tw","xiaochen.shi@advantech.com.cn","Hao.Ning@advantech.com.cn","VickyYC.Lin@advantech.com.tw","Nick.Liu@advantech.com.tw","sw.tan@advantech.com","tracy.su@advantech.com.tw","jacksc.yang@advantech.com.tw"]
+The new leader is 2.1.1/2024-03-26T08:02:54.745Z
+SERVICE_SECRET: Zgd7mhWUewL8JOcaGnrbtqE97Yy6uR
+Error: Request failed with status code 500
+    at createError (/home/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'http://ifp-tenant:80/graphql',
+    method: 'post',
+    data: '{"operationName":"rootTenant","query":"query rootTenant{\\n            rootTenant{id}\\n        } ","variables":{}}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      'X-Ifp-App-Secret': 'Zgd7mhWUewL8JOcaGnrbtqE97Yy6uR',
+      'X-Ifp-Service-Name': 'api-subscribe-deviceon-bi',
+      'User-Agent': 'axios/0.20.0',
+      'Content-Length': 113
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus]
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'ifp-tenant',
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 620,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'POST /graphql HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'X-Ifp-App-Secret: Zgd7mhWUewL8JOcaGnrbtqE97Yy6uR\r\n' +
+      'X-Ifp-Service-Name: api-subscribe-deviceon-bi\r\n' +
+      'User-Agent: axios/0.20.0\r\n' +
+      'Content-Length: 113\r\n' +
+      'Host: ifp-tenant\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/graphql',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 500,
+      statusMessage: 'Internal Server Error',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'http://ifp-tenant:80/graphql',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'ifp-tenant',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 113,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://ifp-tenant:80/graphql',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'x-ifp-app-secret': [Array],
+      'x-ifp-service-name': [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 500,
+    statusText: 'Internal Server Error',
+    headers: {
+      vary: 'Origin',
+      'content-type': 'application/json',
+      'content-length': '742',
+      date: 'Tue, 26 Mar 2024 08:03:39 GMT',
+      connection: 'close'
+    },
+    config: {
+      url: 'http://ifp-tenant:80/graphql',
+      method: 'post',
+      data: '{"operationName":"rootTenant","query":"query rootTenant{\\n            rootTenant{id}\\n        } ","variables":{}}',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus]
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'POST /graphql HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json;charset=utf-8\r\n' +
+        'X-Ifp-App-Secret: Zgd7mhWUewL8JOcaGnrbtqE97Yy6uR\r\n' +
+        'X-Ifp-Service-Name: api-subscribe-deviceon-bi\r\n' +
+        'User-Agent: axios/0.20.0\r\n' +
+        'Content-Length: 113\r\n' +
+        'Host: ifp-tenant\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/graphql',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'ifp-tenant',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: { errors: [Array] }
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
