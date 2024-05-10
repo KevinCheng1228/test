@@ -1,0 +1,752 @@
+[API]2024-05-10T01:48:34Z - [177041] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:34.941+0000"}
+[API]2024-05-10T01:48:34Z - [177041] send to 10.32.12.195|200|2.455121ms|
+[API]2024-05-10T01:48:34Z - [127613] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:34.977+0000"}
+[API]2024-05-10T01:48:34Z - [127613] send to 10.32.12.195|200|1.639414ms|
+[API]2024-05-10T01:48:34Z - [177043] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:34.986+0000"}
+[API]2024-05-10T01:48:34Z - [177043] send to 10.32.12.5|200|1.555413ms|
+[API]2024-05-10T01:48:35Z - [104237] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"172,990,'M_KWP',0","ts":"2024-05-10T01:48:35.25+0000"}
+[API]2024-05-10T01:48:35Z - [104237] send to 10.32.12.5|200|2.798025ms|
+[API]2024-05-10T01:48:35Z - [114084] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"172,990,'M_RAE',0","ts":"2024-05-10T01:48:35.284+0000"}
+[API]2024-05-10T01:48:35Z - [114084] send to 10.32.12.5|200|2.929326ms|
+[API]2024-05-10T01:48:35Z - [113604] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:35.303+0000"}
+[API]2024-05-10T01:48:35Z - [113604] send to 10.32.12.131|200|2.33012ms|
+[API]2024-05-10T01:48:35Z - [168737] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:35.324+0000"}
+[API]2024-05-10T01:48:35Z - [168737] send to 10.32.12.131|200|1.807816ms|
+[API]2024-05-10T01:48:35Z - [134068] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"172,990,'M_YIELD_D',0","ts":"2024-05-10T01:48:35.336+0000"}
+[API]2024-05-10T01:48:35Z - [134068] send to 10.32.12.5|200|2.114518ms|
+[API]2024-05-10T01:48:35Z - [169081] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"172,990,'M_YIELD_M',0","ts":"2024-05-10T01:48:35.350+0000"}
+[API]2024-05-10T01:48:35Z - [169081] send to 10.32.12.5|200|709.006µs|
+[API]2024-05-10T01:48:35Z - [118166] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"172,990,'M_YIELD_Y',0","ts":"2024-05-10T01:48:35.365+0000"}
+[API]2024-05-10T01:48:35Z - [118166] send to 10.32.12.5|200|703.106µs|
+[API]2024-05-10T01:48:35Z - [138479] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:35.376+0000"}
+[API]2024-05-10T01:48:35Z - [138479] send to 10.32.12.5|200|2.187719ms|
+[API]2024-05-10T01:48:35Z - [152102] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:35.390+0000"}
+[API]2024-05-10T01:48:35Z - [152102] send to 10.32.12.131|200|2.041717ms|
+[API]2024-05-10T01:48:35Z - [157551] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"172,990","ts":"2024-05-10T01:48:35.401+0000"}
+[API]2024-05-10T01:48:35Z - [157551] send to 10.32.12.5|200|1.762716ms|
+[API]2024-05-10T01:48:35Z - [128802] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,991","ts":"2024-05-10T01:48:35.416+0000"}
+[API]2024-05-10T01:48:35Z - [128802] send to 10.32.12.5|200|1.516813ms|
+[API]2024-05-10T01:48:35Z - [129113] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,991","ts":"2024-05-10T01:48:35.430+0000"}
+[API]2024-05-10T01:48:35Z - [129113] send to 10.32.12.131|200|1.790315ms|
+[API]2024-05-10T01:48:35Z - [140613] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,991","ts":"2024-05-10T01:48:35.439+0000"}
+[API]2024-05-10T01:48:35Z - [140613] send to 10.32.12.5|200|4.491339ms|
+[API]2024-05-10T01:48:35Z - [139761] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,991","ts":"2024-05-10T01:48:35.461+0000"}
+[API]2024-05-10T01:48:35Z - [139761] send to 10.32.12.5|200|1.762315ms|
+[API]2024-05-10T01:48:35Z - [181543] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,992","ts":"2024-05-10T01:48:35.477+0000"}
+[API]2024-05-10T01:48:35Z - [181543] send to 10.32.12.5|200|1.879517ms|
+[API]2024-05-10T01:48:35Z - [169178] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,992","ts":"2024-05-10T01:48:35.492+0000"}
+[API]2024-05-10T01:48:35Z - [169178] send to 10.32.12.5|200|1.969117ms|
+[API]2024-05-10T01:48:35Z - [104913] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,992","ts":"2024-05-10T01:48:35.508+0000"}
+[API]2024-05-10T01:48:35Z - [104913] send to 10.32.12.5|200|2.113919ms|
+[API]2024-05-10T01:48:35Z - [175023] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,992","ts":"2024-05-10T01:48:35.521+0000"}
+[API]2024-05-10T01:48:35Z - [175023] send to 10.32.12.131|200|1.853916ms|
+[API]2024-05-10T01:48:35Z - [162547] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,993","ts":"2024-05-10T01:48:35.536+0000"}
+[API]2024-05-10T01:48:35Z - [162547] send to 10.32.12.131|200|1.766415ms|
+[API]2024-05-10T01:48:35Z - [176411] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,993","ts":"2024-05-10T01:48:35.551+0000"}
+[API]2024-05-10T01:48:35Z - [176411] send to 10.32.12.131|200|1.689214ms|
+[API]2024-05-10T01:48:35Z - [126163] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,993","ts":"2024-05-10T01:48:35.571+0000"}
+[API]2024-05-10T01:48:35Z - [126163] send to 10.32.12.5|200|2.067718ms|
+[API]2024-05-10T01:48:35Z - [192404] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,993","ts":"2024-05-10T01:48:35.587+0000"}
+[API]2024-05-10T01:48:35Z - [192404] send to 10.32.12.5|200|2.152419ms|
+[API]2024-05-10T01:48:35Z - [191069] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,994","ts":"2024-05-10T01:48:35.603+0000"}
+[API]2024-05-10T01:48:35Z - [191069] send to 10.32.12.5|200|1.757616ms|
+[API]2024-05-10T01:48:35Z - [181363] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,994","ts":"2024-05-10T01:48:35.615+0000"}
+[API]2024-05-10T01:48:35Z - [181363] send to 10.32.12.131|200|1.740315ms|
+[API]2024-05-10T01:48:35Z - [170882] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,994","ts":"2024-05-10T01:48:35.631+0000"}
+[API]2024-05-10T01:48:35Z - [170882] send to 10.32.12.5|200|1.772515ms|
+[API]2024-05-10T01:48:35Z - [150781] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,994","ts":"2024-05-10T01:48:35.648+0000"}
+[API]2024-05-10T01:48:35Z - [150781] send to 10.32.12.131|200|1.691915ms|
+[API]2024-05-10T01:48:35Z - [190478] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,995","ts":"2024-05-10T01:48:35.661+0000"}
+[API]2024-05-10T01:48:35Z - [190478] send to 10.32.12.5|200|1.982017ms|
+[API]2024-05-10T01:48:35Z - [192898] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"172,995","ts":"2024-05-10T01:48:35.677+0000"}
+[API]2024-05-10T01:48:35Z - [192898] send to 10.32.12.131|200|2.125118ms|
+[API]2024-05-10T01:48:35Z - [106504] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'N_ACW',0","ts":"2024-05-10T01:48:35.700+0000"}
+[API]2024-05-10T01:48:35Z - [106504] send to 10.32.12.195|200|6.177253ms|
+[API]2024-05-10T01:48:35Z - [100498] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'N_ACWH',0","ts":"2024-05-10T01:48:35.717+0000"}
+[API]2024-05-10T01:48:35Z - [100498] send to 10.32.12.195|200|3.152528ms|
+[API]2024-05-10T01:48:35Z - [178479] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'N_ACWHD',0","ts":"2024-05-10T01:48:35.728+0000"}
+[API]2024-05-10T01:48:35Z - [178479] send to 10.32.12.195|200|14.730227ms|
+[API]2024-05-10T01:48:35Z - [101620] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'N_ACWHDA',0","ts":"2024-05-10T01:48:35.750+0000"}
+[API]2024-05-10T01:48:35Z - [101620] send to 10.32.12.68|200|4.303937ms|
+[API]2024-05-10T01:48:35Z - [154783] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_AP',0","ts":"2024-05-10T01:48:35.893+0000"}
+[API]2024-05-10T01:48:35Z - [154783] send to 10.32.12.68|200|4.513339ms|
+[API]2024-05-10T01:48:35Z - [116042] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:35.914+0000"}
+[API]2024-05-10T01:48:35Z - [116042] send to 10.32.12.68|200|2.018317ms|
+[API]2024-05-10T01:48:35Z - [163905] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:35.947+0000"}
+[API]2024-05-10T01:48:35Z - [163905] send to 10.32.12.68|200|2.29092ms|
+[API]2024-05-10T01:48:35Z - [121196] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:35.966+0000"}
+[API]2024-05-10T01:48:35Z - [121196] send to 10.32.12.131|200|1.475412ms|
+[API]2024-05-10T01:48:36Z - [126779] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_KWP',0","ts":"2024-05-10T01:48:35.994+0000"}
+[API]2024-05-10T01:48:36Z - [126779] send to 10.32.12.131|200|4.450838ms|
+[API]2024-05-10T01:48:36Z - [178545] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_RAE',0","ts":"2024-05-10T01:48:36.218+0000"}
+[API]2024-05-10T01:48:36Z - [178545] send to 10.32.12.131|200|2.406721ms|
+[API]2024-05-10T01:48:36Z - [171494] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:36.234+0000"}
+[API]2024-05-10T01:48:36Z - [171494] send to 10.32.12.5|200|1.848216ms|
+[API]2024-05-10T01:48:36Z - [100836] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:36.250+0000"}
+[API]2024-05-10T01:48:36Z - [100836] send to 10.32.12.5|200|2.228319ms|
+[API]2024-05-10T01:48:36Z - [144976] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_YIELD_D',0","ts":"2024-05-10T01:48:36.263+0000"}
+[API]2024-05-10T01:48:36Z - [144976] send to 10.32.12.131|200|2.427821ms|
+[API]2024-05-10T01:48:36Z - [125220] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_YIELD_M',0","ts":"2024-05-10T01:48:36.273+0000"}
+[API]2024-05-10T01:48:36Z - [125220] send to 10.32.12.131|200|700.306µs|
+[API]2024-05-10T01:48:36Z - [140445] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"173,999,'M_YIELD_Y',0","ts":"2024-05-10T01:48:36.283+0000"}
+[API]2024-05-10T01:48:36Z - [140445] send to 10.32.12.5|200|866.707µs|
+[API]2024-05-10T01:48:36Z - [150088] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:36.300+0000"}
+[API]2024-05-10T01:48:36Z - [150088] send to 10.32.12.5|200|2.193019ms|
+[API]2024-05-10T01:48:36Z - [155619] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:36.312+0000"}
+[API]2024-05-10T01:48:36Z - [155619] send to 10.32.12.131|200|1.956817ms|
+[API]2024-05-10T01:48:36Z - [152237] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"173,999","ts":"2024-05-10T01:48:36.323+0000"}
+[API]2024-05-10T01:48:36Z - [152237] send to 10.32.12.131|200|1.601714ms|
+[API]2024-05-10T01:48:36Z - [184609] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1000","ts":"2024-05-10T01:48:36.334+0000"}
+[API]2024-05-10T01:48:36Z - [184609] send to 10.32.12.68|200|1.983017ms|
+[API]2024-05-10T01:48:36Z - [120508] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1000","ts":"2024-05-10T01:48:36.349+0000"}
+[API]2024-05-10T01:48:36Z - [120508] send to 10.32.12.68|200|8.238571ms|
+[API]2024-05-10T01:48:36Z - [199427] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1000","ts":"2024-05-10T01:48:36.372+0000"}
+[API]2024-05-10T01:48:36Z - [199427] send to 10.32.12.195|200|1.588114ms|
+[API]2024-05-10T01:48:36Z - [153936] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1000","ts":"2024-05-10T01:48:36.383+0000"}
+[API]2024-05-10T01:48:36Z - [153936] send to 10.32.12.68|200|1.869716ms|
+[API]2024-05-10T01:48:36Z - [151685] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1001","ts":"2024-05-10T01:48:36.397+0000"}
+[API]2024-05-10T01:48:36Z - [151685] send to 10.32.12.195|200|1.565914ms|
+[API]2024-05-10T01:48:36Z - [113587] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1001","ts":"2024-05-10T01:48:36.419+0000"}
+[API]2024-05-10T01:48:36Z - [113587] send to 10.32.12.195|200|1.518113ms|
+[API]2024-05-10T01:48:36Z - [146873] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1001","ts":"2024-05-10T01:48:36.433+0000"}
+[API]2024-05-10T01:48:36Z - [146873] send to 10.32.12.68|200|1.508113ms|
+[API]2024-05-10T01:48:36Z - [101492] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1001","ts":"2024-05-10T01:48:36.449+0000"}
+[API]2024-05-10T01:48:36Z - [101492] send to 10.32.12.68|200|1.600014ms|
+[API]2024-05-10T01:48:36Z - [196922] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1002","ts":"2024-05-10T01:48:36.464+0000"}
+[API]2024-05-10T01:48:36Z - [196922] send to 10.32.12.195|200|2.673124ms|
+[API]2024-05-10T01:48:36Z - [156230] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1002","ts":"2024-05-10T01:48:36.474+0000"}
+[API]2024-05-10T01:48:36Z - [156230] send to 10.32.12.68|200|2.632222ms|
+[API]2024-05-10T01:48:36Z - [199422] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1002","ts":"2024-05-10T01:48:36.490+0000"}
+[API]2024-05-10T01:48:36Z - [199422] send to 10.32.12.68|200|1.643714ms|
+[API]2024-05-10T01:48:36Z - [190754] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1002","ts":"2024-05-10T01:48:36.504+0000"}
+[API]2024-05-10T01:48:36Z - [190754] send to 10.32.12.195|200|1.752816ms|
+[API]2024-05-10T01:48:36Z - [186379] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1003","ts":"2024-05-10T01:48:36.518+0000"}
+[API]2024-05-10T01:48:36Z - [186379] send to 10.32.12.195|200|1.664715ms|
+[API]2024-05-10T01:48:36Z - [109622] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"173,1003","ts":"2024-05-10T01:48:36.534+0000"}
+[API]2024-05-10T01:48:36Z - [109622] send to 10.32.12.195|200|1.521313ms|
+[API]2024-05-10T01:48:36Z - [127138] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'N_ACW',0","ts":"2024-05-10T01:48:36.546+0000"}
+[API]2024-05-10T01:48:36Z - [127138] send to 10.32.12.68|200|5.488548ms|
+[API]2024-05-10T01:48:36Z - [126214] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'N_ACWH',0","ts":"2024-05-10T01:48:36.564+0000"}
+[API]2024-05-10T01:48:36Z - [126214] send to 10.32.12.195|200|3.338329ms|
+[API]2024-05-10T01:48:36Z - [149768] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'N_ACWHD',0","ts":"2024-05-10T01:48:36.576+0000"}
+[API]2024-05-10T01:48:36Z - [149768] send to 10.32.12.68|200|3.57313ms|
+[API]2024-05-10T01:48:36Z - [177250] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'N_ACWHDA',0","ts":"2024-05-10T01:48:36.595+0000"}
+[API]2024-05-10T01:48:36Z - [177250] send to 10.32.12.68|200|3.849333ms|
+[API]2024-05-10T01:48:36Z - [158436] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_AP',0","ts":"2024-05-10T01:48:36.768+0000"}
+[API]2024-05-10T01:48:36Z - [158436] send to 10.32.12.68|200|4.069335ms|
+[API]2024-05-10T01:48:36Z - [181605] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:36.790+0000"}
+[API]2024-05-10T01:48:36Z - [181605] send to 10.32.12.68|200|12.783611ms|
+[API]2024-05-10T01:48:36Z - [105163] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:36.845+0000"}
+[API]2024-05-10T01:48:36Z - [105163] send to 10.32.12.68|200|1.912116ms|
+[API]2024-05-10T01:48:36Z - [106028] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:36.861+0000"}
+[API]2024-05-10T01:48:36Z - [106028] send to 10.32.12.195|200|2.097218ms|
+[API]2024-05-10T01:48:36Z - [196539] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_KWP',0","ts":"2024-05-10T01:48:36.907+0000"}
+[API]2024-05-10T01:48:36Z - [196539] send to 10.32.12.68|200|2.481621ms|
+[API]2024-05-10T01:48:37Z - [174037] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_RAE',0","ts":"2024-05-10T01:48:37.168+0000"}
+[API]2024-05-10T01:48:37Z - [174037] send to 10.32.12.68|200|2.432421ms|
+[API]2024-05-10T01:48:37Z - [125591] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:37.188+0000"}
+[API]2024-05-10T01:48:37Z - [125591] send to 10.32.12.68|200|2.25032ms|
+[API]2024-05-10T01:48:37Z - [144489] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:37.205+0000"}
+[API]2024-05-10T01:48:37Z - [144489] send to 10.32.12.68|200|1.745115ms|
+[API]2024-05-10T01:48:37Z - [171974] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_YIELD_D',0","ts":"2024-05-10T01:48:37.224+0000"}
+[API]2024-05-10T01:48:37Z - [171974] send to 10.32.12.68|200|2.517122ms|
+[API]2024-05-10T01:48:37Z - [107590] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_YIELD_M',0","ts":"2024-05-10T01:48:37.240+0000"}
+[API]2024-05-10T01:48:37Z - [107590] send to 10.32.12.68|200|779.307µs|
+[API]2024-05-10T01:48:37Z - [145305] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"174,1012,'M_YIELD_Y',0","ts":"2024-05-10T01:48:37.258+0000"}
+[API]2024-05-10T01:48:37Z - [145305] send to 10.32.12.68|200|732.306µs|
+[API]2024-05-10T01:48:37Z - [168833] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:37.277+0000"}
+[API]2024-05-10T01:48:37Z - [168833] send to 10.32.12.195|200|1.764015ms|
+[API]2024-05-10T01:48:37Z - [174212] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:37.291+0000"}
+[API]2024-05-10T01:48:37Z - [174212] send to 10.32.12.195|200|2.134618ms|
+[API]2024-05-10T01:48:37Z - [187204] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"174,1012","ts":"2024-05-10T01:48:37.306+0000"}
+[API]2024-05-10T01:48:37Z - [187204] send to 10.32.12.195|200|1.855316ms|
+[API]2024-05-10T01:48:37Z - [142710] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1013","ts":"2024-05-10T01:48:37.327+0000"}
+[API]2024-05-10T01:48:37Z - [142710] send to 10.32.12.68|200|1.913017ms|
+[API]2024-05-10T01:48:37Z - [134757] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1013","ts":"2024-05-10T01:48:37.344+0000"}
+[API]2024-05-10T01:48:37Z - [134757] send to 10.32.12.131|200|2.109818ms|
+[API]2024-05-10T01:48:37Z - [180809] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1013","ts":"2024-05-10T01:48:37.359+0000"}
+[API]2024-05-10T01:48:37Z - [180809] send to 10.32.12.131|200|2.090918ms|
+[API]2024-05-10T01:48:37Z - [116994] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1013","ts":"2024-05-10T01:48:37.377+0000"}
+[API]2024-05-10T01:48:37Z - [116994] send to 10.32.12.5|200|2.263519ms|
+[API]2024-05-10T01:48:37Z - [148441] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1014","ts":"2024-05-10T01:48:37.398+0000"}
+[API]2024-05-10T01:48:37Z - [148441] send to 10.32.12.131|200|1.916316ms|
+[API]2024-05-10T01:48:37Z - [169646] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1014","ts":"2024-05-10T01:48:37.410+0000"}
+[API]2024-05-10T01:48:37Z - [169646] send to 10.32.12.131|200|2.044018ms|
+[API]2024-05-10T01:48:37Z - [104483] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1014","ts":"2024-05-10T01:48:37.426+0000"}
+[API]2024-05-10T01:48:37Z - [104483] send to 10.32.12.131|200|1.717015ms|
+[API]2024-05-10T01:48:37Z - [118902] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1014","ts":"2024-05-10T01:48:37.442+0000"}
+[API]2024-05-10T01:48:37Z - [118902] send to 10.32.12.5|200|1.463512ms|
+[API]2024-05-10T01:48:37Z - [172316] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1015","ts":"2024-05-10T01:48:37.454+0000"}
+[API]2024-05-10T01:48:37Z - [172316] send to 10.32.12.131|200|1.830416ms|
+[API]2024-05-10T01:48:37Z - [144284] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1015","ts":"2024-05-10T01:48:37.466+0000"}
+[API]2024-05-10T01:48:37Z - [144284] send to 10.32.12.5|200|1.700314ms|
+[API]2024-05-10T01:48:37Z - [117329] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1015","ts":"2024-05-10T01:48:37.481+0000"}
+[API]2024-05-10T01:48:37Z - [117329] send to 10.32.12.5|200|1.777616ms|
+[API]2024-05-10T01:48:37Z - [146478] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1015","ts":"2024-05-10T01:48:37.498+0000"}
+[API]2024-05-10T01:48:37Z - [146478] send to 10.32.12.5|200|1.947217ms|
+[API]2024-05-10T01:48:37Z - [117298] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1016","ts":"2024-05-10T01:48:37.515+0000"}
+[API]2024-05-10T01:48:37Z - [117298] send to 10.32.12.5|200|1.373312ms|
+[API]2024-05-10T01:48:37Z - [138463] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1016","ts":"2024-05-10T01:48:37.531+0000"}
+[API]2024-05-10T01:48:37Z - [138463] send to 10.32.12.131|200|1.809815ms|
+[API]2024-05-10T01:48:37Z - [193108] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1016","ts":"2024-05-10T01:48:37.555+0000"}
+[API]2024-05-10T01:48:37Z - [193108] send to 10.32.12.5|200|1.538213ms|
+[API]2024-05-10T01:48:37Z - [192265] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1016","ts":"2024-05-10T01:48:37.570+0000"}
+[API]2024-05-10T01:48:37Z - [192265] send to 10.32.12.195|200|1.849516ms|
+[API]2024-05-10T01:48:37Z - [145946] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1018","ts":"2024-05-10T01:48:37.588+0000"}
+[API]2024-05-10T01:48:37Z - [145946] send to 10.32.12.195|200|2.534222ms|
+[API]2024-05-10T01:48:37Z - [199975] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"174,1018","ts":"2024-05-10T01:48:37.603+0000"}
+[API]2024-05-10T01:48:37Z - [199975] send to 10.32.12.68|200|1.582614ms|
+[API]2024-05-10T01:48:37Z - [142700] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'N_ACW',0","ts":"2024-05-10T01:48:37.617+0000"}
+[API]2024-05-10T01:48:37Z - [142700] send to 10.32.12.195|200|6.565057ms|
+[API]2024-05-10T01:48:37Z - [131094] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'N_ACWH',0","ts":"2024-05-10T01:48:37.635+0000"}
+[API]2024-05-10T01:48:37Z - [131094] send to 10.32.12.195|200|3.811633ms|
+[API]2024-05-10T01:48:37Z - [164963] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'N_ACWHD',0","ts":"2024-05-10T01:48:37.651+0000"}
+[API]2024-05-10T01:48:37Z - [164963] send to 10.32.12.195|200|3.251628ms|
+[API]2024-05-10T01:48:37Z - [162299] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'N_ACWHDA',0","ts":"2024-05-10T01:48:37.666+0000"}
+[API]2024-05-10T01:48:37Z - [162299] send to 10.32.12.195|200|4.396638ms|
+[API]2024-05-10T01:48:37Z - [195017] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_AP',0","ts":"2024-05-10T01:48:37.835+0000"}
+[API]2024-05-10T01:48:37Z - [195017] send to 10.32.12.195|200|3.605431ms|
+[API]2024-05-10T01:48:37Z - [160552] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:37.850+0000"}
+[API]2024-05-10T01:48:37Z - [160552] send to 10.32.12.195|200|2.36362ms|
+[API]2024-05-10T01:48:37Z - [114117] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:37.878+0000"}
+[API]2024-05-10T01:48:37Z - [114117] send to 10.32.12.131|200|1.667314ms|
+[API]2024-05-10T01:48:37Z - [190317] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:37.897+0000"}
+[API]2024-05-10T01:48:37Z - [190317] send to 10.32.12.131|200|1.707715ms|
+[API]2024-05-10T01:48:37Z - [113752] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_KWP',0","ts":"2024-05-10T01:48:37.943+0000"}
+[API]2024-05-10T01:48:37Z - [113752] send to 10.32.12.131|200|3.644632ms|
+[API]2024-05-10T01:48:38Z - [152453] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_RAE',0","ts":"2024-05-10T01:48:38.170+0000"}
+[API]2024-05-10T01:48:38Z - [152453] send to 10.32.12.5|200|2.521722ms|
+[API]2024-05-10T01:48:38Z - [155466] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:38.183+0000"}
+[API]2024-05-10T01:48:38Z - [155466] send to 10.32.12.5|200|2.570222ms|
+[API]2024-05-10T01:48:38Z - [191168] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:38.197+0000"}
+[API]2024-05-10T01:48:38Z - [191168] send to 10.32.12.131|200|1.815116ms|
+[API]2024-05-10T01:48:38Z - [183034] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_YIELD_D',0","ts":"2024-05-10T01:48:38.212+0000"}
+[API]2024-05-10T01:48:38Z - [183034] send to 10.32.12.5|200|2.364321ms|
+[API]2024-05-10T01:48:38Z - [143377] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_YIELD_M',0","ts":"2024-05-10T01:48:38.225+0000"}
+[API]2024-05-10T01:48:38Z - [143377] send to 10.32.12.5|200|806.007µs|
+[API]2024-05-10T01:48:38Z - [123305] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"175,1022,'M_YIELD_Y',0","ts":"2024-05-10T01:48:38.239+0000"}
+[API]2024-05-10T01:48:38Z - [123305] send to 10.32.12.131|200|733.207µs|
+[API]2024-05-10T01:48:38Z - [144297] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:38.251+0000"}
+[API]2024-05-10T01:48:38Z - [144297] send to 10.32.12.5|200|1.847516ms|
+[API]2024-05-10T01:48:38Z - [159911] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:38.264+0000"}
+[API]2024-05-10T01:48:38Z - [159911] send to 10.32.12.131|200|1.870116ms|
+[API]2024-05-10T01:48:38Z - [156015] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"175,1022","ts":"2024-05-10T01:48:38.275+0000"}
+[API]2024-05-10T01:48:38Z - [156015] send to 10.32.12.5|200|1.711315ms|
+[API]2024-05-10T01:48:38Z - [180205] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1028","ts":"2024-05-10T01:48:38.289+0000"}
+[API]2024-05-10T01:48:38Z - [180205] send to 10.32.12.131|200|1.766115ms|
+[API]2024-05-10T01:48:38Z - [144063] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1028","ts":"2024-05-10T01:48:38.302+0000"}
+[API]2024-05-10T01:48:38Z - [144063] send to 10.32.12.131|200|1.774915ms|
+[API]2024-05-10T01:48:38Z - [154193] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1028","ts":"2024-05-10T01:48:38.317+0000"}
+[API]2024-05-10T01:48:38Z - [154193] send to 10.32.12.131|200|1.526313ms|
+[API]2024-05-10T01:48:38Z - [121038] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1028","ts":"2024-05-10T01:48:38.333+0000"}
+[API]2024-05-10T01:48:38Z - [121038] send to 10.32.12.131|200|1.430912ms|
+[API]2024-05-10T01:48:38Z - [186343] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1029","ts":"2024-05-10T01:48:38.342+0000"}
+[API]2024-05-10T01:48:38Z - [186343] send to 10.32.12.5|200|1.421412ms|
+[API]2024-05-10T01:48:38Z - [122263] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1029","ts":"2024-05-10T01:48:38.354+0000"}
+[API]2024-05-10T01:48:38Z - [122263] send to 10.32.12.131|200|1.461413ms|
+[API]2024-05-10T01:48:38Z - [121729] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1029","ts":"2024-05-10T01:48:38.364+0000"}
+[API]2024-05-10T01:48:38Z - [121729] send to 10.32.12.131|200|1.505813ms|
+[API]2024-05-10T01:48:38Z - [192865] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1029","ts":"2024-05-10T01:48:38.375+0000"}
+[API]2024-05-10T01:48:38Z - [192865] send to 10.32.12.131|200|1.420612ms|
+[API]2024-05-10T01:48:38Z - [123518] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1030","ts":"2024-05-10T01:48:38.384+0000"}
+[API]2024-05-10T01:48:38Z - [123518] send to 10.32.12.5|200|1.854616ms|
+[API]2024-05-10T01:48:38Z - [192068] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1030","ts":"2024-05-10T01:48:38.399+0000"}
+[API]2024-05-10T01:48:38Z - [192068] send to 10.32.12.5|200|1.885516ms|
+[API]2024-05-10T01:48:38Z - [101048] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1030","ts":"2024-05-10T01:48:38.412+0000"}
+[API]2024-05-10T01:48:38Z - [101048] send to 10.32.12.131|200|1.729415ms|
+[API]2024-05-10T01:48:38Z - [159147] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1030","ts":"2024-05-10T01:48:38.421+0000"}
+[API]2024-05-10T01:48:38Z - [159147] send to 10.32.12.131|200|1.891316ms|
+[API]2024-05-10T01:48:38Z - [192531] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1032","ts":"2024-05-10T01:48:38.432+0000"}
+[API]2024-05-10T01:48:38Z - [192531] send to 10.32.12.5|200|1.656214ms|
+[API]2024-05-10T01:48:38Z - [172165] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1032","ts":"2024-05-10T01:48:38.448+0000"}
+[API]2024-05-10T01:48:38Z - [172165] send to 10.32.12.131|200|1.955417ms|
+[API]2024-05-10T01:48:38Z - [181386] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1037","ts":"2024-05-10T01:48:38.459+0000"}
+[API]2024-05-10T01:48:38Z - [181386] send to 10.32.12.131|200|1.403612ms|
+[API]2024-05-10T01:48:38Z - [136720] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1037","ts":"2024-05-10T01:48:38.470+0000"}
+[API]2024-05-10T01:48:38Z - [136720] send to 10.32.12.5|200|1.543114ms|
+[API]2024-05-10T01:48:38Z - [183663] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1037","ts":"2024-05-10T01:48:38.492+0000"}
+[API]2024-05-10T01:48:38Z - [183663] send to 10.32.12.131|200|1.960717ms|
+[API]2024-05-10T01:48:38Z - [183508] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"175,1037","ts":"2024-05-10T01:48:38.510+0000"}
+[API]2024-05-10T01:48:38Z - [183508] send to 10.32.12.131|200|1.535714ms|
+[API]2024-05-10T01:48:38Z - [113225] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'N_ACW',0","ts":"2024-05-10T01:48:38.525+0000"}
+[API]2024-05-10T01:48:38Z - [113225] send to 10.32.12.5|200|5.625349ms|
+[API]2024-05-10T01:48:38Z - [129466] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'N_ACWH',0","ts":"2024-05-10T01:48:38.545+0000"}
+[API]2024-05-10T01:48:38Z - [129466] send to 10.32.12.131|200|2.906025ms|
+[API]2024-05-10T01:48:38Z - [120021] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'N_ACWHD',0","ts":"2024-05-10T01:48:38.558+0000"}
+[API]2024-05-10T01:48:38Z - [120021] send to 10.32.12.5|200|3.351429ms|
+[API]2024-05-10T01:48:38Z - [151640] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'N_ACWHDA',0","ts":"2024-05-10T01:48:38.574+0000"}
+[API]2024-05-10T01:48:38Z - [151640] send to 10.32.12.68|200|4.508439ms|
+[API]2024-05-10T01:48:38Z - [157022] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_AP',0","ts":"2024-05-10T01:48:38.714+0000"}
+[API]2024-05-10T01:48:38Z - [157022] send to 10.32.12.195|200|3.961335ms|
+[API]2024-05-10T01:48:38Z - [130144] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:38.734+0000"}
+[API]2024-05-10T01:48:38Z - [130144] send to 10.32.12.68|200|2.075918ms|
+[API]2024-05-10T01:48:38Z - [136866] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:38.767+0000"}
+[API]2024-05-10T01:48:38Z - [136866] send to 10.32.12.195|200|1.665415ms|
+[API]2024-05-10T01:48:38Z - [175418] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:38.785+0000"}
+[API]2024-05-10T01:48:38Z - [175418] send to 10.32.12.68|200|1.838616ms|
+[API]2024-05-10T01:48:38Z - [190936] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_KWP',0","ts":"2024-05-10T01:48:38.818+0000"}
+[API]2024-05-10T01:48:38Z - [190936] send to 10.32.12.195|200|2.892625ms|
+[API]2024-05-10T01:48:39Z - [146870] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_RAE',0","ts":"2024-05-10T01:48:39.53+0000"}
+[API]2024-05-10T01:48:39Z - [146870] send to 10.32.12.5|200|2.996626ms|
+[API]2024-05-10T01:48:39Z - [157253] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:39.74+0000"}
+[API]2024-05-10T01:48:39Z - [157253] send to 10.32.12.5|200|2.28042ms|
+[API]2024-05-10T01:48:39Z - [143084] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:39.91+0000"}
+[API]2024-05-10T01:48:39Z - [143084] send to 10.32.12.131|200|2.077918ms|
+[API]2024-05-10T01:48:39Z - [128485] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_YIELD_D',0","ts":"2024-05-10T01:48:39.102+0000"}
+[API]2024-05-10T01:48:39Z - [128485] send to 10.32.12.5|200|2.674123ms|
+[API]2024-05-10T01:48:39Z - [177334] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_YIELD_M',0","ts":"2024-05-10T01:48:39.118+0000"}
+[API]2024-05-10T01:48:39Z - [177334] send to 10.32.12.131|200|686.706µs|
+[API]2024-05-10T01:48:39Z - [161818] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"176,1039,'M_YIELD_Y',0","ts":"2024-05-10T01:48:39.132+0000"}
+[API]2024-05-10T01:48:39Z - [161818] send to 10.32.12.131|200|645.006µs|
+[API]2024-05-10T01:48:39Z - [143058] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:39.144+0000"}
+[API]2024-05-10T01:48:39Z - [143058] send to 10.32.12.5|200|4.096635ms|
+[API]2024-05-10T01:48:39Z - [156348] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:39.163+0000"}
+[API]2024-05-10T01:48:39Z - [156348] send to 10.32.12.5|200|1.816215ms|
+[API]2024-05-10T01:48:39Z - [118064] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"176,1039","ts":"2024-05-10T01:48:39.179+0000"}
+[API]2024-05-10T01:48:39Z - [118064] send to 10.32.12.5|200|2.137819ms|
+[API]2024-05-10T01:48:39Z - [177830] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1040","ts":"2024-05-10T01:48:39.198+0000"}
+[API]2024-05-10T01:48:39Z - [177830] send to 10.32.12.5|200|1.655215ms|
+[API]2024-05-10T01:48:39Z - [106903] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1040","ts":"2024-05-10T01:48:39.212+0000"}
+[API]2024-05-10T01:48:39Z - [106903] send to 10.32.12.5|200|1.723115ms|
+[API]2024-05-10T01:48:39Z - [157726] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1040","ts":"2024-05-10T01:48:39.224+0000"}
+[API]2024-05-10T01:48:39Z - [157726] send to 10.32.12.5|200|1.689214ms|
+[API]2024-05-10T01:48:39Z - [140264] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1040","ts":"2024-05-10T01:48:39.251+0000"}
+[API]2024-05-10T01:48:39Z - [140264] send to 10.32.12.195|200|1.813216ms|
+[API]2024-05-10T01:48:39Z - [191657] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1041","ts":"2024-05-10T01:48:39.262+0000"}
+[API]2024-05-10T01:48:39Z - [191657] send to 10.32.12.68|200|1.821216ms|
+[API]2024-05-10T01:48:39Z - [190637] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1041","ts":"2024-05-10T01:48:39.280+0000"}
+[API]2024-05-10T01:48:39Z - [190637] send to 10.32.12.68|200|1.860916ms|
+[API]2024-05-10T01:48:39Z - [123972] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1041","ts":"2024-05-10T01:48:39.296+0000"}
+[API]2024-05-10T01:48:39Z - [123972] send to 10.32.12.195|200|1.680515ms|
+[API]2024-05-10T01:48:39Z - [154803] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1041","ts":"2024-05-10T01:48:39.308+0000"}
+[API]2024-05-10T01:48:39Z - [154803] send to 10.32.12.195|200|2.127318ms|
+[API]2024-05-10T01:48:39Z - [116559] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1042","ts":"2024-05-10T01:48:39.322+0000"}
+[API]2024-05-10T01:48:39Z - [116559] send to 10.32.12.68|200|2.536122ms|
+[API]2024-05-10T01:48:39Z - [145201] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1042","ts":"2024-05-10T01:48:39.337+0000"}
+[API]2024-05-10T01:48:39Z - [145201] send to 10.32.12.68|200|1.986417ms|
+[API]2024-05-10T01:48:39Z - [198279] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1042","ts":"2024-05-10T01:48:39.359+0000"}
+[API]2024-05-10T01:48:39Z - [198279] send to 10.32.12.68|200|1.715115ms|
+[API]2024-05-10T01:48:39Z - [142207] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1042","ts":"2024-05-10T01:48:39.374+0000"}
+[API]2024-05-10T01:48:39Z - [142207] send to 10.32.12.68|200|2.169119ms|
+[API]2024-05-10T01:48:39Z - [197106] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1044","ts":"2024-05-10T01:48:39.392+0000"}
+[API]2024-05-10T01:48:39Z - [197106] send to 10.32.12.195|200|2.34712ms|
+[API]2024-05-10T01:48:39Z - [190501] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"176,1044","ts":"2024-05-10T01:48:39.404+0000"}
+[API]2024-05-10T01:48:39Z - [190501] send to 10.32.12.68|200|1.921116ms|
+[API]2024-05-10T01:48:39Z - [187008] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'N_ACW',0","ts":"2024-05-10T01:48:39.419+0000"}
+[API]2024-05-10T01:48:39Z - [187008] send to 10.32.12.5|200|7.418964ms|
+[API]2024-05-10T01:48:39Z - [136807] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'N_ACWH',0","ts":"2024-05-10T01:48:39.439+0000"}
+[API]2024-05-10T01:48:39Z - [136807] send to 10.32.12.5|200|4.347637ms|
+[API]2024-05-10T01:48:39Z - [143804] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'N_ACWHD',0","ts":"2024-05-10T01:48:39.454+0000"}
+[API]2024-05-10T01:48:39Z - [143804] send to 10.32.12.5|200|3.49213ms|
+[API]2024-05-10T01:48:39Z - [157580] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'N_ACWHDA',0","ts":"2024-05-10T01:48:39.476+0000"}
+[API]2024-05-10T01:48:39Z - [157580] send to 10.32.12.5|200|3.923034ms|
+[API]2024-05-10T01:48:39Z - [167198] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_AP',0","ts":"2024-05-10T01:48:39.624+0000"}
+[API]2024-05-10T01:48:39Z - [167198] send to 10.32.12.5|200|3.747232ms|
+[API]2024-05-10T01:48:39Z - [131081] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:39.639+0000"}
+[API]2024-05-10T01:48:39Z - [131081] send to 10.32.12.195|200|1.897216ms|
+[API]2024-05-10T01:48:39Z - [173794] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:39.667+0000"}
+[API]2024-05-10T01:48:39Z - [173794] send to 10.32.12.195|200|1.935716ms|
+[API]2024-05-10T01:48:39Z - [152960] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:39.686+0000"}
+[API]2024-05-10T01:48:39Z - [152960] send to 10.32.12.68|200|2.160819ms|
+[API]2024-05-10T01:48:39Z - [118272] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_KWP',0","ts":"2024-05-10T01:48:39.724+0000"}
+[API]2024-05-10T01:48:39Z - [118272] send to 10.32.12.195|200|3.47243ms|
+[API]2024-05-10T01:48:39Z - [156609] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_RAE',0","ts":"2024-05-10T01:48:39.949+0000"}
+[API]2024-05-10T01:48:39Z - [156609] send to 10.32.12.68|200|2.787824ms|
+[API]2024-05-10T01:48:39Z - [181021] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:39.965+0000"}
+[API]2024-05-10T01:48:39Z - [181021] send to 10.32.12.68|200|2.24372ms|
+[API]2024-05-10T01:48:39Z - [191643] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:39.983+0000"}
+[API]2024-05-10T01:48:39Z - [191643] send to 10.32.12.68|200|1.913717ms|
+[API]2024-05-10T01:48:40Z - [129081] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_YIELD_D',0","ts":"2024-05-10T01:48:39.999+0000"}
+[API]2024-05-10T01:48:40Z - [129081] send to 10.32.12.68|200|2.949225ms|
+[API]2024-05-10T01:48:40Z - [191783] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_YIELD_M',0","ts":"2024-05-10T01:48:40.19+0000"}
+[API]2024-05-10T01:48:40Z - [191783] send to 10.32.12.195|200|737.606µs|
+[API]2024-05-10T01:48:40Z - [160326] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"177,1047,'M_YIELD_Y',0","ts":"2024-05-10T01:48:40.28+0000"}
+[API]2024-05-10T01:48:40Z - [160326] send to 10.32.12.68|200|994.609µs|
+[API]2024-05-10T01:48:40Z - [128258] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:40.43+0000"}
+[API]2024-05-10T01:48:40Z - [128258] send to 10.32.12.68|200|2.381021ms|
+[API]2024-05-10T01:48:40Z - [110733] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:40.66+0000"}
+[API]2024-05-10T01:48:40Z - [110733] send to 10.32.12.195|200|1.970717ms|
+[API]2024-05-10T01:48:40Z - [198585] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"177,1047","ts":"2024-05-10T01:48:40.81+0000"}
+[API]2024-05-10T01:48:40Z - [198585] send to 10.32.12.68|200|2.118718ms|
+[API]2024-05-10T01:48:40Z - [181054] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1048","ts":"2024-05-10T01:48:40.102+0000"}
+[API]2024-05-10T01:48:40Z - [181054] send to 10.32.12.195|200|1.831716ms|
+[API]2024-05-10T01:48:40Z - [161165] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1048","ts":"2024-05-10T01:48:40.115+0000"}
+[API]2024-05-10T01:48:40Z - [161165] send to 10.32.12.68|200|2.22802ms|
+[API]2024-05-10T01:48:40Z - [114343] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1048","ts":"2024-05-10T01:48:40.130+0000"}
+[API]2024-05-10T01:48:40Z - [114343] send to 10.32.12.195|200|1.850816ms|
+[API]2024-05-10T01:48:40Z - [182522] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1048","ts":"2024-05-10T01:48:40.145+0000"}
+[API]2024-05-10T01:48:40Z - [182522] send to 10.32.12.68|200|2.436521ms|
+[API]2024-05-10T01:48:40Z - [192804] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1049","ts":"2024-05-10T01:48:40.163+0000"}
+[API]2024-05-10T01:48:40Z - [192804] send to 10.32.12.195|200|1.949517ms|
+[API]2024-05-10T01:48:40Z - [152702] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1049","ts":"2024-05-10T01:48:40.176+0000"}
+[API]2024-05-10T01:48:40Z - [152702] send to 10.32.12.195|200|1.728315ms|
+[API]2024-05-10T01:48:40Z - [180571] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1049","ts":"2024-05-10T01:48:40.190+0000"}
+[API]2024-05-10T01:48:40Z - [180571] send to 10.32.12.195|200|2.010018ms|
+[API]2024-05-10T01:48:40Z - [163753] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1049","ts":"2024-05-10T01:48:40.204+0000"}
+[API]2024-05-10T01:48:40Z - [163753] send to 10.32.12.195|200|1.989818ms|
+[API]2024-05-10T01:48:40Z - [184771] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1050","ts":"2024-05-10T01:48:40.213+0000"}
+[API]2024-05-10T01:48:40Z - [184771] send to 10.32.12.195|200|1.814815ms|
+[API]2024-05-10T01:48:40Z - [191922] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1050","ts":"2024-05-10T01:48:40.225+0000"}
+[API]2024-05-10T01:48:40Z - [191922] send to 10.32.12.195|200|1.610214ms|
+[API]2024-05-10T01:48:40Z - [114912] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1050","ts":"2024-05-10T01:48:40.244+0000"}
+[API]2024-05-10T01:48:40Z - [114912] send to 10.32.12.5|200|1.992717ms|
+[API]2024-05-10T01:48:40Z - [159830] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1050","ts":"2024-05-10T01:48:40.255+0000"}
+[API]2024-05-10T01:48:40Z - [159830] send to 10.32.12.131|200|1.762715ms|
+[API]2024-05-10T01:48:40Z - [182791] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1052","ts":"2024-05-10T01:48:40.270+0000"}
+[API]2024-05-10T01:48:40Z - [182791] send to 10.32.12.131|200|2.147818ms|
+[API]2024-05-10T01:48:40Z - [184309] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"177,1052","ts":"2024-05-10T01:48:40.282+0000"}
+[API]2024-05-10T01:48:40Z - [184309] send to 10.32.12.5|200|1.969117ms|
+[API]2024-05-10T01:48:40Z - [122578] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1055","ts":"2024-05-10T01:48:40.300+0000"}
+[API]2024-05-10T01:48:40Z - [122578] send to 10.32.12.5|200|2.261619ms|
+[API]2024-05-10T01:48:40Z - [162210] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1055","ts":"2024-05-10T01:48:40.317+0000"}
+[API]2024-05-10T01:48:40Z - [162210] send to 10.32.12.5|200|1.749715ms|
+[API]2024-05-10T01:48:40Z - [101133] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1055","ts":"2024-05-10T01:48:40.330+0000"}
+[API]2024-05-10T01:48:40Z - [101133] send to 10.32.12.131|200|1.885116ms|
+[API]2024-05-10T01:48:40Z - [104788] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1055","ts":"2024-05-10T01:48:40.346+0000"}
+[API]2024-05-10T01:48:40Z - [104788] send to 10.32.12.195|200|2.192319ms|
+[API]2024-05-10T01:48:40Z - [145031] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1056","ts":"2024-05-10T01:48:40.361+0000"}
+[API]2024-05-10T01:48:40Z - [145031] send to 10.32.12.195|200|1.757816ms|
+[API]2024-05-10T01:48:40Z - [138757] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1056","ts":"2024-05-10T01:48:40.377+0000"}
+[API]2024-05-10T01:48:40Z - [138757] send to 10.32.12.68|200|2.268521ms|
+[API]2024-05-10T01:48:40Z - [138865] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1056","ts":"2024-05-10T01:48:40.397+0000"}
+[API]2024-05-10T01:48:40Z - [138865] send to 10.32.12.68|200|2.25322ms|
+[API]2024-05-10T01:48:40Z - [144176] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1056","ts":"2024-05-10T01:48:40.424+0000"}
+[API]2024-05-10T01:48:40Z - [144176] send to 10.32.12.195|200|2.002117ms|
+[API]2024-05-10T01:48:40Z - [189359] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1057","ts":"2024-05-10T01:48:40.438+0000"}
+[API]2024-05-10T01:48:40Z - [189359] send to 10.32.12.195|200|1.910817ms|
+[API]2024-05-10T01:48:40Z - [106889] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1057","ts":"2024-05-10T01:48:40.455+0000"}
+[API]2024-05-10T01:48:40Z - [106889] send to 10.32.12.195|200|1.812916ms|
+[API]2024-05-10T01:48:40Z - [180790] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1057","ts":"2024-05-10T01:48:40.472+0000"}
+[API]2024-05-10T01:48:40Z - [180790] send to 10.32.12.195|200|2.071619ms|
+[API]2024-05-10T01:48:40Z - [113323] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1057","ts":"2024-05-10T01:48:40.488+0000"}
+[API]2024-05-10T01:48:40Z - [113323] send to 10.32.12.68|200|1.976918ms|
+[API]2024-05-10T01:48:40Z - [169600] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1059","ts":"2024-05-10T01:48:40.506+0000"}
+[API]2024-05-10T01:48:40Z - [169600] send to 10.32.12.68|200|1.801817ms|
+[API]2024-05-10T01:48:40Z - [106793] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"178,1059","ts":"2024-05-10T01:48:40.529+0000"}
+[API]2024-05-10T01:48:40Z - [106793] send to 10.32.12.195|200|1.991918ms|
+[API]2024-05-10T01:48:40Z - [109383] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'N_ACW',0","ts":"2024-05-10T01:48:40.547+0000"}
+[API]2024-05-10T01:48:40Z - [109383] send to 10.32.12.195|200|4.660441ms|
+[API]2024-05-10T01:48:40Z - [113578] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'N_ACWH',0","ts":"2024-05-10T01:48:40.561+0000"}
+[API]2024-05-10T01:48:40Z - [113578] send to 10.32.12.195|200|4.026836ms|
+[API]2024-05-10T01:48:40Z - [165639] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'N_ACWHD',0","ts":"2024-05-10T01:48:40.589+0000"}
+[API]2024-05-10T01:48:40Z - [165639] send to 10.32.12.68|200|3.432331ms|
+[API]2024-05-10T01:48:40Z - [106820] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'N_ACWHDA',0","ts":"2024-05-10T01:48:40.610+0000"}
+[API]2024-05-10T01:48:40Z - [106820] send to 10.32.12.195|200|4.728442ms|
+[API]2024-05-10T01:48:40Z - [145855] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_AP',0","ts":"2024-05-10T01:48:40.758+0000"}
+[API]2024-05-10T01:48:40Z - [145855] send to 10.32.12.68|200|2.541922ms|
+[API]2024-05-10T01:48:40Z - [141907] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:40.775+0000"}
+[API]2024-05-10T01:48:40Z - [141907] send to 10.32.12.68|200|1.841016ms|
+[API]2024-05-10T01:48:40Z - [127677] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:40.806+0000"}
+[API]2024-05-10T01:48:40Z - [127677] send to 10.32.12.68|200|1.820317ms|
+[API]2024-05-10T01:48:40Z - [161091] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:40.823+0000"}
+[API]2024-05-10T01:48:40Z - [161091] send to 10.32.12.195|200|2.23912ms|
+[API]2024-05-10T01:48:40Z - [167303] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_KWP',0","ts":"2024-05-10T01:48:40.870+0000"}
+[API]2024-05-10T01:48:40Z - [167303] send to 10.32.12.68|200|3.770534ms|
+[API]2024-05-10T01:48:41Z - [178655] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_RAE',0","ts":"2024-05-10T01:48:41.108+0000"}
+[API]2024-05-10T01:48:41Z - [178655] send to 10.32.12.195|200|2.794525ms|
+[API]2024-05-10T01:48:41Z - [104004] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:41.126+0000"}
+[API]2024-05-10T01:48:41Z - [104004] send to 10.32.12.68|200|2.110719ms|
+[API]2024-05-10T01:48:41Z - [176138] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:41.155+0000"}
+[API]2024-05-10T01:48:41Z - [176138] send to 10.32.12.195|200|1.755815ms|
+[API]2024-05-10T01:48:41Z - [189264] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_YIELD_D',0","ts":"2024-05-10T01:48:41.172+0000"}
+[API]2024-05-10T01:48:41Z - [189264] send to 10.32.12.5|200|2.733824ms|
+[API]2024-05-10T01:48:41Z - [197930] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_YIELD_M',0","ts":"2024-05-10T01:48:41.190+0000"}
+[API]2024-05-10T01:48:41Z - [197930] send to 10.32.12.131|200|1.015309ms|
+[API]2024-05-10T01:48:41Z - [119541] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"179,1062,'M_YIELD_Y',0","ts":"2024-05-10T01:48:41.210+0000"}
+[API]2024-05-10T01:48:41Z - [119541] send to 10.32.12.131|200|806.108µs|
+[API]2024-05-10T01:48:41Z - [166326] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:41.218+0000"}
+[API]2024-05-10T01:48:41Z - [166326] send to 10.32.12.5|200|2.038118ms|
+[API]2024-05-10T01:48:41Z - [191286] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:41.229+0000"}
+[API]2024-05-10T01:48:41Z - [191286] send to 10.32.12.131|200|1.976318ms|
+[API]2024-05-10T01:48:41Z - [133877] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"179,1062","ts":"2024-05-10T01:48:41.241+0000"}
+[API]2024-05-10T01:48:41Z - [133877] send to 10.32.12.131|200|1.870616ms|
+[API]2024-05-10T01:48:41Z - [154739] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1063","ts":"2024-05-10T01:48:41.253+0000"}
+[API]2024-05-10T01:48:41Z - [154739] send to 10.32.12.5|200|2.336821ms|
+[API]2024-05-10T01:48:41Z - [148696] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1063","ts":"2024-05-10T01:48:41.279+0000"}
+[API]2024-05-10T01:48:41Z - [148696] send to 10.32.12.5|200|1.544114ms|
+[API]2024-05-10T01:48:41Z - [126881] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1063","ts":"2024-05-10T01:48:41.290+0000"}
+[API]2024-05-10T01:48:41Z - [126881] send to 10.32.12.131|200|1.944218ms|
+[API]2024-05-10T01:48:41Z - [162158] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1063","ts":"2024-05-10T01:48:41.304+0000"}
+[API]2024-05-10T01:48:41Z - [162158] send to 10.32.12.131|200|1.827716ms|
+[API]2024-05-10T01:48:41Z - [127793] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1064","ts":"2024-05-10T01:48:41.318+0000"}
+[API]2024-05-10T01:48:41Z - [127793] send to 10.32.12.5|200|1.631814ms|
+[API]2024-05-10T01:48:41Z - [195221] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1064","ts":"2024-05-10T01:48:41.328+0000"}
+[API]2024-05-10T01:48:41Z - [195221] send to 10.32.12.5|200|1.990618ms|
+[API]2024-05-10T01:48:41Z - [164287] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1064","ts":"2024-05-10T01:48:41.339+0000"}
+[API]2024-05-10T01:48:41Z - [164287] send to 10.32.12.5|200|1.690615ms|
+[API]2024-05-10T01:48:41Z - [151798] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1064","ts":"2024-05-10T01:48:41.350+0000"}
+[API]2024-05-10T01:48:41Z - [151798] send to 10.32.12.131|200|2.494423ms|
+[API]2024-05-10T01:48:41Z - [149635] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1065","ts":"2024-05-10T01:48:41.361+0000"}
+[API]2024-05-10T01:48:41Z - [149635] send to 10.32.12.5|200|2.005718ms|
+[API]2024-05-10T01:48:41Z - [131335] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1065","ts":"2024-05-10T01:48:41.375+0000"}
+[API]2024-05-10T01:48:41Z - [131335] send to 10.32.12.5|200|1.734315ms|
+[API]2024-05-10T01:48:41Z - [196345] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1065","ts":"2024-05-10T01:48:41.389+0000"}
+[API]2024-05-10T01:48:41Z - [196345] send to 10.32.12.5|200|1.876916ms|
+[API]2024-05-10T01:48:41Z - [148693] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1065","ts":"2024-05-10T01:48:41.399+0000"}
+[API]2024-05-10T01:48:41Z - [148693] send to 10.32.12.131|200|1.760115ms|
+[API]2024-05-10T01:48:41Z - [133495] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1067","ts":"2024-05-10T01:48:41.416+0000"}
+[API]2024-05-10T01:48:41Z - [133495] send to 10.32.12.5|200|1.869617ms|
+[API]2024-05-10T01:48:41Z - [139375] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"179,1067","ts":"2024-05-10T01:48:41.428+0000"}
+[API]2024-05-10T01:48:41Z - [139375] send to 10.32.12.5|200|1.869517ms|
+[API]2024-05-10T01:48:41Z - [170617] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'N_ACW',0","ts":"2024-05-10T01:48:41.441+0000"}
+[API]2024-05-10T01:48:41Z - [170617] send to 10.32.12.68|200|6.401557ms|
+[API]2024-05-10T01:48:41Z - [193980] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'N_ACWH',0","ts":"2024-05-10T01:48:41.461+0000"}
+[API]2024-05-10T01:48:41Z - [193980] send to 10.32.12.68|200|3.118027ms|
+[API]2024-05-10T01:48:41Z - [189457] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'N_ACWHD',0","ts":"2024-05-10T01:48:41.478+0000"}
+[API]2024-05-10T01:48:41Z - [189457] send to 10.32.12.68|200|3.016227ms|
+[API]2024-05-10T01:48:41Z - [150315] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'N_ACWHDA',0","ts":"2024-05-10T01:48:41.491+0000"}
+[API]2024-05-10T01:48:41Z - [150315] send to 10.32.12.68|200|3.482531ms|
+[API]2024-05-10T01:48:41Z - [169156] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_AP',0","ts":"2024-05-10T01:48:41.641+0000"}
+[API]2024-05-10T01:48:41Z - [169156] send to 10.32.12.68|200|3.427331ms|
+[API]2024-05-10T01:48:41Z - [191764] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:41.663+0000"}
+[API]2024-05-10T01:48:41Z - [191764] send to 10.32.12.195|200|2.159619ms|
+[API]2024-05-10T01:48:41Z - [122550] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:41.712+0000"}
+[API]2024-05-10T01:48:41Z - [122550] send to 10.32.12.195|200|1.619015ms|
+[API]2024-05-10T01:48:41Z - [159637] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:41.728+0000"}
+[API]2024-05-10T01:48:41Z - [159637] send to 10.32.12.195|200|1.616314ms|
+[API]2024-05-10T01:48:41Z - [163683] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_KWP',0","ts":"2024-05-10T01:48:41.763+0000"}
+[API]2024-05-10T01:48:41Z - [163683] send to 10.32.12.68|200|2.940826ms|
+[API]2024-05-10T01:48:42Z - [120709] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_RAE',0","ts":"2024-05-10T01:48:41.994+0000"}
+[API]2024-05-10T01:48:42Z - [120709] send to 10.32.12.195|200|2.575423ms|
+[API]2024-05-10T01:48:42Z - [109970] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:42.18+0000"}
+[API]2024-05-10T01:48:42Z - [109970] send to 10.32.12.68|200|1.920218ms|
+[API]2024-05-10T01:48:42Z - [184378] receive from 10.32.12.5 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:42.44+0000"}
+[API]2024-05-10T01:48:42Z - [184378] send to 10.32.12.5|200|1.567514ms|
+[API]2024-05-10T01:48:42Z - [128363] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_YIELD_D',0","ts":"2024-05-10T01:48:42.58+0000"}
+[API]2024-05-10T01:48:42Z - [128363] send to 10.32.12.131|200|2.373921ms|
+[API]2024-05-10T01:48:42Z - [187257] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_YIELD_M',0","ts":"2024-05-10T01:48:42.71+0000"}
+[API]2024-05-10T01:48:42Z - [187257] send to 10.32.12.131|200|836.407µs|
+[API]2024-05-10T01:48:42Z - [116479] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"180,1070,'M_YIELD_Y',0","ts":"2024-05-10T01:48:42.84+0000"}
+[API]2024-05-10T01:48:42Z - [116479] send to 10.32.12.131|200|961.008µs|
+[API]2024-05-10T01:48:42Z - [173612] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:42.96+0000"}
+[API]2024-05-10T01:48:42Z - [173612] send to 10.32.12.131|200|2.048118ms|
+[API]2024-05-10T01:48:42Z - [125732] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:42.110+0000"}
+[API]2024-05-10T01:48:42Z - [125732] send to 10.32.12.131|200|1.695016ms|
+[API]2024-05-10T01:48:42Z - [111250] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"180,1070","ts":"2024-05-10T01:48:42.129+0000"}
+[API]2024-05-10T01:48:42Z - [111250] send to 10.32.12.131|200|1.897417ms|
+[API]2024-05-10T01:48:42Z - [119500] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1071","ts":"2024-05-10T01:48:42.149+0000"}
+[API]2024-05-10T01:48:42Z - [119500] send to 10.32.12.131|200|2.069519ms|
+[API]2024-05-10T01:48:42Z - [141401] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1071","ts":"2024-05-10T01:48:42.161+0000"}
+[API]2024-05-10T01:48:42Z - [141401] send to 10.32.12.131|200|1.921317ms|
+[API]2024-05-10T01:48:42Z - [167628] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1071","ts":"2024-05-10T01:48:42.173+0000"}
+[API]2024-05-10T01:48:42Z - [167628] send to 10.32.12.131|200|2.187419ms|
+[API]2024-05-10T01:48:42Z - [170995] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1071","ts":"2024-05-10T01:48:42.188+0000"}
+[API]2024-05-10T01:48:42Z - [170995] send to 10.32.12.5|200|1.877917ms|
+[API]2024-05-10T01:48:42Z - [191892] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1072","ts":"2024-05-10T01:48:42.205+0000"}
+[API]2024-05-10T01:48:42Z - [191892] send to 10.32.12.5|200|1.852917ms|
+[API]2024-05-10T01:48:42Z - [112077] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1072","ts":"2024-05-10T01:48:42.219+0000"}
+[API]2024-05-10T01:48:42Z - [112077] send to 10.32.12.5|200|2.23312ms|
+[API]2024-05-10T01:48:42Z - [164436] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1072","ts":"2024-05-10T01:48:42.240+0000"}
+[API]2024-05-10T01:48:42Z - [164436] send to 10.32.12.131|200|1.872316ms|
+[API]2024-05-10T01:48:42Z - [195779] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1072","ts":"2024-05-10T01:48:42.258+0000"}
+[API]2024-05-10T01:48:42Z - [195779] send to 10.32.12.5|200|1.748716ms|
+[API]2024-05-10T01:48:42Z - [112384] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1073","ts":"2024-05-10T01:48:42.272+0000"}
+[API]2024-05-10T01:48:42Z - [112384] send to 10.32.12.5|200|1.832317ms|
+[API]2024-05-10T01:48:42Z - [134055] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1073","ts":"2024-05-10T01:48:42.284+0000"}
+[API]2024-05-10T01:48:42Z - [134055] send to 10.32.12.131|200|1.756715ms|
+[API]2024-05-10T01:48:42Z - [152100] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1073","ts":"2024-05-10T01:48:42.295+0000"}
+[API]2024-05-10T01:48:42Z - [152100] send to 10.32.12.5|200|1.732316ms|
+[API]2024-05-10T01:48:42Z - [139804] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1073","ts":"2024-05-10T01:48:42.312+0000"}
+[API]2024-05-10T01:48:42Z - [139804] send to 10.32.12.5|200|2.044018ms|
+[API]2024-05-10T01:48:42Z - [170296] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1075","ts":"2024-05-10T01:48:42.324+0000"}
+[API]2024-05-10T01:48:42Z - [170296] send to 10.32.12.131|200|6.928362ms|
+[API]2024-05-10T01:48:42Z - [113831] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"180,1075","ts":"2024-05-10T01:48:42.347+0000"}
+[API]2024-05-10T01:48:42Z - [113831] send to 10.32.12.68|200|1.918117ms|
+[API]2024-05-10T01:48:42Z - [102087] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'N_ACW',0","ts":"2024-05-10T01:48:42.368+0000"}
+[API]2024-05-10T01:48:42Z - [102087] send to 10.32.12.195|200|6.328456ms|
+[API]2024-05-10T01:48:42Z - [170646] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'N_ACWH',0","ts":"2024-05-10T01:48:42.381+0000"}
+[API]2024-05-10T01:48:42Z - [170646] send to 10.32.12.68|200|3.014627ms|
+[API]2024-05-10T01:48:42Z - [107397] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'N_ACWHD',0","ts":"2024-05-10T01:48:42.398+0000"}
+[API]2024-05-10T01:48:42Z - [107397] send to 10.32.12.68|200|4.094336ms|
+[API]2024-05-10T01:48:42Z - [101595] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'N_ACWHDA',0","ts":"2024-05-10T01:48:42.417+0000"}
+[API]2024-05-10T01:48:42Z - [101595] send to 10.32.12.68|200|3.801134ms|
+[API]2024-05-10T01:48:42Z - [174034] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_AP',0","ts":"2024-05-10T01:48:42.567+0000"}
+[API]2024-05-10T01:48:42Z - [174034] send to 10.32.12.195|200|2.629223ms|
+[API]2024-05-10T01:48:42Z - [140225] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.588+0000"}
+[API]2024-05-10T01:48:42Z - [140225] send to 10.32.12.68|200|2.009818ms|
+[API]2024-05-10T01:48:42Z - [196782] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.619+0000"}
+[API]2024-05-10T01:48:42Z - [196782] send to 10.32.12.195|200|1.815716ms|
+[API]2024-05-10T01:48:42Z - [193995] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.633+0000"}
+[API]2024-05-10T01:48:42Z - [193995] send to 10.32.12.68|200|1.738916ms|
+[API]2024-05-10T01:48:42Z - [148402] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_KWP',0","ts":"2024-05-10T01:48:42.665+0000"}
+[API]2024-05-10T01:48:42Z - [148402] send to 10.32.12.195|200|3.879135ms|
+[API]2024-05-10T01:48:42Z - [123106] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_RAE',0","ts":"2024-05-10T01:48:42.878+0000"}
+[API]2024-05-10T01:48:42Z - [123106] send to 10.32.12.68|200|3.077327ms|
+[API]2024-05-10T01:48:42Z - [160030] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.897+0000"}
+[API]2024-05-10T01:48:42Z - [160030] send to 10.32.12.68|200|1.646115ms|
+[API]2024-05-10T01:48:42Z - [167344] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.915+0000"}
+[API]2024-05-10T01:48:42Z - [167344] send to 10.32.12.195|200|1.572314ms|
+[API]2024-05-10T01:48:42Z - [117638] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_YIELD_D',0","ts":"2024-05-10T01:48:42.929+0000"}
+[API]2024-05-10T01:48:42Z - [117638] send to 10.32.12.68|200|2.173619ms|
+[API]2024-05-10T01:48:42Z - [146597] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_YIELD_M',0","ts":"2024-05-10T01:48:42.947+0000"}
+[API]2024-05-10T01:48:42Z - [146597] send to 10.32.12.68|200|792.007µs|
+[API]2024-05-10T01:48:42Z - [198394] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"181,1078,'M_YIELD_Y',0","ts":"2024-05-10T01:48:42.962+0000"}
+[API]2024-05-10T01:48:42Z - [198394] send to 10.32.12.68|200|633.906µs|
+[API]2024-05-10T01:48:42Z - [152850] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.974+0000"}
+[API]2024-05-10T01:48:42Z - [152850] send to 10.32.12.68|200|1.868216ms|
+[API]2024-05-10T01:48:42Z - [118950] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:42.989+0000"}
+[API]2024-05-10T01:48:43Z - [118950] send to 10.32.12.68|200|1.964817ms|
+[API]2024-05-10T01:48:43Z - [136553] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"181,1078","ts":"2024-05-10T01:48:43.5+0000"}
+[API]2024-05-10T01:48:43Z - [136553] send to 10.32.12.195|200|1.690515ms|
+[API]2024-05-10T01:48:43Z - [110547] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1079","ts":"2024-05-10T01:48:43.14+0000"}
+[API]2024-05-10T01:48:43Z - [110547] send to 10.32.12.195|200|1.768116ms|
+[API]2024-05-10T01:48:43Z - [174237] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1079","ts":"2024-05-10T01:48:43.22+0000"}
+[API]2024-05-10T01:48:43Z - [174237] send to 10.32.12.68|200|1.751616ms|
+[API]2024-05-10T01:48:43Z - [176293] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1079","ts":"2024-05-10T01:48:43.40+0000"}
+[API]2024-05-10T01:48:43Z - [176293] send to 10.32.12.5|200|1.985318ms|
+[API]2024-05-10T01:48:43Z - [159291] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1079","ts":"2024-05-10T01:48:43.56+0000"}
+[API]2024-05-10T01:48:43Z - [159291] send to 10.32.12.5|200|1.833917ms|
+[API]2024-05-10T01:48:43Z - [123443] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1080","ts":"2024-05-10T01:48:43.71+0000"}
+[API]2024-05-10T01:48:43Z - [123443] send to 10.32.12.131|200|1.614515ms|
+[API]2024-05-10T01:48:43Z - [157271] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1080","ts":"2024-05-10T01:48:43.88+0000"}
+[API]2024-05-10T01:48:43Z - [157271] send to 10.32.12.131|200|1.674715ms|
+[API]2024-05-10T01:48:43Z - [160334] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1080","ts":"2024-05-10T01:48:43.100+0000"}
+[API]2024-05-10T01:48:43Z - [160334] send to 10.32.12.5|200|1.564814ms|
+[API]2024-05-10T01:48:43Z - [104896] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1080","ts":"2024-05-10T01:48:43.113+0000"}
+[API]2024-05-10T01:48:43Z - [104896] send to 10.32.12.131|200|1.441413ms|
+[API]2024-05-10T01:48:43Z - [170524] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1081","ts":"2024-05-10T01:48:43.127+0000"}
+[API]2024-05-10T01:48:43Z - [170524] send to 10.32.12.5|200|1.663615ms|
+[API]2024-05-10T01:48:43Z - [178322] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1081","ts":"2024-05-10T01:48:43.138+0000"}
+[API]2024-05-10T01:48:43Z - [178322] send to 10.32.12.5|200|1.635715ms|
+[API]2024-05-10T01:48:43Z - [154246] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1081","ts":"2024-05-10T01:48:43.149+0000"}
+[API]2024-05-10T01:48:43Z - [154246] send to 10.32.12.5|200|1.480714ms|
+[API]2024-05-10T01:48:43Z - [164410] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1081","ts":"2024-05-10T01:48:43.162+0000"}
+[API]2024-05-10T01:48:43Z - [164410] send to 10.32.12.5|200|1.548114ms|
+[API]2024-05-10T01:48:43Z - [172621] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1083","ts":"2024-05-10T01:48:43.175+0000"}
+[API]2024-05-10T01:48:43Z - [172621] send to 10.32.12.131|200|1.795616ms|
+[API]2024-05-10T01:48:43Z - [134346] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"181,1083","ts":"2024-05-10T01:48:43.193+0000"}
+[API]2024-05-10T01:48:43Z - [134346] send to 10.32.12.5|200|1.845117ms|
+[API]2024-05-10T01:48:43Z - [146300] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'N_ACW',0","ts":"2024-05-10T01:48:43.209+0000"}
+[API]2024-05-10T01:48:43Z - [146300] send to 10.32.12.5|200|5.460049ms|
+[API]2024-05-10T01:48:43Z - [173721] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'N_ACWH',0","ts":"2024-05-10T01:48:43.225+0000"}
+[API]2024-05-10T01:48:43Z - [173721] send to 10.32.12.68|200|5.594549ms|
+[API]2024-05-10T01:48:43Z - [135854] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'N_ACWHD',0","ts":"2024-05-10T01:48:43.247+0000"}
+[API]2024-05-10T01:48:43Z - [135854] send to 10.32.12.68|200|4.121437ms|
+[API]2024-05-10T01:48:43Z - [124743] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'N_ACWHDA',0","ts":"2024-05-10T01:48:43.267+0000"}
+[API]2024-05-10T01:48:43Z - [124743] send to 10.32.12.68|200|3.708033ms|
+[API]2024-05-10T01:48:43Z - [150030] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_AP',0","ts":"2024-05-10T01:48:43.427+0000"}
+[API]2024-05-10T01:48:43Z - [150030] send to 10.32.12.68|200|3.549032ms|
+[API]2024-05-10T01:48:43Z - [196594] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.447+0000"}
+[API]2024-05-10T01:48:43Z - [196594] send to 10.32.12.195|200|3.271229ms|
+[API]2024-05-10T01:48:43Z - [164995] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.485+0000"}
+[API]2024-05-10T01:48:43Z - [164995] send to 10.32.12.68|200|1.543914ms|
+[API]2024-05-10T01:48:43Z - [157906] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.505+0000"}
+[API]2024-05-10T01:48:43Z - [157906] send to 10.32.12.68|200|2.418821ms|
+[API]2024-05-10T01:48:43Z - [112576] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_KWP',0","ts":"2024-05-10T01:48:43.543+0000"}
+[API]2024-05-10T01:48:43Z - [112576] send to 10.32.12.68|200|3.659732ms|
+[API]2024-05-10T01:48:43Z - [159164] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_RAE',0","ts":"2024-05-10T01:48:43.770+0000"}
+[API]2024-05-10T01:48:43Z - [159164] send to 10.32.12.195|200|4.361439ms|
+[API]2024-05-10T01:48:43Z - [142241] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.794+0000"}
+[API]2024-05-10T01:48:43Z - [142241] send to 10.32.12.68|200|1.760615ms|
+[API]2024-05-10T01:48:43Z - [169253] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.815+0000"}
+[API]2024-05-10T01:48:43Z - [169253] send to 10.32.12.68|200|1.743716ms|
+[API]2024-05-10T01:48:43Z - [138523] receive from 10.32.12.68 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_YIELD_D',0","ts":"2024-05-10T01:48:43.851+0000"}
+[API]2024-05-10T01:48:43Z - [138523] send to 10.32.12.68|200|2.648524ms|
+[API]2024-05-10T01:48:43Z - [102412] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_YIELD_M',0","ts":"2024-05-10T01:48:43.870+0000"}
+[API]2024-05-10T01:48:43Z - [102412] send to 10.32.12.195|200|816.607µs|
+[API]2024-05-10T01:48:43Z - [146325] receive from 10.32.12.195 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"182,1086,'M_YIELD_Y',0","ts":"2024-05-10T01:48:43.879+0000"}
+[API]2024-05-10T01:48:43Z - [146325] send to 10.32.12.195|200|1.318111ms|
+[API]2024-05-10T01:48:43Z - [139497] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.894+0000"}
+[API]2024-05-10T01:48:43Z - [139497] send to 10.32.12.195|200|2.362621ms|
+[API]2024-05-10T01:48:43Z - [149161] receive from 10.32.12.68 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.905+0000"}
+[API]2024-05-10T01:48:43Z - [149161] send to 10.32.12.68|200|1.868417ms|
+[API]2024-05-10T01:48:43Z - [107962] receive from 10.32.12.195 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"182,1086","ts":"2024-05-10T01:48:43.923+0000"}
+[API]2024-05-10T01:48:43Z - [107962] send to 10.32.12.195|200|2.028218ms|
+[API]2024-05-10T01:48:43Z - [107408] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1087","ts":"2024-05-10T01:48:43.937+0000"}
+[API]2024-05-10T01:48:43Z - [107408] send to 10.32.12.195|200|2.083418ms|
+[API]2024-05-10T01:48:43Z - [102718] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1087","ts":"2024-05-10T01:48:43.953+0000"}
+[API]2024-05-10T01:48:43Z - [102718] send to 10.32.12.195|200|1.722815ms|
+[API]2024-05-10T01:48:43Z - [102661] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1087","ts":"2024-05-10T01:48:43.969+0000"}
+[API]2024-05-10T01:48:43Z - [102661] send to 10.32.12.195|200|2.005818ms|
+[API]2024-05-10T01:48:43Z - [145831] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1087","ts":"2024-05-10T01:48:43.984+0000"}
+[API]2024-05-10T01:48:43Z - [145831] send to 10.32.12.68|200|2.025818ms|
+[API]2024-05-10T01:48:44Z - [137347] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1088","ts":"2024-05-10T01:48:44.4+0000"}
+[API]2024-05-10T01:48:44Z - [137347] send to 10.32.12.68|200|1.950417ms|
+[API]2024-05-10T01:48:44Z - [114021] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1088","ts":"2024-05-10T01:48:44.28+0000"}
+[API]2024-05-10T01:48:44Z - [114021] send to 10.32.12.5|200|2.058218ms|
+[API]2024-05-10T01:48:44Z - [137153] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1088","ts":"2024-05-10T01:48:44.40+0000"}
+[API]2024-05-10T01:48:44Z - [137153] send to 10.32.12.5|200|1.522513ms|
+[API]2024-05-10T01:48:44Z - [196062] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1088","ts":"2024-05-10T01:48:44.50+0000"}
+[API]2024-05-10T01:48:44Z - [196062] send to 10.32.12.5|200|1.426713ms|
+[API]2024-05-10T01:48:44Z - [147849] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1089","ts":"2024-05-10T01:48:44.62+0000"}
+[API]2024-05-10T01:48:44Z - [147849] send to 10.32.12.131|200|2.082319ms|
+[API]2024-05-10T01:48:44Z - [118902] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1089","ts":"2024-05-10T01:48:44.73+0000"}
+[API]2024-05-10T01:48:44Z - [118902] send to 10.32.12.131|200|1.606615ms|
+[API]2024-05-10T01:48:44Z - [165463] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1089","ts":"2024-05-10T01:48:44.88+0000"}
+[API]2024-05-10T01:48:44Z - [165463] send to 10.32.12.5|200|1.760316ms|
+[API]2024-05-10T01:48:44Z - [122587] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1089","ts":"2024-05-10T01:48:44.99+0000"}
+[API]2024-05-10T01:48:44Z - [122587] send to 10.32.12.5|200|1.849517ms|
+[API]2024-05-10T01:48:44Z - [198498] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1091","ts":"2024-05-10T01:48:44.112+0000"}
+[API]2024-05-10T01:48:44Z - [198498] send to 10.32.12.5|200|1.788416ms|
+[API]2024-05-10T01:48:44Z - [131709] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"182,1091","ts":"2024-05-10T01:48:44.123+0000"}
+[API]2024-05-10T01:48:44Z - [131709] send to 10.32.12.131|200|1.770816ms|
+[API]2024-05-10T01:48:44Z - [197835] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1094","ts":"2024-05-10T01:48:44.153+0000"}
+[API]2024-05-10T01:48:44Z - [197835] send to 10.32.12.5|200|1.848316ms|
+[API]2024-05-10T01:48:44Z - [143164] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1094","ts":"2024-05-10T01:48:44.168+0000"}
+[API]2024-05-10T01:48:44Z - [143164] send to 10.32.12.131|200|1.962017ms|
+[API]2024-05-10T01:48:44Z - [113986] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1094","ts":"2024-05-10T01:48:44.182+0000"}
+[API]2024-05-10T01:48:44Z - [113986] send to 10.32.12.131|200|1.718315ms|
+[API]2024-05-10T01:48:44Z - [118219] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1094","ts":"2024-05-10T01:48:44.198+0000"}
+[API]2024-05-10T01:48:44Z - [118219] send to 10.32.12.5|200|1.752816ms|
+[API]2024-05-10T01:48:44Z - [175143] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1095","ts":"2024-05-10T01:48:44.210+0000"}
+[API]2024-05-10T01:48:44Z - [175143] send to 10.32.12.5|200|1.632214ms|
+[API]2024-05-10T01:48:44Z - [121092] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1095","ts":"2024-05-10T01:48:44.222+0000"}
+[API]2024-05-10T01:48:44Z - [121092] send to 10.32.12.5|200|3.477231ms|
+[API]2024-05-10T01:48:44Z - [143480] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1095","ts":"2024-05-10T01:48:44.239+0000"}
+[API]2024-05-10T01:48:44Z - [143480] send to 10.32.12.195|200|1.596315ms|
+[API]2024-05-10T01:48:44Z - [116646] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1095","ts":"2024-05-10T01:48:44.247+0000"}
+[API]2024-05-10T01:48:44Z - [116646] send to 10.32.12.195|200|1.372113ms|
+[API]2024-05-10T01:48:44Z - [151329] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1096","ts":"2024-05-10T01:48:44.265+0000"}
+[API]2024-05-10T01:48:44Z - [151329] send to 10.32.12.195|200|1.787116ms|
+[API]2024-05-10T01:48:44Z - [193850] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1096","ts":"2024-05-10T01:48:44.273+0000"}
+[API]2024-05-10T01:48:44Z - [193850] send to 10.32.12.68|200|1.827716ms|
+[API]2024-05-10T01:48:44Z - [145042] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1096","ts":"2024-05-10T01:48:44.288+0000"}
+[API]2024-05-10T01:48:44Z - [145042] send to 10.32.12.68|200|1.609215ms|
+[API]2024-05-10T01:48:44Z - [100052] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1096","ts":"2024-05-10T01:48:44.302+0000"}
+[API]2024-05-10T01:48:44Z - [100052] send to 10.32.12.68|200|2.174919ms|
+[API]2024-05-10T01:48:44Z - [149298] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1098","ts":"2024-05-10T01:48:44.317+0000"}
+[API]2024-05-10T01:48:44Z - [149298] send to 10.32.12.195|200|1.809617ms|
+[API]2024-05-10T01:48:44Z - [140889] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"183,1098","ts":"2024-05-10T01:48:44.326+0000"}
+[API]2024-05-10T01:48:44Z - [140889] send to 10.32.12.195|200|1.627815ms|
+[API]2024-05-10T01:48:44Z - [169640] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1103","ts":"2024-05-10T01:48:44.338+0000"}
+[API]2024-05-10T01:48:44Z - [169640] send to 10.32.12.68|200|1.979618ms|
+[API]2024-05-10T01:48:44Z - [161180] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1103","ts":"2024-05-10T01:48:44.361+0000"}
+[API]2024-05-10T01:48:44Z - [161180] send to 10.32.12.195|200|2.25222ms|
+[API]2024-05-10T01:48:44Z - [177538] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1103","ts":"2024-05-10T01:48:44.377+0000"}
+[API]2024-05-10T01:48:44Z - [177538] send to 10.32.12.195|200|2.100319ms|
+[API]2024-05-10T01:48:44Z - [140838] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1103","ts":"2024-05-10T01:48:44.391+0000"}
+[API]2024-05-10T01:48:44Z - [140838] send to 10.32.12.195|200|1.892717ms|
+[API]2024-05-10T01:48:44Z - [185959] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1104","ts":"2024-05-10T01:48:44.399+0000"}
+[API]2024-05-10T01:48:44Z - [185959] send to 10.32.12.68|200|2.294021ms|
+[API]2024-05-10T01:48:44Z - [180162] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1104","ts":"2024-05-10T01:48:44.413+0000"}
+[API]2024-05-10T01:48:44Z - [180162] send to 10.32.12.68|200|1.915217ms|
+[API]2024-05-10T01:48:44Z - [144560] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1104","ts":"2024-05-10T01:48:44.431+0000"}
+[API]2024-05-10T01:48:44Z - [144560] send to 10.32.12.68|200|2.188619ms|
+[API]2024-05-10T01:48:44Z - [176970] receive from 10.32.12.195 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1104","ts":"2024-05-10T01:48:44.450+0000"}
+[API]2024-05-10T01:48:44Z - [176970] send to 10.32.12.195|200|1.802616ms|
+[API]2024-05-10T01:48:44Z - [195655] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1105","ts":"2024-05-10T01:48:44.462+0000"}
+[API]2024-05-10T01:48:44Z - [195655] send to 10.32.12.68|200|1.934317ms|
+[API]2024-05-10T01:48:44Z - [147796] receive from 10.32.12.68 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1105","ts":"2024-05-10T01:48:44.481+0000"}
+[API]2024-05-10T01:48:44Z - [147796] send to 10.32.12.68|200|2.26372ms|
+[API]2024-05-10T01:48:44Z - [136722] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1105","ts":"2024-05-10T01:48:44.498+0000"}
+[API]2024-05-10T01:48:44Z - [136722] send to 10.32.12.5|200|2.189319ms|
+[API]2024-05-10T01:48:44Z - [138974] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1105","ts":"2024-05-10T01:48:44.512+0000"}
+[API]2024-05-10T01:48:44Z - [138974] send to 10.32.12.131|200|1.987217ms|
+[API]2024-05-10T01:48:44Z - [161245] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1107","ts":"2024-05-10T01:48:44.525+0000"}
+[API]2024-05-10T01:48:44Z - [161245] send to 10.32.12.5|200|1.791916ms|
+[API]2024-05-10T01:48:44Z - [163580] receive from 10.32.12.5 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1107","ts":"2024-05-10T01:48:44.538+0000"}
+[API]2024-05-10T01:48:44Z - [163580] send to 10.32.12.5|200|1.884717ms|
+[API]2024-05-10T01:48:44Z - [144468] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"184,1109,'N_ACW',0","ts":"2024-05-10T01:48:44.555+0000"}
+[API]2024-05-10T01:48:44Z - [144468] send to 10.32.12.131|200|5.515449ms|
+[API]2024-05-10T01:48:44Z - [193044] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"184,1109,'N_ACWH',0","ts":"2024-05-10T01:48:44.572+0000"}
+[API]2024-05-10T01:48:44Z - [193044] send to 10.32.12.5|200|3.703033ms|
+[API]2024-05-10T01:48:44Z - [170512] receive from 10.32.12.131 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"184,1109,'N_ACWHD',0","ts":"2024-05-10T01:48:44.595+0000"}
+[API]2024-05-10T01:48:44Z - [170512] send to 10.32.12.131|200|3.280629ms|
+[API]2024-05-10T01:48:44Z - [171589] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"184,1109,'N_ACWHDA',0","ts":"2024-05-10T01:48:44.610+0000"}
+[API]2024-05-10T01:48:44Z - [171589] send to 10.32.12.5|200|3.41873ms|
+[API]2024-05-10T01:48:44Z - [137643] receive from 10.32.12.5 |[97;41m POST[0m|/group/param/sum|{"action":"calcrequest","function":"getGroupParamSum","paras":"184,1109,'M_AP',0","ts":"2024-05-10T01:48:44.765+0000"}
+[API]2024-05-10T01:48:44Z - [137643] send to 10.32.12.5|200|3.926935ms|
+[API]2024-05-10T01:48:44Z - [160254] receive from 10.32.12.131 |[97;41m POST[0m|/object/alarm/status|{"action":"calcrequest","function":"getObjectAlarmStatus","paras":"184,1109","ts":"2024-05-10T01:48:44.789+0000"}
+[API]2024-05-10T01:48:44Z - [160254] send to 10.32.12.131|200|1.732215ms|
+[API]2024-05-10T01:48:44Z - [126128] receive from 10.32.12.131 |[97;41m POST[0m|/group/alarm/status|{"action":"calcrequest","function":"getGroupAlarmStatus","paras":"184,1109","ts":"2024-05-10T01:48:44.825+0000"}
+[API]2024-05-10T01:48:44Z - [126128] send to 10.32.12.131|200|1.775916ms|
