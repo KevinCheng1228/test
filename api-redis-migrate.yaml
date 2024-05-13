@@ -1,0 +1,41 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: api-redis-migrate
+spec:
+  template:
+    spec:
+      serviceAccountName: default
+      securityContext:
+        null
+      containers:
+      - name: api-redis-migrate
+        securityContext: {}
+        ports:
+          - name: http
+            containerPort: 8080
+            protocol: TCP
+        env:
+        - name: VCAP_SERVICES
+          valueFrom:
+            secretKeyRef:
+              key: ENSAAS_SERVICES
+              name: edge365-secret
+        - name: APP_ENV
+          value: staging
+        - name: mplus_version
+          value: 2.1.1
+        image: harbor.arfa.wise-paas.com/deviceonbi/api-redis-migrate:dev-api-redis-migrate-b38106a
+        imagePullPolicy: Always
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+            ephemeral-storage: "128Mi"
+          requests:  
+            cpu: "100m"
+            memory: "128Mi"
+            ephemeral-storage: "128Mi"
+      restartPolicy: OnFailure
+  backoffLimit: 5
+  ttlSecondsAfterFinished: 3600
