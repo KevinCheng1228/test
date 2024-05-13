@@ -25,7 +25,7 @@ spec:
           value: staging
         - name: mplus_version
           value: 2.1.1
-        image: harbor.arfa.wise-paas.com/deviceonbi/api-redis-migrate:dev-api-redis-migrate-b38106a
+        image: harbor.arfa.wise-paas.com/deviceonbi/api-redis-migrate:dev-master-01-b38106a
         imagePullPolicy: Always
         resources:
           limits:
