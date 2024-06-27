@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dc-min-collection-migration-pre
+  labels:
+    app: dc-min-collection-migration-pre-l 
+  annotations:
+    #"helm.sh/hook": pre-install,pre-upgrade
+    "helm.sh/hook-weight": "-14"    
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dc-min-collection-migration-pre-l 
+  template:
+    metadata:
+      labels:
+        app: dc-min-collection-migration-pre-l 
+    spec:    
+      serviceAccountName: default
+      securityContext: null
+      containers:
+        - name: dc-min-collection-migration-pre
+          securityContext: {}            
+          image: harbor.arfa.wise-paas.com/deviceonbi/dc-min-collection-migration:2.1.17-pre
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          env:
+            - name: VCAP_SERVICES
+              valueFrom:
+                secretKeyRef:
+                  name: edge365-secret
+                  key: ENSAAS_SERVICES
+            - name: mplus_version
+              value: 2.1.17
+            - name: dashboard_url
+              value: http://dashboard-pro-e100:80
+            - name: bi_edition
+              value: azure-aks 
+            - name: rabbitmq_service_name
+              value: p-rabbitmq
+            - name: mongodb_service_name
+              value: mongodb
+            - name: postgresql_service_name
+              value: postgresql
+            - name: redis_service_name
+              value: redis
+            - name: APP_ENV
+              value: staging  
+            - name: NODE_ENV 
+              value: production            
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
+              ephemeral-storage: "256Mi"
+            requests:
+              memory: "256Mi"
+              cpu: "50m"
+              ephemeral-storage: "256Mi"

@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: restart-worker-pod
+  namespace: edge365
+spec:
+  schedule: "30 11 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: kubectl
+            image: bitnami/kubectl:latest
+            command:
+            - /bin/sh
+            - -c
+            - kubectl rollout restart deployment/wise-mplus-worker -n edge365
+            resources:
+              limits:
+                cpu: "100m"  
+                memory: "128Mi" 
+                ephemeral-storage: 128Mi
+              requests:
+                cpu: "50m"  
+                memory: "64Mi"         
+          restartPolicy: OnFailure
