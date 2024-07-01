@@ -1,0 +1,63 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: wise-mplus-evaluator-restore
+spec:
+  template:
+    spec:
+      serviceAccountName: default
+      securityContext:
+        null
+      containers:
+      - name: wise-mplus-evaluator-restore
+        securityContext: {}
+        ports:
+          - name: http
+            containerPort: 8080
+            protocol: TCP
+        env:
+        - name: VCAP_SERVICES
+          valueFrom:
+            secretKeyRef:
+              key: ENSAAS_SERVICES
+              name: edge365-secret
+        - name: rabbitmq_service_name
+          value: p-rabbitmq
+        - name: mongodb_service_name
+          value: mongodb
+        - name: postgresql_service_name
+          value: postgresql
+        - name: APP_ENV
+          value: staging
+        - name: JBP_CONFIG_OPEN_JDK_JRE
+          value: '[memory_calculator: {stack_threads: 50, memory_sizes: {stack: 512k}}]'
+        - name: mplus_version
+          value: 2.1.1
+        - name: RestoreStartTime
+          value: 2024-06-28T11:20:00+0000
+        - name: RestoreEndTime
+          value: 2024-06-30T00:30:00+0000
+        - name: ReCalcGroupIds_
+          value: '715'
+        - name: recalcdevid_
+          value: '28182'
+        - name: recalctagname_
+          value: M_RAE_PD
+        - name: debugdevid_
+          value: '28180'
+        - name: debugtagname_
+          value: G_CAPTIVE
+        image: harbor.arfa.wise-paas.com/deviceonbi/wise-mplus-evaluator:dev-2.01.002-Restore.20240624
+        imagePullPolicy: IfNotPresent
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+            ephemeral-storage: "128Mi"
+          requests:  
+            cpu: "100m"
+            memory: "128Mi"
+            ephemeral-storage: "128Mi"
+      restartPolicy: OnFailure
+  backoffLimit: 5
+  ttlSecondsAfterFinished: 3600
