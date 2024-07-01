@@ -47,7 +47,7 @@ spec:
           value: '28180'
         - name: debugtagname_
           value: G_CAPTIVE
-        image: harbor.arfa.wise-paas.com/deviceonbi/wise-mplus-evaluator:dev-2.01.002-Restore.20240624
+        image: harbor.arfa.wise-paas.com/deviceonbi/wise-mplus-evaluator:dev-2.01.002-Restore.20240701
         imagePullPolicy: IfNotPresent
         resources:
           limits:
