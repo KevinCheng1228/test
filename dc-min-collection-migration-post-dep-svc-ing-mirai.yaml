@@ -1,0 +1,54 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: dc-min-collection-migration-post
+spec:
+  template:    
+    spec:    
+      serviceAccountName: default
+      securityContext: null
+      containers:
+        - name: dc-min-collection-migration-post
+          securityContext: {}            
+          image: harbor.arfa.wise-paas.com/deviceonbi/dc-min-collection-migration:2.1.17.1-post
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          env:
+            - name: VCAP_SERVICES
+              valueFrom:
+                secretKeyRef:
+                  name: edge365-secret
+                  key: ENSAAS_SERVICES
+            - name: mplus_version
+              value: 2.00.001
+            - name: rabbitmq_service_name
+              value: p-rabbitmq
+            - name: mongodb_service_name
+              value: mongodb
+            - name: postgresql_service_name
+              value: postgresql
+            - name: APP_ENV
+              value: staging
+            - name: redis_service_name
+              value: redis              
+            - name: ETCD_HOST
+              value: pivot-etcd
+            - name: ETCD_PORT
+              value: "2379"   
+            - name: specificDays
+              value: "2024-07-10"
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+              ephemeral-storage: "500Mi"
+            requests:
+              memory: "512Mi"
+              cpu: "200m"
+              ephemeral-storage: "500Mi"
+      restartPolicy: Never
+  backoffLimit: 1
+  ttlSecondsAfterFinished: 86400
