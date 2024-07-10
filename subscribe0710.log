@@ -1,0 +1,61 @@
+ene-simplejson-service start>> NodeJs ver=v20.11.0
+Git Branch: develop, Git Tag: 2.00.001, Build Version: Build007, Update Time: 2023-08-03T14:04:00.000Z
+EXDOMAIN:sembcorp.net
+DOMAIN:.net
+APP_POSTFIX:-deviceon-bi
+DATACENTER:local
+CLUSTER:solarscada
+WORKSPACE:00b44062-f611-46ce-b6cc-cdf44e0aaae6
+NAMESPACE:edge365
+APP_NAME:api-subscribe-deviceon-bi
+VERSION:2.1.18
+EDITION:azure-aks-customer
+API_PORTAL_URL:http://api-portal-wise-mplus:80
+API_SSO_URL:http://api.sso.solarscada.en.internal/v4.0
+API_SSO_EXURL:http://api-sso-solarscada.sembcorp.net/v4.0
+API_DCCS_URL:http://api.dccs.solarscada.en.internal/v1
+API_DCCS_EXURL:http://api-dccs-solarscada.sembcorp.net/v1
+API_MARKETPLACE_URL:https://wise-paas-api.advantech.com
+API_MARKETPLACE_NEW_URL:https://wise-paas-webapi.advantech.com
+API_PROFILE_PROXY_URL:http://api-profile-proxy-mplus:80
+API_LICENSE_URL:http://api.license.solarscada.en.internal/v1
+API_INSPECTION_URL:http://api-job-executor-wise-mplus.edge365.svc
+API_DBMASTER_URL:http://api-dbmaster-wise-mplus:80
+API_PLUGIN_URL: http://api-plugin-deviceon-bi.edge365.svc
+API_FORWARDING_URL: http://api-forwarding-deviceon-bi.edge365.svc
+API_SUBSCRIBE_URL: http://api-subscribe-deviceon-bi.edge365.svc
+API_SAAS_COMPOSER_URL: http://saas-composer-edge365:80
+API_TENANT_URL: http://ifp-tenant:80
+PORTAL_URL:https://portal-deviceon-bi-edge365-solarscada.sembcorp.net
+PORTAL_PIVOT_URL:http://pivot-api-hub:80
+SSO_ADMIN.username:advantech.iiot@advantech.com
+SSO_ADMIN.password:@Dvan2021
+SSO_ADMIN.credentialcode:@dvan2023
+ETCD_SERVER_HOST:http://pivot-etcd:2379
+Get configure data of RabbitMQ success
+CloudService is Run at cloud
+pgCredentials: {"database":"f343d5b5-17d4-448b-a944-ae3efb10b948","externalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","host":"ebd34b508e91.privatelink.postgres.database.azure.com","internalHosts":"ebd34b508e91.privatelink.postgres.database.azure.com:5432","password":"wEMizvHmDXBbT0KeOaRyFQLcV","port":5432,"uri":"postgres://ee2f15fd-4461-4a0e-b1ec-9f193f2111d1:wEMizvHmDXBbT0KeOaRyFQLcV@ebd34b508e91.privatelink.postgres.database.azure.com:5432/f343d5b5-17d4-448b-a944-ae3efb10b948","username":"ee2f15fd-4461-4a0e-b1ec-9f193f2111d1"}
+mongodb is Run at cloud
+Start schedule task every month
+Start schedule task every month
+【Start retry schedule task every day】
+Persisted queries are enabled and are using an unbounded cache. Your server is vulnerable to denial of service attacks via memory exhaustion. Set `cache: "bounded"` or `persistedQueries: false` in your ApolloServer constructor, or see https://go.apollo.dev/s/cache-backends for other alternatives.
+Server is listening to port 8080
+(node:8) DeprecationWarning: 'buildFederatedSchema' is deprecated. Use 'buildSubgraphSchema' instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Enabling inline tracing for this federated service. To disable, use ApolloServerPluginInlineTraceDisabled.
+The current leader is 2.1.1/2024-07-10T02:32:55.894Z
+Connected to mqtt broker success
+【Migration】Update subscribeinfo count: 1
+【Migration】Update subscribeinfoex count: 1
+Connect [mongodb] success !
+PMList from GitHub: ["Itsung.shen@advantech.com.tw","xiaochen.shi@advantech.com.cn","Hao.Ning@advantech.com.cn","VickyYC.Lin@advantech.com.tw","Nick.Liu@advantech.com.tw","sw.tan@advantech.com","tracy.su@advantech.com.tw","jacksc.yang@advantech.com.tw"]
+2024-07-10T04:40:42.299Z POST /graphql api-subscribe-deviceon-bi 1.1
+2024-07-10T04:41:21.129Z POST /graphql api-subscribe-deviceon-bi 1.1
+The new leader is 2.1.18/2024-07-10T04:40:33.990Z
+SERVICE_SECRET: nLWK3E4hqA6hhoEcMuNFPBrMuNUxH0
+rootTenantId is: VGVuYW50.ZMDtPwQpNN4lUFDL
+2024-07-10T04:41:31.019Z POST /graphql api-subscribe-deviceon-bi 1.1
+2024-07-10T04:45:11.529Z POST /subscription/orginfo api-subscribe-deviceon-bi.edge365.svc 1.1
+2024-07-10T04:45:23.586Z POST /subscription/orginfo api-subscribe-deviceon-bi.edge365.svc 1.1
+2024-07-10T04:46:15.312Z POST /subscription/orginfo api-subscribe-deviceon-bi.edge365.svc 1.1
