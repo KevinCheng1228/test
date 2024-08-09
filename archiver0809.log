@@ -1,0 +1,320 @@
+2024/08/09 03:34:25.475508 main.go:13: main() start...
+2024/08/09 03:34:25.475548 Init.go:26: InitServer() start... 
+2024/08/09 03:34:25.475613 memLimit.go:22: memLimitInit() start... 
+2024/08/09 03:34:25.475626 memLimit.go:36: memLimitInit() use env memory limit 4096M
+2024/08/09 03:34:25.475631 memLimit.go:43: memLimitInit() memLimit= 4096M
+2024/08/09 03:34:25.475652 memLimit.go:26: memLimitInit() End. cost=11µs 
+2024/08/09 03:34:25.475659 func.go:16: pgFunc.Init() start... 
+2024/08/09 03:34:25.496666 func.go:20: pgFunc.Init() End. cost=20.986644ms 
+2024/08/09 03:34:25.496690 func.go:40: mongoFunc.Init() start... dbType=wisepaasMongo 
+2024/08/09 03:34:25.497148 mongo.go:45: mongo manager connect success. dbInfo={ host:10.32.9.4 port:27017 user:f198f956-4a39-4807-aa16-67a60f6907a6 database:3d4b8305-a069-462a-af03-56a723cc331e replicaSetName:rs0 minPoolSize:100 maxPoolSize:100 defTimeout:5000000000 timeout:60000000000 }
+
+2024/08/09 03:34:25.497176 func.go:44: mongoFunc.Init() End. dbType=wisepaasMongo, cost=479.01µs 
+2024/08/09 03:34:25.497182 dataSaver.go:80: dataSaver.Init() start... 
+2024/08/09 03:34:25.506749 dataSaver.go:84: dataSaver.Init() End. cost=9.543302ms 
+2024/08/09 03:34:25.506785 paramManager.go:30: param.Init() start... 
+2024/08/09 03:34:25.718171 paramManager.go:237: init() GetAllParamlist(offset=10000) configCount=10000 
+
+2024/08/09 03:34:25 [32m/go/src/wise-mplus-archiver/internal/pgFunc/pgGrom.go:58 [33mSLOW SQL >= 200ms
+[0m[31;1m[211.197ms] [33m[rows:10000][35m SELECT "devicetaginfo"."equipid","devicetaginfo"."equipparam","devicetaginfo"."devid","devicetaginfo"."tagname","devicetaginfo"."savefreq","devicetaginfo"."datatype","devicetaginfo"."maxchangeratepermin","devicetaginfo"."spanhi","devicetaginfo"."spanlo","devicetaginfo"."statetxt","devicetaginfo"."negativemode" FROM "pgsrpschema"."devicetaginfo" WHERE datatype in (1,11,21,2,12,22,3,13,23,4,14,24)  AND savefreq >= 1  AND savefreq <= 3600  ORDER BY equipid, equipparam LIMIT 10000[0m
+2024/08/09 03:34:26.704680 paramManager.go:237: init() GetAllParamlist(offset=20000) configCount=10000 
+2024/08/09 03:34:27.630397 paramManager.go:237: init() GetAllParamlist(offset=30000) configCount=10000 
+2024/08/09 03:34:28.575341 paramManager.go:237: init() GetAllParamlist(offset=40000) configCount=10000 
+2024/08/09 03:34:29.517168 paramManager.go:237: init() GetAllParamlist(offset=50000) configCount=10000 
+2024/08/09 03:34:30.516152 paramManager.go:237: init() GetAllParamlist(offset=60000) configCount=10000 
+2024/08/09 03:34:31.724252 paramManager.go:237: init() GetAllParamlist(offset=70000) configCount=10000 
+2024/08/09 03:34:32.909082 paramManager.go:237: init() GetAllParamlist(offset=80000) configCount=10000 
+2024/08/09 03:34:34.014710 paramManager.go:237: init() GetAllParamlist(offset=90000) configCount=10000 
+2024/08/09 03:34:35.193412 paramManager.go:237: init() GetAllParamlist(offset=100000) configCount=10000 
+
+2024/08/09 03:34:36 [32m/go/src/wise-mplus-archiver/internal/pgFunc/pgGrom.go:58 [33mSLOW SQL >= 200ms
+[0m[31;1m[205.072ms] [33m[rows:10000][35m SELECT "devicetaginfo"."equipid","devicetaginfo"."equipparam","devicetaginfo"."devid","devicetaginfo"."tagname","devicetaginfo"."savefreq","devicetaginfo"."datatype","devicetaginfo"."maxchangeratepermin","devicetaginfo"."spanhi","devicetaginfo"."spanlo","devicetaginfo"."statetxt","devicetaginfo"."negativemode" FROM "pgsrpschema"."devicetaginfo" WHERE datatype in (1,11,21,2,12,22,3,13,23,4,14,24)  AND savefreq >= 1  AND savefreq <= 3600  ORDER BY equipid, equipparam LIMIT 10000 OFFSET 100000[0m
+2024/08/09 03:34:36.475702 paramManager.go:237: init() GetAllParamlist(offset=110000) configCount=10000 
+2024/08/09 03:34:37.824739 paramManager.go:237: init() GetAllParamlist(offset=120000) configCount=10000 
+2024/08/09 03:34:39.309866 paramManager.go:237: init() GetAllParamlist(offset=130000) configCount=10000 
+2024/08/09 03:34:40.560155 paramManager.go:237: init() GetAllParamlist(offset=140000) configCount=10000 
+2024/08/09 03:34:41.622012 paramManager.go:237: init() GetAllParamlist(offset=150000) configCount=10000 
+
+2024/08/09 03:34:42 [32m/go/src/wise-mplus-archiver/internal/pgFunc/pgGrom.go:58 [33mSLOW SQL >= 200ms
+[0m[31;1m[203.250ms] [33m[rows:10000][35m SELECT "devicetaginfo"."equipid","devicetaginfo"."equipparam","devicetaginfo"."devid","devicetaginfo"."tagname","devicetaginfo"."savefreq","devicetaginfo"."datatype","devicetaginfo"."maxchangeratepermin","devicetaginfo"."spanhi","devicetaginfo"."spanlo","devicetaginfo"."statetxt","devicetaginfo"."negativemode" FROM "pgsrpschema"."devicetaginfo" WHERE datatype in (1,11,21,2,12,22,3,13,23,4,14,24)  AND savefreq >= 1  AND savefreq <= 3600  ORDER BY equipid, equipparam LIMIT 10000 OFFSET 150000[0m
+2024/08/09 03:34:42.970543 paramManager.go:237: init() GetAllParamlist(offset=160000) configCount=10000 
+2024/08/09 03:34:44.459139 paramManager.go:237: init() GetAllParamlist(offset=170000) configCount=10000 
+2024/08/09 03:34:45.735090 paramManager.go:237: init() GetAllParamlist(offset=180000) configCount=10000 
+
+2024/08/09 03:34:46 [32m/go/src/wise-mplus-archiver/internal/pgFunc/pgGrom.go:58 [33mSLOW SQL >= 200ms
+[0m[31;1m[222.678ms] [33m[rows:10000][35m SELECT "devicetaginfo"."equipid","devicetaginfo"."equipparam","devicetaginfo"."devid","devicetaginfo"."tagname","devicetaginfo"."savefreq","devicetaginfo"."datatype","devicetaginfo"."maxchangeratepermin","devicetaginfo"."spanhi","devicetaginfo"."spanlo","devicetaginfo"."statetxt","devicetaginfo"."negativemode" FROM "pgsrpschema"."devicetaginfo" WHERE datatype in (1,11,21,2,12,22,3,13,23,4,14,24)  AND savefreq >= 1  AND savefreq <= 3600  ORDER BY equipid, equipparam LIMIT 10000 OFFSET 180000[0m
+2024/08/09 03:34:46.899429 paramManager.go:237: init() GetAllParamlist(offset=190000) configCount=10000 
+2024/08/09 03:34:48.227314 paramManager.go:237: init() GetAllParamlist(offset=200000) configCount=10000 
+2024/08/09 03:34:49.469998 paramManager.go:237: init() GetAllParamlist(offset=210000) configCount=10000 
+2024/08/09 03:34:50.707199 paramManager.go:237: init() GetAllParamlist(offset=213702) configCount=3702 
+2024/08/09 03:34:51.503016 paramManager.go:107: showAllParams()
+showAllParams() paramManage.Size= 15613.041 KB
+showAllParams() delParamMapObj.l= 0
+showAllParams() paramMapObj.l= 213702 * 1247 B
+showAllParams() rawMapObj.l= 202848 * 48 B
+showAllParams() ProcessingRawData.l= 0
+showAllParams() dataSaver()
+showAllParams() totalCacheSize= 459776 * 218 B
+showAllParams() cacheDataCount= 0 
+showAllParams() restoredsCount[total,...,today]= [] 
+
+2024/08/09 03:34:51.503042 paramManager.go:34: param.Init() End. cost=25.996240261s 
+2024/08/09 03:34:51.503047 notifyByPGNotify.go:23: pgNotifyInit() start... 
+2024/08/09 03:34:51.503268 notifyByPGNotify.go:30: pgNotifyInit() host=ebd34b508e91.privatelink.postgres.database.azure.com user=ee2f15fd-4461-4a0e-b1ec-9f193f2111d1 password=Password not show dbname=f343d5b5-17d4-448b-a944-ae3efb10b948 port=5432 sslmode=disable
+2024/08/09 03:34:51.503285 notifyByPGNotify.go:27: pgNotifyInit() End. cost=233.005µs 
+2024/08/09 03:34:51.533322 rtHandler.go:29: rtHandler.Init() start... 
+2024/08/09 03:34:51.533903 rtHandler.go:33: rtHandler.Init() End. cost=554.912µs 
+2024/08/09 03:34:51.533916 func.go:23: Init() start... 
+2024/08/09 03:34:51.534152 amqp.go:138: Try to connect to AMQP server with url amqps://?username?:?password?@10.32.10.68:5671/2Vy65gaOgEqZ
+2024/08/09 03:34:51.569512 amqp.go:145: Connect to AMQP server sucessfully
+2024/08/09 03:34:51.572535 amqp.go:187: Start to subcribe exchange amq.topic queue wise.dc.archvier.rawdata.Queue topic [wise.dc.rawdata wise.dc.archvier.rawdata.Queue.watchDog]
+2024/08/09 03:34:51.601719 amqp.go:266: Start Consumer-2698527
+2024/08/09 03:34:51.607921 func.go:27: insert raw string
+2024/08/09 03:34:51.608080 amqp.go:138: Try to connect to AMQP server with url amqps://?username?:?password?@10.32.10.68:5671/2Vy65gaOgEqZ
+2024/08/09 03:34:51.608118 rtHandler.go:95: insertRawString()
+insertRawString() indexMap:{Count: 0, Size: 0.008 KB}
+insertRawString() queueNum:1024, unitListLen/unitListCap:0/4096,  queueSize:16.023 KB}
+insertRawString()     Msg:counter[last  1 minutes]={         0 }
+insertRawString() TmpData:counter[last  1 minutes]={         0 }
+insertRawString()     Msg:counter[last  1   hours]={         0 }
+insertRawString() TmpData:counter[last  1   hours]={         0 }
+
+2024/08/09 03:34:51.609105 tmpdataLogge.go:236: writeToFile() Succeed. dataLen=1, filePath=/go/src/wise-mplus-archiver/wise-mplus-archiver_Log/tmpdata_h00_0000.gz
+2024/08/09 03:34:51.609156 tmpdataLogge.go:168: rmHourFiles() ReadDir("wise-mplus-archiver_Log") fileCount=1
+2024/08/09 03:34:51.618298 rtHandler.go:72: done
+2024/08/09 03:34:51.618373 func.go:27: insert raw string
+2024/08/09 03:34:51.622078 amqp.go:145: Connect to AMQP server sucessfully
+2024/08/09 03:34:51.624744 amqp.go:187: Start to subcribe exchange amq.topic queue wise.dc.archvier.control.Queue topic [wise.dc.archiver.changememorylimitMB wise.dc.restoreToArchiver.DataSync wise.dc.archiver.loggercfg wise.dc.archiver.showobjparam wise.dc.tmpdatalog wise.dc.changeparamupdateform .wisepaas.wisedotmplus.dbmaster.notify.cfgchange wise.dc.archvier.control.Queue.watchDog]
+2024/08/09 03:34:51.627654 rtHandler.go:72: done
+2024/08/09 03:34:51.627723 func.go:27: insert raw string
+2024/08/09 03:34:51.662113 rtHandler.go:72: done
+2024/08/09 03:34:51.662219 func.go:27: insert raw string
+2024/08/09 03:34:51.672391 rtHandler.go:72: done
+2024/08/09 03:34:51.672461 func.go:27: insert raw string
+2024/08/09 03:34:51.693762 rtHandler.go:72: done
+2024/08/09 03:34:51.693825 func.go:27: insert raw string
+2024/08/09 03:34:51.697324 rtHandler.go:72: done
+2024/08/09 03:34:51.697496 func.go:27: insert raw string
+2024/08/09 03:34:51.699470 amqp.go:266: Start Consumer-9031842
+2024/08/09 03:34:51.759102 func.go:27: Init() End. cost=225.153822ms 
+2024/08/09 03:34:51.759130 func.go:8: scheduler.Init() start... 
+2024/08/09 03:34:51.764342 rtHandler.go:72: done
+2024/08/09 03:34:51.764496 func.go:27: insert raw string
+2024/08/09 03:34:51.775294 rtHandler.go:72: done
+2024/08/09 03:34:51.775370 func.go:27: insert raw string
+2024/08/09 03:34:51.798471 rtHandler.go:72: done
+2024/08/09 03:34:51.798556 func.go:27: insert raw string
+2024/08/09 03:34:51.862320 rtHandler.go:72: done
+2024/08/09 03:34:51.862439 func.go:27: insert raw string
+2024/08/09 03:34:51.882117 rtHandler.go:72: done
+2024/08/09 03:34:51.882194 func.go:27: insert raw string
+2024/08/09 03:34:51.893176 rtHandler.go:72: done
+2024/08/09 03:34:51.893250 func.go:27: insert raw string
+2024/08/09 03:34:51.901904 rtHandler.go:72: done
+2024/08/09 03:34:51.904434 func.go:27: insert raw string
+2024/08/09 03:34:51.965875 rtHandler.go:72: done
+2024/08/09 03:34:51.966035 func.go:27: insert raw string
+2024/08/09 03:34:51.975436 rtHandler.go:72: done
+2024/08/09 03:34:51.975527 func.go:27: insert raw string
+2024/08/09 03:34:51.985580 rtHandler.go:72: done
+2024/08/09 03:34:51.985659 func.go:27: insert raw string
+2024/08/09 03:34:51.991669 rtHandler.go:72: done
+2024/08/09 03:34:51.991743 func.go:27: insert raw string
+2024/08/09 03:34:52.059637 rtHandler.go:72: done
+2024/08/09 03:34:52.059826 func.go:27: insert raw string
+2024/08/09 03:34:52.070390 rtHandler.go:72: done
+2024/08/09 03:34:52.070606 func.go:27: insert raw string
+2024/08/09 03:34:52.095681 rtHandler.go:72: done
+2024/08/09 03:34:52.095786 func.go:27: insert raw string
+2024/08/09 03:34:52.164970 rtHandler.go:72: done
+2024/08/09 03:34:52.165084 func.go:27: insert raw string
+2024/08/09 03:34:52.172714 rtHandler.go:72: done
+2024/08/09 03:34:52.172778 func.go:27: insert raw string
+2024/08/09 03:34:52.195833 rtHandler.go:72: done
+2024/08/09 03:34:52.195907 func.go:27: insert raw string
+2024/08/09 03:34:52.200244 rtHandler.go:72: done
+2024/08/09 03:34:52.206649 func.go:27: insert raw string
+2024/08/09 03:34:52.274043 rtHandler.go:72: done
+2024/08/09 03:34:52.274225 func.go:27: insert raw string
+2024/08/09 03:34:52.358961 rtHandler.go:72: done
+2024/08/09 03:34:52.359144 func.go:27: insert raw string
+2024/08/09 03:34:52.374728 rtHandler.go:72: done
+2024/08/09 03:34:52.374849 func.go:27: insert raw string
+2024/08/09 03:34:52.383977 rtHandler.go:72: done
+2024/08/09 03:34:52.384054 func.go:27: insert raw string
+2024/08/09 03:34:52.463304 rtHandler.go:72: done
+2024/08/09 03:34:52.463432 func.go:27: insert raw string
+2024/08/09 03:34:52.480929 rtHandler.go:72: done
+2024/08/09 03:34:52.481005 func.go:27: insert raw string
+2024/08/09 03:34:52.563917 rtHandler.go:72: done
+2024/08/09 03:34:52.564049 func.go:27: insert raw string
+2024/08/09 03:34:52.573239 rtHandler.go:72: done
+2024/08/09 03:34:52.573310 func.go:27: insert raw string
+2024/08/09 03:34:52.594974 rtHandler.go:72: done
+2024/08/09 03:34:52.595063 func.go:27: insert raw string
+2024/08/09 03:34:52.672345 rtHandler.go:72: done
+2024/08/09 03:34:52.672544 func.go:27: insert raw string
+2024/08/09 03:34:52.696574 rtHandler.go:72: done
+2024/08/09 03:34:52.696660 func.go:27: insert raw string
+2024/08/09 03:34:52.769509 rtHandler.go:72: done
+2024/08/09 03:34:52.769679 func.go:27: insert raw string
+2024/08/09 03:34:52.792393 rtHandler.go:72: done
+2024/08/09 03:34:52.792529 func.go:27: insert raw string
+2024/08/09 03:34:52.873717 rtHandler.go:72: done
+2024/08/09 03:34:52.873892 func.go:27: insert raw string
+2024/08/09 03:34:52.891862 rtHandler.go:72: done
+2024/08/09 03:34:52.891935 func.go:27: insert raw string
+2024/08/09 03:34:52.965266 rtHandler.go:72: done
+2024/08/09 03:34:52.965371 func.go:27: insert raw string
+2024/08/09 03:34:52.981040 rtHandler.go:72: done
+2024/08/09 03:34:52.981105 func.go:27: insert raw string
+2024/08/09 03:34:53.066772 rtHandler.go:72: done
+2024/08/09 03:34:53.066907 func.go:27: insert raw string
+2024/08/09 03:34:53.088681 rtHandler.go:72: done
+2024/08/09 03:34:53.090432 func.go:27: insert raw string
+2024/08/09 03:34:53.164945 rtHandler.go:72: done
+2024/08/09 03:34:53.165097 func.go:27: insert raw string
+2024/08/09 03:34:53.192089 rtHandler.go:72: done
+2024/08/09 03:34:53.192180 func.go:27: insert raw string
+2024/08/09 03:34:53.274016 rtHandler.go:72: done
+2024/08/09 03:34:53.274158 func.go:27: insert raw string
+2024/08/09 03:34:53.285575 rtHandler.go:72: done
+2024/08/09 03:34:53.285685 func.go:27: insert raw string
+2024/08/09 03:34:53.359537 rtHandler.go:72: done
+2024/08/09 03:34:53.359728 func.go:27: insert raw string
+2024/08/09 03:34:53.388451 rtHandler.go:72: done
+2024/08/09 03:34:53.388555 func.go:27: insert raw string
+2024/08/09 03:34:53.474652 rtHandler.go:72: done
+2024/08/09 03:34:53.474809 func.go:27: insert raw string
+2024/08/09 03:34:53.560349 rtHandler.go:72: done
+2024/08/09 03:34:53.560492 func.go:27: insert raw string
+2024/08/09 03:34:53.771823 rtHandler.go:72: done
+2024/08/09 03:34:53.772019 func.go:27: insert raw string
+2024/08/09 03:34:54.163751 rtHandler.go:72: done
+2024/08/09 03:34:54.163966 func.go:27: insert raw string
+2024/08/09 03:34:54.169189 rtHandler.go:72: done
+2024/08/09 03:34:54.170481 func.go:27: insert raw string
+2024/08/09 03:34:54.273071 rtHandler.go:72: done
+2024/08/09 03:34:54.273228 func.go:27: insert raw string
+2024/08/09 03:34:54.289361 rtHandler.go:72: done
+2024/08/09 03:34:54.289427 func.go:27: insert raw string
+2024/08/09 03:34:54.374707 rtHandler.go:72: done
+2024/08/09 03:34:54.374865 func.go:27: insert raw string
+2024/08/09 03:34:54.395767 rtHandler.go:72: done
+2024/08/09 03:34:54.395868 func.go:27: insert raw string
+2024/08/09 03:34:54.401378 rtHandler.go:72: done
+2024/08/09 03:34:54.401596 func.go:27: insert raw string
+2024/08/09 03:34:54.473620 rtHandler.go:72: done
+2024/08/09 03:34:54.473833 func.go:27: insert raw string
+2024/08/09 03:34:54.562611 rtHandler.go:72: done
+2024/08/09 03:34:54.562714 func.go:27: insert raw string
+2024/08/09 03:34:54.585916 rtHandler.go:72: done
+2024/08/09 03:34:54.586062 func.go:27: insert raw string
+2024/08/09 03:34:54.592489 rtHandler.go:72: done
+2024/08/09 03:34:54.592565 func.go:27: insert raw string
+2024/08/09 03:34:54.668373 rtHandler.go:72: done
+2024/08/09 03:34:54.668492 func.go:27: insert raw string
+2024/08/09 03:34:54.693508 rtHandler.go:72: done
+2024/08/09 03:34:54.693630 func.go:27: insert raw string
+2024/08/09 03:34:54.771301 rtHandler.go:72: done
+2024/08/09 03:34:54.771415 func.go:27: insert raw string
+2024/08/09 03:34:54.796219 rtHandler.go:72: done
+2024/08/09 03:34:54.796316 func.go:27: insert raw string
+2024/08/09 03:34:54.865535 rtHandler.go:72: done
+2024/08/09 03:34:54.865641 func.go:27: insert raw string
+2024/08/09 03:34:54.890003 rtHandler.go:72: done
+2024/08/09 03:34:54.890091 func.go:27: insert raw string
+2024/08/09 03:34:54.970964 rtHandler.go:72: done
+2024/08/09 03:34:54.971056 func.go:27: insert raw string
+2024/08/09 03:34:54.980786 rtHandler.go:72: done
+2024/08/09 03:34:54.980866 func.go:27: insert raw string
+2024/08/09 03:34:54.984585 rtHandler.go:72: done
+2024/08/09 03:34:54.993644 func.go:27: insert raw string
+2024/08/09 03:34:55.069441 rtHandler.go:72: done
+2024/08/09 03:34:55.069566 func.go:27: insert raw string
+2024/08/09 03:34:55.090145 rtHandler.go:72: done
+2024/08/09 03:34:55.090241 func.go:27: insert raw string
+2024/08/09 03:34:55.094988 rtHandler.go:72: done
+2024/08/09 03:34:55.096289 func.go:27: insert raw string
+2024/08/09 03:34:55.178799 rtHandler.go:72: done
+2024/08/09 03:34:55.178884 func.go:27: insert raw string
+2024/08/09 03:34:55.194241 rtHandler.go:72: done
+2024/08/09 03:34:55.194369 func.go:27: insert raw string
+2024/08/09 03:34:55.197167 rtHandler.go:72: done
+2024/08/09 03:34:55.203508 func.go:27: insert raw string
+2024/08/09 03:34:55.276480 rtHandler.go:72: done
+2024/08/09 03:34:55.276604 func.go:27: insert raw string
+2024/08/09 03:34:55.368937 rtHandler.go:72: done
+2024/08/09 03:34:55.369032 func.go:27: insert raw string
+2024/08/09 03:34:55.382385 rtHandler.go:72: done
+2024/08/09 03:34:55.382456 func.go:27: insert raw string
+2024/08/09 03:34:55.405422 rtHandler.go:72: done
+2024/08/09 03:34:55.405510 func.go:27: insert raw string
+2024/08/09 03:34:55.468083 rtHandler.go:72: done
+2024/08/09 03:34:55.468217 func.go:27: insert raw string
+2024/08/09 03:34:55.496456 rtHandler.go:72: done
+2024/08/09 03:34:55.496575 func.go:27: insert raw string
+POTENTIAL DEADLOCK:
+Previous place where the lock was grabbed
+goroutine 177 lock 0x17343d8
+internal/dataSaver/dataSaver.go:181 dataSaver.(*dataSave).saveTask.func1.2 ??? <<<<<
+internal/dataSaver/dataSaver.go:180 dataSaver.(*dataSave).saveTask.func1.2 ???
+internal/dataSaver/dataSaver.go:226 dataSaver.(*dataSave).saveTask.func1 ???
+internal/dataSaver/dataSaver.go:245 dataSaver.(*dataSave).saveTask ???
+
+Have been trying to lock it again for more than 30s
+goroutine 265 lock 0x17343d8
+internal/dataSaver/dataSaver.go:181 dataSaver.(*dataSave).saveTask.func1.2 ??? <<<<<
+internal/dataSaver/dataSaver.go:180 dataSaver.(*dataSave).saveTask.func1.2 ???
+internal/dataSaver/dataSaver.go:226 dataSaver.(*dataSave).saveTask.func1 ???
+internal/dataSaver/dataSaver.go:245 dataSaver.(*dataSave).saveTask ???
+
+Here is what goroutine 177 doing now
+goroutine 177 [sync.Mutex.Lock]:
+sync.runtime_SemacquireMutex(0x450000c000118ad0?, 0x1?, 0x45184f6e817232c5?)
+	/usr/local/go/src/runtime/sema.go:77 +0x26
+sync.(*Mutex).lockSlow(0xc000128018)
+	/usr/local/go/src/sync/mutex.go:171 +0x165
+sync.(*Mutex).Lock(...)
+	/usr/local/go/src/sync/mutex.go:90
+github.com/sasha-s/go-deadlock.(*lockOrder).preLock(0xc000128018, {0xc013745380, 0x6, 0x32}, {0xe164c0?, 0x172b308})
+	/go/pkg/mod/github.com/sasha-s/go-deadlock@v0.3.1/deadlock.go:280 +0xbd
+github.com/sasha-s/go-deadlock.preLock(...)
+	/go/pkg/mod/github.com/sasha-s/go-deadlock@v0.3.1/deadlock.go:159
+github.com/sasha-s/go-deadlock.lock(0xc000118d48, {0xe164c0?, 0x172b308})
+	/go/pkg/mod/github.com/sasha-s/go-deadlock@v0.3.1/deadlock.go:176 +0x85
+github.com/sasha-s/go-deadlock.(*Mutex).Lock(...)
+	/go/pkg/mod/github.com/sasha-s/go-deadlock@v0.3.1/deadlock.go:85
+dataarchiver/internal/dataSaver.(*DataSaveNum).Check(0x172b300?, 0x7f?, 0x1?)
+	/go/src/wise-mplus-archiver/internal/dataSaver/dataSaverNumber.go:77 +0xbc
+dataarchiver/internal/dataSaver.(*dataSave).saveTask.func1.2(0x172b300, 0x0?, 0xc000118ee8, 0xc000118ee0, 0xc000118ed8, 0xc000118ed6, 0xc000118f30, 0xc000118f48, 0xc000118f00, 0xc000118f18, ...)
+	/go/src/wise-mplus-archiver/internal/dataSaver/dataSaver.go:201 +0x7ee
+dataarchiver/internal/dataSaver.(*dataSave).saveTask.func1(0x0, 0x172b300)
+	/go/src/wise-mplus-archiver/internal/dataSaver/dataSaver.go:226 +0x155
+dataarchiver/internal/dataSaver.(*dataSave).saveTask(0x0?, 0x0?)
+	/go/src/wise-mplus-archiver/internal/dataSaver/dataSaver.go:246 +0x2c
+created by dataarchiver/internal/dataSaver.(*dataSave).saveTaskRun
+	/go/src/wise-mplus-archiver/internal/dataSaver/dataSaver.go:155 +0x30
+Other goroutines holding locks:
+goroutine 2446494 lock 0x1712d08
+internal/mqCollector/mqConnector.go:117 mqCollector.(*AMQPConnectT).watchDog ??? <<<<<
+internal/mqCollector/mqConnector.go:116 mqCollector.(*AMQPConnectT).watchDog ???
+
+goroutine 41 lock 0x1721790
+internal/mongoFunc/func.go:68 mongoFunc.(*MongoClient).watchDog ??? <<<<<
+internal/mongoFunc/func.go:67 mongoFunc.(*MongoClient).watchDog ???
+
+goroutine 2420154 lock 0x1721a90
+internal/rtHandler/rtHandler.go:70 rtHandler.(*rtHandle).insertRawString ??? <<<<<
+internal/rtHandler/rtHandler.go:69 rtHandler.(*rtHandle).insertRawString ???
+internal/rtHandler/func.go:29 rtHandler.InsertRawString ???
+internal/mqCollector/mqConnector.go:109 mqCollector.(*AMQPConnectT).handle_msg ???
+common-library/amqpMplus/amqp.go:329 amqpMplus.(*AmqpManager).handleMsg ???
+common-library/amqpMplus/amqp.go:285 amqpMplus.(*AmqpManager).CreateConsumer.func1 ???
+
+goroutine 2420155 lock 0x1712dc8
+internal/mqCollector/mqConnector.go:117 mqCollector.(*AMQPConnectT).watchDog ??? <<<<<
+internal/mqCollector/mqConnector.go:116 mqCollector.(*AMQPConnectT).watchDog ???
+
+
+
