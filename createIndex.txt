@@ -8,12 +8,14 @@ for (i=0; i<datasLen; i++) {
         collName2=''
         date=dates[i]
         if (idx<10) {
-            collName='dc_rawdata_'+date+'_0'+idx // db.getCollection('dc_rawdata_20240812_29').find({})
+            collName='dc_rawdata_'+date+'_0'+idx // db.getCollection('dc_rawdata_20240812_01').find({})
         } else {
             collName='dc_rawdata_'+date+'_'+idx // db.getCollection('dc_rawdata_20240812_29').find({})
         }
         // 创建索引
-        db.getCollection(collName).createIndex({ oid_p: 1, dt: 1 }, { background: false, unique:false, sparse:true})
+        indexName='oid_p_1_dt_1'
+        db.getCollection(collName).dropIndex(indexName)
+        db.getCollection(collName).createIndex({ id_t: 1, dt: 1 }, { background: true, unique:false, sparse:true})
         collNames[i*hashNum + idx]=collName
     }
 }
