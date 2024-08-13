@@ -1,0 +1,34 @@
+2024/08/13 01:12:47.160671 Init.go:22: InitServer() start... 
+2024/08/13 01:12:47.160802 memLimit.go:22: memLimitInit() start... 
+2024/08/13 01:12:47.160813 memLimit.go:36: memLimitInit() use env memory limit 2048M
+2024/08/13 01:12:47.160817 memLimit.go:43: memLimitInit() memLimit= 2048M
+2024/08/13 01:12:47.160841 memLimit.go:26: memLimitInit() End. cost=17.401µs 
+2024/08/13 01:12:47.160852 func.go:19: Init() start... 
+2024/08/13 01:12:52.183536 func.go:23: Init() End. cost=5.022643249s 
+2024/08/13 01:12:52.183566 func.go:39: mongoFunc.Init() start... dbType=wisepaasMongo 
+2024/08/13 01:12:52.184149 mongo.go:45: mongo manager connect success. dbInfo={ host:10.32.9.4 port:27017 user:f198f956-4a39-4807-aa16-67a60f6907a6 database:3d4b8305-a069-462a-af03-56a723cc331e replicaSetName:rs0 minPoolSize:100 maxPoolSize:100 defTimeout:5000000000 timeout:60000000000 }
+
+2024/08/13 01:12:52.184169 func.go:43: mongoFunc.Init() End. dbType=wisepaasMongo, cost=596.219µs 
+2024/08/13 01:12:52.184176 dataSaver.go:65: dataSaver.Init() start... 
+2024/08/13 01:12:52.189854 dataSaver.go:69: dataSaver.Init() End. cost=5.66108ms 
+2024/08/13 01:12:52.190006 func.go:10: RestoreInit() start... 
+2024/08/13 01:12:52.224468 allowRestore.go:47: alloweRestore() waitTime=5.064272968s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:00.008477 dataSaver.go:149: [4]saveTask() NextLogTime=2024-08-13 01:14:00 +0000 UTC 
+2024/08/13 01:13:02.226170 allowRestore.go:47: alloweRestore() waitTime=15.065975066s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:12.229354 allowRestore.go:47: alloweRestore() waitTime=25.069158311s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:22.231273 allowRestore.go:47: alloweRestore() waitTime=35.071077317s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:32.233450 allowRestore.go:47: alloweRestore() waitTime=45.073254664s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:42.237146 allowRestore.go:47: alloweRestore() waitTime=55.076950513s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:13:52.239018 allowRestore.go:47: alloweRestore() waitTime=1m5.078821843s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:00.157837 dataSaver.go:149: [4]saveTask() NextLogTime=2024-08-13 01:15:00 +0000 UTC 
+2024/08/13 01:14:02.241063 allowRestore.go:47: alloweRestore() waitTime=1m15.080867829s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:12.243666 allowRestore.go:47: alloweRestore() waitTime=1m25.083470752s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:22.245638 allowRestore.go:47: alloweRestore() waitTime=1m35.085441906s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:32.248018 allowRestore.go:47: alloweRestore() waitTime=1m45.087821028s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:42.252165 allowRestore.go:47: alloweRestore() waitTime=1m55.091969012s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:14:52.254850 allowRestore.go:47: alloweRestore() waitTime=2m5.094653987s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:15:00.109457 dataSaver.go:149: [4]saveTask() NextLogTime=2024-08-13 01:16:00 +0000 UTC 
+2024/08/13 01:15:02.257228 allowRestore.go:47: alloweRestore() waitTime=2m15.097032157s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:15:12.259365 allowRestore.go:47: alloweRestore() waitTime=2m25.099168663s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:15:22.263592 allowRestore.go:47: alloweRestore() waitTime=2m35.10339525s, alloweRestore=false,  systemConfigs=[] 
+2024/08/13 01:15:32.266108 allowRestore.go:47: alloweRestore() waitTime=2m45.105912029s, alloweRestore=false,  systemConfigs=[] 
