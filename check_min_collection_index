@@ -1,0 +1,14 @@
+// 查看 _min_ 集合的索引
+db.getCollectionNames().forEach(function(collectionName) {
+   dateRegEx=/20240810/  // 修改成对应的日期即可
+   typeRegEx=/_min_/     // 查 _min_ 集合
+   if(dateRegEx.test(collectionName) && typeRegEx.test(collectionName)){
+      var indexes = db[collectionName].getIndexes();
+      indexes.forEach(function(indexObj){
+         keyRegEx=/oid_p_1_dt_1/  // 索引名
+         if (keyRegEx.test(indexObj.name)){
+            print(collectionName + " : " + indexObj.name);
+         }
+      })
+   }
+});
