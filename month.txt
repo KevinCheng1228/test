@@ -1,0 +1,13 @@
+dt = new Date()
+    yyyy = dt.getUTCFullYear().toString()
+    dtMonth = dt.getUTCMonth() + 1
+    MM = dtMonth >= 10 ? dtMonth.toString() : '0'+dtMonth
+    dtDay = dt.getUTCDate()
+    dd = dtDay >= 10 ? dtDay.toString() : '0'+dtDay
+    dtHour = dt.getUTCHours()
+    hh = dtHour >= 10 ? dtHour.toString() : '0'+dtHour
+    dtMinute = dt.getUTCMonth()
+    mm = dtMinute >= 10 ? dtMinute.toString() : '0'+dtMinute
+    dtSecond = dt.getUTCMonth()
+    ss = dtSecond >= 10 ? dtSecond.toString() : '0'+dtSecond
+    dataStr = yyyy + ' ' + MM + ' ' + dd + ' ' + hh + ' ' + mm + ' ' + ss 
