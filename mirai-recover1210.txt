@@ -28,13 +28,18 @@ v2h = [198.925, 100.0, 198.925, 137.91289633333332]
 v2d = [198.925, 100.0, 198.925, 122.18907901388889]
 v3 = [198.925, 198.925, 198.925, 198.925]
 for (dt=t1; dt<t3; dt = new Date(dt.setUTCMinutes(dt.getUTCMinutes()+5))) {
-    yyyy = dt.getUTCFullYear()
-    MM = (dt.getUTCMonth() + 1).toString().padStart(2, '0')
-    dd = dt.getUTCDate().toString().padStart(2, '0')
-    hh = dt.getUTCHours().toString().padStart(2, '0')
-    mm = dt.getUTCMinutes().toString().padStart(2, '0')
-    ss = dt.getUTCSeconds().toString().padStart(2, '0')
-    dataStr = yyyy + ' ' + MM + ' ' + dd + ' ' + hh + ' ' + mm + ' ' + ss 
+    yyyy = dt.getUTCFullYear().toString()
+    dtMonth = dt.getUTCMonth() + 1
+    MM = dtMonth >= 10 ? dtMonth.toString() : '0'+dtMonth
+    dtDay = dt.getUTCDate()
+    dd = dtDay >= 10 ? dtDay.toString() : '0'+dtDay
+    dtHour = dt.getUTCHours()
+    hh = dtHour >= 10 ? dtHour.toString() : '0'+dtHour
+    dtMinute = dt.getUTCMinutes()
+    mm = dtMinute >= 10 ? dtMinute.toString() : '0'+dtMinute
+    dtSecond = dt.getUTCSeconds()
+    ss = dtSecond >= 10 ? dtSecond.toString() : '0'+dtSecond
+    dataStr = yyyy + '-' + MM + '-' + dd + 'T' + hh + ':' + mm + ':' + ss + 'Z'
     // minData
     minData={"oid_p":oid_p, "dt":dt, "v":v1, "q":0, "ut":new  Date()}
     if (dt.getTime() > t2m.getTime()) {
