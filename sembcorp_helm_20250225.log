@@ -1,0 +1,10 @@
+NAME                                      	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART                  	APP VERSION   
+dashboard-pro-edge365                     	edge365  	1       	2023-07-26 01:27:39.082781197 +0000 UTC	deployed	dashboard-pro-3.0.29   	3.0.29        
+deviceonbi                                	edge365  	10      	2024-07-10 04:35:58.880510717 +0000 UTC	deployed	edge365-azure-2.1.18   	2.1.18.2-mirai
+dpm                                       	edge365  	7       	2024-07-10 06:52:37.438674915 +0000 UTC	deployed	dpm-2.1.18             	2.1.18.1      
+ifp-release-notes                         	edge365  	2       	2024-07-10 06:59:22.731982106 +0000 UTC	deployed	ifp-release-notes-1.6.5	1.6.5         
+notification-edge365                      	edge365  	1       	2023-07-26 01:28:06.256106727 +0000 UTC	deployed	notification-1.2.13    	1.2.13        
+pivot                                     	edge365  	3       	2024-07-10 04:29:45.051019564 +0000 UTC	deployed	pivot-core-2.15.2      	2.15.2        
+redis-7c1c6a75-2888-4d70-9b9e-82c261ab9063	edge365  	1       	2023-07-25 07:58:44.227435972 +0000 UTC	deployed	redis-10.7.21          	6.0.5         
+saas-composer-edge365                     	edge365  	1       	2023-07-26 01:28:31.37636213 +0000 UTC 	deployed	saas-composer-3.3.1    	1.0           
+tenant                                    	edge365  	3       	2024-07-10 04:18:35.403335747 +0000 UTC	deployed	tenant-core-1.5.0      	1.5.0         
