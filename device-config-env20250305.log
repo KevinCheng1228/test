@@ -1,0 +1,97 @@
+Name:             device-config-755fbd975-65t95
+Namespace:        edge365
+Priority:         0
+Service Account:  default
+Node:             aks-agentpool-29291985-vmss000005/10.32.12.195
+Start Time:       Tue, 04 Mar 2025 08:44:23 +0000
+Labels:           app=device-config-l
+                  pod-template-hash=755fbd975
+Annotations:      kubectl.kubernetes.io/restartedAt: 2024-09-26T10:11:17Z
+Status:           Running
+IP:               10.32.12.196
+IPs:
+  IP:           10.32.12.196
+Controlled By:  ReplicaSet/device-config-755fbd975
+Containers:
+  device-config:
+    Container ID:   containerd://91e8295b82967f499017afe2a8762a6d458cc0459a416dd1bb8c3903917f4a3a
+    Image:          harbor.arfa.wise-paas.com/isensing/device-config:2.1.18
+    Image ID:       harbor.arfa.wise-paas.com/isensing/device-config@sha256:b7a3b9c2cc8c6a2bd2a32b1a39e7ab05e8b99250895990f1866f67d6e187ab1d
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Tue, 04 Mar 2025 08:44:25 +0000
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:                200m
+      ephemeral-storage:  512Mi
+      memory:             512Mi
+    Requests:
+      cpu:                200m
+      ephemeral-storage:  512Mi
+      memory:             512Mi
+    Environment:
+      app_name:                           DeviceConfig-Processor
+      mplus_version:                      2.1.18
+      bi_edition:                         azure-aks
+      rabbitmq_service_name:              p-rabbitmq
+      mongodb_service_name:               mongodb
+      postgresql_service_name:            postgresql
+      redis_service_name:                 redis
+      store_service_name:                 blobstore
+      APP_ENV:                            production
+      AZURE_BLOB_CONTAINER_NAME:          edge365storage
+      platformCmd_thread_count:           3
+      assignedTaskCmd_thread_count:       3
+      fileManageCmd_thread_count:         6
+      iBmcPlatformCmd_thread_count:       1
+      reportMonitorReq_thread_count:      1
+      LOG_PATH:                           log
+      LOG_FILE:                           deviceconfig.log
+      NODE_ENV:                           production
+      domain:                             .edge365.solarscada.en.internal
+      dashboard_url:                      http://dashboard-pro-edge365:80
+      exdomain:                           .edge365.solarscada.en.internal
+      INTERNAL_URL:                       edge365.solarscada.en.internal
+      EXTERNAL_URL:                       sembcorp.net
+      SSO_API_URL:                        http://api-sso-solarscada.sembcorp.net/v4.0
+      DCCS_API_URL:                       http://api-dccs-solarscada.sembcorp.net/v1
+      LICENSE_API_URL:                    http://api-license-solarscada.sembcorp.net/v1
+      HOST_URL:                           -edge365-solarscada.sembcorp.net
+      JAVA_OPTS:                          -XX:+UseContainerSupport -XX:MaxRAMPercentage=80.0 -XX:MinMetaspaceFreeRatio=0 -XX:MaxMetaspaceFreeRatio=85 -XX:MetaspaceSize=70m -XX:MaxMetaspaceSize=70m -XX:ReservedCodeCacheSize=10m -XX:+UseG1GC
+      edgelink_projectfile_timeout_mins:  3
+      edgelink_firmware_timeout_mins:     10
+      Expiry_Task_Check_Mins:             120
+      VCAP_SERVICES:                      <set to the key 'ENSAAS_SERVICES' in secret 'edge365-secret'>  Optional: false
+      datacenter:                         local
+      cluster:                            solarscada
+      workspace:                          00b44062-f611-46ce-b6cc-cdf44e0aaae6
+      namespace:                          edge365
+      appID:                              ZBWhLdEaWNhWP1KqrlxvdUSymeRZ0Qmi-1690516217
+    Mounts:
+      /log from dm-pv-storage (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-xzffg (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  dm-pv-storage:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  dm-pv-claim
+    ReadOnly:   false
+  kube-api-access-xzffg:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   Guaranteed
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/memory-pressure:NoSchedule op=Exists
+                             node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:                      <none>
