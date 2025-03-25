@@ -1,0 +1,229 @@
+<table
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  border="0"
+  style="font-family: Arial, Helvetica, sans-serif; color: #333"
+>
+  <tbody>
+    <tr>
+      <td align="center" style="padding: 12px 20px">
+        <table
+          width="600"
+          cellpadding="0"
+          cellspacing="0"
+          border="0"
+          style="max-width: 600px; width: 100%; color: #333"
+        >
+          <!-- Logo Section -->
+          <tbody>
+            <tr>
+              <td align="left" style="padding: 20px 0">
+                <img
+                  src="https://gallery.mailchimp.com/83906e2f1fa32cfb7a52d208a/images/bf21f4a0-936e-46c6-a75f-f1db5f6e7410.png"
+                  alt="Advantech"
+                  width="125"
+                  height="26"
+                  style="display: block"
+                />
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td>
+                <span
+                  style="
+                    border-top: 4px solid #003366;
+                    display: block;
+                    margin-top: 10px;
+                  "
+                ></span>
+              </td>
+            </tr>
+
+            <!-- Greeting Section -->
+            <tr>
+              <td style="padding: 16px 0px 21px 0">
+                <p style="font-size: 16px; line-height: 1.6">
+                  Dear {{.FirstName}} {{.LastName}}:
+                </p>
+              </td>
+            </tr>
+
+            <!-- Welcome Title -->
+            <tr>
+              <td align="center">
+                <h1
+                  style="
+                    color: #003366;
+                    font-size: 32px;
+                    text-align: center;
+                    line-height: 1.6;
+                    font-weight: 700;
+                    margin-top: 0.5px;
+                  "
+                >
+                  Welcome to EdgeSync360 / EdgeHub
+                </h1>
+              </td>
+            </tr>
+
+            <!-- Message Section -->
+            <tr>
+              <td style="padding-bottom: 20px; color: #333">
+                <p style="font-size: 16px; line-height: 1.6">
+                  Thank you for joining our platform. Your account has been
+                  successfully created, and below you'll find your login
+                  credentials.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Account Details Section -->
+            <tr>
+              <td
+                style="
+                  background-color: #f5f5f5;
+                  padding: 6px 10px;
+                  border-radius: 4px;
+                  margin: 20px 0;
+                "
+              >
+                <!-- Account Details Section -->
+                <h2 style="font-size: 24px; margin: 29px 0; color: #333">
+                  Here are the details of your account:
+                </h2>
+                <p><strong>Username:</strong> {{.Username}}</p>
+                <p style="padding-top: 7px; margin-bottom: 24px">
+                  <strong>Password:</strong> {{.Password}}
+                </p>
+              </td>
+            </tr>
+
+            <!-- CTA Buttons Section -->
+            <tr>
+              <td align="center" style="padding: 15px 0">
+                <table
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  style="margin: 5px 0px"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span
+                          style="display: block; width: 6px; margin: 2px 0px"
+                        ></span>
+                      </td>
+                      <td>
+                        <a
+                          href="https://pivot-api-hub-master-ensaas.edge365.advantech.com/"
+                          style="
+                            border-radius: 4px;
+                            display: inline-block;
+                            line-height: 1.6;
+                            padding: 10px 20px;
+                            background-color: #0072c6;
+                            color: white;
+                            text-decoration: none;
+                            margin: 5px;
+                          "
+                          >Login EdgeHub</a
+                        >
+                      </td>
+                      <td>
+                        <span
+                          style="display: block; width: 6px; margin: 2px 0px"
+                        ></span>
+                      </td>
+                      <td>
+                        <a
+                          href="{{.SignInUrl}}"
+                          style="
+                            border-radius: 4px;
+                            display: inline-block;
+                            line-height: 1.6;
+                            padding: 10px 20px;
+                            background-color: #0072c6;
+                            color: white;
+                            text-decoration: none;
+                            margin: 5px;
+                          "
+                          >Change Password</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Security Note Section -->
+            <tr>
+              <td
+                style="
+                  line-height: 1.59;
+                  background-color: #fff3cd;
+                  padding: 24px 10px;
+                  border-radius: 4px;
+                  margin-top: 20px;
+                "
+              >
+                <p style="font-size: 14px">
+                  <strong>Security Note:</strong><br />
+                  1) For security reasons, we strongly recommend that you change
+                  your password.<br />
+                  2) Never share your login credentials with others.
+                </p>
+              </td>
+            </tr>
+            <tr style="display: none">
+              <td>
+                <br />
+                <a href="{{.EmailImageLinkAddress}}" target="_blank">
+                  <img
+                    src="{{.EmailImageAddress}}"
+                    alt="Advantech"
+                    width="750"
+                  />
+                </a>
+              </td>
+            </tr>
+            <!-- Footer Section -->
+            <tr>
+              <td style="font-size: 14px; padding-top: 20px; line-height: 1.6">
+                <p>
+                  This is an automatically generated email, please do not reply.
+                </p>
+                <p style="margin-bottom: 20px; padding-top: 0.5px">
+                  Best regards,<br />Advantech EdgeHub Team
+                </p>
+              </td>
+            </tr>
+            <tr style="display: none">
+              <td>{{.WebTitle}}{{.Datacenter}}</td>
+            </tr>
+
+            <!-- Footer Divider and Company Info -->
+            <tr>
+              <td
+                style="
+                  box-sizing: border-box;
+                  border-top: 2px solid #003366;
+                  padding-top: 12.5px;
+                  margin-top: 20px;
+                  font-size: 11px;
+                  text-align: center;
+                "
+              >
+                © 1983-2024 Advantech Co., Ltd.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
