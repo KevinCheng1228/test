@@ -1,0 +1,4288 @@
+{
+	"inprog" : [
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn44",
+			"connectionId" : 44,
+			"client" : "10.32.12.106:45620",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247676,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3920769),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:52.822Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn111",
+			"connectionId" : 111,
+			"client" : "10.32.12.106:54608",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247758,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3308051),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:53.435Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn114",
+			"connectionId" : 114,
+			"client" : "10.32.12.106:54640",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199248006,
+			"secs_running" : NumberLong(1),
+			"microsecs_running" : NumberLong(1714865),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:55.028Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn57",
+			"connectionId" : 57,
+			"client" : "10.32.12.63:53146",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "5.5.0|7.2.1"
+				},
+				"platform" : "Node.js v18.5.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246292,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8721022),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.022Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn84",
+			"connectionId" : 84,
+			"client" : "10.32.12.12:55998",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.8.4"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.16.9"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247658,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3940878),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:52.802Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1822",
+			"connectionId" : 1822,
+			"client" : "10.32.12.235:38564",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245533,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9913211),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759742, 859),
+					"signature" : {
+						"hash" : BinData(0,"qi7u4EQSA/zCIcj3Z+1RLwKF/z4="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.830Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn48",
+			"connectionId" : 48,
+			"client" : "10.32.12.106:45658",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247094,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6234767),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.508Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "OplogApplier-0",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "__system",
+					"db" : "local"
+				}
+			],
+			"opid" : 199248643,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1738",
+			"connectionId" : 1738,
+			"client" : "10.32.12.231:49438",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "5.5.0|7.2.1"
+				},
+				"platform" : "Node.js v18.5.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247840,
+			"secs_running" : NumberLong(2),
+			"microsecs_running" : NumberLong(2473855),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759630, 2),
+					"signature" : {
+						"hash" : BinData(0,"eHIqgDCfXnltEZvVZ2H0z7TuX1w="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:54.269Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn143",
+			"connectionId" : 143,
+			"client" : "10.32.12.106:54748",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245526,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9926557),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.816Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn4",
+			"connectionId" : 4,
+			"client" : "10.32.12.106:45582",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247466,
+			"secs_running" : NumberLong(5),
+			"microsecs_running" : NumberLong(5356191),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:51.387Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn98",
+			"connectionId" : 98,
+			"client" : "10.32.12.106:45696",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246052,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8938386),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:47.805Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn77",
+			"connectionId" : 77,
+			"client" : "10.32.12.162:57330",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.11.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.19.4"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247578,
+			"secs_running" : NumberLong(4),
+			"microsecs_running" : NumberLong(4793476),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:51.949Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn285582",
+			"connectionId" : 285582,
+			"client" : "127.0.0.1:47408",
+			"appName" : "MongoDB Shell",
+			"clientMetadata" : {
+				"application" : {
+					"name" : "MongoDB Shell"
+				},
+				"driver" : {
+					"name" : "MongoDB Internal Client",
+					"version" : "4.4.23"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Ubuntu",
+					"architecture" : "x86_64",
+					"version" : "20.04"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "gapplit",
+					"db" : "admin"
+				}
+			],
+			"opid" : 199248860,
+			"lsid" : {
+				"id" : UUID("7f915584-6fee-406f-9c81-4b34d73c4b70"),
+				"uid" : BinData(0,"SW6APPR5H0V4B96g5KFTrjMr0TvWKQjiquyCazmupXE=")
+			},
+			"secs_running" : NumberLong(0),
+			"microsecs_running" : NumberLong(206),
+			"op" : "command",
+			"ns" : "admin.$cmd.aggregate",
+			"command" : {
+				"currentOp" : 1,
+				"lsid" : {
+					"id" : UUID("7f915584-6fee-406f-9c81-4b34d73c4b70")
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1754026856, 318),
+					"signature" : {
+						"hash" : BinData(0,"b5aeXN5TZRVmr4YjVr0XJ6GORro="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn137",
+			"connectionId" : 137,
+			"client" : "10.32.12.106:54736",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245851,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9273460),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:47.469Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn89",
+			"connectionId" : 89,
+			"client" : "10.32.12.197:46256",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.9.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.17.6"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246613,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8088237),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.655Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1812",
+			"connectionId" : 1812,
+			"client" : "10.32.12.227:46688",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "4.13.0"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure"
+				},
+				"platform" : "Node.js v16.14.2, LE (unified)",
+				"version" : "4.13.0|6.9.0"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245873,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9191322),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : true,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759705, 382),
+					"signature" : {
+						"hash" : BinData(0,"Zlq2bvvKRbBIYpOCb/lk9fGQK0Y="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:47.552Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn2046",
+			"connectionId" : 2046,
+			"client" : "10.32.9.5:36510",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "NetworkInterfaceTL",
+					"version" : "4.4.23"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Ubuntu",
+					"architecture" : "x86_64",
+					"version" : "20.04"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "__system",
+					"db" : "local"
+				}
+			],
+			"opid" : 199246803,
+			"secs_running" : NumberLong(7),
+			"microsecs_running" : NumberLong(7444960),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"isMaster" : 1,
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"internalClient" : {
+					"minWireVersion" : 9,
+					"maxWireVersion" : 9
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:49.298Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn790",
+			"connectionId" : 790,
+			"client" : "10.32.12.51:57460",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.11.4"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.20.5"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247078,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6276388),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.467Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn102",
+			"connectionId" : 102,
+			"client" : "10.32.12.106:45724",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247042,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6436110),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.307Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn285263",
+			"connectionId" : 285263,
+			"client" : "10.32.12.37:45916",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.12.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.23.11"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247174,
+			"secs_running" : NumberLong(5),
+			"microsecs_running" : NumberLong(5772266),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1754013728, 1210),
+					"signature" : {
+						"hash" : BinData(0,"iDe7NuNrNgqggvyQ+bXSgSvZ5oU="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.971Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn39",
+			"connectionId" : 39,
+			"client" : "10.32.12.106:45598",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247098,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6226297),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.516Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn19",
+			"connectionId" : 19,
+			"client" : "10.32.12.204:37026",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.13.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.20.5",
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247103,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6214625),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.528Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn110",
+			"connectionId" : 110,
+			"client" : "10.32.12.106:54596",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246707,
+			"secs_running" : NumberLong(7),
+			"microsecs_running" : NumberLong(7581036),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:49.162Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn282764",
+			"connectionId" : 282764,
+			"client" : "10.32.12.148:42476",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.12.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.23.11"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245564,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9816061),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753868043, 9),
+					"signature" : {
+						"hash" : BinData(0,"VNjeemH/iVV6h7nWRruzo/fJvBU="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.927Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn75",
+			"connectionId" : 75,
+			"client" : "10.32.12.91:44538",
+			"appName" : "DM Cleaner",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-java-driver|sync",
+					"version" : "4.8.2"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Linux",
+					"architecture" : "amd64",
+					"version" : "5.15.0-107-generic"
+				},
+				"platform" : "Java/Oracle Corporation/unknown-version",
+				"application" : {
+					"name" : "DM Cleaner"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247591,
+			"secs_running" : NumberLong(4),
+			"microsecs_running" : NumberLong(4722621),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$db" : "admin",
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753733807, 1),
+					"signature" : {
+						"hash" : BinData(0,"000Y/fY961zUFRy+8k/pjPnnK9M="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:52.020Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn115",
+			"connectionId" : 115,
+			"client" : "10.32.12.106:54648",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247729,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3473749),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:53.269Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn47",
+			"connectionId" : 47,
+			"client" : "10.32.12.106:45646",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247700,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3612358),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:53.130Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1794",
+			"connectionId" : 1794,
+			"client" : "10.32.12.113:45430",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "3.6.3"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure"
+				},
+				"platform" : "'Node.js v14.19.1, LE (unified)",
+				"version" : "3.6.3|5.11.13"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245531,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9917754),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"ismaster" : true,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759697, 857),
+					"signature" : {
+						"hash" : BinData(0,"+LK+AvgegzoW/H0YXYE+jVtlwE8="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.825Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "NoopWriter",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245764,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn49",
+			"connectionId" : 49,
+			"client" : "10.32.12.106:45670",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246995,
+			"secs_running" : NumberLong(7),
+			"microsecs_running" : NumberLong(7126630),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:49.616Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1790",
+			"connectionId" : 1790,
+			"client" : "10.32.12.25:39958",
+			"appName" : "api-portal-wise-mplus",
+			"clientMetadata" : {
+				"application" : {
+					"name" : "api-portal-wise-mplus"
+				},
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.13.1|8.10.1"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245535,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9909164),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759645, 4597),
+					"signature" : {
+						"hash" : BinData(0,"BriHttbg7NU+F0ilLgqwrlLQvUw="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.834Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn128",
+			"connectionId" : 128,
+			"client" : "10.32.12.106:54670",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199248855,
+			"secs_running" : NumberLong(0),
+			"microsecs_running" : NumberLong(8293),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn50",
+			"connectionId" : 50,
+			"client" : "10.32.12.106:45680",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245614,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9734481),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:47.009Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn5",
+			"connectionId" : 5,
+			"client" : "10.32.12.106:45566",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247654,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3975254),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:52.768Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn42",
+			"connectionId" : 42,
+			"client" : "10.32.12.106:45616",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246693,
+			"secs_running" : NumberLong(7),
+			"microsecs_running" : NumberLong(7906643),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.836Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn101",
+			"connectionId" : 101,
+			"client" : "10.32.12.106:45720",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245865,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9212641),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:47.530Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "WTCheckpointThread",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199243060,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn129",
+			"connectionId" : 129,
+			"client" : "10.32.12.106:54678",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245472,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9964947),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.778Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn141",
+			"connectionId" : 141,
+			"client" : "10.32.12.128:42722",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "4.13.0"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure"
+				},
+				"platform" : "Node.js v18.5.0, LE (unified)",
+				"version" : "4.13.0|6.9.0"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245487,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9948247),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : true,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.795Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1800",
+			"connectionId" : 1800,
+			"client" : "10.32.12.167:38162",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "3.6.5"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure"
+				},
+				"platform" : "'Node.js v14.19.1, LE (unified)",
+				"version" : "3.6.5|5.12.2"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247846,
+			"secs_running" : NumberLong(2),
+			"microsecs_running" : NumberLong(2397086),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"ismaster" : true,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759700, 458),
+					"signature" : {
+						"hash" : BinData(0,"8GHQF0iwY6/sRgZkD6iRwVadi1s="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:54.346Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1754",
+			"connectionId" : 1754,
+			"client" : "10.32.12.106:48820",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247971,
+			"secs_running" : NumberLong(1),
+			"microsecs_running" : NumberLong(1875893),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759630, 1944),
+					"signature" : {
+						"hash" : BinData(0,"eHIqgDCfXnltEZvVZ2H0z7TuX1w="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:54.867Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn100",
+			"connectionId" : 100,
+			"client" : "10.32.12.106:45700",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247081,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6272357),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.471Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn134",
+			"connectionId" : 134,
+			"client" : "10.32.12.106:54720",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246563,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8153981),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.589Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "ReplBatcher",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199248729,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				"FeatureCompatibilityVersion" : {
+					"acquireCount" : {
+						"r" : NumberLong(1)
+					}
+				},
+				"ReplicationStateTransition" : {
+					"acquireCount" : {
+						"w" : NumberLong(1)
+					}
+				},
+				"Global" : {
+					"acquireCount" : {
+						"r" : NumberLong(1)
+					}
+				}
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn133",
+			"connectionId" : 133,
+			"client" : "10.32.12.106:54716",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247031,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6560356),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.183Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn116",
+			"connectionId" : 116,
+			"client" : "10.32.12.106:54668",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247212,
+			"secs_running" : NumberLong(5),
+			"microsecs_running" : NumberLong(5713790),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:51.029Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn576",
+			"connectionId" : 576,
+			"client" : "10.32.12.108:54098",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "4.16.0|6.11.1"
+				},
+				"platform" : "Node.js v14.18.2, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199231549,
+			"secs_running" : NumberLong(34),
+			"microsecs_running" : NumberLong(34535097),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : true,
+				"maxAwaitTimeMS" : 60000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753758178, 22861),
+					"signature" : {
+						"hash" : BinData(0,"6+1vVgL2wgd3YjL/CNJzxRBWjf0="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:22.208Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn104",
+			"connectionId" : 104,
+			"client" : "10.32.12.151:46524",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "mongo-go-driver",
+					"version" : "v1.12.1"
+				},
+				"os" : {
+					"type" : "linux",
+					"architecture" : "amd64"
+				},
+				"platform" : "go1.20.5"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247059,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6338693),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"helloOk" : true,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin",
+				"$readPreference" : {
+					"mode" : "primaryPreferred"
+				}
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.404Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn130",
+			"connectionId" : 130,
+			"client" : "10.32.12.106:54688",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246998,
+			"secs_running" : NumberLong(7),
+			"microsecs_running" : NumberLong(7024797),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:49.718Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1",
+			"connectionId" : 1,
+			"client" : "10.32.9.4:41334",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "NetworkInterfaceTL",
+					"version" : "4.4.23"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Ubuntu",
+					"architecture" : "x86_64",
+					"version" : "20.04"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "__system",
+					"db" : "local"
+				}
+			],
+			"opid" : 199247561,
+			"secs_running" : NumberLong(4),
+			"microsecs_running" : NumberLong(4956271),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"isMaster" : 1,
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"internalClient" : {
+					"minWireVersion" : 9,
+					"maxWireVersion" : 9
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:51.787Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn35",
+			"connectionId" : 35,
+			"client" : "10.32.13.0:35492",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "5.5.0|7.2.1"
+				},
+				"platform" : "Node.js v18.5.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245558,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9850787),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.892Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn51",
+			"connectionId" : 51,
+			"client" : "10.32.12.106:45682",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246634,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8033173),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.710Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "JournalFlusher",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199248850,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1119",
+			"connectionId" : 1119,
+			"client" : "10.32.12.106:34290",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247047,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6372277),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753758455, 3786),
+					"signature" : {
+						"hash" : BinData(0,"y9otP/Q7efWcV9T8eZTf3NGw8Uc="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.371Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn99",
+			"connectionId" : 99,
+			"client" : "10.32.12.106:45712",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247237,
+			"secs_running" : NumberLong(5),
+			"microsecs_running" : NumberLong(5642092),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:51.101Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn45",
+			"connectionId" : 45,
+			"client" : "10.32.12.106:45632",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246348,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8599827),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.143Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn113",
+			"connectionId" : 113,
+			"client" : "10.32.12.106:54620",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245543,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9883135),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.860Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1707",
+			"connectionId" : 1707,
+			"client" : "10.32.12.152:37114",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "4.17.1|6.12.0"
+				},
+				"platform" : "Node.js v18.18.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199231239,
+			"secs_running" : NumberLong(35),
+			"microsecs_running" : NumberLong(35256107),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : true,
+				"maxAwaitTimeMS" : 60000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759059, 861),
+					"signature" : {
+						"hash" : BinData(0,"YjlhyQImhxKnGV5mfNU9tugc9H0="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:21.487Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn142",
+			"connectionId" : 142,
+			"client" : "10.32.12.106:54742",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247043,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6421332),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.322Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "OplogCapMaintainerThread-local.oplog.rs",
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199226219,
+			"op" : "none",
+			"ns" : "",
+			"command" : {
+				
+			},
+			"numYields" : 0,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				"FeatureCompatibilityVersion" : {
+					"acquireCount" : {
+						"w" : NumberLong(1)
+					}
+				},
+				"ReplicationStateTransition" : {
+					"acquireCount" : {
+						"w" : NumberLong(1)
+					}
+				},
+				"Global" : {
+					"acquireCount" : {
+						"w" : NumberLong(1)
+					}
+				}
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn132",
+			"connectionId" : 132,
+			"client" : "10.32.12.106:54700",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247681,
+			"secs_running" : NumberLong(3),
+			"microsecs_running" : NumberLong(3912845),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:52.830Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn117",
+			"connectionId" : 117,
+			"client" : "10.32.12.106:54662",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245577,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9780086),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.963Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1864",
+			"connectionId" : 1864,
+			"client" : "10.32.9.6:56034",
+			"appName" : "OplogFetcher",
+			"clientMetadata" : {
+				"application" : {
+					"name" : "OplogFetcher"
+				},
+				"driver" : {
+					"name" : "MongoDB Internal Client",
+					"version" : "4.4.23"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Ubuntu",
+					"architecture" : "x86_64",
+					"version" : "20.04"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "__system",
+					"db" : "local"
+				}
+			],
+			"opid" : 199248851,
+			"secs_running" : NumberLong(0),
+			"microsecs_running" : NumberLong(93722),
+			"op" : "getmore",
+			"ns" : "local.oplog.rs",
+			"command" : {
+				"getMore" : NumberLong("8052043831226597312"),
+				"collection" : "oplog.rs",
+				"batchSize" : NumberLong(13981010),
+				"maxTimeMS" : NumberLong(5000),
+				"term" : NumberLong(81),
+				"lastKnownCommittedOpTime" : {
+					"ts" : Timestamp(1753733807, 1),
+					"t" : NumberLong(76)
+				},
+				"$db" : "local",
+				"$replData" : 1,
+				"$oplogQueryData" : 1,
+				"$readPreference" : {
+					"mode" : "secondaryPreferred"
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759959, 318),
+					"signature" : {
+						"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+						"keyId" : NumberLong(0)
+					}
+				}
+			},
+			"planSummary" : "COLLSCAN",
+			"cursor" : {
+				"cursorId" : NumberLong("8052043831226597312"),
+				"createdDate" : ISODate("2025-07-29T03:32:40.370Z"),
+				"lastAccessDate" : ISODate("2025-08-01T05:40:56.549Z"),
+				"nDocsReturned" : NumberLong(938865385),
+				"nBatchesReturned" : NumberLong(38557879),
+				"noCursorTimeout" : false,
+				"tailable" : true,
+				"awaitData" : true,
+				"originatingCommand" : {
+					"find" : "oplog.rs",
+					"filter" : {
+						"ts" : {
+							"$gte" : Timestamp(1753733807, 1)
+						}
+					},
+					"readConcern" : {
+						"level" : "local",
+						"afterClusterTime" : Timestamp(0, 1)
+					},
+					"ntoreturn" : NumberLong(13981010),
+					"maxTimeMS" : 60000,
+					"tailable" : true,
+					"awaitData" : true,
+					"oplogReplay" : true,
+					"term" : NumberLong(81),
+					"$db" : "local",
+					"$replData" : 1,
+					"$oplogQueryData" : 1,
+					"$readPreference" : {
+						"mode" : "secondaryPreferred"
+					},
+					"$clusterTime" : {
+						"clusterTime" : Timestamp(1753759959, 318),
+						"signature" : {
+							"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+							"keyId" : NumberLong(0)
+						}
+					}
+				},
+				"operationUsingCursorId" : NumberLong(199248851),
+				"lastKnownCommittedOpTime" : {
+					"ts" : Timestamp(1754026856, 318),
+					"t" : NumberLong(81)
+				}
+			},
+			"numYields" : 2,
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				"FeatureCompatibilityVersion" : {
+					"acquireCount" : {
+						"r" : NumberLong(2)
+					}
+				},
+				"ReplicationStateTransition" : {
+					"acquireCount" : {
+						"w" : NumberLong(2)
+					}
+				},
+				"Global" : {
+					"acquireCount" : {
+						"r" : NumberLong(2)
+					}
+				},
+				"Database" : {
+					"acquireCount" : {
+						"r" : NumberLong(2)
+					}
+				},
+				"Mutex" : {
+					"acquireCount" : {
+						"r" : NumberLong(1)
+					}
+				},
+				"oplog" : {
+					"acquireCount" : {
+						"r" : NumberLong(2)
+					}
+				}
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn131",
+			"connectionId" : 131,
+			"client" : "10.32.12.106:54696",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247034,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6520257),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.223Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn40",
+			"connectionId" : 40,
+			"client" : "10.32.12.106:45606",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199247079,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6273113),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.470Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn112",
+			"connectionId" : 112,
+			"client" : "10.32.12.106:54636",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245569,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9805044),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.938Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1806",
+			"connectionId" : 1806,
+			"client" : "10.32.12.95:49220",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "4.13.0"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure"
+				},
+				"platform" : "Node.js v18.5.0, LE (unified)",
+				"version" : "4.13.0|6.9.0"
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199245465,
+			"secs_running" : NumberLong(9),
+			"microsecs_running" : NumberLong(9983489),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : true,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753759702, 364),
+					"signature" : {
+						"hash" : BinData(0,"3Cfs2sGC0+8YySmc2keQLwlTn9w="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:46.760Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn135",
+			"connectionId" : 135,
+			"client" : "10.32.12.106:54724",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "nodejs|Mongoose",
+					"version" : "6.6.2|8.4.5"
+				},
+				"platform" : "Node.js v20.11.0, LE",
+				"os" : {
+					"name" : "linux",
+					"architecture" : "x64",
+					"version" : "5.15.0-1066-azure",
+					"type" : "Linux"
+				},
+				"env" : {
+					"container" : {
+						"orchestrator" : "kubernetes"
+					}
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"opid" : 199246637,
+			"secs_running" : NumberLong(8),
+			"microsecs_running" : NumberLong(8027827),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"hello" : 1,
+				"maxAwaitTimeMS" : 10000,
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"$clusterTime" : {
+					"clusterTime" : Timestamp(1753741887, 610),
+					"signature" : {
+						"hash" : BinData(0,"1iEvB/nG4pznzoogdOBP8sTFHZY="),
+						"keyId" : NumberLong("7481888666638352401")
+					}
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:48.715Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		},
+		{
+			"type" : "op",
+			"host" : "azsgp-sn5-mongo-1p:27017",
+			"desc" : "conn1696",
+			"connectionId" : 1696,
+			"client" : "10.32.9.6:44864",
+			"clientMetadata" : {
+				"driver" : {
+					"name" : "NetworkInterfaceTL",
+					"version" : "4.4.23"
+				},
+				"os" : {
+					"type" : "Linux",
+					"name" : "Ubuntu",
+					"architecture" : "x86_64",
+					"version" : "20.04"
+				}
+			},
+			"active" : true,
+			"currentOpTime" : "2025-08-01T05:40:56.643+00:00",
+			"effectiveUsers" : [
+				{
+					"user" : "__system",
+					"db" : "local"
+				}
+			],
+			"opid" : 199247044,
+			"secs_running" : NumberLong(6),
+			"microsecs_running" : NumberLong(6414131),
+			"op" : "command",
+			"ns" : "admin.$cmd",
+			"command" : {
+				"isMaster" : 1,
+				"maxAwaitTimeMS" : NumberLong(10000),
+				"topologyVersion" : {
+					"processId" : ObjectId("688838a0eab6dfba645c921f"),
+					"counter" : NumberLong(15)
+				},
+				"internalClient" : {
+					"minWireVersion" : 9,
+					"maxWireVersion" : 9
+				},
+				"$db" : "admin"
+			},
+			"numYields" : 0,
+			"waitingForLatch" : {
+				"timestamp" : ISODate("2025-08-01T05:40:50.329Z"),
+				"captureName" : "FutureResolution"
+			},
+			"locks" : {
+				
+			},
+			"waitingForLock" : false,
+			"lockStats" : {
+				
+			},
+			"waitingForFlowControl" : false,
+			"flowControlStats" : {
+				
+			}
+		}
+	],
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1754026856, 318),
+		"signature" : {
+			"hash" : BinData(0,"b5aeXN5TZRVmr4YjVr0XJ6GORro="),
+			"keyId" : NumberLong("7481888666638352401")
+		}
+	},
+	"operationTime" : Timestamp(1754026856, 318)
+}
