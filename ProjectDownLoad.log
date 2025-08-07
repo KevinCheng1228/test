@@ -1,0 +1,152 @@
+2025-08-01 09:21:42:4700  : Search IP From Address: 10.32.1.29
+2025-08-01 09:21:42:9231  : GetStationListFunc: stationList
+2025-08-01 09:21:43:3294  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-01 09:21:54:6578  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-01 09:21:54:6578  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
+2025-08-01 09:22:11:9088  : Login: connect/login
+2025-08-01 09:22:11:9400  : Login: 
+2025-08-01 09:22:11:9400  : Login: 
+2025-08-01 09:22:11:9400  : Login: The remote name could not be resolved: 'api-dm-center-edge365-solarscada.sembcorp.net'
+2025-08-01 09:22:34:9887  : GetStationListFunc: stationList
+2025-08-01 09:22:35:0356  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-01 09:24:09:5267  : Login: connect/login
+2025-08-01 09:24:09:5267  : Login: 
+2025-08-01 09:24:09:5267  : Login: 
+2025-08-01 09:24:09:5267  : Login: The remote name could not be resolved: 'api-dm-center-edge365-solarscada.sembcorp.net'
+2025-08-01 10:34:33:4990  : GetStationListFunc: stationList
+2025-08-01 10:34:33:5615  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-01 10:37:30:8590  : Login: connect/login
+2025-08-01 10:37:30:8902  : Login: 
+2025-08-01 10:37:30:8902  : Login: 
+2025-08-01 10:37:30:8902  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-01 10:38:53:6065  : Login: connect/login
+2025-08-01 10:38:53:6065  : Login: 
+2025-08-01 10:38:53:6221  : Login: 
+2025-08-01 10:38:53:6221  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-01 10:39:31:7931  : GetStationListFunc: stationList
+2025-08-01 10:39:31:8243  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-01 10:40:11:9661  : Login: connect/login
+2025-08-01 10:41:48:1716  : Login: 
+2025-08-01 10:41:48:1716  : Login: 
+2025-08-01 10:41:48:1716  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-01 10:44:36:5747  : Login: connect/login
+2025-08-01 10:45:57:6388  : Login: 
+2025-08-01 10:45:57:6388  : Login: 
+2025-08-01 10:45:57:6388  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-01 10:46:04:3406  : Login: connect/login
+2025-08-01 10:47:25:4031  : Login: 
+2025-08-01 10:47:25:4041  : Login: 
+2025-08-01 10:47:25:4051  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-01 11:49:41:4124  : Login: connect/login
+2025-08-01 11:49:41:4437  : Login: 
+2025-08-01 11:49:41:4437  : Login: 
+2025-08-01 11:49:41:4437  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-06 16:51:18:8154  : GetStationListFunc: stationList
+2025-08-06 16:51:18:8936  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 16:53:43:6770  : Search IP From Address: 10.32.1.29
+2025-08-06 16:53:44:0208  : GetStationListFunc: stationList
+2025-08-06 16:53:44:2083  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 16:53:55:8650  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-06 16:53:55:8650  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
+2025-08-06 16:54:46:3825  : GetStationListFunc: stationList
+2025-08-06 16:54:46:4450  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 17:05:22:2713  : GetStationListFunc: stationList
+2025-08-06 17:05:22:3025  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 17:05:47:5962  : Login: connect/login
+2025-08-06 17:05:47:6275  : Login: 
+2025-08-06 17:05:47:6275  : Login: 
+2025-08-06 17:05:47:6275  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-06 17:06:19:4584  : Login: connect/login
+2025-08-06 17:06:19:4584  : Login: 
+2025-08-06 17:06:19:4740  : Login: 
+2025-08-06 17:06:19:4740  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-06 17:07:10:6275  : Search IP From Address: 10.32.1.29
+2025-08-06 17:07:10:8775  : GetStationListFunc: stationList
+2025-08-06 17:07:11:0337  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 17:07:22:8129  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-06 17:07:22:8129  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
+2025-08-06 17:07:57:7783  : Login: connect/login
+2025-08-06 17:07:57:7940  : Login: 
+2025-08-06 17:07:57:7940  : Login: 
+2025-08-06 17:07:57:7940  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-06 17:09:03:2339  : Login: connect/login
+2025-08-06 17:09:03:2495  : Login: 
+2025-08-06 17:09:03:2495  : Login: 
+2025-08-06 17:09:03:2495  : Login: The remote name could not be resolved: 'api-dm-center-edge365-ensaas.sembcorp.net'
+2025-08-06 17:14:50:5636  : Search IP From Address: 10.32.1.29
+2025-08-06 17:14:50:7980  : GetStationListFunc: stationList
+2025-08-06 17:14:50:9855  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-06 17:15:02:7516  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-06 17:15:02:7516  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
+2025-08-06 17:15:25:4138  : Login: connect/login
+2025-08-06 17:17:01:5321  : Login: 
+2025-08-06 17:17:01:5321  : Login: 
+2025-08-06 17:17:01:5321  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-07 09:05:13:1885  : Login: connect/login
+2025-08-07 09:06:34:2853  : Login: 
+2025-08-07 09:06:34:2853  : Login: 
+2025-08-07 09:06:34:2853  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-07 09:11:53:6071  : Login: connect/login
+2025-08-07 09:13:14:6726  : Login: 
+2025-08-07 09:13:14:6726  : Login: 
+2025-08-07 09:13:14:6726  : Login: The underlying connection was closed: The connection was closed unexpectedly.
+2025-08-07 09:18:17:1896  : Login: connect/login
+2025-08-07 09:19:47:7585  : Search IP From Address: 10.32.1.29
+2025-08-07 09:19:48:0085  : GetStationListFunc: stationList
+2025-08-07 09:19:48:1960  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-07 09:19:59:2589  : Login: 
+2025-08-07 09:19:59:2589  : Login: 
+2025-08-07 09:19:59:2589  : Login: The operation has timed out
+2025-08-07 09:19:59:9464  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-07 09:19:59:9464  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
+2025-08-07 09:22:32:1620  : Login: connect/login
+2025-08-07 09:24:29:2757  : Login: 
+2025-08-07 09:24:29:2757  : Login: 
+2025-08-07 09:24:29:2757  : Login: The operation has timed out
+2025-08-07 09:39:27:6783  : Search IP From Address: 10.32.1.29
+2025-08-07 09:39:27:9283  : GetStationListFunc: stationList
+2025-08-07 09:39:28:1783  : GetStationListFunc: The underlying connection was closed: An unexpected error occurred on a send.
+2025-08-07 09:39:39:8560  : UdpClient.EndReceive Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.EndReceiveFrom(IAsyncResult asyncResult, EndPoint& endPoint)
+   at System.Net.Sockets.UdpClient.EndReceive(IAsyncResult asyncResult, IPEndPoint& remoteEP)
+   at AdvRTUStudio.Download.UdpCommTemplate.ReceiveCallback(IAsyncResult ar)
+2025-08-07 09:39:39:8560  : 10.32.1.29System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.UdpClient'.
+   at System.Net.Sockets.UdpClient.BeginReceive(AsyncCallback requestCallback, Object state)
+   at AdvRTUStudio.Download.UdpCommTemplate.TryBeginReceive(UdpState udpState)
